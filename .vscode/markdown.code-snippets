@@ -1,0 +1,52 @@
+{
+    "Warning": {
+        "prefix": "warning",
+        "body": [
+            ":::WARNING",
+            "$1",
+            ":::",
+        ],
+        "description": "Warning block",
+        "scope": "markdown"
+    },
+    "INFO": {
+        "prefix": "info",
+        "body": [
+            ":::INFO",
+            "$1",
+            ":::",
+        ],
+        "description": "Info block",
+        "scope": "markdown"
+    },
+    "TASK": {
+        "prefix": "task",
+        "body": [
+            ":::TASK",
+            "$1",
+            ":::",
+        ],
+        "description": "Task block",
+        "scope": "markdown"
+    },
+    "HINT": {
+        "prefix": "hint",
+        "body": [
+            ":::HINT",
+            "$1",
+            ":::",
+        ],
+        "description": "Hint block",
+        "scope": "markdown"
+    },
+    "Question": {
+        "prefix": "question",
+        "body": [
+            ":::QUESTION",
+            "$1",
+            ":::",
+        ],
+        "description": "Question block",
+        "scope": "markdown"
+    }
+}
