@@ -48,5 +48,19 @@
         ],
         "description": "Question block",
         "scope": "markdown"
+    },
+    "Usage": {
+        "prefix": "usage",
+        "body": [
+            ":::USAGE",
+            "",
+            "```python",
+            "$1",
+            "```",
+            "",
+            ":::",
+        ],
+        "description": "Usage block",
+        "scope": "markdown"
     }
 }
