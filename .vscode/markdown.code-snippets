@@ -62,5 +62,20 @@
         ],
         "description": "Usage block",
         "scope": "markdown"
+    },
+    "exercise": {
+        "prefix": "exercise",
+        "body": [
+            "- name: $1",
+            "  id: $2",
+            "  file: assignment-$2.md",
+            "  type: exercise",
+            "  difficulty: 1",
+            "  judge:",
+            "    type: pytest",
+            "    file: test-$2.py"
+        ],
+        "description": "Usage block",
+        "scope": "yaml"
     }
 }
