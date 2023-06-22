@@ -6,3 +6,5 @@ contents:
     location: 01-arithmetic
   - type: link
     location: 02-booleans
+  - type: link
+    location: 03-conditionals
