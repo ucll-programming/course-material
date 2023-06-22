@@ -1,0 +1,3 @@
+# Functions!
+
+So, a function is...
