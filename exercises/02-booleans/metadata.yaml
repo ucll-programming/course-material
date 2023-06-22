@@ -1,2 +1,20 @@
 type: section
 name: Booleans
+id: booleans
+contents:
+  - name: Voting
+    id: can-vote
+    file: assignment-can-vote.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-can-vote.py
+  - name: Close Enough
+    id: close-enough
+    file: assignment-close-enough.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-close-enough.py
