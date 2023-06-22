@@ -1,2 +1,52 @@
 type: section
 name: Arithmetic
+id: arithmetic
+contents:
+  - name: Five
+    id: five
+    file: assignment-five.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-five.py
+  - name: Double
+    id: double
+    file: assignment-double.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-double.py
+  - name: Average
+    id: average
+    file: assignment-average.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-average.py
+  - name: Candy
+    id: candy
+    file: assignment-candy.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-candy.py
+  - name: Buses
+    id: buses
+    file: assignment-buses.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-buses.py
+  - name: Distance
+    id: distance
+    file: assignment-distance.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-distance.py
