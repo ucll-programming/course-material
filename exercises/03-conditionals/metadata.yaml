@@ -1,2 +1,12 @@
 type: section
 name: Conditionals
+id: conditionals
+contents:
+  - name: Absolute Value
+    id: abs
+    file: assignment-abs.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-abs.py
