@@ -2,6 +2,10 @@ type: section
 name: Arithmetic
 id: arithmetic
 contents:
+  - name: Functions
+    id: functions
+    type: explanation
+    file: explanation-functions.md
   - name: Five
     id: five
     file: assignment-five.md
@@ -50,3 +54,11 @@ contents:
     judge:
       type: pytest
       file: test-distance.py
+  - name: Cake
+    id: cake
+    file: assignment-cake.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-cake.py
