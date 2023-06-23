@@ -1,5 +1,5 @@
-from student import *
+import student
 
 
 def test_five():
-    assert five() == 5
+    assert student.five() == 5

@@ -1,5 +1,5 @@
 import pytest
-from student import *
+import student
 
 
 @pytest.mark.parametrize("argument, expected", [
@@ -9,4 +9,4 @@ from student import *
     (1111, 2222),
 ])
 def test_double(argument, expected):
-    assert double(argument) == expected
+    assert student.double(argument) == expected

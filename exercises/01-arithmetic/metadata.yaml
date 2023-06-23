@@ -22,6 +22,10 @@ contents:
     judge:
       type: pytest
       file: test-double.py
+  - name: Operators
+    id: operators
+    file: assignment-operators.md
+    type: explanation
   - name: Average
     id: average
     file: assignment-average.md
@@ -62,3 +66,39 @@ contents:
     judge:
       type: pytest
       file: test-cake.py
+  - name: Local Variables
+    id: locals
+    type: explanation
+    file: explanation-locals.md
+  - name: Cake 2
+    id: cake2
+    file: assignment-cake2.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-cake2.py
+  - name: Cake 3
+    id: cake3
+    file: assignment-cake3.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-cake3.py
+  - name: Cake 4
+    id: cake4
+    file: assignment-cake4.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-cake4.py
+  - name: Internet Costs
+    id: internet-costs
+    file: assignment-internet-costs.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-internet-costs.py
