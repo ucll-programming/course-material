@@ -17,6 +17,10 @@ def candy_per_child(candy_count, child_count):
     return candy_count // child_count
 
 
+def leftover_candy(candy_count, child_count):
+    return candy_count % child_count
+
+
 def buses_needed(people_count, bus_capacity):
     return math.ceil(people_count / bus_capacity)
 

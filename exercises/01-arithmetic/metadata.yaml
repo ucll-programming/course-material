@@ -46,6 +46,14 @@ contents:
     judge:
       type: pytest
       file: test-candy.py
+  - name: Leftover Candy
+    id: candy2
+    file: assignment-candy2.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-candy2.py
   - name: Buses
     id: buses
     file: assignment-buses.md
