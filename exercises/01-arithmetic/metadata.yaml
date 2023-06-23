@@ -46,6 +46,10 @@ contents:
     judge:
       type: pytest
       file: test-candy.py
+  - name: Modulo
+    id: modulo
+    file: explanation-modulo.md
+    type: explanation
   - name: Leftover Candy
     id: candy2
     file: assignment-candy2.md
