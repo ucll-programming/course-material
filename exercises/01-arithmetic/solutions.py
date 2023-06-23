@@ -53,3 +53,7 @@ def cake4(eggs, flour, butter, sugar, eggs_per_cake, flour_per_cake, butter_per_
 
 def internet_costs(duration_in_seconds, cost_per_block):
     return math.ceil(duration_in_seconds / 360) * cost_per_block
+
+
+def middle(a, b, c):
+    return (a + b + c) - min(a, b, c) - max(a, b, c)
