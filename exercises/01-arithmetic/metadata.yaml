@@ -150,7 +150,15 @@ contents:
     id: next-player
     file: assignment-next-player.md
     type: exercise
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-next-player.py
+  - name: Next Player Renumbered
+    id: next-player2
+    file: assignment-next-player2.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-next-player2.py
