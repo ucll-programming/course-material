@@ -77,5 +77,16 @@
         ],
         "description": "Usage block",
         "scope": "yaml"
+    },
+    "explanation": {
+        "prefix": "explanation",
+        "body": [
+            "- name: $1",
+            "  id: $2",
+            "  file: explanation-$2.md",
+            "  type: explanation",
+        ],
+        "description": "Usage block",
+        "scope": "yaml"
     }
 }
