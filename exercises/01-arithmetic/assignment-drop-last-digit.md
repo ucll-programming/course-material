@@ -15,6 +15,7 @@ Write a function `drop_last_digit(n)` that removes the last digit of the given n
 
 # If no digits are left, the function should return 0
 >>> drop_last_digit(5)
+0
 ```
 
 :::
