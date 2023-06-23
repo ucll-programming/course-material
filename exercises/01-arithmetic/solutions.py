@@ -69,3 +69,7 @@ def last_digit(n):
 
 def drop_last_digit(n):
     return n // 10
+
+
+def next_player(player, player_count):
+    return (player + 1) % player_count

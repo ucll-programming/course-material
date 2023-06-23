@@ -146,3 +146,11 @@ contents:
     judge:
       type: pytest
       file: test-drop-last-digit.py
+  - name: Next Player
+    id: next-player
+    file: assignment-next-player.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-next-player.py

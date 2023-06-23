@@ -1,6 +1,5 @@
 import pytest
 import student
-import itertools
 
 
 @pytest.mark.parametrize("a", [-4, 0, 1, 4])
