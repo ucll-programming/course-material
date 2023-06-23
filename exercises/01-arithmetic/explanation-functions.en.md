@@ -10,3 +10,4 @@
 * `min`, `max`
 * Local variables
 * `int` vs `float`
+* Calling your own functions

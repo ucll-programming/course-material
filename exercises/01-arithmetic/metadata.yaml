@@ -5,22 +5,28 @@ contents:
   - name: Functions
     id: functions
     type: explanation
-    file: explanation-functions.md
+    documentation:
+      en: explanation-functions.en.md
+      nl: explanation-functions.nl.md
   - name: Five
     id: five
-    file: assignment-five.md
+    documentation:
+      en: assignment-five.en.md
+      nl: assignment-five.nl.md
     type: exercise
     difficulty: 1
     judge:
       type: pytest
       file: test-five.py
   - name: Parameters
-    id: parameters
-    file: explanation-parameters.md
     type: explanation
+    id: parameters
+    documentation:
+      en: explanation-parameters.md
   - name: Double
     id: double
-    file: assignment-double.md
+    documentation:
+      en: assignment-double.md
     type: exercise
     difficulty: 1
     judge:
@@ -28,11 +34,13 @@ contents:
       file: test-double.py
   - name: Operators
     id: operators
-    file: explanation-operators.md
     type: explanation
+    documentation:
+      en: explanation-operators.md
   - name: Average
     id: average
-    file: assignment-average.md
+    documentation:
+      en: assignment-average.md
     type: exercise
     difficulty: 1
     judge:
@@ -40,7 +48,8 @@ contents:
       file: test-average.py
   - name: Candy
     id: candy
-    file: assignment-candy.md
+    documentation:
+      en: assignment-candy.md
     type: exercise
     difficulty: 2
     judge:
@@ -48,11 +57,13 @@ contents:
       file: test-candy.py
   - name: Modulo
     id: modulo
-    file: explanation-modulo.md
+    documentation:
+      en: explanation-modulo.md
     type: explanation
   - name: Leftover Candy
     id: candy2
-    file: assignment-candy2.md
+    documentation:
+      en: assignment-candy2.md
     type: exercise
     difficulty: 2
     judge:
@@ -60,7 +71,8 @@ contents:
       file: test-candy2.py
   - name: Buses
     id: buses-needed
-    file: assignment-buses-needed.md
+    documentation:
+      en: assignment-buses-needed.md
     type: exercise
     difficulty: 2
     judge:
@@ -68,7 +80,8 @@ contents:
       file: test-buses-needed.py
   - name: Distance
     id: distance
-    file: assignment-distance.md
+    documentation:
+      en: assignment-distance.md
     type: exercise
     difficulty: 2
     judge:
@@ -76,11 +89,13 @@ contents:
       file: test-distance.py
   - name: Numbers
     id: int-vs-float
-    file: explanation-int-vs-float.md
+    documentation:
+      en: explanation-int-vs-float.md
     type: explanation
   - name: Cake
     id: cake
-    file: assignment-cake.md
+    documentation:
+      en: assignment-cake.md
     type: exercise
     difficulty: 1
     judge:
@@ -89,10 +104,12 @@ contents:
   - name: Local Variables
     id: locals
     type: explanation
-    file: explanation-locals.md
+    documentation:
+      en: explanation-locals.md
   - name: Cake 2
     id: cake2
-    file: assignment-cake2.md
+    documentation:
+      en: assignment-cake2.md
     type: exercise
     difficulty: 2
     judge:
@@ -100,7 +117,8 @@ contents:
       file: test-cake2.py
   - name: Cake 3
     id: cake3
-    file: assignment-cake3.md
+    documentation:
+      en: assignment-cake3.md
     type: exercise
     difficulty: 2
     judge:
@@ -108,7 +126,8 @@ contents:
       file: test-cake3.py
   - name: Cake 4
     id: cake4
-    file: assignment-cake4.md
+    documentation:
+      en: assignment-cake4.md
     type: exercise
     difficulty: 2
     judge:
@@ -116,7 +135,8 @@ contents:
       file: test-cake4.py
   - name: Internet Costs
     id: internet-costs
-    file: assignment-internet-costs.md
+    documentation:
+      en: assignment-internet-costs.md
     type: exercise
     difficulty: 2
     judge:
@@ -124,7 +144,8 @@ contents:
       file: test-internet-costs.py
   - name: Middle
     id: middle
-    file: assignment-middle.md
+    documentation:
+      en: assignment-middle.md
     type: exercise
     difficulty: 3
     judge:
@@ -132,7 +153,8 @@ contents:
       file: test-middle.py
   - name: Last Digit
     id: last-digit
-    file: assignment-last-digit.md
+    documentation:
+      en: assignment-last-digit.md
     type: exercise
     difficulty: 2
     judge:
@@ -140,7 +162,8 @@ contents:
       file: test-last-digit.py
   - name: Drop Last Digit
     id: drop-last-digit
-    file: assignment-drop-last-digit.md
+    documentation:
+      en: assignment-drop-last-digit.md
     type: exercise
     difficulty: 2
     judge:
@@ -148,7 +171,8 @@ contents:
       file: test-drop-last-digit.py
   - name: Next Player
     id: next-player
-    file: assignment-next-player.md
+    documentation:
+      en: assignment-next-player.md
     type: exercise
     difficulty: 2
     judge:
@@ -156,7 +180,8 @@ contents:
       file: test-next-player.py
   - name: Next Player Renumbered
     id: next-player2
-    file: assignment-next-player2.md
+    documentation:
+      en: assignment-next-player2.md
     type: exercise
     difficulty: 2
     judge:
@@ -164,7 +189,8 @@ contents:
       file: test-next-player2.py
   - name: Coins
     id: coins
-    file: assignment-coins.md
+    documentation:
+      en: assignment-coins.md
     type: exercise
     difficulty: 3
     judge:
