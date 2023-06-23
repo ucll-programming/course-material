@@ -130,3 +130,11 @@ contents:
     judge:
       type: pytest
       file: test-middle.py
+  - name: Last Digit
+    id: last-digit
+    file: assignment-last-digit.md
+    type: exercise
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-last-digit.py

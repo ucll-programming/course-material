@@ -61,3 +61,7 @@ def internet_costs(duration_in_seconds, cost_per_block):
 
 def middle(a, b, c):
     return (a + b + c) - min(a, b, c) - max(a, b, c)
+
+
+def last_digit(n):
+    return n % 10
