@@ -162,3 +162,11 @@ contents:
     judge:
       type: pytest
       file: test-next-player2.py
+  - name: Coins
+    id: coins
+    file: assignment-coins.md
+    type: exercise
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-coins.py

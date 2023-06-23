@@ -77,3 +77,13 @@ def next_player(player, player_count):
 
 def next_player2(player, player_count):
     return player % player_count + 1
+
+
+def coins(amount):
+    leftover = amount
+    five_coins = leftover // 5
+    leftover = leftover - 5 * five_coins
+    two_coins = leftover // 2
+    leftover = leftover - 2 * two_coins
+    one_coins = leftover
+    return five_coins + two_coins + one_coins
