@@ -22,11 +22,11 @@ contents:
     type: explanation
     id: parameters
     documentation:
-      en: explanation-parameters.md
+      en: explanation-parameters.en.md
   - name: Double
     id: double
     documentation:
-      en: assignment-double.md
+      en: assignment-double.en.md
     type: exercise
     difficulty: 1
     judge:
@@ -36,11 +36,11 @@ contents:
     id: operators
     type: explanation
     documentation:
-      en: explanation-operators.md
+      en: explanation-operators.en.md
   - name: Average
     id: average
     documentation:
-      en: assignment-average.md
+      en: assignment-average.en.md
     type: exercise
     difficulty: 1
     judge:
@@ -49,7 +49,7 @@ contents:
   - name: Candy
     id: candy
     documentation:
-      en: assignment-candy.md
+      en: assignment-candy.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -58,12 +58,12 @@ contents:
   - name: Modulo
     id: modulo
     documentation:
-      en: explanation-modulo.md
+      en: explanation-modulo.en.md
     type: explanation
   - name: Leftover Candy
     id: candy2
     documentation:
-      en: assignment-candy2.md
+      en: assignment-candy2.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -72,7 +72,7 @@ contents:
   - name: Buses
     id: buses-needed
     documentation:
-      en: assignment-buses-needed.md
+      en: assignment-buses-needed.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -81,7 +81,7 @@ contents:
   - name: Distance
     id: distance
     documentation:
-      en: assignment-distance.md
+      en: assignment-distance.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -90,12 +90,12 @@ contents:
   - name: Numbers
     id: int-vs-float
     documentation:
-      en: explanation-int-vs-float.md
+      en: explanation-int-vs-float.en.md
     type: explanation
   - name: Cake
     id: cake
     documentation:
-      en: assignment-cake.md
+      en: assignment-cake.en.md
     type: exercise
     difficulty: 1
     judge:
@@ -105,11 +105,11 @@ contents:
     id: locals
     type: explanation
     documentation:
-      en: explanation-locals.md
+      en: explanation-locals.en.md
   - name: Cake 2
     id: cake2
     documentation:
-      en: assignment-cake2.md
+      en: assignment-cake2.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -118,7 +118,7 @@ contents:
   - name: Cake 3
     id: cake3
     documentation:
-      en: assignment-cake3.md
+      en: assignment-cake3.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -127,7 +127,7 @@ contents:
   - name: Cake 4
     id: cake4
     documentation:
-      en: assignment-cake4.md
+      en: assignment-cake4.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -136,7 +136,7 @@ contents:
   - name: Internet Costs
     id: internet-costs
     documentation:
-      en: assignment-internet-costs.md
+      en: assignment-internet-costs.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -145,7 +145,7 @@ contents:
   - name: Middle
     id: middle
     documentation:
-      en: assignment-middle.md
+      en: assignment-middle.en.md
     type: exercise
     difficulty: 3
     judge:
@@ -154,7 +154,7 @@ contents:
   - name: Last Digit
     id: last-digit
     documentation:
-      en: assignment-last-digit.md
+      en: assignment-last-digit.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -163,7 +163,7 @@ contents:
   - name: Drop Last Digit
     id: drop-last-digit
     documentation:
-      en: assignment-drop-last-digit.md
+      en: assignment-drop-last-digit.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -172,7 +172,7 @@ contents:
   - name: Next Player
     id: next-player
     documentation:
-      en: assignment-next-player.md
+      en: assignment-next-player.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -181,7 +181,7 @@ contents:
   - name: Next Player Renumbered
     id: next-player2
     documentation:
-      en: assignment-next-player2.md
+      en: assignment-next-player2.en.md
     type: exercise
     difficulty: 2
     judge:
@@ -190,7 +190,7 @@ contents:
   - name: Coins
     id: coins
     documentation:
-      en: assignment-coins.md
+      en: assignment-coins.en.md
     type: exercise
     difficulty: 3
     judge:
