@@ -65,3 +65,7 @@ def middle(a, b, c):
 
 def last_digit(n):
     return n % 10
+
+
+def drop_last_digit(n):
+    return n // 10

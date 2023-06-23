@@ -14,7 +14,7 @@ import student
         (360 * 15 + 16, cost_per_block, 16 * cost_per_block)
     ]
 ])
-def test_double(duration_in_seconds, cost_per_block, expected):
+def test_internet_costs(duration_in_seconds, cost_per_block, expected):
     actual = student.internet_costs(
         duration_in_seconds=duration_in_seconds,
         cost_per_block=cost_per_block

@@ -10,7 +10,7 @@ import student
 @pytest.mark.parametrize('flour_per_cake', [100, 250])
 @pytest.mark.parametrize('butter_per_cake', [100, 550])
 @pytest.mark.parametrize('sugar_per_cake', [100, 200])
-def test_cake(eggs, flour, sugar, butter, eggs_per_cake, flour_per_cake, butter_per_cake, sugar_per_cake):
+def test_cake4(eggs, flour, sugar, butter, eggs_per_cake, flour_per_cake, butter_per_cake, sugar_per_cake):
     actual = student.cake4(
         eggs=eggs,
         flour=flour,

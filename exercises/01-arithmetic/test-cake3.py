@@ -6,7 +6,7 @@ import student
 @pytest.mark.parametrize("flour", range(0, 1000, 175))
 @pytest.mark.parametrize("sugar", range(0, 1000, 225))
 @pytest.mark.parametrize("butter", range(0, 1000, 325))
-def test_cake(eggs, flour, sugar, butter):
+def test_cake3(eggs, flour, sugar, butter):
     eggs_per_cake = 5
     flour_per_cake = 250
     butter_per_cake = 200

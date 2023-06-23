@@ -59,13 +59,13 @@ contents:
       type: pytest
       file: test-candy2.py
   - name: Buses
-    id: buses
-    file: assignment-buses.md
+    id: buses-needed
+    file: assignment-buses-needed.md
     type: exercise
     difficulty: 2
     judge:
       type: pytest
-      file: test-buses.py
+      file: test-buses-needed.py
   - name: Distance
     id: distance
     file: assignment-distance.md
@@ -134,7 +134,15 @@ contents:
     id: last-digit
     file: assignment-last-digit.md
     type: exercise
-    difficulty: 3
+    difficulty: 2
     judge:
       type: pytest
       file: test-last-digit.py
+  - name: Drop Last Digit
+    id: drop-last-digit
+    file: assignment-drop-last-digit.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-drop-last-digit.py
