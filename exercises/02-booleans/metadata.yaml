@@ -20,3 +20,21 @@ contents:
     judge:
       type: pytest
       file: test-close-enough.py
+  - name: Free Ticket
+    type: exercise
+    id: free-ticket
+    documentation:
+      en: assignment-free-ticket.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-free-ticket.py
+  - name: Is Divisible?
+    type: exercise
+    id: is-divisible
+    documentation:
+      en: assignment-is-divisible.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-is-divisible.py
