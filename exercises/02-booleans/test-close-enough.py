@@ -1,5 +1,5 @@
 import pytest
-from student import *
+import student
 
 
 @pytest.mark.parametrize('x, y', [
@@ -8,7 +8,7 @@ from student import *
     for dx in range(-5, 6)
 ])
 def test_close_enough(x, y):
-    assert close_enough(x, y)
+    assert student.close_enough(x, y)
 
 
 @pytest.mark.parametrize('x, y', [
@@ -18,4 +18,4 @@ def test_close_enough(x, y):
     for dxf in [-1, 1]
 ])
 def test_not_close_enough(x, y):
-    assert not close_enough(x, y)
+    assert not student.close_enough(x, y)
