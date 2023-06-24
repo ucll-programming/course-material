@@ -3,17 +3,19 @@ name: Booleans
 id: booleans
 contents:
   - name: Voting
-    id: can-vote
-    file: assignment-can-vote.md
     type: exercise
+    id: can-vote
+    documentation:
+      en: assignment-can-vote.en.md
     difficulty: 1
     judge:
       type: pytest
       file: test-can-vote.py
   - name: Close Enough
-    id: close-enough
-    file: assignment-close-enough.md
     type: exercise
+    id: close-enough
+    documentation:
+      en: assignment-close-enough.en.md
     difficulty: 1
     judge:
       type: pytest
