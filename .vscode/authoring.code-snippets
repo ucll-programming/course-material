@@ -68,7 +68,7 @@
         "body": [
             "- name: $1",
             "  id: $2",
-            "  file: assignment-$2.md",
+            "  file: assignment-$2.en.md",
             "  type: exercise",
             "  difficulty: 1",
             "  judge:",
@@ -83,8 +83,19 @@
         "body": [
             "- name: $1",
             "  id: $2",
-            "  file: explanation-$2.md",
+            "  file: explanation-$2.en.md",
             "  type: explanation",
+        ],
+        "description": "Usage block",
+        "scope": "yaml"
+    },
+    "topics": {
+        "prefix": "topics",
+        "body": [
+            "topics:",
+            "  introduces: []",
+            "  must_come_before: []",
+            "  must_come_after: []",
         ],
         "description": "Usage block",
         "scope": "yaml"
