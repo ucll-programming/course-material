@@ -3,7 +3,7 @@ def can_vote(age):
 
 
 def close_enough(x, y):
-    return x - 5 <= y <= x + 5
+    return x - 0.1 <= y <= x + 0.1
 
 
 def free_ticket(age):

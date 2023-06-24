@@ -3,19 +3,20 @@ import student
 
 
 @pytest.mark.parametrize('x, y', [
-    (x, x + dx)
-    for x in range(-20, 20)
-    for dx in range(-5, 6)
+    (x, x + sign * dx)
+    for x in [-51, -0.2, 0, 0.6, 1, 4.9, 2431.1]
+    for dx in [0, 0.09, 0.1]
+    for sign in [-1, 1]
 ])
 def test_close_enough(x, y):
-    assert student.close_enough(x, y)
+    assert student.close_enough(x, y), f'{x} and {y} should be considered close enough'
 
 
 @pytest.mark.parametrize('x, y', [
-    (x + dxf * dx, x)
-    for x in range(-20, 20)
-    for dx in range(6, 10)
-    for dxf in [-1, 1]
+    (x + sign * dx, x)
+    for x in [-51, -0.2, 0, 0.6, 1, 4.9, 2431.1]
+    for dx in [0.11, 0.15, 0.8, 1, 12, 19, 500]
+    for sign in [-1, 1]
 ])
 def test_not_close_enough(x, y):
-    assert not student.close_enough(x, y)
+    assert not student.close_enough(x, y), f'{x} and {y} should be considered not close enough'
