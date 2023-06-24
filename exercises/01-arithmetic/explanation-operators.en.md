@@ -2,8 +2,10 @@
 
 TODO
 
+:::center
+
 | Operator | Description |
-| -------- | ----------- |
+| :------: | :---------: |
 | `+`      | Addition    |
 | `-`      | Subtraction |
 | `*`      | Multiplication |
@@ -11,3 +13,5 @@ TODO
 | `//`     | Integer Division |
 | `**`     | Exponentiation |
 | `%`      | Modulo |
+
+:::
