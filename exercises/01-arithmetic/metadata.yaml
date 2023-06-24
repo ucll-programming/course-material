@@ -55,43 +55,6 @@ contents:
     judge:
       type: pytest
       file: test-candy.py
-  - name: Modulo
-    id: modulo
-    documentation:
-      en: explanation-modulo.en.md
-    type: explanation
-  - name: Leftover Candy
-    id: candy2
-    documentation:
-      en: assignment-candy2.en.md
-    type: exercise
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-candy2.py
-  - name: Buses
-    id: buses-needed
-    documentation:
-      en: assignment-buses-needed.en.md
-    type: exercise
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-buses-needed.py
-  - name: Distance
-    id: distance
-    documentation:
-      en: assignment-distance.en.md
-    type: exercise
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-distance.py
-  - name: Numbers
-    id: int-vs-float
-    documentation:
-      en: explanation-int-vs-float.en.md
-    type: explanation
   - name: Cake
     id: cake
     documentation:
@@ -133,6 +96,52 @@ contents:
     judge:
       type: pytest
       file: test-cake4.py
+  - name: Duration # Must come BEFORE modulo and AFTER local variables
+    id: duration
+    documentation:
+      en: assignment-duration.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-duration.py
+  - name: Modulo
+    id: modulo
+    documentation:
+      en: explanation-modulo.en.md
+    type: explanation
+  - name: Leftover Candy
+    id: candy2
+    documentation:
+      en: assignment-candy2.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-candy2.py
+  - name: Buses
+    id: buses-needed
+    documentation:
+      en: assignment-buses-needed.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-buses-needed.py
+  - name: Distance
+    id: distance
+    documentation:
+      en: assignment-distance.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-distance.py
+  - name: Numbers
+    id: int-vs-float
+    documentation:
+      en: explanation-int-vs-float.en.md
+    type: explanation
   - name: Internet Costs
     id: internet-costs
     documentation:

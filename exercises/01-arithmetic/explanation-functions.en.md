@@ -11,3 +11,5 @@
 * Local variables
 * `int` vs `float`
 * Calling your own functions
+* Statefulness of variables (can be overwritten using =)
+* +=, -=
