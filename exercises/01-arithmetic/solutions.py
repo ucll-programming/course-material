@@ -80,12 +80,10 @@ def next_player2(player, player_count):
 
 
 def coins(amount):
-    leftover = amount
-    five_coins = leftover // 5
-    leftover = leftover - 5 * five_coins
-    two_coins = leftover // 2
-    leftover = leftover - 2 * two_coins
-    one_coins = leftover
+    five_coins = amount // 5
+    amount_after_five = amount - 5 * five_coins
+    two_coins = amount_after_five // 2
+    one_coins = amount_after_five - 2 * two_coins
     return five_coins + two_coins + one_coins
 
 
