@@ -8,6 +8,9 @@ contents:
     documentation:
       en: explanation-functions.en.md
       nl: explanation-functions.nl.md
+    topics:
+      introduces:
+        - functions
   - name: Five
     id: five
     documentation:
@@ -15,6 +18,11 @@ contents:
       nl: assignment-five.nl.md
     type: exercise
     difficulty: 1
+    topics:
+      introduces: []
+      must_come_before: []
+      must_come_after:
+        - functions
     judge:
       type: pytest
       file: test-five.py
@@ -67,6 +75,9 @@ contents:
   - name: Local Variables
     id: locals
     type: explanation
+    topics:
+        introduces:
+          - local variables
     documentation:
       en: explanation-locals.en.md
   - name: Cake 2
@@ -96,11 +107,14 @@ contents:
     judge:
       type: pytest
       file: test-cake4.py
-  - name: Duration # Must come BEFORE modulo and AFTER local variables
+  - name: Duration
     id: duration
     documentation:
       en: assignment-duration.en.md
     type: exercise
+    topics:
+      must_come_before:
+        - modulo
     difficulty: 2
     judge:
       type: pytest
@@ -110,6 +124,9 @@ contents:
     documentation:
       en: explanation-modulo.en.md
     type: explanation
+    topics:
+      introduces:
+        - modulo
   - name: Leftover Candy
     id: candy2
     documentation:
