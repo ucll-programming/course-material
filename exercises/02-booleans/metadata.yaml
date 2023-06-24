@@ -2,6 +2,20 @@ type: section
 name: Booleans
 id: booleans
 contents:
+  - name: Comparisons
+    id: comparisons
+    documentation:
+      en: explanation-comparisons.en.md
+    type: explanation
+    topics:
+      introduces:
+        - booleans
+        - comparison operators
+      must_come_before: []
+      must_come_after:
+        - python shell
+        - assignment
+        - variables
   - name: Voting
     type: exercise
     id: can-vote
