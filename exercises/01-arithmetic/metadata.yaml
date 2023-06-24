@@ -159,6 +159,22 @@ contents:
     documentation:
       en: explanation-int-vs-float.en.md
     type: explanation
+    topics:
+      introduces:
+        - int
+        - float
+  - name: Floor Division
+    id: floor-division
+    documentation:
+      en: explanation-floor-division.en.md
+    type: explanation
+    topics:
+      introduces:
+        - true division
+        - floor division
+      must_come_after:
+        - int
+        - float
   - name: Internet Costs
     id: internet-costs
     documentation:
