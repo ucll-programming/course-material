@@ -7,4 +7,4 @@ import student
 def test_average(x, y):
     actual = student.average(x, y)
 
-    assert 2 * actual == x + y
+    assert 2 * actual == x + y, f'average({x}, {y}) wrongly returns {actual}'
