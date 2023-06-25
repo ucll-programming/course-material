@@ -127,6 +127,9 @@ contents:
     topics:
       introduces:
         - modulo
+      must_come_after:
+        - floor division
+        - bus exercise
   - name: Leftover Candy
     id: candy2
     documentation:
@@ -145,6 +148,9 @@ contents:
     judge:
       type: pytest
       file: test-buses-needed.py
+    topics:
+      introduces:
+        - bus exercise
   - name: Distance
     id: distance
     documentation:
