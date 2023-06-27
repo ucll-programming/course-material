@@ -1,3 +1,0 @@
-# Functies
-
-Bla bla bla.
