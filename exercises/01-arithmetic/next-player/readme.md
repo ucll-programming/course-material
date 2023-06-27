@@ -6,11 +6,7 @@ The players are numbered 0, 1, 2, ..., `n-1`.
 The players take turns.
 For example, if `n=3`, they play in order 0, 1, 2, 0, 1, 2, 0, 1, 2, etc.
 
-:::TASK
 Write a function `next_player(player, player_count)` that computes who should play next.
-:::
-
-:::USAGE
 
 ```python
 # 5 players are involved. After player 1 it's player 2's turn.
@@ -25,5 +21,3 @@ Write a function `next_player(player, player_count)` that computes who should pl
 >>> next_player(9, 10)
 0
 ```
-
-:::

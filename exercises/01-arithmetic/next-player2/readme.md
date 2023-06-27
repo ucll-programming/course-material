@@ -4,11 +4,7 @@ Some people complained that numbering players starting at zero is weird.
 Okay then, let's number `n` players starting by one.
 In other words, the players are numbered `1`, `2`, `3`, ..., `n`.
 
-:::TASK
 Write a function `next_player2(player, player_count)` that returns who comes after player `player` taking into account the new numbering system.
-:::
-
-:::USAGE
 
 ```python
 # Simple case
@@ -19,5 +15,3 @@ Write a function `next_player2(player, player_count)` that returns who comes aft
 >>> next_player2(10, 10)
 1
 ```
-
-:::
