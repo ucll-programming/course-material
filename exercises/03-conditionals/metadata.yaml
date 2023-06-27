@@ -4,7 +4,8 @@ id: conditionals
 contents:
   - name: Absolute Value
     id: abs
-    file: assignment-abs.md
+    documentation:
+      en: assignment-abs.md
     type: exercise
     difficulty: 1
     judge:
