@@ -1,0 +1,27 @@
+type: section
+name: Introduction
+id: introduction
+contents:
+  - name: Python Shell
+    id: shell
+    documentation:
+      en: explanation-launch-shell.en.md
+    type: explanation
+    topics:
+      introduces:
+        - python shell
+  - name: Python as Calculator
+    type: explanation
+    id: calculator
+    documentation:
+      en: explanation-calculator.en.md
+  - name: Scripts
+    type: explanation
+    id: scripts
+    documentation:
+      en: explanation-scripts.en.md
+  - name: Running Tests
+    type: explanation
+    id: running-tests
+    documentation:
+      en: explanation-running-tests.en.md
