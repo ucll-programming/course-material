@@ -2,7 +2,6 @@
 
 TODO
 
-:::center
 
 | Operator | Description |
 | :------: | :---------: |
@@ -13,5 +12,3 @@ TODO
 | `//`     | Integer Division |
 | `**`     | Exponentiation |
 | `%`      | Modulo |
-
-:::
