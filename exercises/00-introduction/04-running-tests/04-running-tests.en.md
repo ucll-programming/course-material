@@ -7,24 +7,17 @@ Now, writing code is not always easy, and it is important for you to know whethe
 You could simply run your code and check that whatever is printed out satisfies your expectations, but this approach is only reliable for the simplest of exercises.
 Instead, we will rely on *tests* to check your work: we provide you with scripts that will your code and verify its results.
 
-::::TASK
-Create a file named `sayhello.py` and add the following code to it:
-
-:::code{caption="sayhello.py"}
+Create a file named `student.py` and add the following code to it:
 
 ```python
 print('Hello')
 ```
 
-:::
-
-We've written tests in a file named `test-sayhello.py`.
+We've written tests in a file named `tests.py`.
 You can run them as follows:
 
-:::code{caption="Bash"}
-
 ```python
-$ pytest test-sayhello.py
+$ pytest
 F                                                                                                                                                                                                   [100%]
 ================================================================================================ FAILURES ================================================================================================
 ______________________________________________________________________________________________ test_script _______________________________________________________________________________________________
@@ -32,7 +25,7 @@ ________________________________________________________________________________
 capsys = <_pytest.capture.CaptureFixture object at 0x00000123EE11C210>
 
     def test_script(capsys):
-        import sayhello
+        import student
 
         captured = capsys.readouterr()
         output = captured.out
@@ -44,14 +37,11 @@ E         - Hello!
 E         ?      -
 E         + Hello
 
-test-say-hello.py:7: AssertionError
+tests.py:7: AssertionError
 ======================================================================================== short test summary info =========================================================================================
-FAILED test-say-hello.py::test_script - AssertionError: Expected output is 'Hello!', instead you printed 'Hello'
+FAILED tests.py::test_script - AssertionError: Expected output is 'Hello!', instead you printed 'Hello'
 1 failed in 0.06s
 ```
-
-:::
-::::
 
 Uh oh.
 The tests failed.
@@ -67,29 +57,18 @@ There are two sections: the `FAILURE` section followed by the `short test summar
 
 It should be clear how to fix it.
 
-::::TASK
-Fix the code in `sayhello.py` and rerun the tests.
+Fix the code in `student.py` and rerun the tests.
 They should pass now.
 This is what you should see:
 
-:::code{caption="Bash"}
-
 ```bash
-$ pytest --tb=no test-sayhello.py
+$ pytest --tb=no tests.py
 .                                                 [100%]
 1 passed in 0.06s
 ```
 
-:::
-::::
-
-::::INFO
 If you don't want pytest to output the detailed information (i.e., the `FAILURE` section), you can use the following command:
 
-:::code{caption="Bash"}
-
 ```bash
-$ pytest --tb=no test-sayhello.py
+$ pytest --tb=no
 ```
-
-::::
