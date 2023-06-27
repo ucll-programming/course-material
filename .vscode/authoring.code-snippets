@@ -63,13 +63,24 @@
         "description": "Usage block",
         "scope": "markdown"
     },
+    "Example": {
+        "prefix": "example",
+        "body": [
+            ":::EXAMPLE",
+            "$1",
+            ":::",
+        ],
+        "description": "Example block",
+        "scope": "markdown"
+    },
     "exercise": {
         "prefix": "exercise",
         "body": [
             "- name: $1",
             "  type: exercise",
             "  id: $2",
-            "  file: assignment-$2.en.md",
+            "  documentation:",
+            "    en: assignment-$2.en.md",
             "  difficulty: 1",
             "  judge:",
             "    type: pytest",
@@ -84,7 +95,8 @@
             "- name: $1",
             "  type: explanation",
             "  id: $2",
-            "  file: explanation-$2.en.md",
+            "  documentation:",
+            "    en: explanation-$2.en.md",
         ],
         "description": "Usage block",
         "scope": "yaml"
