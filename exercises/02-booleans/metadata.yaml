@@ -52,3 +52,12 @@ contents:
     judge:
       type: pytest
       file: test-is-divisible.py
+  - name: Dates
+    type: exercise
+    id: dates
+    documentation:
+      en: assignment-dates.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-dates.py
