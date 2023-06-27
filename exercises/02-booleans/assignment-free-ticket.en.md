@@ -21,7 +21,6 @@ False
 >>> free_ticket(64)
 False
 
-
 >>> free_ticket(65)
 True
 
