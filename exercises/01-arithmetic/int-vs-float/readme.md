@@ -30,8 +30,6 @@ From now on, we'll use the Python names `int` and `float` to refer to the differ
 
 If you're wondering which type of number (`int` of `float`) to use, here's a rule of thumb: use `int` whenever you can, and only `float` when you actually need decimal numbers.
 
-
-:::INFO
 An example of the limitations of floating point numbers:
 
 ```python
@@ -60,4 +58,3 @@ False
 
 There are plenty of sources that explain this behavior.
 For your convenience, here's [one](https://docs.python.org/3/tutorial/floatingpoint.html).
-:::

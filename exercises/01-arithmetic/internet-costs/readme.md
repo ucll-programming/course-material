@@ -4,11 +4,7 @@ Back in the not-so-good old days, you had to use your phone line to connect to t
 Per initiated block of 6 minutes, you were billed a certain amount.
 For example, if you were connected for just one second, you still had to pay for the full block of 6 minutes.
 
-:::TASK
 Write a function `internet_costs(duration_in_seconds, cost_per_block)` that computes the cost of an internet session that lasts `duration_in_seconds` seconds.
-:::
-
-:::USAGE
 
 ```python
 # Zero seconds is free
@@ -27,5 +23,3 @@ Write a function `internet_costs(duration_in_seconds, cost_per_block)` that comp
 >>> internet_costs(361, 0.5)
 1.0
 ```
-
-:::

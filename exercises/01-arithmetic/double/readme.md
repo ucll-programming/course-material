@@ -1,10 +1,6 @@
 # Assignment
 
-:::TASK
 Write a function `double(x)` that, given a number `x`, returns double this value.
-:::
-
-:::USAGE
 
 ```python
 >>> double(0)
@@ -19,5 +15,3 @@ Write a function `double(x)` that, given a number `x`, returns double this value
 >>> double(1111)
 2222
 ```
-
-:::

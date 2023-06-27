@@ -7,10 +7,6 @@ $$
 \sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}
 $$
 
-:::TASK
 Write a function `distance(x1, y1, x2, y2)` that computes the distance between the points with coordinates `(x1, y1)` and `(x2, y2)`.
-:::
 
-:::HINT
 If you want to know how to compute the square root: $\sqrt{x} = x^\frac{1}{2}$.
-:::

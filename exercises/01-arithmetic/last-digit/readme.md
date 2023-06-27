@@ -1,12 +1,8 @@
 # Last Digit
 
-:::TASK
 Write a function `last_digit(n)` that returns the last decimal digit of `n`.
 
 `n` is guaranteed to be a positive integer.
-:::
-
-:::USAGE
 
 ```python
 # 5 consists of only one digit, so just return 5
@@ -20,5 +16,3 @@ Write a function `last_digit(n)` that returns the last decimal digit of `n`.
 >>> last_digit(9481)
 1
 ```
-
-:::

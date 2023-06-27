@@ -1,10 +1,6 @@
 # Average
 
-:::TASK
 Write a function `average(x, y)` that computes the average of the two given values `x` and `y`.
-:::
-
-:::USAGE
 
 ```python
 >>> average(0, 0)
@@ -19,5 +15,3 @@ Write a function `average(x, y)` that computes the average of the two given valu
 >>> average(1, 2)
 1.5
 ```
-
-:::

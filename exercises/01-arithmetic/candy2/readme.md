@@ -4,14 +4,10 @@ Back to the candy problem.
 Like before, we have `candy_count` candies and `child_count` ravenous children and we still need to distribute the candy evenly.
 But now we are interested how much candy will be left for us.
 
-:::TASK
 Write a function `leftover_candy(candy_count, child_count)` that computes how much candy will be left over after having distributed them evenly over the children.
 
 As always, there are multiple ways to solve this problem.
 The purpose of this exercise is to find a solution that involves a single step.
-:::
-
-:::USAGE
 
 ```python
 # Children get zero candy, we get 2
@@ -22,5 +18,3 @@ The purpose of this exercise is to find a solution that involves a single step.
 >>> leftover_candy(56, 10)
 6
 ```
-
-:::
