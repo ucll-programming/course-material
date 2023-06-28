@@ -17,6 +17,21 @@ contents:
       must_come_after:
         - range
         - assignment
+  - name: Range Sum
+    type: exercise
+    id: sum-range
+    documentation:
+      en: assignment-sum-range.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sum-range.py
+    topics:
+      introduces: []
+      must_come_before: []
+      must_come_after:
+        - range
+        - assignment
   - name: Factorial
     type: exercise
     id: factorial
