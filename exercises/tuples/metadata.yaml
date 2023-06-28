@@ -1,0 +1,18 @@
+type: section
+name: Tuples
+id: tuples
+contents:
+  - name: Versioning
+    type: exercise
+    id: versioning
+    documentation:
+      en: assignment-versioning.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-versioning.py
+    topics:
+      introduces: []
+      must_come_before: []
+      must_come_after:
+        - default parameter values
