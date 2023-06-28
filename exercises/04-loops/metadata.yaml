@@ -1,2 +1,19 @@
 type: section
 name: Loops
+id: loops
+contents:
+  - name: sum
+    type: exercise
+    id: sum-up-to
+    documentation:
+      en: assignment-sum-up-to.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-sum-up-to.py
+    topics:
+      introduces: []
+      must_come_before: []
+      must_come_after:
+        - range
+        - assignment
