@@ -2,6 +2,25 @@ type: section
 name: Loops
 id: loops
 contents:
+  - name: While
+    type: explanation
+    id: while
+    documentation:
+      en: explanation-while.en.md
+  - name: For
+    type: explanation
+    id: for
+    documentation:
+      en: explanation-for.en.md
+  - name: Hungry Thanos
+    type: exercise
+    id: thanos
+    documentation:
+      en: assignment-thanos.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-thanos.py
   - name: Sum
     type: exercise
     id: sum-up-to
@@ -17,6 +36,7 @@ contents:
       must_come_after:
         - range
         - assignment
+        - for loop
   - name: Range Sum
     type: exercise
     id: sum-range
@@ -32,6 +52,7 @@ contents:
       must_come_after:
         - range
         - assignment
+        - for loop
   - name: Factorial
     type: exercise
     id: factorial
@@ -47,3 +68,4 @@ contents:
       must_come_after:
         - range
         - assignment
+        - for loop
