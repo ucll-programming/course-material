@@ -29,6 +29,8 @@ Say we were to apply semantic versioning on a single function.
 In Python, we will represent a version using a tuple of three integers.
 For example, the version `3.9.5` will be represented by the triple `(3, 9, 5)`.
 
+## Increasing Version
+
 :::TASK
 Write a function `increase_version(version, breaking_change, new_features)` takes takes
 
@@ -51,3 +53,18 @@ Write a function `increase_version(version, breaking_change, new_features)` take
 ```
 
 :::
+
+## Comparing Versions
+
+We want to be able to compare semantic versions.
+This works as you would expect.
+Given two versions `v1 = a.b.c` and `v2 = x.y.z`:
+
+* First compare the major numbers, `a` and `x`.
+  If `a` is less than `x`, clearly `v1` is the older one.
+  If `a` is greater than `x`, `v1` is the more recent one.
+* If the major versions are equal, look at the minor versions `b` and `y`.
+  If `b` is less than `y`, `v1` is older.
+  If `b` is greater than `y`, `v1` is more recent.
+* If the minor versions are also equal, we compare the patch numbers.
+  The version with the highest patch number is the more recent.
