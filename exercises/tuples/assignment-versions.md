@@ -68,3 +68,15 @@ Given two versions `v1 = a.b.c` and `v2 = x.y.z`:
   If `b` is greater than `y`, `v1` is more recent.
 * If the minor versions are also equal, we compare the patch numbers.
   The version with the highest patch number is the more recent.
+
+:::TASK
+Write a function `is_more_recent(v1, v2)` where `v1` and `v2` are both triples representing versions.
+The function must return `True` if `v1` is more recent than `v2`, `False` otherwise.
+:::
+
+:::TASK
+Write a function `is_older(v1, v2)` where `v1` and `v2` are both triples representing versions.
+The function must return `True` if `v1` designates and older version than `v2`, `False` otherwise.
+
+Solve this one using a single line of code.
+:::
