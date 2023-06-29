@@ -3,7 +3,7 @@ import student
 
 
 @pytest.fixture
-def fake_inputs(monkeypatch):
+def fake_input(monkeypatch):
     def func(inputs):
         def input():
             return str(next(iterator))
