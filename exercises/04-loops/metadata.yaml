@@ -28,6 +28,14 @@ contents:
         - for loop
       introduces:
         - nested loops
+  - name: Walrus Operator
+    type: explanation
+    id: walrus
+    documentation:
+      en: explanation-walrus.en.md
+    topics:
+      introduces:
+        - walrus operator
   - name: Hungry Thanos
     type: exercise
     id: thanos
@@ -113,5 +121,6 @@ contents:
       file: test-sum-input.py
     topics:
       must_come_after:
+        - while loop
         - input
         - print
