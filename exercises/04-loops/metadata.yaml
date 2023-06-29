@@ -7,11 +7,27 @@ contents:
     id: while
     documentation:
       en: explanation-while.en.md
+    topics:
+      introduces:
+        - while loop
   - name: For
     type: explanation
     id: for
     documentation:
       en: explanation-for.en.md
+    topics:
+      introduces:
+        - for loop
+  - name: Nested loops
+    type: explanation
+    id: nested-loops
+    documentation:
+      en: explanation-nested-loops.en.md
+    topics:
+      must_come_after:
+        - for loop
+      introduces:
+        - nested loops
   - name: Hungry Thanos
     type: exercise
     id: thanos
@@ -69,3 +85,20 @@ contents:
         - range
         - assignment
         - for loop
+  - name: RPG
+    type: exercise
+    id: rpg
+    documentation:
+      en: assignment-rpg.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-rpg.py
+    topics:
+      introduces: []
+      must_come_before: []
+      must_come_after:
+        - range
+        - assignment
+        - for loop
+        - nested loops
