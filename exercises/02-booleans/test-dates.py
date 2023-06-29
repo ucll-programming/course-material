@@ -4,8 +4,25 @@ import calendar
 import student
 
 
+def does_function_exist(function_name):
+    return function_name in dir(student)
+
+
 def if_function_exists(function_name):
-    return pytest.mark.skipif(function_name not in dir(student), reason=f'{function_name} not found in student module')
+    return pytest.mark.skipif(not does_function_exist(function_name), reason=f'{function_name} not found in student module')
+
+
+@pytest.mark.parametrize('function_name', [
+    'is_leap_year',
+    'has_30_days',
+    'has_31_days',
+    'has_28_days',
+    'has_29_days',
+    'is_valid_month',
+    'is_valid_date',
+])
+def test_check_function_existence(function_name):
+    assert function_name in dir(student), f'{function_name} not defined'
 
 
 @if_function_exists('is_leap_year')
