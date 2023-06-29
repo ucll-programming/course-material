@@ -2,11 +2,23 @@ import pytest
 import student
 
 
+def does_function_exist(function_name):
+    return function_name in dir(student)
+
+
 def if_function_exists(function_name):
-    return pytest.mark.skipif(function_name not in dir(student), reason=f'{function_name} not found in student module')
+    return pytest.mark.skipif(not does_function_exist(function_name), reason=f'{function_name} not found in student module')
 
 
-@if_function_exists('test_rpg2')
+@pytest.mark.parametrize('function_name', [
+    'rpg2',
+    'rpg3',
+])
+def test_check_function_existence(function_name):
+    assert function_name in dir(student), f'{function_name} not defined'
+
+
+@if_function_exists('rpg2')
 @pytest.mark.parametrize("n_sides, goal, expected", [
     (4, 8, 100/16),
     (5, 10, 100/25),
@@ -26,7 +38,7 @@ def test_rpg2(n_sides, goal, expected):
     assert pytest.approx(expected) == actual, f'rpg2(n_sides, goal) should return approximately {expected}'
 
 
-@if_function_exists('test_rpg3')
+@if_function_exists('rpg3')
 @pytest.mark.parametrize("n_sides, goal, expected", [
     (4, 4, 1575/16),
     (4, 5, 375/4),
