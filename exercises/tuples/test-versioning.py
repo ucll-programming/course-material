@@ -2,8 +2,21 @@ import pytest
 import student
 
 
+def does_function_exist(function_name):
+    return function_name in dir(student)
+
+
 def if_function_exists(function_name):
-    return pytest.mark.skipif(function_name not in dir(student), reason=f'{function_name} not found in student module')
+    return pytest.mark.skipif(not does_function_exist(function_name), reason=f'{function_name} not found in student module')
+
+
+@pytest.mark.parametrize('function_name', [
+    'increase_version',
+    'is_more_recent',
+    'is_older',
+])
+def test_check_function_existence(function_name):
+    assert function_name in dir(student), f'{function_name} not defined'
 
 
 @if_function_exists('increase_version')
