@@ -102,3 +102,16 @@ contents:
         - assignment
         - for loop
         - nested loops
+  - name: Sum of Inputs
+    type: exercise
+    id: sum-input
+    documentation:
+      en: assignment-sum-input.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-sum-input.py
+    topics:
+      must_come_after:
+        - input
+        - print

@@ -25,3 +25,31 @@ def thanos(queue_size, target_size):
         queue_size = queue_size // 2
         snap_count += 1
     return snap_count
+
+
+def rpg2(n_sides, goal):
+    count = 0
+    for a in range(1, n_sides + 1):
+        for b in range(1, n_sides + 1):
+            if a + b >= goal:
+                count += 1
+    return count / n_sides**2 * 100
+
+
+def rpg3(n_sides, goal):
+    count = 0
+    for a in range(1, n_sides + 1):
+        for b in range(1, n_sides + 1):
+            for c in range(1, n_sides + 1):
+                if a + b + c >= goal:
+                    count += 1
+    return count / n_sides**3 * 100
+
+
+def sum_of_input():
+    total = 0
+    number = int(input())
+    while number != 0:
+        total += number
+        number = int(input())
+    print(total)
