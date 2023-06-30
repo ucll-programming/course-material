@@ -1,0 +1,6 @@
+type: section
+name: Projects
+id: projects
+contents:
+  - type: link
+    location: number-guessing-game

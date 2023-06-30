@@ -10,3 +10,7 @@ contents:
     location: 02-booleans
   - type: link
     location: 03-conditionals
+  - type: link
+    location: 04-loops
+  - type: link
+    location: tuples

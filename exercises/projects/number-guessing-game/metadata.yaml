@@ -1,0 +1,12 @@
+type: section
+name: Number Guessing Game
+id: number-guessing-game
+contents:
+  - name: random
+    type: explanation
+    id: random
+    documentation:
+      en: explanation-random.en.md
+    topics:
+      introduces:
+        - random
