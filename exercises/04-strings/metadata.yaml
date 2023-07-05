@@ -1,0 +1,32 @@
+type: section
+name: Strings
+id: strings
+contents:
+  - name: Strings
+    type: explanation
+    id: strings
+    documentation:
+      en: explanation-strings.en.md
+    topics:
+      introduces:
+        - strings
+  - name: Escape Characters
+    type: explanation
+    id: escape-characters
+    documentation:
+      en: explanation-escape-characters.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - escape characters
+  - name: String Interpolation
+    type: explanation
+    id: interpolation
+    documentation:
+      en: explanation-string-interpolation.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string interpolation
