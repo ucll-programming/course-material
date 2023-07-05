@@ -1,0 +1,3 @@
+# Slicing
+
+* `string[start:end]`

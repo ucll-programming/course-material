@@ -94,3 +94,15 @@ contents:
         - strings
       introduces:
         - string indexing
+        - len
+  - name: Slicing
+    type: explanation
+    id: slicing
+    documentation:
+      en: explanation-slicing.en.md
+    topics:
+      must_come_after:
+        - strings
+        - string indexing
+      introduces:
+        - string slicing
