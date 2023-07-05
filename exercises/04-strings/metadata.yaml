@@ -30,3 +30,15 @@ contents:
         - strings
       introduces:
         - string interpolation
+  - name: Conversion
+    type: explanation
+    id: conversion
+    documentation:
+      en: explanation-conversion.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - conversion to int
+        - conversion to float
+        - conversion to bool
