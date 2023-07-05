@@ -84,3 +84,13 @@ contents:
       introduces:
         - string methods
         - dir
+  - name: Indexing
+    type: explanation
+    id: indexing
+    documentation:
+      en: explanation-indexing.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string indexing
