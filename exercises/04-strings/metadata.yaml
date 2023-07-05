@@ -20,6 +20,15 @@ contents:
         - strings
       introduces:
         - string interpolation
+  - name: Greet
+    type: exercise
+    id: greet
+    documentation:
+      en: assignment-greet.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-greet.py
   - name: Console IO
     type: explanation
     id: console-io
