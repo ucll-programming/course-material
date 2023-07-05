@@ -11,7 +11,9 @@ contents:
   - type: link
     location: 03-conditionals
   - type: link
-    location: 04-loops
+    location: 04-strings
+  - type: link
+    location: 05-loops
   - type: link
     location: tuples
   - type: link
