@@ -63,3 +63,13 @@ contents:
         - strings
       introduces:
         - docstrings
+  - name: Operators
+    type: explanation
+    id: operators
+    documentation:
+      en: explanation-operators.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string operators
