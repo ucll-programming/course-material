@@ -4,7 +4,7 @@ import pytest
 @pytest.fixture
 def fake_input(monkeypatch):
     def func(inputs):
-        def input(prompt):
+        def input(prompt=None):
             return str(next(iterator))
 
         iterator = iter(inputs)
