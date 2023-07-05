@@ -49,6 +49,15 @@ contents:
     judge:
       type: pytest
       file: test-interactive-greet.py
+  - name: Greet Script
+    type: exercise
+    id: greet-script
+    documentation:
+      en: assignment-greet-script.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-interactive-greet.py
   - name: Escape Characters
     type: explanation
     id: escape-characters
