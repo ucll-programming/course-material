@@ -13,3 +13,5 @@ Hello, John!
 ```
 
 :::
+
+TODO Explain why parameters are never to be replaced by input()
