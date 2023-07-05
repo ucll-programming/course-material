@@ -25,7 +25,7 @@ contents:
     id: greet
     documentation:
       en: assignment-greet.en.md
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-greet.py
@@ -40,6 +40,15 @@ contents:
       introduces:
         - input
         - print
+  - name: Interactive Greet
+    type: exercise
+    id: interactive-greet
+    documentation:
+      en: assignment-interactive-greet.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-interactive-greet.py
   - name: Escape Characters
     type: explanation
     id: escape-characters
