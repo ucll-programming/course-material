@@ -27,3 +27,18 @@ def test_interactive_greet(fake_input, capsys, name, expected):
     captured = capsys.readouterr()
     actual = captured.out
     assert expected == actual
+
+
+def test_interactive_greet_calls_greet(monkeypatch, fake_input, capsys):
+    def fake_greet(name):
+        return f"Bye, {name}"
+
+    fake_input(["Hannibal"])
+    monkeypatch.setattr('student.greet', fake_greet)
+
+    student.interactive_greet()
+
+    captured = capsys.readouterr()
+    actual = captured.out
+    expected = "Bye, Hannibal\n"
+    assert expected == actual, "interactive_greet should rely on greet"
