@@ -10,6 +10,17 @@ contents:
     topics:
       introduces:
         - strings
+  - name: Console IO
+    type: explanation
+    id: console-io
+    documentation:
+      en: explanation-console-io.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - input
+        - print
   - name: Escape Characters
     type: explanation
     id: escape-characters
