@@ -10,6 +10,16 @@ contents:
     topics:
       introduces:
         - strings
+  - name: String Interpolation
+    type: explanation
+    id: interpolation
+    documentation:
+      en: explanation-string-interpolation.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string interpolation
   - name: Console IO
     type: explanation
     id: console-io
@@ -31,16 +41,6 @@ contents:
         - strings
       introduces:
         - escape characters
-  - name: String Interpolation
-    type: explanation
-    id: interpolation
-    documentation:
-      en: explanation-string-interpolation.en.md
-    topics:
-      must_come_after:
-        - strings
-      introduces:
-        - string interpolation
   - name: Conversion
     type: explanation
     id: conversion
