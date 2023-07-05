@@ -73,3 +73,14 @@ contents:
         - strings
       introduces:
         - string operators
+  - name: Methods
+    type: explanation
+    id: methods
+    documentation:
+      en: explanation-methods.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string methods
+        - dir
