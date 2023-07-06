@@ -4,3 +4,5 @@ id: projects
 contents:
   - type: link
     location: number-guessing-game
+  - type: link
+    location: wordle
