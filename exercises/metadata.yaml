@@ -21,6 +21,8 @@ contents:
   - type: link
     location: dictionaries
   - type: link
+    location: enums
+  - type: link
     location: functions-advanced
   - type: link
     location: recursion
