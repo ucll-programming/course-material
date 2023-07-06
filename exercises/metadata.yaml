@@ -19,6 +19,8 @@ contents:
   - type: link
     location: lists
   - type: link
+    location: dictionaries
+  - type: link
     location: functions-advanced
   - type: link
     location: projects
