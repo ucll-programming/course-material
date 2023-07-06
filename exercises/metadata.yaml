@@ -3,6 +3,8 @@ name: Programming 1
 id: p1
 contents:
   - type: link
+    location: demo
+  - type: link
     location: 00-introduction
   - type: link
     location: 01-arithmetic
