@@ -35,3 +35,16 @@ contents:
       must_come_after:
         - functions
         - parameters
+  - name: Unpacking Operator
+    type: explanation
+    id: unpacking
+    documentation:
+      en: explanation-unpacking.en.md
+    topics:
+      introduces:
+        - parameter unpacking
+      must_come_after:
+        - functions
+        - parameters
+        - lists
+        - dictionaries
