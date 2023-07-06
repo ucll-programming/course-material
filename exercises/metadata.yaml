@@ -20,3 +20,5 @@ contents:
     location: functions-advanced
   - type: link
     location: projects
+  - type: link
+    location: challenges
