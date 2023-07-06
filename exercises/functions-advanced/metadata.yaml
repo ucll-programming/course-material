@@ -7,13 +7,31 @@ contents:
     id: default-parameter-values
     documentation:
       en: explanation-default-parameter-values.en.md
+    topics:
+      introduces:
+        - default parameter values
+      must_come_after:
+        - functions
+        - parameters
   - name: Keyword Arguments
     type: explanation
     id: keyword-arguments
     documentation:
       en: explanation-keyword-arguments.en.md
+    topics:
+      introduces:
+        - keyword arguments
+      must_come_after:
+        - functions
+        - parameters
   - name: Keyword-Only Arguments
     type: explanation
     id: keyword-only-arguments
     documentation:
       en: explanation-keyword-only-arguments.en.md
+    topics:
+      introduces:
+        - keyword-only arguments
+      must_come_after:
+        - functions
+        - parameters
