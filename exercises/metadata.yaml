@@ -27,6 +27,8 @@ contents:
   - type: link
     location: recursion
   - type: link
+    location: typing
+  - type: link
     location: projects
   - type: link
     location: challenges
