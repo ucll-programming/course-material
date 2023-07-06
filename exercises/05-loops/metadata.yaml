@@ -133,3 +133,8 @@ contents:
     judge:
       type: pytest
       file: test-roman-numerals.py
+    topics:
+      must_come_after:
+        - strings
+        - arrays
+        - while loop
