@@ -48,3 +48,8 @@ contents:
         - parameters
         - lists
         - dictionaries
+  - name: Nested Functions
+    type: explanation
+    id: nested-functions
+    documentation:
+      en: explanation-nested-functions.en.md
