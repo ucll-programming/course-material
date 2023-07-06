@@ -12,3 +12,8 @@ contents:
     id: keyword-arguments
     documentation:
       en: explanation-keyword-arguments.en.md
+  - name: Keyword-Only Arguments
+    type: explanation
+    id: keyword-only-arguments
+    documentation:
+      en: explanation-keyword-only-arguments.en.md
