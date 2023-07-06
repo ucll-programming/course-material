@@ -23,6 +23,8 @@ contents:
   - type: link
     location: functions-advanced
   - type: link
+    location: recursion
+  - type: link
     location: projects
   - type: link
     location: challenges
