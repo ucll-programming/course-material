@@ -124,3 +124,12 @@ contents:
         - while loop
         - input
         - print
+  - name: Roman Numerals
+    type: exercise
+    id: roman-numerals
+    documentation:
+      en: assignment-roman-numerals.en.md
+    difficulty: 5
+    judge:
+      type: pytest
+      file: test-roman-numerals.py
