@@ -8,3 +8,5 @@ contents:
     location: wordle
   - type: link
     location: sudoku
+  - type: link
+    location: cryptography
