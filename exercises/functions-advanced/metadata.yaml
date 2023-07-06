@@ -1,0 +1,9 @@
+type: section
+name: Functions Advanced
+id: functions-advanced
+contents:
+  - name: Default Parameter Values
+    type: explanation
+    id: default-parameter-values
+    documentation:
+      en: explanation-default-parameter-values.en.md

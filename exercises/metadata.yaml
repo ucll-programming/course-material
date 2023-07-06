@@ -17,4 +17,6 @@ contents:
   - type: link
     location: tuples
   - type: link
+    location: functions-advanced
+  - type: link
     location: projects
