@@ -6,3 +6,5 @@ contents:
     location: number-guessing-game
   - type: link
     location: wordle
+  - type: link
+    location: sudoku
