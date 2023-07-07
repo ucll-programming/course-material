@@ -26,6 +26,7 @@ def test_check_function_existence(function_name):
 
 
 @if_function_exists('is_leap_year')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('year', range(1000, 2400, 5))
 def test_is_leap_year(year):
     actual = student.is_leap_year(year=year)
@@ -35,6 +36,7 @@ def test_is_leap_year(year):
 
 
 @if_function_exists('has_30_days')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('month', range(1, 13))
 def test_has_30_days(month):
     actual = student.has_30_days(month=month)
@@ -44,6 +46,7 @@ def test_has_30_days(month):
 
 
 @if_function_exists('has_31_days')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('month', range(1, 13))
 def test_has_31_days(month):
     actual = student.has_31_days(month=month)
@@ -52,6 +55,7 @@ def test_has_31_days(month):
 
 
 @if_function_exists('has_28_days')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('month', range(1, 13))
 @pytest.mark.parametrize('year', [1900, 1904, 2000, 2400, 2012, 2013, 2014, 2015])
 def test_has_28_days(month, year):
@@ -62,6 +66,7 @@ def test_has_28_days(month, year):
 
 
 @if_function_exists('has_29_days')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('month', range(1, 13))
 @pytest.mark.parametrize('year', [1900, 1904, 2000, 2400, 2012, 2013, 2014, 2015])
 def test_has_29_days(month, year):
@@ -72,6 +77,7 @@ def test_has_29_days(month, year):
 
 
 @if_function_exists('is_valid_month')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('month', range(1, 13))
 def test_is_valid_month(month):
     actual = student.is_valid_month(month=month)
@@ -79,6 +85,7 @@ def test_is_valid_month(month):
 
 
 @if_function_exists('is_valid_month')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('month', [-5, 0, 13, 19])
 def test_is_not_valid_month(month):
     actual = student.is_valid_month(month=month)
@@ -86,6 +93,7 @@ def test_is_not_valid_month(month):
 
 
 @if_function_exists('is_valid_date')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('day', [1, 4, 15, 28, 29, 30, 31, 32])
 @pytest.mark.parametrize('month', range(1, 13))
 @pytest.mark.parametrize('year', [1900, 1904, 2000, 2400, 2012, 2013, 2014, 2015])

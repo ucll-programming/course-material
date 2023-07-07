@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('a, b', [
     [k * b, b]
     for k in [1, 2, 4, 9, 14]
@@ -11,6 +12,7 @@ def test_is_divisible(a, b):
     assert student.is_divisible(a, b), f'{a} should be divisible by {b}'
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize('a, b', [
     [k * b + c, b]
     for k in [1, 2, 13]
