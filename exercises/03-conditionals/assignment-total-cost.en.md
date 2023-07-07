@@ -7,6 +7,11 @@ Your favorite webshop has the following rules:
 
 :::TASK
 Write a function `total_cost(amount)` that computes the total cost after taking into account the delivery fee and the discount.
+
+Use two `if` statements:
+
+* The first should deal with the delivery fee and increase `amount` if necessary.
+* The second should deal with the discount and decrease `amount` if necessary.
 :::
 
 :::USAGE
