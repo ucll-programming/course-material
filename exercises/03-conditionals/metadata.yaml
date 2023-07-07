@@ -2,6 +2,11 @@ type: section
 name: Conditionals
 id: conditionals
 contents:
+  - name: If
+    type: explanation
+    id: if
+    documentation:
+      en: explanation-if.en.md
   - name: Absolute Value
     id: abs
     documentation:
