@@ -10,6 +10,7 @@ For this course, you will need the following software:
 * [Visual Studio Code](vscode.md) with extensions
 * [Git](git.md)
 * [Python 3.11 or better](python.md)
+  * TODO Group all package installations
   * Install the [Pytest](pytest.md) package
   * Install the [pipx](pipx.md) package
   * Install the [Progtool](progtool.md) package
