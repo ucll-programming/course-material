@@ -138,3 +138,18 @@ contents:
       must_come_after:
         - abs
         - max
+        - modulo
+        - while
+  - name: Is Prime
+    type: exercise
+    id: is-prime
+    documentation:
+      en: assignment-is-prime.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-prime.py
+    topics:
+      must_come_after:
+        - modulo
+        - while

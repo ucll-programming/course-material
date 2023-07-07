@@ -60,3 +60,10 @@ def gcd(x, y):
     while x % r != 0 or y % r != 0:
         r -= 1
     return r
+
+
+def is_prime(n):
+    for k in range(2, n):
+        if n % k == 0:
+            return False
+    return n > 1
