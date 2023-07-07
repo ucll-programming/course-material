@@ -29,17 +29,16 @@ contents:
     judge:
       type: pytest
       file: test-greet.py
-  - name: Console IO
+  - name: Console Input
     type: explanation
-    id: console-io
+    id: input
     documentation:
-      en: explanation-console-io.en.md
+      en: explanation-input.en.md
     topics:
       must_come_after:
         - strings
       introduces:
         - input
-        - print
   - name: Interactive Greet
     type: exercise
     id: interactive-greet
