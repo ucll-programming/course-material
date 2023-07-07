@@ -7,6 +7,9 @@ contents:
     id: if
     documentation:
       en: explanation-if.en.md
+    topics:
+      introduces:
+        - if
   - name: Absolute Value
     id: abs
     documentation:
@@ -25,8 +28,27 @@ contents:
     judge:
       type: pytest
       file: test-sign.py
+    topics:
+      must_come_after:
+        - if
   - name: Assignment
     type: explanation
     id: assignment
     documentation:
       en: explanation-assignment.en.md
+    topics:
+      introduces:
+        - augmented assignment
+  - name: Total Cost
+    type: exercise
+    id: total-cost
+    documentation:
+      en: assignment-total-cost.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-total-cost.py
+    topics:
+      must_come_after:
+        - augmented assignment
+        - if
