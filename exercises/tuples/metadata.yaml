@@ -16,3 +16,8 @@ contents:
       must_come_before: []
       must_come_after:
         - default parameter values
+  - name: Named Tuples
+    type: explanation
+    id: named-tuples
+    documentation:
+      en: explanation-named-tuples.en.md
