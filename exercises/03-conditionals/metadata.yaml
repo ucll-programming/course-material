@@ -7,10 +7,19 @@ contents:
     documentation:
       en: assignment-abs.md
     type: exercise
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-abs.py
+  - name: Sign
+    type: exercise
+    id: sign
+    documentation:
+      en: assignment-sign.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sign.py
   - name: Assignment
     type: explanation
     id: assignment
