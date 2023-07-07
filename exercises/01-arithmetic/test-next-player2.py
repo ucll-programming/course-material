@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("player, player_count", [
     (player, player_count)
     for player_count in [1, 4, 10, 25]

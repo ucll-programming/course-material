@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("a", [-4, 0, 1, 4])
 @pytest.mark.parametrize("b", [-2, 0, 2, 8])
 @pytest.mark.parametrize("c", [-9, 0, 3, 6])

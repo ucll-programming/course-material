@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("duration_in_seconds, cost_per_block, expected", [
     triple
     for cost_per_block in [0.1, 0.5, 1.0]

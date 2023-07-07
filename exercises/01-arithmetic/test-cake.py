@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("eggs", range(0, 100))
 def test_cake(eggs):
     eggs_per_cake = 5

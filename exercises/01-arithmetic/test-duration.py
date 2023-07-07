@@ -20,6 +20,7 @@ def test_check_function_existence(function_name):
 
 
 @if_function_exists('hours')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("duration", [0, 1, 59, 3599, 3600, 7200, 7201, 50000])
 def test_hours(duration):
     actual = student.hours(duration)
@@ -29,6 +30,7 @@ def test_hours(duration):
 
 
 @if_function_exists('minutes')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("duration", [0, 59, 60, 61, 578, 1234, 78912, 493929])
 def test_minutes(duration):
     actual = student.minutes(duration)
@@ -38,6 +40,7 @@ def test_minutes(duration):
 
 
 @if_function_exists('seconds')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("duration", [0, 1, 59, 60, 61, 458, 785, 1678])
 def test_seconds(duration):
     actual = student.seconds(duration)

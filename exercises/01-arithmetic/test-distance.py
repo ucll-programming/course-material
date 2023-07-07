@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("x1, y1, x2, y2, expected", [
     (0, 0, 0, 0, 0),
     (0, 0, 1, 0, 1),

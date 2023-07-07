@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("eggs", [0, 1, 5, 200])
 @pytest.mark.parametrize("flour", [0, 250, 1900])
 @pytest.mark.parametrize("butter", [0, 200, 2000 ])
