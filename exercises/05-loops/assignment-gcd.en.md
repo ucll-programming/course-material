@@ -11,6 +11,21 @@ Write a function `gcd(x, y)` that computes the greatest common divisor of the gi
   No smart math tricks will be necessary to make it run within the time limits.
 :::
 
+:::USAGE
+
+```python
+>>> gcd(5, 7)
+1
+
+>>> gcd(15, 10)
+5
+
+>>> gcd(10, -15)
+5
+```
+
+:::
+
 :::HINT
 
 * Start with some "high" value `r`.
