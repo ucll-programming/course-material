@@ -9,7 +9,7 @@
         "description": "Warning block",
         "scope": "markdown"
     },
-    "INFO": {
+    "Information": {
         "prefix": "info",
         "body": [
             ":::INFO",
@@ -19,7 +19,7 @@
         "description": "Info block",
         "scope": "markdown"
     },
-    "TASK": {
+    "Task": {
         "prefix": "task",
         "body": [
             ":::TASK",
@@ -29,7 +29,7 @@
         "description": "Task block",
         "scope": "markdown"
     },
-    "HINT": {
+    "Hint": {
         "prefix": "hint",
         "body": [
             ":::HINT",
@@ -47,6 +47,16 @@
             ":::",
         ],
         "description": "Question block",
+        "scope": "markdown"
+    },
+    "Important": {
+        "prefix": "important",
+        "body": [
+            ":::IMPORTANT",
+            "$1",
+            ":::",
+        ],
+        "description": "Important block",
         "scope": "markdown"
     },
     "Usage": {
