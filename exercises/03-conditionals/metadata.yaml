@@ -13,7 +13,7 @@ contents:
   - name: Absolute Value
     id: abs
     documentation:
-      en: assignment-abs.md
+      en: assignment-abs.nl.md
     type: exercise
     difficulty: 2
     judge:
