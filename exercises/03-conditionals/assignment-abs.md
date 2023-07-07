@@ -1,22 +1,23 @@
 # Assignment
 
+Taking the *absolute value* of a number is basically stripping away its sign.
+For example, the absolute value of 5 is simply 5, and the absolute value of -3 is 3.
+
+Python comes with a function `abs` built-in which computes this absolute value.
+However, it makes a good exercise to implement it yourself.
+
 :::TASK
-Write a function `abs(x)` that returns the absolute value of `x`.
+Write a function `my_abs(x)` that returns the absolute value of `x`.
 :::
 
 :::USAGE
 
 ```python
->>> abs(5)
+>>> my_abs(5)
 5
 
->>> abs(-1)
+>>> my_abs(-1)
 1
 ```
 
-:::
-
-:::INFO
-Admittedly, Python comes with the `abs` function built-in.
-In practice, you wouldn't bother implementing your own, but it makes for a good exercise.
 :::
