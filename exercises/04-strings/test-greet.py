@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("name, expected", [
     ("John", "Hello, John!"),
     ("Peter", "Hello, Peter!"),

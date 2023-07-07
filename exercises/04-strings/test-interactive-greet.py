@@ -14,6 +14,7 @@ def fake_input(monkeypatch):
     return func
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("name, expected", [
     ("John", "Hello, John!\n"),
     ("Fionnula", "Hello, Fionnula!\n"),
@@ -29,6 +30,7 @@ def test_interactive_greet(fake_input, capsys, name, expected):
     assert expected == actual
 
 
+@pytest.mark.timeout(1)
 def test_interactive_greet_calls_greet(monkeypatch, fake_input, capsys):
     def fake_greet(name):
         return f"Bye, {name}"
