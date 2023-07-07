@@ -76,3 +76,15 @@ def invest(amount, rate, goal):
         current += current * rate / 100
         year_count += 1
     return year_count
+
+
+def valid_parentheses(string):
+    count = 0
+    for char in string:
+        if char == '(':
+            count += 1
+        elif char == ')':
+            count -= 1
+            if count < 0:
+                return False
+    return count == 0

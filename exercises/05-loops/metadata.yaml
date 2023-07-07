@@ -162,3 +162,15 @@ contents:
     judge:
       type: pytest
       file: test-investment.py
+  - name: Valid Parentheses
+    type: exercise
+    id: valid-parentheses
+    documentation:
+      en: assignment-valid-parentheses.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-valid-parentheses.py
+    topics:
+      must_come_after:
+        - string iteration
