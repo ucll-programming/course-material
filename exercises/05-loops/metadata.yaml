@@ -155,13 +155,13 @@ contents:
         - while
   - name: Investment
     type: exercise
-    id: investment
+    id: invest
     documentation:
-      en: assignment-investment.en.md
+      en: assignment-invest.en.md
     difficulty: 3
     judge:
       type: pytest
-      file: test-investment.py
+      file: test-invest.py
   - name: String Iteration
     type: explanation
     id: string-iteration
