@@ -19,6 +19,7 @@ def test_check_function_existence(function_name):
 
 
 @if_function_exists('rpg2')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("n_sides, goal, expected", [
     (4, 8, 100/16),
     (5, 10, 100/25),
@@ -39,6 +40,7 @@ def test_rpg2(n_sides, goal, expected):
 
 
 @if_function_exists('rpg3')
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("n_sides, goal, expected", [
     (4, 4, 1575/16),
     (4, 5, 375/4),

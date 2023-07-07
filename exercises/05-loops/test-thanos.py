@@ -2,6 +2,7 @@ import pytest
 import student
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("queue_size, target_size, expected", [
     (8, 5, 1),
     (8, 4, 1),

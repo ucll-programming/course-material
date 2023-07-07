@@ -14,6 +14,7 @@ def fake_input(monkeypatch):
     return func
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("inputs", [
     [0],
     [1, 0],
