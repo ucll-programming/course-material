@@ -39,6 +39,8 @@ contents:
     topics:
       introduces:
         - augmented assignment
+      must_come_after:
+        - print
   - name: Total Cost
     type: exercise
     id: total-cost
