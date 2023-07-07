@@ -11,3 +11,8 @@ contents:
     judge:
       type: pytest
       file: test-abs.py
+  - name: Assignment
+    type: explanation
+    id: assignment
+    documentation:
+      en: explanation-assignment.en.md
