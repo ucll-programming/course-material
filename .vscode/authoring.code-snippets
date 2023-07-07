@@ -125,6 +125,7 @@
     "Parametrized test": {
         "prefix": "testparam",
         "body": [
+            "@pytest.mark.timeout(1)",
             "@pytest.mark.parametrize(\"$2\", [",
             "])",
             "def test_$1($2):",
