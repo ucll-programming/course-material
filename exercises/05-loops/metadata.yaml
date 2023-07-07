@@ -18,6 +18,7 @@ contents:
     topics:
       introduces:
         - for loop
+        - range
   - name: Nested loops
     type: explanation
     id: nested-loops
