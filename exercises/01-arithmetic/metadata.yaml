@@ -45,6 +45,16 @@ contents:
     type: explanation
     documentation:
       en: explanation-operators.en.md
+  - name: Built-in Functions
+    id: built-in-functions
+    type: explanation
+    documentation:
+      en: explanation-built-in-functions.en.md
+    topics:
+      introduces:
+        - min
+        - max
+        - abs
   - name: Average
     id: average
     documentation:
