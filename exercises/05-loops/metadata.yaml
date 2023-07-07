@@ -153,3 +153,12 @@ contents:
       must_come_after:
         - modulo
         - while
+  - name: Investment
+    type: exercise
+    id: investment
+    documentation:
+      en: assignment-investment.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-investment.py

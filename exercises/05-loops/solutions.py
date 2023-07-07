@@ -67,3 +67,12 @@ def is_prime(n):
         if n % k == 0:
             return False
     return n > 1
+
+
+def invest(amount, rate, goal):
+    current = amount
+    year_count = 0
+    while current < goal:
+        current += current * rate / 100
+        year_count += 1
+    return year_count
