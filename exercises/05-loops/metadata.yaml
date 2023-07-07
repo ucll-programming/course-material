@@ -162,6 +162,14 @@ contents:
     judge:
       type: pytest
       file: test-investment.py
+  - name: String Iteration
+    type: explanation
+    id: string-iteration
+    documentation:
+      en: explanation-string-iteration.en.md
+    topics:
+      introduces:
+        - string iteration
   - name: Valid Parentheses
     type: exercise
     id: valid-parentheses
