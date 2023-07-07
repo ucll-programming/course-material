@@ -125,3 +125,16 @@ contents:
         - while loop
         - input
         - print
+  - name: GCD
+    type: exercise
+    id: gcd
+    documentation:
+      en: assignment-gcd.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-gcd.py
+    topics:
+      must_come_after:
+        - abs
+        - max

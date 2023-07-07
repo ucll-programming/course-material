@@ -53,3 +53,10 @@ def sum_of_input():
         total += number
         number = int(input())
     print(total)
+
+
+def gcd(x, y):
+    r = min(abs(x), abs(y))
+    while x % r != 0 or y % r != 0:
+        r -= 1
+    return r
