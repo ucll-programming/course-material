@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500" height="600" class="flowchart">
+    <style>
+        .step {
+            fill: cornflowerblue;
+        }
+
+        text {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 14px;
+            font-weight: 400;
+            fill: white;
+        }
+
+        .arrow {
+            stroke: white;
+            stroke-width: 2;
+        }
+    </style>
+
+    <defs>
+        <marker id="arrow" markerWidth="4" markerHeight="10" viewBox="-2 -4 4 4" refX="0" refY="0" markerUnits="strokeWidth" orient="auto">
+            <polyline points="-2,-2 0,0 -2,2" stroke="white" stroke-width="1px" fill="none" />
+        </marker>
+    </defs>
+
+    <rect x="0" y="0" width="500" height="600" />
+
+    <g transform="translate(0, 0)">
+        <g transform="translate(0, 0)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                A
+            </text>
+        </g>
+
+        <g transform="translate(0, 100)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                condition 1
+            </text>
+        </g>
+
+        <g transform="translate(200, 100)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                B1
+            </text>
+        </g>
+
+        <g transform="translate(0, 200)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                condition 2
+            </text>
+        </g>
+
+        <g transform="translate(200, 200)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                B1
+            </text>
+        </g>
+
+        <g transform="translate(0, 300)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                condition 3
+            </text>
+        </g>
+
+        <g transform="translate(200, 300)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                B3
+            </text>
+        </g>
+
+        <g transform="translate(200, 400)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                B4
+            </text>
+        </g>
+
+        <g transform="translate(400, 475)" class="step">
+            <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
+            <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
+                C
+            </text>
+        </g>
+
+        <line class="arrow" x1="50" x2="50" y1="50" y2="100" marker-end="url(#arrow)" />
+        <line class="arrow" x1="100" x2="200" y1="125" y2="125" marker-end="url(#arrow)" />
+        <polyline class="arrow" points="300 125, 450 125, 450 475" fill="none" marker-end="url(#arrow)" />
+
+        <line class="arrow" x1="50" x2="50" y1="150" y2="200" marker-end="url(#arrow)" />
+        <line class="arrow" x1="100" x2="200" y1="225" y2="225" marker-end="url(#arrow)" />
+        <line class="arrow" x1="300" x2="450" y1="225" y2="225" />
+
+        <line class="arrow" x1="50" x2="50" y1="250" y2="300" marker-end="url(#arrow)" />
+        <line class="arrow" x1="100" x2="200" y1="325" y2="325" marker-end="url(#arrow)" />
+        <line class="arrow" x1="300" x2="450" y1="325" y2="325" />
+
+        <polyline class="arrow" points="50 350, 50 425, 200 425" fill="none" marker-end="url(#arrow)" />
+        <line class="arrow" x1="300" x2="450" y1="425" y2="425" />
+
+        <text x="150" y="125" dominant-baseline="ideographic" text-anchor="middle">
+            True
+        </text>
+
+        <text x="150" y="225" dominant-baseline="ideographic" text-anchor="middle">
+            True
+        </text>
+
+        <text x="150" y="325" dominant-baseline="ideographic" text-anchor="middle">
+            True
+        </text>
+
+        <text x="55" y="75" dominant-baseline="central" text-anchor="start">
+            False
+        </text>
+
+        <text x="55" y="175" dominant-baseline="central" text-anchor="start">
+            False
+        </text>
+
+        <text x="55" y="275" dominant-baseline="central" text-anchor="start">
+            False
+        </text>
+
+        <text x="55" y="375" dominant-baseline="central" text-anchor="start">
+            False
+        </text>
+    </g>
+</svg>
