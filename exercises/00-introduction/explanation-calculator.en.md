@@ -1,6 +1,6 @@
 # Using Python as Calculator
 
-In essence, you're machine is a calculator, albeit a very fancy one.
+In essence, your machine is a calculator, albeit a very fancy one.
 Let's start with some simple things.
 Have a Python shell ready.
 
