@@ -2,8 +2,8 @@
 
 Your favorite webshop has the following rules:
 
-* If your order costs less than &eur;100, you need to pay a delivery fee of &eur;10.
-* If your order costs at least &eur;200, you get 5% discount.
+* If your order costs less than &euro;100, you need to pay a delivery fee of &euro;10.
+* If your order costs at least &euro;200, you get 5% discount.
 
 :::TASK
 Write a function `total_cost(amount)` that computes the total cost after taking into account the delivery fee and the discount.
