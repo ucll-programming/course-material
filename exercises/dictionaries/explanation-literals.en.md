@@ -78,11 +78,9 @@ We'll delve further into this later.
 For now, you can imagine there are no constraints on key types.
 :::
 
-* Literals
-* Lookup, update
 * `len`
 * `in`
 * `get`, `setdefault`
 * `__hash__`, `__eq__`
-* `del`
 * `.keys()`, `.values()`, `.items()`
+* Nested dictionaries

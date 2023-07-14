@@ -90,6 +90,15 @@ contents:
     id: membership
     documentation:
       en: explanation-membership.en.md
+  - name: Orbit Chain
+    type: exercise
+    id: orbit-chain
+    documentation:
+      en: assignment-orbit-chain.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-orbit-chain.py
   - name: Cake
     type: exercise
     id: cake
