@@ -4,12 +4,16 @@ Do we feel silly.
 For a cake, we actually also need 200g butter and 250g sugar...
 We summarize the necessary ingredients per cake:
 
+:::center
+
 | Ingredient | Amount per cake |
 | :--------: | :-------------: |
 | Eggs       | 5               |
 | Flour      | 250g            |
 | Butter     | 200g            |
 | Sugar      | 250g            |
+
+:::
 
 Who knew that making a cake was so complicated?
 
