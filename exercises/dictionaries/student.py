@@ -64,10 +64,7 @@ def combine(d1, d2):
 def cake(stock, recipe_ingredients):
     amounts = []
     for ingredient, amount in recipe_ingredients.items():
-        if ingredient not in stock:
-            return 0
-        else:
-            amounts.append(stock[ingredient] // amount)
+        amounts.append(stock.get(ingredient, 0) // amount)
     return min(amounts)
 
 
@@ -78,3 +75,17 @@ def orbit_chain(orbits, start):
         current = orbits[current]
         result.append(current)
     return result
+
+
+def sell2(stock, model, size):
+    if model not in stock:
+        return False
+    available_sizes = stock[model]
+    if size not in available_sizes:
+        return False
+    available_sizes[size] -= 1
+    if available_sizes[size] == 0:
+        del available_sizes[size]
+    if len(available_sizes) == 0:
+        del stock[model]
+    return True

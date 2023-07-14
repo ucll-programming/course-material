@@ -194,3 +194,16 @@ contents:
         - dict.get
         - dict.items
         - min
+  - name: Selling Shoes 2
+    type: exercise
+    id: sell
+    documentation:
+      en: assignment-sell2.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-sell2.py
+    topics:
+      must_come_after:
+        - dictionary insertion
+        - dictionary deletion
