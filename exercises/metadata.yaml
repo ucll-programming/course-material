@@ -36,6 +36,8 @@ contents:
   - type: link
     location: typing
   - type: link
+    location: regex
+  - type: link
     location: projects
   - type: link
     location: challenges
