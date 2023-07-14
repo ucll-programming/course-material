@@ -2,6 +2,14 @@ type: section
 name: Dictionaries
 id: dictionaries
 contents:
+  - name: Dictionaries
+    type: explanation
+    id: dictionaries
+    documentation:
+      en: explanation-dictionaries.en.md
+    topics:
+      introduces:
+        - dictionaries
   - name: Group By
     type: exercise
     id: group-by-first-letter
