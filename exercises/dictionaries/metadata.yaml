@@ -36,7 +36,7 @@ contents:
     id: desktop
     documentation:
       en: assignment-desktop.en.md
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-desktop.py
@@ -44,6 +44,11 @@ contents:
       must_come_after:
         - dictionary lookup
         - lists
+  - name: Insertion
+    type: explanation
+    id: insertion
+    documentation:
+      en: explanation-insertion.en.md
   - name: Combine
     type: exercise
     id: combine
