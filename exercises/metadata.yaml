@@ -28,6 +28,8 @@ contents:
   - type: link
     location: enums
   - type: link
+    location: objects
+  - type: link
     location: functions-advanced
   - type: link
     location: recursion
