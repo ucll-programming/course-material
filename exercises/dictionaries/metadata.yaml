@@ -10,7 +10,19 @@ contents:
     topics:
       introduces:
         - dictionaries
-        - dictionary literal
+        - dictionary literals
+  - name: Ingredients
+    type: exercise
+    id: ingredients
+    documentation:
+      en: assignment-ingredients.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-ingredients.py
+    topics:
+      must_come_after:
+        - dictionary literals
   - name: Combine
     type: exercise
     id: combine
