@@ -42,4 +42,5 @@ If your script contains only function definitions and no top level statements, r
 * Add all relevant code.
 * At the bottom, add a top level statement that calls `interactive_greet`.
 * In Bash, run `$ py greet.py` and check that your script works as intended.
+
 :::

@@ -132,3 +132,12 @@ contents:
         - string indexing
       introduces:
         - string slicing
+  - name: Tip
+    type: exercise
+    id: tip-calculator
+    documentation:
+      en: assignment-tip-calculator.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-tip-calculator.py
