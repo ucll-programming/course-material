@@ -81,6 +81,24 @@ contents:
     judge:
       type: pytest
       file: test-sell.py
+    topics:
+      must_come_after:
+        - dictionary insertion
+        - dictionary deletion
+  - name: Membership Testing
+    type: explanation
+    id: membership
+    documentation:
+      en: explanation-membership.en.md
+  - name: Cake
+    type: exercise
+    id: cake
+    documentation:
+      en: assignment-cake.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-cake.py
   - name: Combine
     type: exercise
     id: combine

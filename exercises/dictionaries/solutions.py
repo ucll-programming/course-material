@@ -59,3 +59,22 @@ def combine(d1, d2):
         if value in d2:
             result[key] = d2[value]
     return result
+
+
+def cake(stock, recipe_ingredients):
+    amounts = []
+    for ingredient, amount in recipe_ingredients.items():
+        if ingredient not in stock:
+            return 0
+        else:
+            amounts.append(stock[ingredient] // amount)
+    return min(amounts)
+
+
+def orbit_chain(orbits, start):
+    current = start
+    result = [start]
+    while current in orbits:
+        current = orbits[current]
+        result.append(current)
+    return result
