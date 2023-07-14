@@ -10,6 +10,21 @@ contents:
     topics:
       introduces:
         - dictionaries
+  - name: Combine
+    type: exercise
+    id: combine
+    documentation:
+      en: assignment-combine.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-combine.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - dictionary lookup
+        - dictionary insertion
+        - dict.items
   - name: Group By
     type: exercise
     id: group-by-first-letter
