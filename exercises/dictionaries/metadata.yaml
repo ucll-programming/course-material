@@ -52,15 +52,15 @@ contents:
     topics:
       introduces:
         - dictionary insertion
-  - name: Ranking
+  - name: Rankings
     type: exercise
-    id: ranking
+    id: rankings
     documentation:
-      en: assignment-ranking.en.md
+      en: assignment-rankings.en.md
     difficulty: 2
     judge:
       type: pytest
-      file: test-ranking.py
+      file: test-rankings.py
     topics:
       must_come_after:
         - dictionary insertion
