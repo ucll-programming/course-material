@@ -56,6 +56,6 @@ import student
         }
     ),
 ])
-def test_group_by_first_letter(xs, expected):
+def test_counts(xs, expected):
     actual = student.counts(xs)
     assert expected == actual
