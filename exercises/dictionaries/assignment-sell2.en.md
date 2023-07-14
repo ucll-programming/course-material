@@ -1,4 +1,4 @@
-# Selling Shoes +
+# Selling Sized Shoes
 
 Our little sneaker store isn't doing too well.
 It turns out we forgot to take into account shoe sizes.
