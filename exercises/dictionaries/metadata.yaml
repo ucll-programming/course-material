@@ -10,6 +10,7 @@ contents:
     topics:
       introduces:
         - dictionaries
+        - dictionary literal
   - name: Combine
     type: exercise
     id: combine
