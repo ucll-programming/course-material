@@ -49,6 +49,21 @@ contents:
     id: insertion
     documentation:
       en: explanation-insertion.en.md
+    topics:
+      introduces:
+        - dictionary insertion
+  - name: Ranking
+    type: exercise
+    id: ranking
+    documentation:
+      en: assignment-ranking.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-ranking.py
+    topics:
+      must_come_after:
+        - dictionary insertion
   - name: Combine
     type: exercise
     id: combine

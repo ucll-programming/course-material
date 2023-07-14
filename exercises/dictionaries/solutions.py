@@ -15,6 +15,15 @@ def desktop(catalog, components):
     return total
 
 
+def rankings(participants):
+    result = {}
+    for index in range(len(participants)):
+        participant = participants[index]
+        ranking = index + 1
+        result[participant] = ranking
+    return result
+
+
 def group_by_first_letter(strings):
     result = {}
     for string in strings:
