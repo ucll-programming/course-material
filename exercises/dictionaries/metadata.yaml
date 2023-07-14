@@ -99,6 +99,18 @@ contents:
     judge:
       type: pytest
       file: test-orbit-chain.py
+  - name: Enumerating
+    type: explanation
+    id: enumerating
+    documentation:
+      en: explanation-enumerating.en.md
+    topics:
+      introduces:
+        - dict.keys
+        - dict.values
+        - dict.items
+      must_come_after:
+        - tuples
   - name: Cake
     type: exercise
     id: cake
