@@ -86,7 +86,7 @@ We have a confession to make: Python has this functionality built-in.
 
 Whenever you compare tuples (e.g., `(2, 4) < (5, 1)`), it will perform the same operation as described above:
 first checking the first elements, and if they are equal, moving on to the next, etc.
-This is called [Lexicographic order](https://en.wikipedia.org/wiki/Lexicographic_order).
+This is called [lexicographic order](https://en.wikipedia.org/wiki/Lexicographic_order).
 
 Thus, a valid solution for `is_more_recent(v1, v2)` would be
 
