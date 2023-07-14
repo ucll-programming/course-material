@@ -64,6 +64,14 @@ contents:
     topics:
       must_come_after:
         - dictionary insertion
+  - name: Deletion
+    type: explanation
+    id: deletion
+    documentation:
+      en: explanation-deletion.en.md
+    topics:
+      introduces:
+        - dictionary deletion
   - name: Combine
     type: exercise
     id: combine
