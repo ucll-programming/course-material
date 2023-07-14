@@ -23,6 +23,14 @@ contents:
     topics:
       must_come_after:
         - dictionary literals
+  - name: Lookup
+    type: explanation
+    id: lookup
+    documentation:
+      en: explanation-lookup.en.md
+    topics:
+      introduces:
+        - dictionary lookup
   - name: Combine
     type: exercise
     id: combine
