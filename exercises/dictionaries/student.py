@@ -24,6 +24,12 @@ def rankings(participants):
     return result
 
 
+def sell(stock, model):
+    stock[model] -= 1
+    if stock[model] == 0:
+        del stock[model]
+
+
 def group_by_first_letter(strings):
     result = {}
     for string in strings:

@@ -72,6 +72,15 @@ contents:
     topics:
       introduces:
         - dictionary deletion
+  - name: Selling Shoes
+    type: exercise
+    id: sell
+    documentation:
+      en: assignment-sell.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sell.py
   - name: Combine
     type: exercise
     id: combine
