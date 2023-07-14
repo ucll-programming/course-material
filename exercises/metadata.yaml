@@ -36,6 +36,8 @@ contents:
   - type: link
     location: recursion
   - type: link
+    location: exceptions
+  - type: link
     location: typing
   - type: link
     location: regex
