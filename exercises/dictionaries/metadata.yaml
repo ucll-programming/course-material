@@ -135,35 +135,6 @@ contents:
       introduces:
         - dict.get
         - dict.setdefault
-  - name: Group By
-    type: exercise
-    id: group-by-first-letter
-    documentation:
-      en: assignment-group-by-first-letter.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-group-by-first-letter.py
-    topics:
-      must_come_after:
-        - dictionaries
-        - lists
-        - for loop
-        - dict.setdefault
-  - name: Cake
-    type: exercise
-    id: cake
-    documentation:
-      en: assignment-cake.en.md
-    difficulty: 4
-    judge:
-      type: pytest
-      file: test-cake.py
-    topics:
-      must_come_after:
-        - dict.get
-        - dict.items
-        - min
   - name: Counts
     type: exercise
     id: counts
@@ -179,6 +150,21 @@ contents:
         - lists
         - for loop
         - dict.get
+  - name: Group By
+    type: exercise
+    id: group-by-first-letter
+    documentation:
+      en: assignment-group-by-first-letter.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-group-by-first-letter.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - for loop
+        - dict.setdefault
   - name: Inverse Lookup
     type: exercise
     id: inverse-lookup
@@ -194,3 +180,17 @@ contents:
         - lists
         - list.append
         - dict.items
+  - name: Cake
+    type: exercise
+    id: cake
+    documentation:
+      en: assignment-cake.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-cake.py
+    topics:
+      must_come_after:
+        - dict.get
+        - dict.items
+        - min

@@ -77,10 +77,3 @@ Actually, there *is* a limitation on the types of keys: the objects have to be *
 We'll delve further into this later.
 For now, you can imagine there are no constraints on key types.
 :::
-
-* `len`
-* `in`
-* `get`, `setdefault`
-* `__hash__`, `__eq__`
-* `.keys()`, `.values()`, `.items()`
-* Nested dictionaries
