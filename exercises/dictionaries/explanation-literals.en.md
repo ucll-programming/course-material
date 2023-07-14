@@ -54,8 +54,23 @@ Here's what the translation dictionary would look like:
 translating_dictionary = {'cat': 'kat', 'dog': 'hond'}
 ```
 
+:::
+
 Dictionaries are not limited to strings: both keys and values can have any type.
-For example: `{1: True, 'a': [1, 2, 3]}` is a perfectly valid `dict`.
+Dictionaries can even contain other dictionaries recursively.
+For example, this is a perfectly valid `dict`:
+
+:::code{caption="Python"}
+
+```python
+{
+    1: True,
+    'a': [1, 2, 3],
+    False: {1: 2, 3: 4}
+}
+```
+
+:::
 
 :::INFO
 Actually, there *is* a limitation on the types of keys: the objects have to be *hashable* and comparable using `==`.

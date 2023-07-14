@@ -2,11 +2,11 @@ type: section
 name: Dictionaries
 id: dictionaries
 contents:
-  - name: Dictionaries
+  - name: Literals
     type: explanation
-    id: dictionaries
+    id: literals
     documentation:
-      en: explanation-dictionaries.en.md
+      en: explanation-literals.en.md
     topics:
       introduces:
         - dictionaries
