@@ -64,10 +64,7 @@ def combine(d1, d2):
 def cake(stock, recipe_ingredients):
     amounts = []
     for ingredient, amount in recipe_ingredients.items():
-        if ingredient not in stock:
-            return 0
-        else:
-            amounts.append(stock[ingredient] // amount)
+        amounts.append(stock.get(ingredient, 0) // amount)
     return min(amounts)
 
 

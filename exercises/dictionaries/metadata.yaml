@@ -111,15 +111,6 @@ contents:
         - dict.items
       must_come_after:
         - tuples
-  - name: Cake
-    type: exercise
-    id: cake
-    documentation:
-      en: assignment-cake.en.md
-    difficulty: 4
-    judge:
-      type: pytest
-      file: test-cake.py
   - name: Combine
     type: exercise
     id: combine
@@ -135,6 +126,15 @@ contents:
         - dictionary lookup
         - dictionary insertion
         - dict.items
+  - name: Lookup Default
+    type: explanation
+    id: lookup-default
+    documentation:
+      en: explanation-lookup-default.en.md
+    topics:
+      introduces:
+        - dict.get
+        - dict.setdefault
   - name: Group By
     type: exercise
     id: group-by-first-letter
@@ -150,6 +150,20 @@ contents:
         - lists
         - for loop
         - dict.setdefault
+  - name: Cake
+    type: exercise
+    id: cake
+    documentation:
+      en: assignment-cake.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-cake.py
+    topics:
+      must_come_after:
+        - dict.get
+        - dict.items
+        - min
   - name: Counts
     type: exercise
     id: counts
