@@ -1,4 +1,18 @@
 type: section
 name: Dictionaries
 id: dictionaries
-contents: []
+contents:
+  - name: Group By
+    type: exercise
+    id: group-by-first-letter
+    documentation:
+      en: assignment-group-by-first-letter.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-group-by-first-letter.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - for loop
