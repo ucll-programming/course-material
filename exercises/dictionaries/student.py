@@ -8,6 +8,13 @@ def ingredients():
     }
 
 
+def desktop(catalog, components):
+    total = 0
+    for component in components:
+        total += catalog[component]
+    return total
+
+
 def group_by_first_letter(strings):
     result = {}
     for string in strings:

@@ -31,6 +31,19 @@ contents:
     topics:
       introduces:
         - dictionary lookup
+  - name: Desktop
+    type: exercise
+    id: desktop
+    documentation:
+      en: assignment-desktop.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-desktop.py
+    topics:
+      must_come_after:
+        - dictionary lookup
+        - lists
   - name: Combine
     type: exercise
     id: combine
