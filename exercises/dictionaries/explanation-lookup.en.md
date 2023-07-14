@@ -5,7 +5,7 @@ In the previous explanation, you were shown how to define a new `dict`:
 :::code{caption="Python"}
 
 ```python
-translating_dictionary = {'cat': 'kat', 'dog': 'hond'}
+translating_dictionary = {"cat": "kat", "dog": "hond"}
 ```
 
 :::
@@ -20,9 +20,9 @@ We can do this as follows:
 :::code{caption="Python"}
 
 ```python
-translation = translating_dictionary['cat']
+translation = translating_dictionary["cat"]
 ```
 
 :::
 
-Now, `translation` is equal to `"kat"`.
+After executing this statement, `translation` is equal to `"kat"`.
