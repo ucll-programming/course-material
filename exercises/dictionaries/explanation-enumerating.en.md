@@ -111,3 +111,17 @@ for pair in d.items():
 :::
 
 ::::
+
+## `len`
+
+Finally, if you simply need to know how many key/value pairs are present in a `dict`, you can rely on `len`:
+
+:::code{caption="Python Shell"}
+
+```python
+>>> d = {'a': 1, 'b': 2, 'c': 3}
+>>> len(d)
+3
+```
+
+:::
