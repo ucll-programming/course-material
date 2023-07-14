@@ -6,3 +6,4 @@
 * `get`, `setdefault`
 * `__hash__`, `__eq__`
 * `del`
+* `.keys()`, `.values()`, `.items()`

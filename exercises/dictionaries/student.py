@@ -11,3 +11,11 @@ def counts(xs):
     for x in xs:
         result[x] = result.get(x, 0) + 1
     return result
+
+
+def inverse_lookup(dictionary, value):
+    result = []
+    for k, v in dictionary.items():
+        if v == value:
+            result.append(k)
+    return result

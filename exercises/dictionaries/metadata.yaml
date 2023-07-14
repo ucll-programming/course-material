@@ -40,3 +40,18 @@ contents:
         - lists
         - for loop
         - dict.get
+  - name: Inverse Lookup
+    type: exercise
+    id: inverse-lookup
+    documentation:
+      en: assignment-inverse-lookup.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-inverse-lookup.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - list.append
+        - dict.items
