@@ -34,7 +34,7 @@ def my_function():
     print(x, y)
 ```
 
-Take a good look at the code and predict what ´my_function()` will print before continuing reading.
+Take a good look at the code and predict what `my_function()` will print before continuing reading.
 
 &vellip;
 
