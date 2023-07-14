@@ -10,33 +10,6 @@ contents:
     topics:
       introduces:
         - while loop
-  - name: For
-    type: explanation
-    id: for
-    documentation:
-      en: explanation-for.en.md
-    topics:
-      introduces:
-        - for loop
-        - range
-  - name: Nested loops
-    type: explanation
-    id: nested-loops
-    documentation:
-      en: explanation-nested-loops.en.md
-    topics:
-      must_come_after:
-        - for loop
-      introduces:
-        - nested loops
-  - name: Walrus Operator
-    type: explanation
-    id: walrus
-    documentation:
-      en: explanation-walrus.en.md
-    topics:
-      introduces:
-        - walrus operator
   - name: Hungry Thanos
     type: exercise
     id: thanos
@@ -46,6 +19,19 @@ contents:
     judge:
       type: pytest
       file: test-thanos.py
+    topics:
+      must_come_after:
+        - while loop
+        - floor division
+  - name: For
+    type: explanation
+    id: for
+    documentation:
+      en: explanation-for.en.md
+    topics:
+      introduces:
+        - for loop
+        - range
   - name: Sum
     type: exercise
     id: sum-up-to
@@ -94,6 +80,16 @@ contents:
         - range
         - assignment
         - for loop
+  - name: Nested loops
+    type: explanation
+    id: nested-loops
+    documentation:
+      en: explanation-nested-loops.en.md
+    topics:
+      must_come_after:
+        - for loop
+      introduces:
+        - nested loops
   - name: RPG
     type: exercise
     id: rpg
@@ -182,3 +178,11 @@ contents:
     topics:
       must_come_after:
         - string iteration
+  - name: Walrus Operator
+    type: explanation
+    id: walrus
+    documentation:
+      en: explanation-walrus.en.md
+    topics:
+      introduces:
+        - walrus operator
