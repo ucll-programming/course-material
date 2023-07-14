@@ -16,3 +16,19 @@ contents:
         - dictionaries
         - lists
         - for loop
+        - dict.setdefault
+  - name: Counts
+    type: exercise
+    id: counts
+    documentation:
+      en: assignment-counts.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-counts.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
+        - for loop
+        - dict.get
