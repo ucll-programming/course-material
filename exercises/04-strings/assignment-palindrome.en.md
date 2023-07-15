@@ -18,3 +18,7 @@ False
 ```
 
 :::
+
+:::HINT
+Remember how you can reverse a string by using the right step.
+:::
