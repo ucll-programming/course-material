@@ -192,6 +192,7 @@ contents:
       file: test-is-student-id.py
     topics:
       must_come_after:
+        - string indexing
         - string comparison
   - name: Slicing
     type: explanation
