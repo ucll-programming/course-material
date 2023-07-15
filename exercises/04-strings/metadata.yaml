@@ -202,6 +202,20 @@ contents:
       introduces:
         - string.find
         - dir
+  - name: Is Capitalized?
+    type: exercise
+    id: is-capitalized
+    documentation:
+      en: assignment-is-capitalized.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-capitalized.py
+    topics:
+      must_come_after:
+        - string.upper
+        - string.lower
+        - string slicing
   - name: Parse Position
     type: exercise
     id: parse-position
