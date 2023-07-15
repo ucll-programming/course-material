@@ -50,6 +50,6 @@ Using `in` can also lead to a succinct solution.
 :::
 
 :::INFO
-It requires a lot of code to check all eight characters in the string.
+It requires a lot of repetitive code to check all eight characters in the string.
 Soon you will learn how *loops* will allow you to do this with much less code.
 :::
