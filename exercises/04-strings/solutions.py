@@ -84,3 +84,7 @@ def is_student_id(string):
     if not is_digit(string[7]):
         return False
     return True
+
+
+def palindrome(string):
+    return string == string[::-1]

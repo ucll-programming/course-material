@@ -205,6 +205,18 @@ contents:
         - string indexing
       introduces:
         - string slicing
+  - name: Palindrome
+    type: exercise
+    id: palindrome
+    documentation:
+      en: assignment-palindrome.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-palindrome.py
+    topics:
+      must_come_after:
+        - string slicing
   - name: Methods
     type: explanation
     id: methods
