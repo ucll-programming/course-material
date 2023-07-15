@@ -130,6 +130,20 @@ contents:
         - strings
       introduces:
         - escape characters
+  - name: Underline
+    type: exercise
+    id: underline
+    documentation:
+      en: assignment-underline.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-underline.py
+    topics:
+      must_come_after:
+        - escape characters
+        - string operators
+        - string length
   - name: Box
     type: exercise
     id: box
