@@ -1,12 +1,12 @@
 # Box
 
 We want to put a string in a box.
-For example, if we box the string `"Boxdd string"` we would get
+For example, if we box the string `"Put me in a box"` we would get
 
 ```text
-+--------------+
-| Boxed string |
-+--------------+
++-----------------+
+| Put me in a box |
++-----------------+
 ```
 
 :::TASK
