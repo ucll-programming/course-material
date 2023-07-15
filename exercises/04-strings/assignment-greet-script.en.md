@@ -5,7 +5,7 @@ So proud, in fact, that you can't wait to show it to your parents.
 
 However, right now, `interactive_greet` is a Python function.
 In order to call it, you'd have to start up a Python shell, load your code and call `interactive_greet`.
-You would like to turn `interactive_greet` into a standalone application, i.e., a script we can call from Bash (or any other OS shell such as PowerShell) like this:
+You would like to turn `interactive_greet` into a standalone application, i.e., a script we can call from Bash (or any other OS shell, such as PowerShell) like this:
 
 :::code{caption="Bash"}
 
@@ -17,8 +17,8 @@ Hello, Dexter Morgan!
 
 :::
 
-This can be achieved, we can rely on *top level statements*.
-There are statements in your Python file that appear at the top level, i.e., outside functions.
+To achieve this, we can rely on *top level statements*.
+These are statements in your Python file that appear at the top level, i.e., outside functions.
 
 :::code{caption="script.py"}
 
