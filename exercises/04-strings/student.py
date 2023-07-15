@@ -25,8 +25,13 @@ def mask(password):
 def underline(password):
     return password + "\n" + "-" * len(password)
 
+
 def box(string):
     top = "+" + "-" * (len(string) + 2) + "+"
     middle = "| " + string + " |"
     bottom = top
     return f"{top}\n{middle}\n{bottom}"
+
+
+def format_position(x, y):
+    return f"({x}, {y})"

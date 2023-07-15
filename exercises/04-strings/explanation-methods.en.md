@@ -9,4 +9,5 @@ TODO
 * `center()`, `ljust()`, `rjust()`
 * `startswith()`, `endswith()`
 * `strip()`, `rstrip()`, `lstrip()`
+* `find`
 * Using `dir()` to list methods in Python shell

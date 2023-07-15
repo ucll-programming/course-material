@@ -29,6 +29,18 @@ contents:
     judge:
       type: pytest
       file: test-greet.py
+  - name: Position Formatting
+    type: exercise
+    id: format-position
+    documentation:
+      en: assignment-format-position.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-format-position.py
+    topics:
+      must_come_after:
+        - string interpolation
   - name: Console Input
     type: explanation
     id: input
@@ -168,17 +180,6 @@ contents:
         - strings
       introduces:
         - docstrings
-  - name: Methods
-    type: explanation
-    id: methods
-    documentation:
-      en: explanation-methods.en.md
-    topics:
-      must_come_after:
-        - strings
-      introduces:
-        - string methods
-        - dir
   - name: Indexing
     type: explanation
     id: indexing
@@ -189,7 +190,6 @@ contents:
         - strings
       introduces:
         - string indexing
-        - len
   - name: Slicing
     type: explanation
     id: slicing
@@ -201,3 +201,14 @@ contents:
         - string indexing
       introduces:
         - string slicing
+  - name: Methods
+    type: explanation
+    id: methods
+    documentation:
+      en: explanation-methods.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - string methods
+        - dir

@@ -83,6 +83,20 @@
         "description": "Example block",
         "scope": "markdown"
     },
+    "Code Container": {
+        "prefix": "ccode",
+        "body": [
+            ":::code{caption=\"Python\"}",
+            "",
+            "```python",
+            "$1",
+            "```",
+            "",
+            ":::",
+        ],
+        "description": "Example block",
+        "scope": "markdown"
+    },
     "exercise": {
         "prefix": "exercise",
         "body": [
@@ -121,6 +135,18 @@
         ],
         "description": "Usage block",
         "scope": "yaml"
+    },
+    "Test prelude": {
+        "prefix": "testprelude",
+        "body": [
+            "import pytest",
+            "import student",
+            "",
+            "",
+            "$1"
+        ],
+        "description": "Test file prelude",
+        "scope": "python"
     },
     "Parametrized test": {
         "prefix": "testparam",
