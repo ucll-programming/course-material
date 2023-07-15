@@ -118,6 +118,7 @@ contents:
         - strings
       introduces:
         - string operators
+        - string comparison
         - string length
   - name: Mask
     type: exercise
@@ -180,6 +181,18 @@ contents:
         - strings
       introduces:
         - string indexing
+  - name: Is Student Id?
+    type: exercise
+    id: is-student-id
+    documentation:
+      en: assignment-is-student-id.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-student-id.py
+    topics:
+      must_come_after:
+        - string comparison
   - name: Slicing
     type: explanation
     id: slicing
