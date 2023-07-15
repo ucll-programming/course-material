@@ -107,6 +107,19 @@ contents:
       introduces:
         - string operators
         - string length
+  - name: Mask
+    type: exercise
+    id: mask
+    documentation:
+      en: assignment-mask.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-mask.py
+    topics:
+      must_come_after:
+        - string operators
+        - string length
   - name: Escape Characters
     type: explanation
     id: escape-characters

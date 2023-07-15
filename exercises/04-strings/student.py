@@ -18,6 +18,10 @@ def tip_calculator():
     print(f'You have to pay {total}')
 
 
+def mask(password):
+    return "*" * len(password)
+
+
 def box(string):
     top = "+" + "-" * (len(string) + 2) + "+"
     middle = "| " + string + " |"
