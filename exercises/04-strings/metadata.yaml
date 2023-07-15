@@ -170,16 +170,6 @@ contents:
         - escape characters
         - string operators
         - string length
-  - name: Docstrings
-    type: explanation
-    id: docstrings
-    documentation:
-      en: explanation-docstrings.en.md
-    topics:
-      must_come_after:
-        - strings
-      introduces:
-        - docstrings
   - name: Indexing
     type: explanation
     id: indexing
@@ -210,5 +200,28 @@ contents:
       must_come_after:
         - strings
       introduces:
-        - string methods
+        - string.find
         - dir
+  - name: Parse Position
+    type: exercise
+    id: parse-position
+    documentation:
+      en: assignment-parse-position.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-parse-position.py
+    topics:
+      must_come_after:
+        - string.find
+        - string slicing
+  - name: Docstrings
+    type: explanation
+    id: docstrings
+    documentation:
+      en: explanation-docstrings.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - docstrings
