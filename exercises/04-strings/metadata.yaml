@@ -48,6 +48,15 @@ contents:
     judge:
       type: pytest
       file: test-interactive-greet.py
+  - name: Runnable Scripts
+    type: explanation
+    id: runnable-scripts
+    documentation:
+      en: explanation-runnable-scripts.en.md
+    topics:
+      introduces:
+        - "__name__"
+        - shebang
   - name: Greet Script
     type: exercise
     id: greet-script
@@ -57,6 +66,10 @@ contents:
     judge:
       type: pytest
       file: test-interactive-greet.py
+    topics:
+      must_come_after:
+        - "__name__"
+        - shebang
   - name: Escape Characters
     type: explanation
     id: escape-characters
