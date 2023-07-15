@@ -70,6 +70,15 @@ contents:
       must_come_after:
         - "__name__"
         - shebang
+  - name: Tip Calculator
+    type: exercise
+    id: tip-calculator
+    documentation:
+      en: assignment-tip-calculator.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-tip-calculator.py
   - name: Escape Characters
     type: explanation
     id: escape-characters

@@ -24,6 +24,7 @@ You have to pay 240
 
 * Remark how in the second calculation no input was given as tip percentage.
   Empty input should be interpreted as 20%.
-* The final amount should be rounded to the closest integer.
+* The final amount should be rounded to the closest integer using `round`.
+* Make an executable script `tip-calculator.py`.
 
 ::::
