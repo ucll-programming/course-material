@@ -1,6 +1,8 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
 layout: home
+title: Overview
 ---
+
+* [Installation](installation/): this is probably the first thing you need to do.
+* [Workflow](workflow.md): this explains how to go about solving the exercises, etc.
+* [Weekly planning](planning.md)
