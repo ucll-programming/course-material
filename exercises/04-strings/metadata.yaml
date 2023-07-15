@@ -205,6 +205,21 @@ contents:
         - string indexing
       introduces:
         - string slicing
+  - name: Parsing Dates
+    type: exercise
+    id: parse-date
+    documentation:
+      en: assignment-parse-date.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-parse-date.py
+    topics:
+      must_come_before:
+        - tuples
+      must_come_after:
+        - string slicing
+        - string conversion
   - name: Palindrome
     type: exercise
     id: palindrome
