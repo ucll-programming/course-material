@@ -70,25 +70,6 @@ contents:
       must_come_after:
         - "__name__"
         - shebang
-  - name: Tip Calculator
-    type: exercise
-    id: tip-calculator
-    documentation:
-      en: assignment-tip-calculator.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-tip-calculator.py
-  - name: Escape Characters
-    type: explanation
-    id: escape-characters
-    documentation:
-      en: explanation-escape-characters.en.md
-    topics:
-      must_come_after:
-        - strings
-      introduces:
-        - escape characters
   - name: Conversion
     type: explanation
     id: conversion
@@ -101,16 +82,20 @@ contents:
         - conversion to int
         - conversion to float
         - conversion to bool
-  - name: Docstrings
-    type: explanation
-    id: docstrings
+  - name: Tip Calculator
+    type: exercise
+    id: tip-calculator
     documentation:
-      en: explanation-docstrings.en.md
+      en: assignment-tip-calculator.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-tip-calculator.py
     topics:
       must_come_after:
-        - strings
-      introduces:
-        - docstrings
+        - conversion to int
+        - "__name__"
+        - shebang
   - name: Operators
     type: explanation
     id: operators
@@ -121,6 +106,41 @@ contents:
         - strings
       introduces:
         - string operators
+        - string length
+  - name: Escape Characters
+    type: explanation
+    id: escape-characters
+    documentation:
+      en: explanation-escape-characters.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - escape characters
+  - name: Box
+    type: exercise
+    id: box
+    documentation:
+      en: assignment-box.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-box.py
+    topics:
+      must_come_after:
+        - escape characters
+        - string operators
+        - string length
+  - name: Docstrings
+    type: explanation
+    id: docstrings
+    documentation:
+      en: explanation-docstrings.en.md
+    topics:
+      must_come_after:
+        - strings
+      introduces:
+        - docstrings
   - name: Methods
     type: explanation
     id: methods
@@ -154,12 +174,3 @@ contents:
         - string indexing
       introduces:
         - string slicing
-  - name: Tip
-    type: exercise
-    id: tip-calculator
-    documentation:
-      en: assignment-tip-calculator.en.md
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-tip-calculator.py

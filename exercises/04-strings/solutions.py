@@ -16,3 +16,10 @@ def tip_calculator():
         tip_percentage = int(tip_percentage)
     total = round(total_price * (1 + tip_percentage / 100))
     print(f'You have to pay {total}')
+
+
+def box(string):
+    top = "+" + "-" * (len(string) + 2) + "+"
+    middle = "| " + string + " |"
+    bottom = top
+    return f"{top}\n{middle}\n{bottom}"
