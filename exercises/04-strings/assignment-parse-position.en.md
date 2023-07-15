@@ -4,8 +4,7 @@ We revisit our RTS game.
 In a previous exercise, you implemented a function that turned an (x, y) position in a string.
 Now it's time to implement the inverse operation: given a string, extract the values for x and y from it.
 
-Ideally, we'd implement a single function that returns both x and y, but we'll need tuples for that, and we haven't discussed those.
-Instead, we simply implement two functions: `parse_position_x(string)` and `parse_position_y(string)`.
+This is slightly more complicated to implement than `parse_date`, as these strings have a less rigid structure.
 
 :::TASK
 Write two functions `parse_position_x(string)` and `parse_position_y(string)` that take a string and return the x-coordinate and y-coordinate, respectively.
