@@ -22,7 +22,7 @@ title: Programming Course
 email: frederic.vogels@ucll.be
 description: >- # this means to ignore newlines until "baseurl:"
   Companion site for programming courses
-baseurl: "/exercises" # the subpath of your site, e.g. /blog
+baseurl: "/course-material" # the subpath of your site, e.g. /blog
 url: "https://ucll-programming.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
