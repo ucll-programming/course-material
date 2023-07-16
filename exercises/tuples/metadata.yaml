@@ -49,3 +49,12 @@ contents:
     judge:
       type: pytest
       file: test-empty-seats.py
+  - name: All Equal
+    type: exercise
+    id: all-equal
+    documentation:
+      en: assignment-all-equal.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-all-equal.py

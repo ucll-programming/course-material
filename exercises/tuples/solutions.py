@@ -30,3 +30,10 @@ def empty_seats(used_seats):
         return 0
     total_seats = max(used_seats) - min(used_seats) + 1
     return total_seats - len(used_seats)
+
+
+def all_equal(xs):
+    for i in range(1, len(xs)):
+        if xs[i-1] != xs[i]:
+            return False
+    return True
