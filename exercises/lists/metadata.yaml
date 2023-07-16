@@ -39,3 +39,17 @@ contents:
     judge:
       type: pytest
       file: test-remove-runs.py
+  - name: Matching Brackets
+    type: exercise
+    id: matching-brackets
+    documentation:
+      en: assignment-matching-brackets.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-matching-brackets.py
+    topics:
+      must_come_after:
+        - lists
+        - list.append
+        - list.pop
