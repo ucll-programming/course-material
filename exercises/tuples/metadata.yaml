@@ -80,3 +80,12 @@ contents:
       must_come_after:
         - tuples
         - destructuring tuples
+  - name: Split in Two
+    type: exercise
+    id: split-in-two
+    documentation:
+      en: assignment-split-in-two.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-split-in-two.py
