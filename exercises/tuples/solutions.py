@@ -16,3 +16,10 @@ def is_more_recent(v1, v2):
 
 def is_older(v1, v2):
     return is_more_recent(v2, v1)
+
+
+def increasing(ns):
+    for i in range(1, len(ns)):
+        if ns[i-1] > ns[i]:
+            return False
+    return True

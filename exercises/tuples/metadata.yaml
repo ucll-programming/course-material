@@ -21,3 +21,12 @@ contents:
     id: named-tuples
     documentation:
       en: explanation-named-tuples.en.md
+  - name: Increasing Sequence
+    type: exercise
+    id: increasing
+    documentation:
+      en: assignment-increasing.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-increasing.py
