@@ -1,0 +1,3 @@
+# Functions
+
+* `min`, `max`, `len`

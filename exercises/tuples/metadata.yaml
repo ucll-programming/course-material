@@ -2,6 +2,16 @@ type: section
 name: Tuples
 id: tuples
 contents:
+  - name: Basics
+    type: explanation
+    id: basics
+    documentation:
+      en: explanation-basics.en.md
+  - name: Functions
+    type: explanation
+    id: functions
+    documentation:
+      en: explanation-functions.en.md
   - name: Versioning
     type: exercise
     id: versioning
