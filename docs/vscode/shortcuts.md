@@ -48,8 +48,8 @@ layout: page
 | CTRL + HOME | Go to beginning of file |
 | CTRL + END | Go to end of file |
 | CTRL + D | Find next occurrence of currently selected text and add new cursor there |
-| CTRL + ALT + &uarr; | Add extra cursor one line above current cursor |
-| CTRL + ALT + &darr; | Add extra cursor one line below current cursor |
+| CTRL + ALT + &uarr;/&darr; | Add extra cursor one line above/below current cursor |
+| SHIFT + cursor movement | Extend selection while moving cursor |
 
 ## Code Manipulation
 
