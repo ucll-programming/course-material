@@ -67,3 +67,16 @@ contents:
     judge:
       type: pytest
       file: test-all-different.py
+  - name: Adding Points
+    type: exercise
+    id: add-points
+    documentation:
+      en: assignment-add-points.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-add-points.py
+    topics:
+      must_come_after:
+        - tuples
+        - destructuring tuples
