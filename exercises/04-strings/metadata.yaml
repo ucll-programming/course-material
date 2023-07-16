@@ -220,6 +220,19 @@ contents:
       must_come_after:
         - string slicing
         - string conversion
+  - name: Fixing Dates
+    type: exercise
+    id: fix-date
+    documentation:
+      en: assignment-fix-date.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-fix-date.py
+    topics:
+      must_come_after:
+        - string slicing
+        - string interpolation
   - name: Palindrome
     type: exercise
     id: palindrome
