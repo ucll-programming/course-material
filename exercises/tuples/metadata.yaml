@@ -30,3 +30,12 @@ contents:
     judge:
       type: pytest
       file: test-increasing.py
+  - name: Empty Seats
+    type: exercise
+    id: empty-seats
+    documentation:
+      en: assignment-empty-seats.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-empty-seats.py
