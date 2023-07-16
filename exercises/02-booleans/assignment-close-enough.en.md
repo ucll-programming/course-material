@@ -28,3 +28,8 @@ True
 ```
 
 :::
+
+:::HINT
+Contrary to many other programming languages, it is possible to combine multiple comparisons.
+For example, `a < b < c` is the same as `a < b and b < c`.
+:::

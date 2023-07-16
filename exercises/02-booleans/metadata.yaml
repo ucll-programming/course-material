@@ -30,7 +30,7 @@ contents:
     id: close-enough
     documentation:
       en: assignment-close-enough.en.md
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-close-enough.py
