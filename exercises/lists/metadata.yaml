@@ -16,3 +16,17 @@ contents:
         - strings
         - lists
         - while loop
+  - name: Compact
+    type: exercise
+    id: compact
+    documentation:
+      en: assignment-compact.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-compact.py
+    topics:
+      must_come_after:
+        - lists
+        - None
+        - is
