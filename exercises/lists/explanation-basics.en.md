@@ -6,3 +6,4 @@
 * `sort`
 * `xs[i]`, `xs[i] = y`
 * `xs[::]`
+* `string.split()`, `string.join`
