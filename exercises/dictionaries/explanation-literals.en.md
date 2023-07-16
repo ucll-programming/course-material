@@ -3,7 +3,7 @@
 Consider the following situations:
 
 * You need to translate a text and would like having a dictionary that, given a word in English gives the corresponding word in Dutch.
-  ::::div{.dictionary-table}
+  ::::div{.formatted-table}
   :::center
   | English | Dutch |
   | ------- | ----- |
@@ -13,7 +13,7 @@ Consider the following situations:
   ::::
 * You have found a recipe for a delicious chocolate cake.
   It comes with a list of ingredients and the required quantities for each.
-  ::::div{.dictionary-table}
+  ::::div{.formatted-table}
   :::center
   | Ingredient | Quantity |
   | ---------- | -------- |
@@ -25,7 +25,7 @@ Consider the following situations:
   :::
   ::::
 * Given a student number, you wish to know the name of the student associated with that number.
-  ::::div{.dictionary-table}
+  ::::div{.formatted-table}
   :::center
   | Student Number | Student Name |
   | -------------- | ------------ |

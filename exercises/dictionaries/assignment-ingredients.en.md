@@ -2,7 +2,7 @@
 
 These were the ingredients for the chocolate cake in table form.
 
-::::div{.dictionary-table}
+::::div{.formatted-table}
 :::center
 | Ingredient | Quantity |
 | ---------- | -------- |
