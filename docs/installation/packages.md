@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Installing Pytest
+# Python Packages
 
 **IMPORTANT**
 
@@ -10,13 +10,15 @@ layout: page
 > Do not write the `$` itself though, only what follows.
 > For example, `$ ls` means you should type `ls` followed by enter.
 
-In the terminal, write
+In the shell, write
 
 ```bash
-$ pip install pytest pytest-timeout mypy
+$ pip install pytest pytest-timeout mypy pipx
 ```
 
-## Checking
+TODO Progtool!
+
+## Checking the Installation
 
 Open the terminal in the `00-setting-things-up` directory and enter (only the first line! The other lines are expected output)
 
@@ -28,5 +30,3 @@ $ pytest
 
 If you get the same output, you have successfully installed the Python packages.
 Otherwise, ask a lecturer for help.
-
-Next: [pipx](pipx.md)
