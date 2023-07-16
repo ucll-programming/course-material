@@ -61,6 +61,15 @@ contents:
     judge:
       type: pytest
       file: test-dates.py
+  - name: Earlier
+    type: exercise
+    id: earlier
+    documentation:
+      en: assignment-earlier.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-earlier.py
   - name: Higher Card
     type: exercise
     id: higher-card

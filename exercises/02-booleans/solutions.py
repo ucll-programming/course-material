@@ -47,5 +47,9 @@ def is_valid_date(day, month, year):
     )
 
 
+def earlier(h1, m1, h2, m2):
+    return h1 < h2 or (h1 == h2 and m1 < m2)
+
+
 def higher_card(card1, card2):
     return (card1 == 1 or card1 > card2) and card2 != 1
