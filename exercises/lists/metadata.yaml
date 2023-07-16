@@ -30,3 +30,12 @@ contents:
         - lists
         - None
         - is
+  - name: Remove Runs
+    type: exercise
+    id: remove-runs
+    documentation:
+      en: assignment-remove-runs.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove-runs.py
