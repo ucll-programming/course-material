@@ -31,6 +31,18 @@ contents:
     topics:
       must_come_after:
         - if
+  - name: Rock Paper Scissors
+    type: exercise
+    id: rock-paper-scissors
+    documentation:
+      en: assignment-rock-paper-scissors.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-rock-paper-scissors.py
+    topics:
+      must_come_after:
+        - if
   - name: Assignment
     type: explanation
     id: assignment
@@ -54,12 +66,3 @@ contents:
       must_come_after:
         - augmented assignment
         - if
-  - name: Rock Paper Scissors
-    type: exercise
-    id: rock-paper-scissors
-    documentation:
-      en: assignment-rock-paper-scissors.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-rock-paper-scissors.py
