@@ -25,6 +25,15 @@ contents:
     judge:
       type: pytest
       file: test-can-vote.py
+  - name: Free Ticket
+    type: exercise
+    id: free-ticket
+    documentation:
+      en: assignment-free-ticket.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-free-ticket.py
   - name: Close Enough
     type: exercise
     id: close-enough
@@ -34,15 +43,6 @@ contents:
     judge:
       type: pytest
       file: test-close-enough.py
-  - name: Free Ticket
-    type: exercise
-    id: free-ticket
-    documentation:
-      en: assignment-free-ticket.en.md
-    difficulty: 1
-    judge:
-      type: pytest
-      file: test-free-ticket.py
   - name: Is Divisible?
     type: exercise
     id: is-divisible
@@ -61,3 +61,12 @@ contents:
     judge:
       type: pytest
       file: test-dates.py
+  - name: Higher Card
+    type: exercise
+    id: higher-card
+    documentation:
+      en: assignment-higher-card.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-higher-card.py

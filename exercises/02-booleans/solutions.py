@@ -45,3 +45,7 @@ def is_valid_date(day, month, year):
         (has_29_days(month, year) and 1 <= day <= 29) or
         (has_28_days(month, year) and 1 <= day <= 28)
     )
+
+
+def higher_card(card1, card2):
+    return (card1 == 1 or card1 > card2) and card2 != 1
