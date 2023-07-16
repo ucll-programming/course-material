@@ -37,3 +37,11 @@ def all_equal(xs):
         if xs[i-1] != xs[i]:
             return False
     return True
+
+
+def all_different(xs):
+    for i in range(len(xs)):
+        for j in range(i + 1, len(xs)):
+            if xs[i] == xs[j]:
+                return False
+    return True

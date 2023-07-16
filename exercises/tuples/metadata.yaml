@@ -58,3 +58,12 @@ contents:
     judge:
       type: pytest
       file: test-all-equal.py
+  - name: All Different
+    type: exercise
+    id: all-different
+    documentation:
+      en: assignment-all-different.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-all-different.py
