@@ -45,5 +45,7 @@ def test_compact(xs, expected):
 @pytest.mark.parametrize("xs, expected", test_data)
 def test_compact_in_place(xs, expected):
     copy = xs[:]
-    student.compact_in_place(copy)
+    return_value = student.compact_in_place(copy)
+
     assert expected == copy
+    assert return_value is None, "compact_in_place should return None"
