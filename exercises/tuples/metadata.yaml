@@ -89,3 +89,15 @@ contents:
     judge:
       type: pytest
       file: test-split-in-two.py
+  - name: Election Winner
+    type: exercise
+    id: election-winner
+    documentation:
+      en: assignment-election-winner.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-election-winner.py
+    topics:
+      must_come_after:
+        - sorted
