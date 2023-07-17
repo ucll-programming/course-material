@@ -67,3 +67,12 @@ contents:
         - loops
         - append
         - modulo
+  - name: Ranking Table
+    type: exercise
+    id: ranking-table
+    documentation:
+      en: assignment-ranking-table.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-ranking-table.py
