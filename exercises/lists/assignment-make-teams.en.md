@@ -26,15 +26,25 @@ Which participant is assigned to which team is up to you.
 
 ```python
 >>> make_teams(['Annie', 'Ashley', 'Butcher', 'Frenchie', 'Hughie', 'John', 'Kimiko', 'Maeve'], 4)
-['Annie', 'Ashley', 'Butcher', 'Frenchie'], ['Hughie', 'John', 'Kimiko', 'Maeve']]
+[['Annie', 'Ashley', 'Butcher', 'Frenchie'], ['Hughie', 'John', 'Kimiko', 'Maeve']]
 
 # First teams of 3 are made. Two participants are left. They are assigned to existing teams.
 >>> make_teams(['Annie', 'Ashley', 'Butcher', 'Frenchie', 'Hughie', 'John', 'Kimiko', 'Maeve'], 3)
-['Annie', 'Ashley', 'Butcher', 'Kimiko'], ['Frenchie', 'Hughie', 'John', 'Maeve']]]
+[['Annie', 'Ashley', 'Butcher', 'Kimiko'], ['Frenchie', 'Hughie', 'John', 'Maeve']]
 
 >>> make_teams(['Annie', 'Ashley', 'Butcher', 'Frenchie', 'Hughie', 'John', 'Kimiko', 'Maeve', 'Marvin'], 4)
-['Annie', 'Ashley', 'Butcher', 'Frenchie', 'Marvin'], ['Hughie', 'John', 'Kimiko', 'Maeve']]
-
+[['Annie', 'Ashley', 'Butcher', 'Frenchie', 'Marvin'], ['Hughie', 'John', 'Kimiko', 'Maeve']]
 ```
 
+:::
+
+:::HINT
+
+* Determine how many teams you'll end up with.
+* Create enough lists to accommodate the participants of every team.
+* You want to distribute the participants among those teams evenly.
+  Think about how you would evenly distribute candy to children without having to do any math.
+
+It's possible that the number of participants is lower than the team size.
+You might need to pay special attention to this case.
 :::
