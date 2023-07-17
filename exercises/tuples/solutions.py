@@ -81,3 +81,7 @@ def election_winner(votes):
             winner_vote_count = vote_count
         i = j
     return winner
+
+
+def average(ns):
+    return sum(ns) / len(ns)

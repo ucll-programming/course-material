@@ -101,3 +101,16 @@ contents:
     topics:
       must_come_after:
         - sorted
+  - name: Average
+    type: exercise
+    id: average
+    documentation:
+      en: assignment-average.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-average.py
+    topics:
+      must_come_after:
+        - sum
+        - len
