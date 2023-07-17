@@ -8,6 +8,8 @@
 * `xs[::]`
 * `string.split()`, `string.join`
 * Identity of lists
-* enumerate
 * List comprehensions
+* `enumerate`
 * `zip`
+* None
+* No `return` in functions = returning `None`
