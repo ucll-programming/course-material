@@ -30,6 +30,7 @@ contents:
         - lists
         - None
         - is
+        - del
   - name: Remove Runs
     type: exercise
     id: remove-runs
@@ -84,3 +85,12 @@ contents:
     topics:
       introduces:
         - list comprehensions
+  - name: Remove
+    type: exercise
+    id: remove
+    documentation:
+      en: assignment-remove.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove.py

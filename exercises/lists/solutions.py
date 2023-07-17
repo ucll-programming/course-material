@@ -110,3 +110,9 @@ def ranking_table(ranking):
     longest_name_length = max([len(name) for name in names])
     lines = [f'{rank.rjust(longest_rank_length)} {name.ljust(longest_name_length)} {time:.2f}' for rank, name, time in zip(ranks, names, times)]
     return "\n".join(lines)
+
+
+def remove(xs, item_to_remove):
+    for i in range(len(xs) - 1, -1, -1):
+        if xs[i] == item_to_remove:
+            del xs[i]
