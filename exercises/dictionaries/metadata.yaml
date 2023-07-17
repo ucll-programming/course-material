@@ -148,7 +148,20 @@ contents:
       must_come_after:
         - dictionaries
         - lists
-        - for loop
+        - dict.get
+  - name: Election Winner
+    type: exercise
+    id: election-winner
+    documentation:
+      en: assignment-election-winner.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-election-winner.py
+    topics:
+      must_come_after:
+        - dictionaries
+        - lists
         - dict.get
   - name: Group By
     type: exercise
