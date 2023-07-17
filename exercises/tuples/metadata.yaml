@@ -129,3 +129,12 @@ contents:
       must_come_after:
         - len
         - tuples
+  - name: Heatwave
+    type: exercise
+    id: heatwave
+    documentation:
+      en: assignment-heatwave.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-heatwave.py
