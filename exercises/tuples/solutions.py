@@ -109,3 +109,12 @@ def heatwave(temperatures):
             if above_25_count >= 5 and above_30_count >= 3:
                 return True
     return False
+
+
+def domino_chain(dominos):
+    for i in range(1, len(dominos)):
+        _, a = dominos[i-1]
+        b, _ = dominos[i]
+        if a != b:
+            return False
+    return True

@@ -138,3 +138,12 @@ contents:
     judge:
       type: pytest
       file: test-heatwave.py
+  - name: Dominos
+    type: exercise
+    id: dominos
+    documentation:
+      en: assignment-domino-chain.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-domino-chain.py
