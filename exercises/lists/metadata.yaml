@@ -53,3 +53,17 @@ contents:
         - lists
         - list.append
         - list.pop
+  - name: Making Teams
+    type: exercise
+    id: make-teams
+    documentation:
+      en: assignment-make-teams.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-make-teams.py
+    topics:
+      must_come_after:
+        - loops
+        - append
+        - modulo

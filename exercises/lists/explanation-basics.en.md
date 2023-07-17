@@ -7,3 +7,4 @@
 * `xs[i]`, `xs[i] = y`
 * `xs[::]`
 * `string.split()`, `string.join`
+* Identity of lists
