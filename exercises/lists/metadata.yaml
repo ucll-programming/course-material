@@ -76,3 +76,11 @@ contents:
     judge:
       type: pytest
       file: test-ranking-table.py
+  - name: List Comprehensions
+    type: explanation
+    id: list-comprehensions
+    documentation:
+      en: explanation-list-comprehensions.en.md
+    topics:
+      introduces:
+        - list comprehensions
