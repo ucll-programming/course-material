@@ -101,6 +101,7 @@ contents:
     topics:
       must_come_after:
         - sorted
+        - tuples
   - name: Average
     type: exercise
     id: average
@@ -112,5 +113,19 @@ contents:
       file: test-average.py
     topics:
       must_come_after:
+        - tuples
         - sum
         - len
+  - name: Passing Percentage
+    type: exercise
+    id: passing-percentage
+    documentation:
+      en: assignment-passing-percentage.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-passing-percentage.py
+    topics:
+      must_come_after:
+        - len
+        - tuples
