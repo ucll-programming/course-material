@@ -16,7 +16,6 @@ Write a function `split_in_two(xs)` that returns the left and right halves of `x
 # In case of odd size, put the extra element in left half
 >>> split_in_two((1, 2, 3, 4, 5))
 ((1, 2, 3), (4, 5))
-
 ```
 
 :::
