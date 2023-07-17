@@ -66,7 +66,7 @@ def count(xs, elt):
     return result
 
 
-def election(votes):
+def election_winner(votes):
     votes = sorted(votes)
     winner = None
     winner_vote_count = 0

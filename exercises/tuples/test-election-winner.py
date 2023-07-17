@@ -17,7 +17,7 @@ from collections import Counter
     "a" * 1000 + "b" * 1008 + "c" * 1102 + "d" * 1003,
 ])
 def test_election(votes):
-    actual = student.election(votes)
+    actual = student.election_winner(votes)
     counts = Counter(votes)
 
     assert votes or actual is None
