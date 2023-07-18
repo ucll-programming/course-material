@@ -1,5 +1,7 @@
 # Sum
 
+# TODO Get rid of this exercise, it doesn't require loops
+
 :::TASK
 Write a function `sum_range(a, b)` that computes the sum
 
