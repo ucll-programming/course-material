@@ -45,6 +45,15 @@ contents:
     type: explanation
     documentation:
       en: explanation-operators.en.md
+  - name: Average
+    id: average
+    documentation:
+      en: assignment-average.en.md
+    type: exercise
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-average.py
   - name: Built-in Functions
     id: built-in-functions
     type: explanation
@@ -55,24 +64,18 @@ contents:
         - min
         - max
         - abs
-  - name: Average
-    id: average
-    documentation:
-      en: assignment-average.en.md
-    type: exercise
-    difficulty: 1
-    judge:
-      type: pytest
-      file: test-average.py
   - name: Candy
-    id: candy
+    id: candy-per-child
     documentation:
-      en: assignment-candy.en.md
+      en: assignment-candy-per-child.en.md
     type: exercise
     difficulty: 2
     judge:
       type: pytest
       file: test-candy.py
+    topics:
+      must_come_after:
+        - integer division
   - name: Cake
     id: cake
     documentation:
@@ -141,9 +144,9 @@ contents:
         - floor division
         - bus exercise
   - name: Leftover Candy
-    id: candy2
+    id: leftover-candy
     documentation:
-      en: assignment-candy2.en.md
+      en: assignment-leftover-candy.en.md
     type: exercise
     difficulty: 2
     judge:
