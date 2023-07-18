@@ -99,3 +99,7 @@ contents:
     id: references
     documentation:
       en: explanation-references.en.md
+    topics:
+      introduces:
+        - references
+        - is
