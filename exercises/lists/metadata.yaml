@@ -94,3 +94,8 @@ contents:
     judge:
       type: pytest
       file: test-remove.py
+  - name: References
+    type: explanation
+    id: references
+    documentation:
+      en: explanation-references.en.md
