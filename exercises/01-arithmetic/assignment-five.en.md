@@ -1,7 +1,10 @@
 # Five
 
+TODO Mention student.py
+TODO Mention running tests
+
 :::TASK
-Write a function `five()` that simply returns `5`.
+Write a function `five()` that returns `5`.
 :::
 
 :::USAGE
