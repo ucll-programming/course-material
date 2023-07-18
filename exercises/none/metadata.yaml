@@ -10,3 +10,12 @@ contents:
     topics:
       introduces:
         - None
+  - name: Multiple Choice
+    type: exercise
+    id: multiple-choice
+    documentation:
+      en: assignment-multiple-choice.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-multiple-choice.py
