@@ -43,7 +43,6 @@ contents:
       file: test-sum-up-to.py
     topics:
       introduces: []
-      must_come_before: []
       must_come_after:
         - range
         - assignment
@@ -59,7 +58,6 @@ contents:
       file: test-sum-range.py
     topics:
       introduces: []
-      must_come_before: []
       must_come_after:
         - range
         - assignment
@@ -74,8 +72,6 @@ contents:
       type: pytest
       file: test-factorial.py
     topics:
-      introduces: []
-      must_come_before: []
       must_come_after:
         - range
         - assignment
@@ -101,7 +97,6 @@ contents:
       file: test-rpg.py
     topics:
       introduces: []
-      must_come_before: []
       must_come_after:
         - range
         - assignment
