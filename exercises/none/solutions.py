@@ -42,4 +42,9 @@ def entrance_exam(grade1, grade2, grade3, grade4, grade5):
         n_taken += 1
         total += grade5
 
-    return n_skipped <= 1 and total / n_taken >= 12
+    if n_skipped > 1:
+        return False
+    if total / n_taken < 12:
+        return False
+
+    return True
