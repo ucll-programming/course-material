@@ -1,4 +1,12 @@
 type: section
 name: None
 id: none
-contents: []
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - None
