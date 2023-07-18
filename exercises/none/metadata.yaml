@@ -19,3 +19,12 @@ contents:
     judge:
       type: pytest
       file: test-multiple-choice.py
+  - name: Entrace Exam
+    type: exercise
+    id: entrance-exam
+    documentation:
+      en: assignment-entrance-exam.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-entrance-exam.py
