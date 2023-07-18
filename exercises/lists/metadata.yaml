@@ -103,3 +103,15 @@ contents:
       introduces:
         - references
         - is
+  - name: Concatenate
+    type: exercise
+    id: concatenate
+    documentation:
+      en: assignment-concatenate.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-concatenate.py
+    topics:
+      must_come_after:
+        - is
