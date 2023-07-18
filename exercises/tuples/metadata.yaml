@@ -22,8 +22,6 @@ contents:
       type: pytest
       file: test-versioning.py
     topics:
-      introduces: []
-      must_come_before: []
       must_come_after:
         - default parameter values
   - name: Named Tuples
