@@ -15,7 +15,7 @@ contents:
     location: 02-booleans
   - type: link
     location: 03-conditionals
-  - type: none
+  - type: link
     location: none
   - type: link
     location: 04-strings
