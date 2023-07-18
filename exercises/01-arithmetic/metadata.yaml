@@ -11,6 +11,7 @@ contents:
     topics:
       introduces:
         - functions
+        - return
   - name: Five
     id: five
     documentation:
@@ -19,10 +20,9 @@ contents:
     type: exercise
     difficulty: 1
     topics:
-      introduces: []
-      must_come_before: []
       must_come_after:
         - functions
+        - return
     judge:
       type: pytest
       file: test-five.py
@@ -31,6 +31,12 @@ contents:
     id: parameters
     documentation:
       en: explanation-parameters.en.md
+    topics:
+      introduces:
+        - parameters
+      must_come_after:
+        - functions
+        - return
   - name: Double
     id: double
     documentation:
@@ -40,11 +46,19 @@ contents:
     judge:
       type: pytest
       file: test-double.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
   - name: Operators
     id: operators
     type: explanation
     documentation:
       en: explanation-operators.en.md
+    topics:
+      introduces:
+        - arithmetic operators
   - name: Average
     id: average
     documentation:
@@ -54,6 +68,12 @@ contents:
     judge:
       type: pytest
       file: test-average.py
+    topics:
+      must_come_after:
+        - arithmetic operators
+        - functions
+        - return
+        - parameters
   - name: Built-in Functions
     id: built-in-functions
     type: explanation
@@ -64,6 +84,8 @@ contents:
         - min
         - max
         - abs
+        - ceil
+        - floor
   - name: Candy
     id: candy-per-child
     documentation:
@@ -76,6 +98,9 @@ contents:
     topics:
       must_come_after:
         - integer division
+        - functions
+        - return
+        - parameters
   - name: Cake
     id: cake
     documentation:
@@ -85,12 +110,20 @@ contents:
     judge:
       type: pytest
       file: test-cake.py
+    topics:
+      must_come_after:
+        - integer division
+        - functions
+        - return
+        - parameters
   - name: Local Variables
     id: locals
     type: explanation
     topics:
         introduces:
           - local variables
+        must_come_after:
+          - functions
     documentation:
       en: explanation-locals.en.md
   - name: Cake 2
@@ -102,6 +135,13 @@ contents:
     judge:
       type: pytest
       file: test-cake2.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
+        - min
   - name: Cake 3
     id: cake3
     documentation:
@@ -111,6 +151,13 @@ contents:
     judge:
       type: pytest
       file: test-cake3.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
+        - min
   - name: Cake 4
     id: cake4
     documentation:
@@ -120,6 +167,13 @@ contents:
     judge:
       type: pytest
       file: test-cake4.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
+        - min
   - name: Duration
     id: duration
     documentation:
@@ -132,6 +186,12 @@ contents:
     judge:
       type: pytest
       file: test-duration.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
   - name: Modulo
     id: modulo
     documentation:
@@ -140,7 +200,7 @@ contents:
     topics:
       introduces:
         - modulo
-      must_come_after:
+      must_come_before:
         - floor division
         - bus exercise
   - name: Leftover Candy
@@ -164,6 +224,11 @@ contents:
     topics:
       introduces:
         - bus exercise
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - ceil
   - name: Distance
     id: distance
     documentation:
@@ -173,6 +238,12 @@ contents:
     judge:
       type: pytest
       file: test-distance.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - arithmetic operators
   - name: Numbers
     id: int-vs-float
     documentation:
@@ -203,6 +274,12 @@ contents:
     judge:
       type: pytest
       file: test-internet-costs.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - ceil
   - name: Middle
     id: middle
     documentation:
@@ -221,6 +298,12 @@ contents:
     judge:
       type: pytest
       file: test-last-digit.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - modulo
   - name: Drop Last Digit
     id: drop-last-digit
     documentation:
@@ -230,6 +313,12 @@ contents:
     judge:
       type: pytest
       file: test-drop-last-digit.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
   - name: Next Player
     id: next-player
     documentation:
@@ -239,6 +328,12 @@ contents:
     judge:
       type: pytest
       file: test-next-player.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - modulo
   - name: Next Player Renumbered
     id: next-player2
     documentation:
@@ -248,6 +343,12 @@ contents:
     judge:
       type: pytest
       file: test-next-player2.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - modulo
   - name: Coins
     id: coins
     documentation:
@@ -257,3 +358,9 @@ contents:
     judge:
       type: pytest
       file: test-coins.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
