@@ -2,6 +2,8 @@
 
 :::TASK
 Write a function `double(x)` that, given a number `x`, returns double this value.
+
+Note that multiplication is represented by the symbol `*` in Python (as it is in most other programming languages.)
 :::
 
 :::USAGE
