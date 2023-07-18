@@ -19,6 +19,15 @@ contents:
     judge:
       type: pytest
       file: test-multiple-choice.py
+  - name: Product
+    type: exercise
+    id: product
+    documentation:
+      en: assignment-product.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-product.py
   - name: Entrace Exam
     type: exercise
     id: entrance-exam
