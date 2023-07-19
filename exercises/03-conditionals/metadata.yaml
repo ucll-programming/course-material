@@ -85,3 +85,12 @@ contents:
       must_come_after:
         - augmented assignment
         - if
+  - name: Player Movement
+    type: exercise
+    id: player-movement
+    documentation:
+      en: assignment-player-movement.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-player-movement.py

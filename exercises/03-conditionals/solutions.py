@@ -33,3 +33,17 @@ def rock_paper_scissors(player1_choice, player2_choice):
     if player1_choice == scissors and player2_choice == paper:
         return 1
     return 2
+
+
+def player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pressed):
+    if shift_pressed:
+        step = 2
+    else:
+        step = 1
+
+    if left_arrow_pressed:
+        position -= step
+    if right_arrow_pressed:
+        position += step
+
+    return position
