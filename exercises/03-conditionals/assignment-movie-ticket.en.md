@@ -20,8 +20,7 @@ First, the duration determines the base cost.
 ::::
 
 Next, if it's the IMAX version, add 20% and round up.
-
-Students get a &euro;3 discount.
+Lastly, students get a &euro;3 discount.
 
 ::::TASK
 Write a function `movie_ticket(duration, imax, student, ticket_count)` that computes the total cost of movie tickets.
