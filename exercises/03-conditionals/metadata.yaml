@@ -62,16 +62,6 @@ contents:
     topics:
       must_come_after:
         - if
-  - name: Assignment
-    type: explanation
-    id: assignment
-    documentation:
-      en: explanation-assignment.en.md
-    topics:
-      introduces:
-        - augmented assignment
-      must_come_after:
-        - print
   - name: Total Cost
     type: exercise
     id: total-cost
