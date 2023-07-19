@@ -260,7 +260,7 @@ contents:
     topics:
       must_come_before:
         - modulo
-    difficulty: 2
+    difficulty: 3
     judge:
       type: pytest
       file: test-duration.py
