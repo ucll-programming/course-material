@@ -270,6 +270,32 @@ contents:
         - return
         - parameters
         - integer division
+  - name: Assignment
+    type: explanation
+    id: assignment
+    documentation:
+      en: explanation-assignment.en.md
+    topics:
+      introduces:
+        - augmented assignment
+      must_come_after:
+        - print
+  - name: Coins
+    id: coins
+    documentation:
+      en: assignment-coins.en.md
+    type: exercise
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-coins.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - integer division
+        - augmented assignment
   - name: Modulo
     id: modulo
     documentation:
@@ -374,18 +400,3 @@ contents:
         - return
         - parameters
         - modulo
-  - name: Coins
-    id: coins
-    documentation:
-      en: assignment-coins.en.md
-    type: exercise
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-coins.py
-    topics:
-      must_come_after:
-        - functions
-        - return
-        - parameters
-        - integer division
