@@ -22,18 +22,6 @@ contents:
     topics:
       must_come_before:
         - abs
-  - name: Sign
-    type: exercise
-    id: sign
-    documentation:
-      en: assignment-sign.en.md
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-sign.py
-    topics:
-      must_come_after:
-        - if
   - name: Else
     type: explanation
     id: else
@@ -50,6 +38,18 @@ contents:
     topics:
       introduces:
         - elif
+  - name: Sign
+    type: exercise
+    id: sign
+    documentation:
+      en: assignment-sign.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sign.py
+    topics:
+      must_come_after:
+        - if
   - name: Rock Paper Scissors
     type: exercise
     id: rock-paper-scissors
