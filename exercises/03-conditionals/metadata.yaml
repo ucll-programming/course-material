@@ -19,6 +19,9 @@ contents:
     judge:
       type: pytest
       file: test-abs.py
+    topics:
+      must_come_before:
+        - abs
   - name: Sign
     type: exercise
     id: sign
