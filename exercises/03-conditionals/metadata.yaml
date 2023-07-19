@@ -34,6 +34,14 @@ contents:
     topics:
       must_come_after:
         - if
+  - name: Else
+    type: explanation
+    id: else
+    documentation:
+      en: explanation-else.en.md
+    topics:
+      introduces:
+        - else
   - name: Rock Paper Scissors
     type: exercise
     id: rock-paper-scissors
