@@ -34,9 +34,7 @@ def cake(eggs):
 
 
 def cake2(eggs, flour):
-    limited_by_eggs = eggs // 5
-    limited_by_flour = flour // 250
-    return min(limited_by_eggs, limited_by_flour)
+    return min(eggs // 5, flour // 250)
 
 
 def cake3(eggs, flour, butter, sugar):
