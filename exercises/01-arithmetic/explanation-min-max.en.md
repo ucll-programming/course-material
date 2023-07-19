@@ -7,6 +7,7 @@ We focus here on two of them: [`min`](https://docs.python.org/3/library/function
 Most functions expect a specific number of arguments, but `min` and `max` are known as [*variadic functions*](https://en.wikipedia.org/wiki/Variadic_function), meaning they can take any number of parameters.
 We'll see later how to define your own variadic functions.
 
+::::EXAMPLE
 :::code{caption="Python Shell"}
 
 ```python
@@ -18,3 +19,4 @@ We'll see later how to define your own variadic functions.
 ```
 
 :::
+::::

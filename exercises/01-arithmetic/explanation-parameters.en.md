@@ -69,8 +69,7 @@ As `departure` we specified `Brussels`, and `arrival` has been set to `Rome`.
 
 The values (`Brussels` and `Rome`) we pass to a function as inputs are called *arguments*.
 
-## Example
-
+::::EXAMPLE
 Below is an example of a very simple function:
 
 :::code{caption="Python"}
@@ -81,3 +80,4 @@ def double(x):
 ```
 
 :::
+::::

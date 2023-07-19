@@ -32,6 +32,7 @@ There are many more modules: Python itself comes with over [200 modules](https:/
 Added to this, you can download many more from [PyPI](https://pypi.org/) (more than 350k).
 ::::
 
+::::EXAMPLE
 Let's see the three functions in action:
 
 :::code{caption="Python Shell"}
@@ -52,3 +53,4 @@ Let's see the three functions in action:
 ```
 
 :::
+::::

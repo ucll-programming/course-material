@@ -35,7 +35,7 @@ The same holds true for parameters: these are also only accessibly from within t
 The region of code in which some variable `x` is visible is called the *scope* of `x`.
 Python is *function scoped*: functions form the boundaries of the scope of variables.
 
-## Example
+::::EXAMPLE
 
 :::code{caption="Python"}
 
@@ -71,3 +71,4 @@ def bar(a, b):
 ```
 
 :::
+::::

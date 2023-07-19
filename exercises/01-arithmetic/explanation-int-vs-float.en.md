@@ -1,4 +1,4 @@
-# A Tale of Two Numbers
+# Number Representations
 
 Your computer has two ways of representing numbers: integers and floating point numbers.
 
@@ -16,6 +16,10 @@ So, when it comes to whole numbers, such as `5`, you can choose between two inte
 
 For example, you can ask Python which type of number you are dealing with:
 
+::::EXAMPLE
+
+:::code{caption="Python Shell"}
+
 ```python
 >>> type(5)
 <class 'int'>
@@ -23,6 +27,10 @@ For example, you can ask Python which type of number you are dealing with:
 >>> type(5.0)
 <class 'float'>
 ```
+
+:::
+::::
+
 
 From now on, we'll use the Python names `int` and `float` to refer to the different representations.
 
