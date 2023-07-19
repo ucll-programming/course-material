@@ -8,9 +8,9 @@ The player has a certain position on the screen, let's call it `position`.
 * The player can also run by holding shift, in which case the amount `position` is increased/decreased is doubled.
 
 ::::TASK
-Write a function `player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pressed)` that returns the updated `position` value.
+Write a function `player_movement(position, left_arrow, right_arrow, shift)` that returns the updated `position` value.
 
-`left_arrow_pressed`, `right_arrow_pressed` and `shift_pressed` are `True` when the corresponding key is pressed, `False` otherwise.
+`left_arrow`, `right_arrow` and `shift` are `True` when the corresponding key is pressed, `False` otherwise.
 ::::
 
 ::::USAGE

@@ -39,15 +39,15 @@ def rock_paper_scissors(player1_choice, player2_choice):
         return 2
 
 
-def player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pressed):
-    if shift_pressed:
+def player_movement(position, left_arrow, right_arrow, shift):
+    if shift:
         step = 2
     else:
         step = 1
 
-    if left_arrow_pressed:
+    if left_arrow:
         position -= step
-    if right_arrow_pressed:
+    if right_arrow:
         position += step
 
     return position

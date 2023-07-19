@@ -3,10 +3,10 @@ import student
 
 
 @pytest.mark.timeout(1)
-@pytest.mark.parametrize("position, left_arrow_pressed, right_arrow_pressed, shift_pressed, expected", [
-    (position, left_arrow_pressed, right_arrow_pressed, shift_pressed, position + delta)
+@pytest.mark.parametrize("position, left_arrow, right_arrow, shift, expected", [
+    (position, left_arrow, right_arrow, shift, position + delta)
     for position in [-5, 0, 10, 29]
-    for left_arrow_pressed, right_arrow_pressed, shift_pressed, delta in [
+    for left_arrow, right_arrow, shift, delta in [
         (False, False, False, 0),
         (True, False, False, -1),
         (False, True, False, 1),
@@ -17,6 +17,6 @@ import student
         (True, True, True, 0),
     ]
 ])
-def test_player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pressed, expected):
-    actual = student.player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pressed)
+def test_player_movement(position, left_arrow, right_arrow, shift, expected):
+    actual = student.player_movement(position, left_arrow, right_arrow, shift)
     assert expected == actual
