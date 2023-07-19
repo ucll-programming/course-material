@@ -64,7 +64,7 @@ contents:
     documentation:
       en: assignment-average.en.md
     type: exercise
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-average.py
@@ -74,6 +74,21 @@ contents:
         - functions
         - return
         - parameters
+  - name: Distance
+    id: distance
+    documentation:
+      en: assignment-distance.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-distance.py
+    topics:
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - arithmetic operators
   - name: Min/Max
     id: min-max
     type: explanation
@@ -226,21 +241,6 @@ contents:
         - return
         - parameters
         - ceil
-  - name: Distance
-    id: distance
-    documentation:
-      en: assignment-distance.en.md
-    type: exercise
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-distance.py
-    topics:
-      must_come_after:
-        - functions
-        - return
-        - parameters
-        - arithmetic operators
   - name: Numbers
     id: int-vs-float
     documentation:
