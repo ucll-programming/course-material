@@ -159,5 +159,29 @@
         ],
         "description": "Parametrized test",
         "scope": "python"
+    },
+    "Readonly Property": {
+        "prefix": "prop",
+        "body": [
+            "@property",
+            "def $1(self):",
+            "    return self.__$1",
+        ],
+        "description": "Description",
+        "scope": "python"
+    },
+    "Read/Write Property": {
+        "prefix": "propw",
+        "body": [
+            "@property",
+            "def $1(self):",
+            "    return self.__$1",
+            "",
+            "@$1.setter",
+            "def $1(self, value):",
+            "    self.__$1 = value"
+        ],
+        "description": "Description",
+        "scope": "python"
     }
 }
