@@ -89,6 +89,56 @@ contents:
         - return
         - parameters
         - arithmetic operators
+  - name: Numbers
+    id: int-vs-float
+    documentation:
+      en: explanation-int-vs-float.en.md
+    type: explanation
+    topics:
+      introduces:
+        - int
+        - float
+  - name: Rounding
+    type: explanation
+    id: rounding
+    documentation:
+      en: explanation-rounding.en.md
+    topics:
+      introduces:
+        - floor
+        - ceil
+        - round
+      must_come_after:
+        - float
+  - name: Buses
+    id: buses-needed
+    documentation:
+      en: assignment-buses-needed.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-buses-needed.py
+    topics:
+      introduces:
+        - bus exercise
+      must_come_after:
+        - functions
+        - return
+        - parameters
+        - ceil
+  - name: Floor Division
+    id: floor-division
+    documentation:
+      en: explanation-floor-division.en.md
+    type: explanation
+    topics:
+      introduces:
+        - true division
+        - floor division
+      must_come_after:
+        - int
+        - float
   - name: Min/Max
     id: min-max
     type: explanation
@@ -224,44 +274,6 @@ contents:
     judge:
       type: pytest
       file: test-leftover-candy.py
-  - name: Buses
-    id: buses-needed
-    documentation:
-      en: assignment-buses-needed.en.md
-    type: exercise
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-buses-needed.py
-    topics:
-      introduces:
-        - bus exercise
-      must_come_after:
-        - functions
-        - return
-        - parameters
-        - ceil
-  - name: Numbers
-    id: int-vs-float
-    documentation:
-      en: explanation-int-vs-float.en.md
-    type: explanation
-    topics:
-      introduces:
-        - int
-        - float
-  - name: Floor Division
-    id: floor-division
-    documentation:
-      en: explanation-floor-division.en.md
-    type: explanation
-    topics:
-      introduces:
-        - true division
-        - floor division
-      must_come_after:
-        - int
-        - float
   - name: Internet Costs
     id: internet-costs
     documentation:
@@ -361,15 +373,3 @@ contents:
         - return
         - parameters
         - integer division
-  - name: Rounding
-    type: explanation
-    id: rounding
-    documentation:
-      en: explanation-rounding.en.md
-    topics:
-      introduces:
-        - floor
-        - ceil
-        - round
-      must_come_after:
-        - float
