@@ -1,5 +1,11 @@
 # Average
 
+The average of two numbers $x$ and $y$ equals
+
+$$
+\frac{x + y}{2}
+$$
+
 :::TASK
 Write a function `average(x, y)` that computes the average of the two given values `x` and `y`.
 :::
