@@ -10,6 +10,27 @@ contents:
     topics:
       introduces:
         - if
+  - name: Total Cost
+    type: exercise
+    id: total-cost
+    documentation:
+      en: assignment-total-cost.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-total-cost.py
+    topics:
+      must_come_after:
+        - augmented assignment
+        - if
+  - name: Else
+    type: explanation
+    id: else
+    documentation:
+      en: explanation-else.en.md
+    topics:
+      introduces:
+        - else
   - name: Absolute Value
     id: abs
     documentation:
@@ -22,14 +43,6 @@ contents:
     topics:
       must_come_before:
         - abs
-  - name: Else
-    type: explanation
-    id: else
-    documentation:
-      en: explanation-else.en.md
-    topics:
-      introduces:
-        - else
   - name: Elif
     type: explanation
     id: elif
@@ -61,19 +74,6 @@ contents:
       file: test-rock-paper-scissors.py
     topics:
       must_come_after:
-        - if
-  - name: Total Cost
-    type: exercise
-    id: total-cost
-    documentation:
-      en: assignment-total-cost.en.md
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-total-cost.py
-    topics:
-      must_come_after:
-        - augmented assignment
         - if
   - name: Player Movement
     type: exercise
