@@ -5,7 +5,7 @@ We focus here on two of them: [`min`](https://docs.python.org/3/library/function
 
 `min` and `max` are functions that compute the minimum and maximum of their parameters, respectively.
 Most functions expect a specific number of arguments, but `min` and `max` are known as [*variadic functions*](https://en.wikipedia.org/wiki/Variadic_function), meaning they can take any number of parameters.
-We'll see later how to define your own.
+We'll see later how to define your own variadic functions.
 
 :::code{caption="Python Shell"}
 
