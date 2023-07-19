@@ -1,4 +1,4 @@
-import math
+from math import ceil
 
 
 def five():
@@ -22,7 +22,7 @@ def leftover_candy(candy_count, child_count):
 
 
 def buses_needed(people_count, bus_capacity):
-    return math.ceil(people_count / bus_capacity)
+    return ceil(people_count / bus_capacity)
 
 
 def distance(x1, y1, x2, y2):
@@ -54,7 +54,7 @@ def cake4(eggs, flour, butter, sugar, eggs_per_cake, flour_per_cake, butter_per_
 
 
 def internet_costs(duration_in_seconds, cost_per_block):
-    return math.ceil(duration_in_seconds / 360) * cost_per_block
+    return ceil(duration_in_seconds / 360) * cost_per_block
 
 
 def middle(a, b, c):
@@ -95,3 +95,7 @@ def minutes(duration):
 
 def seconds(duration):
     return duration - hours(duration) * 3600 - minutes(duration) * 60
+
+
+def pizza(n_people, slices_per_pizza):
+    return ceil(n_people / slices_per_pizza)
