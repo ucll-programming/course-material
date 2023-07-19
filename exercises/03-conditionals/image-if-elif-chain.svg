@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500" height="600" class="flowchart">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="500" height="525" class="flowchart">
     <style>
         .step {
             fill: cornflowerblue;
@@ -23,8 +23,6 @@
             <polyline points="-2,-2 0,0 -2,2" stroke="white" stroke-width="1px" fill="none" />
         </marker>
     </defs>
-
-    <rect x="0" y="0" width="500" height="600" />
 
     <g transform="translate(0, 0)">
         <g transform="translate(0, 0)" class="step">
@@ -58,7 +56,7 @@
         <g transform="translate(200, 200)" class="step">
             <rect x="0" y="0" rx="3" ry="3" width="100" height="50" />
             <text x="50" y="25" dominant-baseline="central" text-anchor="middle">
-                B1
+                B2
             </text>
         </g>
 
