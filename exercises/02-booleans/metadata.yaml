@@ -74,7 +74,7 @@ contents:
     id: higher-card
     documentation:
       en: assignment-higher-card.en.md
-    difficulty: 4
+    difficulty: 3
     judge:
       type: pytest
       file: test-higher-card.py
