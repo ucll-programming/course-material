@@ -42,6 +42,14 @@ contents:
     topics:
       introduces:
         - else
+  - name: Elif
+    type: explanation
+    id: elif
+    documentation:
+      en: explanation-elif.en.md
+    topics:
+      introduces:
+        - elif
   - name: Rock Paper Scissors
     type: exercise
     id: rock-paper-scissors
