@@ -50,3 +50,34 @@ def chess_ai(chessboard, ai_color):
 ```
 
 :::
+
+## Calling a Function with Parameters
+
+If you want to call a function with parameters, you have to provide values for each of these parameters.
+
+:::code{caption="Python"}
+
+```python
+satnav("Brussels", "Rome")
+```
+
+:::
+
+`satnav` has two parameters.
+As `departure` we specified `Brussels`, and `arrival` has been set to `Rome`.
+`satnav` will then compute and return the shortest path between those two cities.
+
+The values (`Brussels` and `Rome`) we pass to a function as inputs are called *arguments*.
+
+## Example
+
+Below is an example of a very simple function:
+
+:::code{caption="Python"}
+
+```python
+def double(x):
+    return 2 * x
+```
+
+:::
