@@ -29,13 +29,14 @@ def rock_paper_scissors(player1_choice, player2_choice):
     scissors = 2
     if player1_choice == player2_choice:
         return 0
-    if player1_choice == rock and player2_choice == scissors:
+    elif player1_choice == rock and player2_choice == scissors:
         return 1
-    if player1_choice == paper and player2_choice == rock:
+    elif player1_choice == paper and player2_choice == rock:
         return 1
-    if player1_choice == scissors and player2_choice == paper:
+    elif player1_choice == scissors and player2_choice == paper:
         return 1
-    return 2
+    else:
+        return 2
 
 
 def player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pressed):
@@ -53,11 +54,11 @@ def player_movement(position, left_arrow_pressed, right_arrow_pressed, shift_pre
 
 
 def movie_ticket(duration, imax, student, ticket_count):
-    if duration < 90:
+    if duration <= 90:
         cost = 10
-    elif duration < 120:
+    elif duration <= 120:
         cost = 11
-    elif duration < 150:
+    elif duration <= 150:
         cost = 12
     else:
         cost = 15

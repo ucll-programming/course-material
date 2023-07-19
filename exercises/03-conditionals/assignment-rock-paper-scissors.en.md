@@ -41,6 +41,8 @@ Again, we need a way to represent these:
 
 :::TASK
 Write a function `rock_paper_scissors(player1_choice, player2_choice)` that returns `0`, `1` or `2`, depending on who won.
+
+Make use of a `if-elif-else` chain.
 :::
 
 :::USAGE
