@@ -2,9 +2,9 @@
     "Warning": {
         "prefix": "warning",
         "body": [
-            ":::WARNING",
+            "::::WARNING",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Warning block",
         "scope": "markdown"
@@ -12,9 +12,9 @@
     "Information": {
         "prefix": "info",
         "body": [
-            ":::INFO",
+            "::::INFO",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Info block",
         "scope": "markdown"
@@ -22,9 +22,9 @@
     "Task": {
         "prefix": "task",
         "body": [
-            ":::TASK",
+            "::::TASK",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Task block",
         "scope": "markdown"
@@ -32,9 +32,9 @@
     "Hint": {
         "prefix": "hint",
         "body": [
-            ":::HINT",
+            "::::HINT",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Hint block",
         "scope": "markdown"
@@ -42,9 +42,9 @@
     "Question": {
         "prefix": "question",
         "body": [
-            ":::QUESTION",
+            "::::QUESTION",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Question block",
         "scope": "markdown"
@@ -52,9 +52,9 @@
     "Important": {
         "prefix": "important",
         "body": [
-            ":::IMPORTANT",
+            "::::IMPORTANT",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Important block",
         "scope": "markdown"
@@ -62,13 +62,13 @@
     "Usage": {
         "prefix": "usage",
         "body": [
-            ":::USAGE",
+            "::::USAGE",
             "",
             "```python",
             "$1",
             "```",
             "",
-            ":::",
+            "::::",
         ],
         "description": "Usage block",
         "scope": "markdown"
@@ -76,9 +76,9 @@
     "Example": {
         "prefix": "example",
         "body": [
-            ":::EXAMPLE",
+            "::::EXAMPLE",
             "$1",
-            ":::",
+            "::::",
         ],
         "description": "Example block",
         "scope": "markdown"
