@@ -45,7 +45,7 @@ contents:
     difficulty: 1
     judge:
       type: pytest
-      file: test-double.py
+      file: test-triple.py
     topics:
       must_come_after:
         - functions
@@ -74,18 +74,15 @@ contents:
         - functions
         - return
         - parameters
-  - name: Built-in Functions
-    id: built-in-functions
+  - name: Min/Max
+    id: min-max
     type: explanation
     documentation:
-      en: explanation-built-in-functions.en.md
+      en: explanation-min-max.en.md
     topics:
       introduces:
         - min
         - max
-        - abs
-        - ceil
-        - floor
   - name: Candy
     id: candy-per-child
     documentation:
@@ -364,3 +361,15 @@ contents:
         - return
         - parameters
         - integer division
+  - name: Rounding
+    type: explanation
+    id: rounding
+    documentation:
+      en: explanation-rounding.en.md
+    topics:
+      introduces:
+        - floor
+        - ceil
+        - round
+      must_come_after:
+        - float
