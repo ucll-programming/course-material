@@ -94,3 +94,16 @@ contents:
     judge:
       type: pytest
       file: test-player-movement.py
+    topics:
+      must_come_after:
+        - if
+        - local variables
+  - name: Movie Ticket
+    type: exercise
+    id: movie-ticket
+    documentation:
+      en: assignment-movie-ticket.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-movie-ticket.py
