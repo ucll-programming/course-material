@@ -37,10 +37,10 @@ contents:
       must_come_after:
         - functions
         - return
-  - name: Double
-    id: double
+  - name: Triple
+    id: triple
     documentation:
-      en: assignment-double.en.md
+      en: assignment-triple.en.md
     type: exercise
     difficulty: 1
     judge:
@@ -94,7 +94,7 @@ contents:
     difficulty: 2
     judge:
       type: pytest
-      file: test-candy.py
+      file: test-candy-per-child.py
     topics:
       must_come_after:
         - integer division
@@ -211,7 +211,7 @@ contents:
     difficulty: 2
     judge:
       type: pytest
-      file: test-candy2.py
+      file: test-leftover-candy.py
   - name: Buses
     id: buses-needed
     documentation:
