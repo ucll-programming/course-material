@@ -21,13 +21,15 @@ There are three ways to perform rounding:
 :::code{caption="Python"}
 
 ```python
+# Imports are generally placed at the top of the file
 from math import floor, ceil
 ```
 
 :::
 
-Imports are generally put at the top of the `.py` file.
-
+[`math`](https://docs.python.org/3/library/math.html) is a *module* that contains all kinds of math-related functions.
+There are many more modules: Python itself comes with over [200 modules](https://docs.python.org/3/py-modindex.html).
+Added to this, you can download many more from [PyPI](https://pypi.org/) (more than 350k).
 ::::
 
 Let's see the three functions in action:

@@ -110,6 +110,7 @@ contents:
         - round
       must_come_after:
         - float
+        - comments
   - name: Buses
     id: buses-needed
     documentation:
@@ -139,30 +140,6 @@ contents:
       must_come_after:
         - int
         - float
-  - name: Min/Max
-    id: min-max
-    type: explanation
-    documentation:
-      en: explanation-min-max.en.md
-    topics:
-      introduces:
-        - min
-        - max
-  - name: Candy
-    id: candy-per-child
-    documentation:
-      en: assignment-candy-per-child.en.md
-    type: exercise
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-candy-per-child.py
-    topics:
-      must_come_after:
-        - integer division
-        - functions
-        - return
-        - parameters
   - name: Cake
     id: cake
     documentation:
@@ -178,16 +155,30 @@ contents:
         - functions
         - return
         - parameters
-  - name: Local Variables
-    id: locals
-    type: explanation
-    topics:
-        introduces:
-          - local variables
-        must_come_after:
-          - functions
+  - name: Candy
+    id: candy-per-child
     documentation:
-      en: explanation-locals.en.md
+      en: assignment-candy-per-child.en.md
+    type: exercise
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-candy-per-child.py
+    topics:
+      must_come_after:
+        - integer division
+        - functions
+        - return
+        - parameters
+  - name: Min/Max
+    id: min-max
+    type: explanation
+    documentation:
+      en: explanation-min-max.en.md
+    topics:
+      introduces:
+        - min
+        - max
   - name: Cake 2
     id: cake2
     documentation:
@@ -204,6 +195,16 @@ contents:
         - parameters
         - integer division
         - min
+  - name: Local Variables
+    id: locals
+    type: explanation
+    topics:
+        introduces:
+          - local variables
+        must_come_after:
+          - functions
+    documentation:
+      en: explanation-locals.en.md
   - name: Cake 3
     id: cake3
     documentation:
