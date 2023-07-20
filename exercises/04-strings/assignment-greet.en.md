@@ -12,7 +12,7 @@ Rely on previously implemented functionality.
 :::USAGE
 
 ```python
->>> interactive_Fgreet("John")
+>>> interactive_greet("John")
 "Hello, John!"
 ```
 
