@@ -1,17 +1,19 @@
-# Greet
+# Interactive Greet
 
 :::TASK
-Write a function `greet(name)` that returns a string `"Hello, <name>!"`.
+Write a function `interactive_greet()` that
+
+* Asks the user for their name.
+* Prints out a greeting `"Hello, <name>!"`.
+
+Rely on previously implemented functionality.
 :::
 
 :::USAGE
 
 ```python
->>> greet()
-What is your name? John
-Hello, John!
+>>> interactive_greet("John")
+"Hello, John!"
 ```
 
 :::
-
-TODO Explain why parameters are never to be replaced by input()
