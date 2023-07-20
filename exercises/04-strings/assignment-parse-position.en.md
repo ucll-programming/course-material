@@ -14,12 +14,12 @@ Examples are shown below.
 :::USAGE
 
 ```python
->>> string = "(12, 9)"
+>>> string = "(12.453, 9.120)"
 >>> parse_position_x(string)
-12
+12.453
 
 >>> parse_position_y(string)
-9
+9.12
 ```
 
 :::
@@ -35,5 +35,5 @@ To implement such algorithms, you'll want to find ways to strip away complexity.
   There's a special character separating the two.
   Find its position in the string.
 * Given the index of the separator, you are able to partition the string in a left part (where `x` is stored) and a right part (where `y` is stored).
-* As a last step, you need to convert from string to `int`.
+* As a last step, you need to convert from string to `float`.
 :::
