@@ -77,6 +77,3 @@ Likewise for falsey values, which will be considered `False`.
 This raises the question, is `5` a truthy value, or a falsey one?
 In the case of integers, all of them are truthy, except for `0`, which is falsey.
 So in the example above, `instruction` will be executed.
-
-* `if elif else`
-* Mention explicitly only first branch whose condition evaluates to True is executed
