@@ -6,7 +6,7 @@ contents:
     type: explanation
     id: strings
     documentation:
-      en: explanation-strings.en.md
+      en: explanation-introduction.en.md
     topics:
       introduces:
         - strings
