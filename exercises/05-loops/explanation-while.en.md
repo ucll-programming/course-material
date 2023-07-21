@@ -54,3 +54,49 @@ Let's go through the code step by step:
   The condition is, once again, evaluated, but this time it yields `False`.
 * Because the condition is not true anymore, the iteration ends, i.e., the loop body won't get executed again.
 * We end up at the last `print`, which outputs `"liftoff!"`.
+
+::::IMPORTANT
+Some students are under the impression that the condition is reevaluated after every step in the loop.
+
+:::code{caption="Python"}
+
+```python
+i = 0
+while i != 1:
+  i = 1
+  i = 0
+```
+
+:::
+
+This is an *infinite loop*.
+Every time the condition is checked, `i` equals `0`.
+
+Even though `i` gets set to `1` inside the loop's body, it doesn't matter: the condition is only checked after a *full* iteration.
+Intermediate values for `i` have no bearing on the loop.
+::::
+
+## `return`
+
+As mentioned a while back, `return` immediately exits the function.
+This is also true for loops: if you have a `return` inside your loop, it will interrupt the loop.
+
+::::EXAMPLE
+
+:::code{caption="Python"}
+
+```python
+def loop():
+    i = 0
+    while i < 10:
+        print(i)
+        if i == 5:
+          return
+        i += 1
+```
+
+:::
+
+will only print the numbers from `0` to `5`.
+
+::::
