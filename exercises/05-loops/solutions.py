@@ -1,10 +1,3 @@
-def sum_up_to(n):
-    result = 0
-    for k in range(1, n+1):
-        result += k
-    return result
-
-
 def sum_range(a, b):
     result = 0
     for k in range(a, b+1):
@@ -16,7 +9,7 @@ def sum_input():
     result = 0
     while (value := int(input())) != 0:
         result += value
-    print(result)
+    print(f'The sum equals {result}')
 
 
 def factorial(n):

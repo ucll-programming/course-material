@@ -23,6 +23,20 @@ contents:
       must_come_after:
         - while loop
         - floor division
+  - name: Sum of Inputs
+    type: exercise
+    id: sum-input
+    documentation:
+      en: assignment-sum-input.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-sum-input.py
+    topics:
+      must_come_after:
+        - while loop
+        - print
+        - input
   - name: For
     type: explanation
     id: for
@@ -32,36 +46,6 @@ contents:
       introduces:
         - for loop
         - range
-  - name: Sum
-    type: exercise
-    id: sum-up-to
-    documentation:
-      en: assignment-sum-up-to.en.md
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-sum-up-to.py
-    topics:
-      introduces: []
-      must_come_after:
-        - range
-        - assignment
-        - for loop
-  - name: Range Sum
-    type: exercise
-    id: sum-range
-    documentation:
-      en: assignment-sum-range.en.md
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-sum-range.py
-    topics:
-      introduces: []
-      must_come_after:
-        - range
-        - assignment
-        - for loop
   - name: Factorial
     type: exercise
     id: factorial
@@ -102,20 +86,6 @@ contents:
         - assignment
         - for loop
         - nested loops
-  - name: Sum of Inputs
-    type: exercise
-    id: sum-input
-    documentation:
-      en: assignment-sum-input.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-sum-input.py
-    topics:
-      must_come_after:
-        - while loop
-        - input
-        - print
   - name: GCD
     type: exercise
     id: gcd
@@ -194,3 +164,4 @@ contents:
       must_come_after:
         - strings
         - escape characters
+        - string iteration

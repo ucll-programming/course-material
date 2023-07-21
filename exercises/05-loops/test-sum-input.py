@@ -1,5 +1,6 @@
 import pytest
 import student
+import re
 
 
 @pytest.fixture
@@ -28,8 +29,8 @@ def test_sum_input(capsys, fake_input, inputs):
     actual_return_value = student.sum_input()
 
     captured = capsys.readouterr()
-    output = int(captured.out)
-    expected = sum(inputs)
+    output = captured.out
+    expected = f'The sum equals {sum(inputs)}\n'
 
     assert expected == output
     assert actual_return_value is None
