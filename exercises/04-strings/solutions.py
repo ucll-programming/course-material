@@ -107,3 +107,10 @@ def fix_date(string):
     day = string[3:5]
     year = string[6:]
     return f'{year}/{month}/{day}'
+
+
+def last_character(string):
+    if len(string) != 0:
+        return string[len(string) - 1]
+    else:
+        return None
