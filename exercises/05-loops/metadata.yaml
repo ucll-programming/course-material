@@ -181,3 +181,16 @@ contents:
     topics:
       introduces:
         - walrus operator
+  - name: Removing Backspaces
+    type: exercise
+    id: normalize
+    documentation:
+      en: assignment-remove-backspaces.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove-backspaces.py
+    topics:
+      must_come_after:
+        - strings
+        - escape characters
