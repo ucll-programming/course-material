@@ -49,6 +49,7 @@ contents:
     topics:
       must_come_after:
         - strings
+        - print
       introduces:
         - input
   - name: Interactive Greet
