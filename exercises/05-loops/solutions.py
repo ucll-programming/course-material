@@ -12,6 +12,13 @@ def sum_range(a, b):
     return result
 
 
+def sum_input():
+    result = 0
+    while (value := int(input())) != 0:
+        result += value
+    print(result)
+
+
 def factorial(n):
     result = 1
     for k in range(2, n+1):

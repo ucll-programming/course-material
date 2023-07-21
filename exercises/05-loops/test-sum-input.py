@@ -22,13 +22,14 @@ def fake_input(monkeypatch):
     [2, 1, 0],
     [1, 9, 2, 3, 8, 5, 4, 3, 2, 7, 0],
 ])
-def test_sum_input(capsys, fake_inputs, inputs):
-    fake_inputs(inputs)
+def test_sum_input(capsys, fake_input, inputs):
+    fake_input(inputs)
 
-    student.sum_input()
+    actual_return_value = student.sum_input()
 
     captured = capsys.readouterr()
     output = int(captured.out)
     expected = sum(inputs)
 
     assert expected == output
+    assert actual_return_value is None
