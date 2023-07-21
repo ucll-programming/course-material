@@ -2,7 +2,7 @@ type: section
 name: Strings
 id: strings
 contents:
-  - name: Strings
+  - name: Introduction
     type: explanation
     id: strings
     documentation:
