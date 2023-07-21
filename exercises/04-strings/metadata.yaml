@@ -191,6 +191,11 @@ contents:
     judge:
       type: pytest
       file: test-last-character.py
+  - name: Negative Indices
+    type: explanation
+    id: negative-indices
+    documentation:
+      en: explanation-negative-indices.en.md
   - name: Is Student Id?
     type: exercise
     id: is-student-id
