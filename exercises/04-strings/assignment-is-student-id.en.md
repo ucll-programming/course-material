@@ -44,7 +44,7 @@ False
 :::
 
 :::HINT
-Make sure to write a separate `is_digit(char)` function.
+We strongly suggest to write a separate `is_digit(char)` function.
 While it is possible to implement this as a long series of equality checks, don't forget you can also rely on `<=`.
 Using `in` can also lead to a succinct solution.
 :::
