@@ -43,6 +43,8 @@ There are a few variations on this syntax:
 :::
 ::::
 
+## Steps
+
 It is also possible to specify a step: `s[start:end:step]`.
 
 :::code{caption="Python Shell"}
