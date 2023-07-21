@@ -28,6 +28,7 @@ for i in range(0, i_max):
 
 Meet the `for` loop.
 The loop shown above makes `i` go through all values of the `range(0, i_max)`, i.e., `0`, `1`, `2`, &hellip; `i_max - 1`.
+Note: the variable name `i` can be freely chosen.
 
 ::::IMPORTANT
 Note that `range(start, stop)` does not include `stop` itself.
