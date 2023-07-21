@@ -28,12 +28,12 @@ Write a function `gcd(x, y)` that computes the greatest common divisor of the gi
 
 :::HINT
 
-* Start with some "high" value `r`.
-  See if it divides both `x` and `y`.
-  If it does, it is the greatest common divisor, provided you started with a high enough `r`.
-  If it does not, decrement `r` by one and try again.
-  Ultimately, you're bound to find a value for `r` that divides both `x` and `y`.
-* `gcd(x, y)` can never be greater than either `x` or `y`.
-  This should tell you what a good starting value for `r` would be.
+You're going to perform a search, i.e., going through a list of possible GCDs and returning the one that satisfies the necessary conditions.
 
+* `gcd(x, y)` can never be greater than either `x` or `y`.
+  This should tell you what a good starting point.
+  Let's call this starting point `r`.
+* What is the lowest possible value for `gcd(x, y)`?
+* The highest and lowest possible values define a range in which you're certain to find `gcd(x, y)`.
+* Since you want the *greatest* common divisor, it makes sense to start with the highest value of the range and work your way down.
 :::

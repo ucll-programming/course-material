@@ -56,10 +56,9 @@ def sum_of_input():
 
 
 def gcd(x, y):
-    r = min(abs(x), abs(y))
-    while x % r != 0 or y % r != 0:
-        r -= 1
-    return r
+    for i in range(min(abs(x), abs(y)), 0, -1):
+        if x % i == 0 and y % i == 0:
+            return i
 
 
 def is_prime(n):
