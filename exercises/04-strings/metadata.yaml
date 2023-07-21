@@ -182,6 +182,15 @@ contents:
         - strings
       introduces:
         - string indexing
+  - name: Last Character
+    type: exercise
+    id: last-character
+    documentation:
+      en: assignment-last-character.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-last-character.py
   - name: Is Student Id?
     type: exercise
     id: is-student-id
