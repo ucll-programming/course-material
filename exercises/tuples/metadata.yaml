@@ -164,3 +164,8 @@ contents:
     id: iteration
     documentation:
       en: explanation-iteration.en.md
+  - name: Membership
+    type: explanation
+    id: membership
+    documentation:
+      en: explanation-membership.en.md
