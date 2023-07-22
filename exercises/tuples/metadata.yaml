@@ -7,6 +7,15 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+  - name: Split Name
+    type: exercise
+    id: split-name
+    documentation:
+      en: assignment-split-name.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-split-name.py
   - name: Functions
     type: explanation
     id: functions
