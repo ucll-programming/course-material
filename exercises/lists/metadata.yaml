@@ -2,6 +2,11 @@ type: section
 name: Lists
 id: lists
 contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
   - name: Roman Numerals
     type: exercise
     id: roman-numerals
