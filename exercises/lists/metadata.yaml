@@ -40,15 +40,15 @@ contents:
     id: removing
     documentation:
       en: explanation-removing.en.md
-  - name: Remove
+  - name: Remove All
     type: exercise
-    id: remove
+    id: remove-all
     documentation:
-      en: assignment-remove.en.md
+      en: assignment-remove-all.en.md
     difficulty: 3
     judge:
       type: pytest
-      file: test-remove.py
+      file: test-remove-all.py
   - name: Roman Numerals
     type: exercise
     id: roman-numerals

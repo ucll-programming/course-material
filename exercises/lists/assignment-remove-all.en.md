@@ -1,7 +1,7 @@
 # Removing Elements
 
 :::TASK
-Write a function `remove(xs, item_to_remove)` that removes all occurrences of `item_to_remove` in `xs`.
+Write a function `remove_all(xs, item_to_remove)` that removes all occurrences of `item_to_remove` in `xs`.
 It has to modify `xs` in place.
 
 Make sure your algorithm works efficiently.

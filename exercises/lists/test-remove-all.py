@@ -17,8 +17,8 @@ import student
     ([2, 1, 2, 2, 3, 2, 3, 4, 2, 2, 2, 5], 2, [1, 3, 3, 4, 5]),
     ([1] * 1000000, 1, []),
 ])
-def test_remove(xs, item_to_remove, expected):
-    return_value = student.remove(xs, item_to_remove)
+def test_remove_all(xs, item_to_remove, expected):
+    return_value = student.remove_all(xs, item_to_remove)
 
     assert return_value is None, 'remove should return None'
     assert expected == xs
