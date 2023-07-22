@@ -21,6 +21,24 @@ contents:
     id: indexing
     documentation:
       en: explanation-indexing.en.md
+  - name: All Equal
+    type: exercise
+    id: all-equal
+    documentation:
+      en: assignment-all-equal.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-all-equal.py
+  - name: All Different
+    type: exercise
+    id: all-different
+    documentation:
+      en: assignment-all-different.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-all-different.py
   - name: Functions
     type: explanation
     id: functions
@@ -61,24 +79,6 @@ contents:
     judge:
       type: pytest
       file: test-empty-seats.py
-  - name: All Equal
-    type: exercise
-    id: all-equal
-    documentation:
-      en: assignment-all-equal.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-all-equal.py
-  - name: All Different
-    type: exercise
-    id: all-different
-    documentation:
-      en: assignment-all-different.en.md
-    difficulty: 1
-    judge:
-      type: pytest
-      file: test-all-different.py
   - name: Adding Points
     type: exercise
     id: add-points
@@ -159,3 +159,8 @@ contents:
     judge:
       type: pytest
       file: test-domino-chain.py
+  - name: Iteration
+    type: explanation
+    id: iteration
+    documentation:
+      en: explanation-iteration.en.md
