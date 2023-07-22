@@ -39,6 +39,16 @@ contents:
     judge:
       type: pytest
       file: test-all-different.py
+  - name: Membership
+    type: explanation
+    id: membership
+    documentation:
+      en: explanation-membership.en.md
+  - name: Iteration
+    type: explanation
+    id: iteration
+    documentation:
+      en: explanation-iteration.en.md
   - name: Functions
     type: explanation
     id: functions
@@ -154,16 +164,6 @@ contents:
     judge:
       type: pytest
       file: test-domino-chain.py
-  - name: Iteration
-    type: explanation
-    id: iteration
-    documentation:
-      en: explanation-iteration.en.md
-  - name: Membership
-    type: explanation
-    id: membership
-    documentation:
-      en: explanation-membership.en.md
   - name: Destructuring
     type: explanation
     id: destructuring
