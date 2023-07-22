@@ -17,10 +17,15 @@ contents:
     id: double-items
     documentation:
       en: assignment-double-items.en.md
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-double-items.py
+  - name: Adding Items
+    type: explanation
+    id: adding
+    documentation:
+      en: explanation-adding.en.md
   - name: Roman Numerals
     type: exercise
     id: roman-numerals
