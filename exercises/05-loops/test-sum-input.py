@@ -1,6 +1,5 @@
 import pytest
 import student
-import re
 
 
 @pytest.fixture

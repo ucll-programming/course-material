@@ -1,8 +1,8 @@
-def sum_range(a, b):
-    result = 0
-    for k in range(a, b+1):
-        result += k
-    return result
+def print_numbers(a, b, step):
+    current = a
+    while current < b:
+        print(current)
+        current += step
 
 
 def sum_input():

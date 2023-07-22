@@ -10,6 +10,15 @@ contents:
     topics:
       introduces:
         - while loop
+  - name: Print Numbers
+    type: exercise
+    id: print-numbers
+    documentation:
+      en: assignment-print-numbers.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-print-numbers.py
   - name: Hungry Thanos
     type: exercise
     id: thanos
