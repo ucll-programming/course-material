@@ -7,6 +7,11 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+  - name: Updating
+    type: explanation
+    id: updating
+    documentation:
+      en: explanation-updating.en.md
   - name: Roman Numerals
     type: exercise
     id: roman-numerals
