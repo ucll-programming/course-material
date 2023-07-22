@@ -37,3 +37,8 @@ contents:
     judge:
       type: pytest
       file: test-entrance-exam.py
+  - name: Return Value
+    type: explanation
+    id: return-value
+    documentation:
+      en: explanation-return-value.en.md
