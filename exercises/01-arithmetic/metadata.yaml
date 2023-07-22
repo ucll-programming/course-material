@@ -37,6 +37,11 @@ contents:
       must_come_after:
         - functions
         - return
+  - name: Identifiers
+    type: explanation
+    id: identifiers
+    documentation:
+      en: explanation-identifiers.en.md
   - name: Triple
     id: triple
     documentation:
