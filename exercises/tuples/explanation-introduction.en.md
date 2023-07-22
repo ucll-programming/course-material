@@ -41,6 +41,12 @@ A tuple can contain other tuples.
 * An image can be represented by a tuple of such rows: `(((0, 0, 0), (255, 255, 255), (192, 64, 64)), ((128, 128, 128), (64, 64, 64)), ...)`.
 ::::
 
+::::IMPORTANT
+The empty tuple is written `()`.
+However, the tuple with one element is a bit problematic: `(5)` is interpreted as simply `5` with redundant parentheses.
+In order to make Python understand you mean to create a tuple with one item, you need to write `(5,)`.
+::::
+
 * Literals (beware of singleton tuple syntax)
 * `[]`, `len`
 * `in` (can't be used for subsequences like strings!)
