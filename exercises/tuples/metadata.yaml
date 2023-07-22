@@ -169,3 +169,8 @@ contents:
     id: membership
     documentation:
       en: explanation-membership.en.md
+  - name: Destructuring
+    type: explanation
+    id: destructuring
+    documentation:
+      en: explanation-destructuring.en.md
