@@ -44,6 +44,15 @@ contents:
     id: membership
     documentation:
       en: explanation-membership.en.md
+  - name: Subtuple
+    type: exercise
+    id: subtuple
+    documentation:
+      en: assignment-subtuple.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-subtuple.py
   - name: Iteration
     type: explanation
     id: iteration
