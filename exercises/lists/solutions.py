@@ -3,6 +3,11 @@ def double_items(ns):
         ns[i] *= 2
 
 
+def pad_right(xs, length, padding):
+    while len(xs) < length:
+        xs.append(padding)
+
+
 def to_roman(number):
     table = [
         (1000, 'M'),

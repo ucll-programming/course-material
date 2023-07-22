@@ -26,6 +26,29 @@ contents:
     id: adding
     documentation:
       en: explanation-adding.en.md
+  - name: Pad Right
+    type: exercise
+    id: pad-right
+    documentation:
+      en: assignment-pad-right.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-pad-right.py
+  - name: Removing Items
+    type: explanation
+    id: removing
+    documentation:
+      en: explanation-removing.en.md
+  - name: Remove
+    type: exercise
+    id: remove
+    documentation:
+      en: assignment-remove.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-remove.py
   - name: Roman Numerals
     type: exercise
     id: roman-numerals
@@ -109,15 +132,6 @@ contents:
     topics:
       introduces:
         - list comprehensions
-  - name: Remove
-    type: exercise
-    id: remove
-    documentation:
-      en: assignment-remove.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-remove.py
   - name: References
     type: explanation
     id: references

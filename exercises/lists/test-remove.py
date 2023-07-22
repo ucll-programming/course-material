@@ -14,8 +14,8 @@ import student
     ([*'abcd'], 'c', [*'abd']),
     ([*'abcd'], 'd', [*'abc']),
     ([1, 2, 3, 2, 1], 2, [1, 3, 1]),
-    ([1, 2, 3, 2, 1], 3, [1, 2, 2, 1]),
     ([2, 1, 2, 2, 3, 2, 3, 4, 2, 2, 2, 5], 2, [1, 3, 3, 4, 5]),
+    ([1] * 1000000, 1, []),
 ])
 def test_remove(xs, item_to_remove, expected):
     return_value = student.remove(xs, item_to_remove)
