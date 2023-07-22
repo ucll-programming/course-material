@@ -2,11 +2,11 @@ type: section
 name: Tuples
 id: tuples
 contents:
-  - name: Basics
+  - name: Introduction
     type: explanation
-    id: basics
+    id: introduction
     documentation:
-      en: explanation-basics.en.md
+      en: explanation-introduction.en.md
   - name: Functions
     type: explanation
     id: functions
