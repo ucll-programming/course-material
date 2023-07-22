@@ -97,6 +97,19 @@ contents:
     topics:
       introduces:
         - destructuring
+  - name: Adding Points
+    type: exercise
+    id: add-points
+    documentation:
+      en: assignment-add-points.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-add-points.py
+    topics:
+      must_come_after:
+        - tuples
+        - destructuring tuples
   - name: Versioning
     type: exercise
     id: versioning
@@ -137,19 +150,6 @@ contents:
     judge:
       type: pytest
       file: test-empty-seats.py
-  - name: Adding Points
-    type: exercise
-    id: add-points
-    documentation:
-      en: assignment-add-points.en.md
-    difficulty: 1
-    judge:
-      type: pytest
-      file: test-add-points.py
-    topics:
-      must_come_after:
-        - tuples
-        - destructuring tuples
   - name: Split in Two
     type: exercise
     id: split-in-two
