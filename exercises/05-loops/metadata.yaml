@@ -95,6 +95,28 @@ contents:
         - assignment
         - for loop
         - nesting
+  - name: Investment
+    type: exercise
+    id: invest
+    documentation:
+      en: assignment-invest.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-invest.py
+  - name: Is Prime
+    type: exercise
+    id: is-prime
+    documentation:
+      en: assignment-is-prime.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-prime.py
+    topics:
+      must_come_after:
+        - modulo
+        - while
   - name: GCD
     type: exercise
     id: gcd
@@ -110,28 +132,6 @@ contents:
         - max
         - modulo
         - while
-  - name: Is Prime
-    type: exercise
-    id: is-prime
-    documentation:
-      en: assignment-is-prime.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-is-prime.py
-    topics:
-      must_come_after:
-        - modulo
-        - while
-  - name: Investment
-    type: exercise
-    id: invest
-    documentation:
-      en: assignment-invest.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-invest.py
   - name: String Iteration
     type: explanation
     id: string-iteration
