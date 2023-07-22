@@ -11,6 +11,7 @@ They also offer very similar functionality.
 | ------- | ------- |
 | `len(t)` | Length of the tuple `t` |
 | `t[0]` | First item in the tuple `t` |
+| `t[-1]` | Last item in the tuple `t` |
 | `t[1:4]` | Slicing the tuple |
 
 :::
