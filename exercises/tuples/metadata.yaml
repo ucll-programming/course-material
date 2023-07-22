@@ -56,11 +56,6 @@ contents:
     topics:
       must_come_after:
         - destructuring
-  - name: Named Tuples
-    type: explanation
-    id: named-tuples
-    documentation:
-      en: explanation-named-tuples.en.md
   - name: Increasing Sequence
     type: exercise
     id: increasing
