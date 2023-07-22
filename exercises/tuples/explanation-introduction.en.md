@@ -46,8 +46,3 @@ The empty tuple is written `()`.
 However, the tuple with one element is a bit problematic: `(5)` is interpreted as simply `5` with redundant parentheses.
 In order to make Python understand you mean to create a tuple with one item, you need to write `(5,)`.
 ::::
-
-* Literals (beware of singleton tuple syntax)
-* `[]`, `len`
-* `in` (can't be used for subsequences like strings!)
-* Destructuring
