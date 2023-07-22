@@ -69,16 +69,16 @@ contents:
         - range
         - assignment
         - for loop
-  - name: Nested loops
+  - name: Nesting
     type: explanation
-    id: nested-loops
+    id: nesting
     documentation:
-      en: explanation-nested-loops.en.md
+      en: explanation-nesting.en.md
     topics:
       must_come_after:
         - for loop
       introduces:
-        - nested loops
+        - nesting
   - name: RPG
     type: exercise
     id: rpg
@@ -94,7 +94,7 @@ contents:
         - range
         - assignment
         - for loop
-        - nested loops
+        - nesting
   - name: GCD
     type: exercise
     id: gcd
