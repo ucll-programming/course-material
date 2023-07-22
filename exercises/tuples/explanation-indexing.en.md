@@ -16,3 +16,8 @@ They also offer very similar functionality.
 
 :::
 ::::
+
+::::INFO
+If you're wondering whether you can modify a tuple, the answer is no.
+We'll discuss lists soon, and these are in essence modifiable tuples.
+::::
