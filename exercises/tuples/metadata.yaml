@@ -39,6 +39,15 @@ contents:
     judge:
       type: pytest
       file: test-all-different.py
+  - name: Increasing Sequence
+    type: exercise
+    id: increasing
+    documentation:
+      en: assignment-increasing.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-increasing.py
   - name: Membership
     type: explanation
     id: membership
@@ -58,11 +67,36 @@ contents:
     id: iteration
     documentation:
       en: explanation-iteration.en.md
-  - name: Functions
-    type: explanation
-    id: functions
+  - name: Passing Percentage
+    type: exercise
+    id: passing-percentage
     documentation:
-      en: explanation-functions.en.md
+      en: assignment-passing-percentage.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-passing-percentage.py
+    topics:
+      must_come_after:
+        - len
+        - tuples
+  - name: Heatwave
+    type: exercise
+    id: heatwave
+    documentation:
+      en: assignment-heatwave.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-heatwave.py
+  - name: Destructuring
+    type: explanation
+    id: destructuring
+    documentation:
+      en: explanation-destructuring.en.md
+    topics:
+      introduces:
+        - destructuring
   - name: Versioning
     type: exercise
     id: versioning
@@ -75,15 +109,25 @@ contents:
     topics:
       must_come_after:
         - destructuring
-  - name: Increasing Sequence
-    type: exercise
-    id: increasing
+  - name: Functions
+    type: explanation
+    id: functions
     documentation:
-      en: assignment-increasing.en.md
-    difficulty: 3
+      en: explanation-functions.en.md
+  - name: Average
+    type: exercise
+    id: average
+    documentation:
+      en: assignment-average.en.md
+    difficulty: 2
     judge:
       type: pytest
-      file: test-increasing.py
+      file: test-average.py
+    topics:
+      must_come_after:
+        - tuples
+        - sum
+        - len
   - name: Empty Seats
     type: exercise
     id: empty-seats
@@ -128,42 +172,6 @@ contents:
       must_come_after:
         - sorted
         - tuples
-  - name: Average
-    type: exercise
-    id: average
-    documentation:
-      en: assignment-average.en.md
-    difficulty: 2
-    judge:
-      type: pytest
-      file: test-average.py
-    topics:
-      must_come_after:
-        - tuples
-        - sum
-        - len
-  - name: Passing Percentage
-    type: exercise
-    id: passing-percentage
-    documentation:
-      en: assignment-passing-percentage.en.md
-    difficulty: 3
-    judge:
-      type: pytest
-      file: test-passing-percentage.py
-    topics:
-      must_come_after:
-        - len
-        - tuples
-  - name: Heatwave
-    type: exercise
-    id: heatwave
-    documentation:
-      en: assignment-heatwave.en.md
-    difficulty: 4
-    judge:
-      type: pytest
-      file: test-heatwave.py
   - name: Dominos
     type: exercise
     id: dominos
@@ -173,8 +181,3 @@ contents:
     judge:
       type: pytest
       file: test-domino-chain.py
-  - name: Destructuring
-    type: explanation
-    id: destructuring
-    documentation:
-      en: explanation-destructuring.en.md
