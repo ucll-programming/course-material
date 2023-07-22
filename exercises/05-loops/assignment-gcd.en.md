@@ -26,14 +26,27 @@ Write a function `gcd(x, y)` that computes the greatest common divisor of the gi
 
 :::
 
-:::HINT
+::::HINT{caption="Hint 1"}
+While there are [special math tricks](https://en.wikipedia.org/wiki/Euclidean_algorithm) to quickly find the gcd, we can also do it in a less sophisticated way.
 
-You're going to perform a search, i.e., going through a list of possible GCDs and returning the one that satisfies the necessary conditions.
+You know that `gcd(a, b)` must divide both `a` and `b`.
+Perform a search until you find a number that satisfies that constraint.
+::::
 
-* `gcd(x, y)` can never be greater than either `x` or `y`.
-  This should tell you what a good starting point.
-  Let's call this starting point `r`.
-* What is the lowest possible value for `gcd(x, y)`?
-* The highest and lowest possible values define a range in which you're certain to find `gcd(x, y)`.
-* Since you want the *greatest* common divisor, it makes sense to start with the highest value of the range and work your way down.
-:::
+::::HINT{caption="Hint 2"}
+There's a range in which `gcd(a, b)` must lie.
+
+* What's the lowest value `gcd(a, b)` can take?
+  Is there a low number that is guaranteed to always divide both `a` and `b`?
+* What's the highest value `gcd(a, b)` can be?
+  Can it be higher than `a`?
+  Can it be higher than `b`?
+::::
+
+::::HINT{caption="Hint 3"}
+`gcd(a, b)` must evaluate to the *greatest* common divisor.
+If you know that `min <= gcd(a, b) <= max`, in which order should you look for a common divisor?
+
+* Should you start from the lowest possible value and work your way up, or
+* Should you start from the highest possible value and work your way down?
+::::
