@@ -12,6 +12,15 @@ contents:
     id: updating
     documentation:
       en: explanation-updating.en.md
+  - name: Double Items
+    type: exercise
+    id: double-items
+    documentation:
+      en: assignment-double-items.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-double-items.py
   - name: Roman Numerals
     type: exercise
     id: roman-numerals
