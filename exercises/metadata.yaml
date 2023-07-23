@@ -46,6 +46,8 @@ contents:
   - type: link
     location: comprehensions
   - type: link
+    location: testing
+  - type: link
     location: typing
   - type: link
     location: regex
