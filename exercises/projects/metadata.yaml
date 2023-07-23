@@ -11,4 +11,4 @@ contents:
   - type: link
     location: cryptography
   - type: link
-    location: 2048
+    location: "2048"
