@@ -220,8 +220,3 @@ contents:
       must_come_after:
         - dictionary insertion
         - dictionary deletion
-  - name: Comprehensions
-    type: explanation
-    id: comprehensions
-    documentation:
-      en: explanation-comprehensions.en.md
