@@ -68,42 +68,5 @@ def add_random_tile(tiles):
     tiles[y][x] = random.choice([2, 4])
 
 
-def print_grid(tiles):
-    def format_tile(tile):
-        if tile is not None:
-            return str(tile).center(5, ' ')
-        else:
-            return '.'.center(5, ' ')
-
-    for row in tiles:
-        print("".join(format_tile(tile) for tile in row))
-
-
-def input_direction():
-    while (result := input()) not in "asdw":
-        pass
-    return result
-
-
-def play():
-    tiles = [[None] * 4 for _ in range(4)]
-    add_random_tile(tiles)
-    has_changed = True
-
-    while not is_filled(tiles):
-        if has_changed:
-            add_random_tile(tiles)
-        print_grid(tiles)
-        match input_direction():
-            case 'a':
-                tiles, has_changed = shift_grid_left(tiles)
-            case 's':
-                tiles, has_changed = shift_grid_down(tiles)
-            case 'd':
-                tiles, has_changed = shift_grid_right(tiles)
-            case 'w':
-                tiles, has_changed = shift_grid_up(tiles)
-
-
-if __name__ == '__main__':
-    play()
+def create_empty_grid(size):
+    return [[None] * size for _ in range(size)]
