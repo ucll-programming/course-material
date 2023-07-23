@@ -10,3 +10,5 @@ contents:
     location: sudoku
   - type: link
     location: cryptography
+  - type: link
+    location: 2048
