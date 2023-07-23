@@ -44,6 +44,8 @@ contents:
   - type: link
     location: modules
   - type: link
+    location: comprehensions
+  - type: link
     location: typing
   - type: link
     location: regex
