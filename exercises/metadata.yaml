@@ -42,6 +42,8 @@ contents:
   - type: link
     location: exceptions
   - type: link
+    location: modules
+  - type: link
     location: typing
   - type: link
     location: regex
