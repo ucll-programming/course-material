@@ -1,4 +1,9 @@
 type: section
 name: Named Tuples
 id: named-tuples
-contents: []
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
