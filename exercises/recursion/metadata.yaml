@@ -37,3 +37,12 @@ contents:
     judge:
       type: pytest
       file: test-contains.py
+  - name: Append
+    type: exercise
+    id: append
+    documentation:
+      en: assignment-append.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-append.py
