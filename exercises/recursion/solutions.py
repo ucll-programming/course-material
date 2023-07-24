@@ -1,0 +1,32 @@
+from collections import namedtuple
+
+
+LinkedList = namedtuple('LinkedList', ['value', 'next'])
+
+
+def length(linked_list):
+    if linked_list is None:
+        return 0
+    else:
+        return 1 + length(linked_list.next)
+
+
+def to_linked_list(xs):
+    if len(xs) == 0:
+        return None
+    else:
+        return LinkedList(xs[0], to_linked_list(xs[1:]))
+
+
+def contains(linked_list, value):
+    if linked_list is None:
+        return False
+    else:
+        return linked_list.value == value or contains(linked_list.next, value)
+
+
+def append(linked_list, value):
+    if linked_list is None:
+        return LinkedList(value, None)
+    else:
+        return LinkedList(linked_list.value, append(linked_list.next, value))
