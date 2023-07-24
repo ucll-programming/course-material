@@ -1,4 +1,13 @@
 type: section
 name: Recursion
 id: recursion
-contents: []
+contents:
+  - name: Linked List Length
+    type: exercise
+    id: length
+    documentation:
+      en: assignment-length.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-length.py
