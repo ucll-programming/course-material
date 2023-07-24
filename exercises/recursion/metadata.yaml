@@ -28,3 +28,12 @@ contents:
       must_come_after:
         - recursion
         - linked lists
+  - name: Contains
+    type: exercise
+    id: contains
+    documentation:
+      en: assignment-contains.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-contains.py
