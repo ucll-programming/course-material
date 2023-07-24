@@ -11,3 +11,20 @@ contents:
     judge:
       type: pytest
       file: test-length.py
+    topics:
+      must_come_after:
+        - recursion
+        - linked lists
+  - name: To Linked List
+    type: exercise
+    id: to-linked-list
+    documentation:
+      en: assignment-to-linked-list.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-to-linked-list.py
+    topics:
+      must_come_after:
+        - recursion
+        - linked lists
