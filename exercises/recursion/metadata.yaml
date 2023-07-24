@@ -46,3 +46,12 @@ contents:
     judge:
       type: pytest
       file: test-append.py
+  - name: Count
+    type: exercise
+    id: count
+    documentation:
+      en: assignment-count.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-count.py
