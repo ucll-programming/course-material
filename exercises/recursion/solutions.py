@@ -30,3 +30,14 @@ def append(linked_list, value):
         return LinkedList(value, None)
     else:
         return LinkedList(linked_list.value, append(linked_list.next, value))
+
+
+def count(linked_list, value):
+    if linked_list is None:
+        return 0
+    else:
+        if linked_list.value == value:
+            extra = 1
+        else:
+            extra = 0
+        return extra + count(linked_list.next, value)
