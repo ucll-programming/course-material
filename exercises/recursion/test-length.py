@@ -5,8 +5,8 @@ from testlib import *
 
 @pytest.mark.timeout(1)
 @pytest.mark.parametrize("linked_list, expected", [
-    (list_to_linked_list(ns), len(ns))
-    for ns in [
+    (list_to_linked_list(xs), len(xs))
+    for xs in [
         [],
         [1],
         ['a'],
