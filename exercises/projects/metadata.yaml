@@ -12,3 +12,5 @@ contents:
     location: cryptography
   - type: link
     location: "2048"
+  - type: tetris
+    location: tetris
