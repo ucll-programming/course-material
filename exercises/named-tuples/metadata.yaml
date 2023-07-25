@@ -12,7 +12,7 @@ contents:
     id: color
     documentation:
       en: assignment-color.en.md
-    difficulty: 1
+    difficulty: 2
     judge:
       type: pytest
       file: test-color.py
