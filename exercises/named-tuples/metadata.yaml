@@ -16,3 +16,12 @@ contents:
     judge:
       type: pytest
       file: test-color.py
+  - name: Movie
+    type: exercise
+    id: movie
+    documentation:
+      en: assignment-movie.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-movie.py

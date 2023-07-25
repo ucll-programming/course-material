@@ -25,3 +25,10 @@ def clamp_color(color):
         clamp(color.g),
         clamp(color.b),
     )
+
+
+Movie = namedtuple('Movie', ['title', 'runtime', 'director', 'actors'])
+
+
+def actor_count(movie):
+    return len(movie.actors)
