@@ -63,19 +63,3 @@ You can test this out in the Python shell:
 
 :::
 ::::
-
-
-* What is a function?
-* What is a return value?
-* what are parameters?
-* Operators
-* Difference `/` and `//`
-* Special attention to modulo
-* `floor`, `ceil`, to be imported from `math`
-* `min`, `max`
-* Local variables
-* `int` vs `float`
-* Calling your own functions
-* Statefulness of variables (can be overwritten using =)
-* +=, -=
-* Naming conventions
