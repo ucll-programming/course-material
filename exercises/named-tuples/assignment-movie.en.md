@@ -22,3 +22,17 @@ Be careful to respect their order.
 Create a function `actor_count(movie)` that returns the number of actors in the movie.
 ::::
 
+::::USAGE
+
+```python
+>>> movie = Movie(
+    title='Buried',
+    runtime=95,
+    director='Rodrigo Cortes',
+    actors=(Ryan Reynolds,)
+)
+>>> actor_count(movie)
+1
+```
+
+::::
