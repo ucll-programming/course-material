@@ -1,4 +1,18 @@
 type: section
 name: Objects
 id: objects
-contents: []
+contents:
+  - name: Counter
+    type: exercise
+    id: counter
+    documentation:
+      en: assignment-counter.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-counter.py
+    topics:
+      must_come_after:
+        - classes
+        - properties
+        - private
