@@ -1,4 +1,5 @@
 from collections import namedtuple
+from operator import attrgetter
 
 
 Color = namedtuple('Color', ['r', 'g', 'b'])
@@ -32,3 +33,15 @@ Movie = namedtuple('Movie', ['title', 'runtime', 'director', 'actors'])
 
 def actor_count(movie):
     return len(movie.actors)
+
+
+def movies_by(movies, director):
+    return [
+        movie.title
+        for movie in movies
+        if movie.director == director
+    ]
+
+
+def longest_movie(movies):
+    return max(movies, key=attrgetter('runtime'))

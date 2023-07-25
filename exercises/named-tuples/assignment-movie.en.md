@@ -36,3 +36,43 @@ Create a function `actor_count(movie)` that returns the number of actors in the 
 ```
 
 ::::
+
+## Movies by Director
+
+::::TASK
+Create a function `movies_by(movies, director)` that, given a list of movies, returns a the titles of all movies made by `director`.
+
+The order in which the names are returned does not matter.
+::::
+
+::::USAGE
+
+```python
+>>> movies = [
+...     Movie(
+...         title='The Prestige',
+...         director='Christopher Nolan',
+...         ...
+...     ),
+...     Movie(
+...         title='Inception',
+...         director='Christopher Nolan',
+...         ...
+...     )
+...     Movie(
+...         title='Postal',
+...         director='Uwe Boll',
+...     )
+... ]
+>>> movies_by(movies, 'Christopher Nolan')
+['The Prestige', 'Inception']
+```
+
+::::
+
+## Longest Movie
+
+::::TASK
+Write a function `longest_movie(movies)` that returns the longest movie in the list.
+Return the entire `Movie` object, not just the title.
+::::

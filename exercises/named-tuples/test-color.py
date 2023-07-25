@@ -38,6 +38,10 @@ def test_color(r, g, b):
     assert b == actual.b
 
 
+def test_valid_color_exists():
+    assert is_defined('valid_color')
+
+
 @if_defined('Color', 'valid_color')
 @pytest.mark.timeout(1)
 @pytest.mark.parametrize("color, expected", [
@@ -57,6 +61,10 @@ def test_color(r, g, b):
 def test_valid_color(color, expected):
     actual = student.valid_color(color)
     assert expected == actual
+
+
+def test_clamp_color_exists():
+    assert is_defined('clamp_color')
 
 
 @if_defined('valid_color')
