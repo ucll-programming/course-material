@@ -133,8 +133,7 @@ Keyword arguments (discussed elsewhere) can help out:
 user_data = UserData(
     name=Name(
         first_name="Sherlock",
-        last_name="Holmes")
-    ,
+        last_name="Holmes"),
     email_address="sherlock.holmes@aol.com",
     Address(
         street_name="Baker Street",
