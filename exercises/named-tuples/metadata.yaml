@@ -7,3 +7,12 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+  - name: Color
+    type: exercise
+    id: color
+    documentation:
+      en: assignment-color.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-color.py
