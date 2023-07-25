@@ -32,11 +32,11 @@ contents:
   - type: link
     location: sets
   - type: link
-    location: enums
-  - type: link
     location: objects
   - type: link
     location: functions-advanced
+  - type: link
+    location: enums
   - type: link
     location: recursion
   - type: link
