@@ -12,3 +12,12 @@ contents:
         - sets
       must_come_after:
         - lists
+  - name: Find Duplicates
+    type: exercise
+    id: find-duplicates
+    documentation:
+      en: assignment-find-duplicates.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-find-duplicates.py
