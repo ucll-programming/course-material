@@ -30,6 +30,15 @@ contents:
     id: constructor
     documentation:
       en: explanation-constructor-parameters.en.md
+  - name: Position
+    type: exercise
+    id: position
+    documentation:
+      en: assignment-position.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-position.py
   - name: Counter
     type: exercise
     id: counter

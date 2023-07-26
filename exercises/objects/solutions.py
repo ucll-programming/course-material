@@ -4,6 +4,12 @@ class Pair:
         self.second = None
 
 
+class Position:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+
 class Counter:
     def __init__(self):
         self.__count = 0
