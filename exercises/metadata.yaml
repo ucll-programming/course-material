@@ -30,9 +30,9 @@ contents:
   - type: link
     location: dictionaries
   - type: link
-    location: sets
-  - type: link
     location: objects
+  - type: link
+    location: sets
   - type: link
     location: functions-advanced
   - type: link
