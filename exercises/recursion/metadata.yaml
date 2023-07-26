@@ -55,3 +55,12 @@ contents:
     judge:
       type: pytest
       file: test-count.py
+  - name: Is Increasing
+    type: exercise
+    id: is-increasing
+    documentation:
+      en: assignment-is-increasing.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-is-increasing.py

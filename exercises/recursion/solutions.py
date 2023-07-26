@@ -41,3 +41,10 @@ def count(linked_list, value):
         else:
             extra = 0
         return extra + count(linked_list.next, value)
+
+
+def is_increasing(linked_list):
+    if linked_list is not None and linked_list.next is not None:
+        return linked_list.value <= linked_list.next.value and is_increasing(linked_list.next)
+    else:
+        return True
