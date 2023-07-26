@@ -1,4 +1,14 @@
 type: section
 name: Sets
 id: sets
-contents: []
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - sets
+      must_come_after:
+        - lists
