@@ -12,6 +12,19 @@ contents:
     id: classes
     documentation:
       en: explanation-classes.en.md
+  - name: Pair
+    type: exercise
+    id: pair
+    documentation:
+      en: assignment-pair.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-pair.py
+    topics:
+      must_come_after:
+        - classes
+        - __init__
   - name: Counter
     type: exercise
     id: counter

@@ -1,3 +1,9 @@
+class Pair:
+    def __init__(self):
+        self.first = None
+        self.second = None
+
+
 class Counter:
     def __init__(self):
         self.__count = 0
