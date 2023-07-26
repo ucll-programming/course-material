@@ -25,6 +25,11 @@ contents:
       must_come_after:
         - classes
         - __init__
+  - name: Constructor Parameters
+    type: explanation
+    id: constructor
+    documentation:
+      en: explanation-constructor-parameters.en.md
   - name: Counter
     type: exercise
     id: counter
