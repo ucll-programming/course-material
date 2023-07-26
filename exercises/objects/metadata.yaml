@@ -7,6 +7,11 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+  - name: Classes
+    type: explanation
+    id: classes
+    documentation:
+      en: explanation-classes.en.md
   - name: Counter
     type: exercise
     id: counter
