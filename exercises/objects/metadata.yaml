@@ -2,6 +2,11 @@ type: section
 name: Objects
 id: objects
 contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
   - name: Counter
     type: exercise
     id: counter
