@@ -12,6 +12,20 @@ contents:
         - sets
       must_come_after:
         - lists
+  - name: Contains Duplicates
+    type: exercise
+    id: contains-duplicates
+    documentation:
+      en: assignment-contains-duplicates.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-contains-duplicates.py
+    topics:
+      must_come_after:
+        - for
+        - lists
+        - sets
   - name: Find Duplicates
     type: exercise
     id: find-duplicates
@@ -21,3 +35,8 @@ contents:
     judge:
       type: pytest
       file: test-find-duplicates.py
+    topics:
+      must_come_after:
+        - for
+        - lists
+        - sets

@@ -1,3 +1,12 @@
+def contains_duplicates(xs):
+    found = set()
+    for x in xs:
+        if x in found:
+            return True
+        found.add(x)
+    return False
+
+
 def find_duplicates(xs):
     found = set()
     listed = set()
