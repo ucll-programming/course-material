@@ -116,7 +116,7 @@ Choosing to use a set is typically done for purposes of efficiency: a list can d
 
 ## Python Sets
 
-Sets are deemed important enough for Python to have them built-in.
+Sets are deemed important enough for Python to have them [built-in](https://docs.python.org/3/tutorial/datastructures.html#sets).
 Here is a quick overview:
 
 ::::div{.formatted-table}

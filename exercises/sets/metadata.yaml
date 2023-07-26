@@ -40,3 +40,8 @@ contents:
         - for
         - lists
         - sets
+  - name: More Operations
+    type: explanation
+    id: operations
+    documentation:
+      en: explanation-operations.en.md
