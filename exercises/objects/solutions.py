@@ -27,6 +27,13 @@ class Interval:
         return self.contains(other.lower) or self.contains(other.upper) or other.contains(self.lower)
 
 
+class Password:
+    def __init__(self, password):
+        self.__password = password
+
+    def verify(self, string):
+        return self.__password == string
+
 class Counter:
     def __init__(self):
         self.__count = 0

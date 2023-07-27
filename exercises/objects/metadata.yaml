@@ -61,6 +61,15 @@ contents:
     id: private
     documentation:
       en: explanation-private.en.md
+  - name: Password
+    type: exercise
+    id: password
+    documentation:
+      en: assignment-password.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-password.py
   - name: Properties
     type: explanation
     id: properties
