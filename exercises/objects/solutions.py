@@ -10,6 +10,23 @@ class Position:
         self.y = y
 
 
+class Interval:
+    def __init__(self, lower, upper):
+        self.lower = lower
+        self.upper = upper
+
+    def contains(self, value):
+        return self.lower <= value <= self.upper
+
+    def is_empty(self):
+        return self.lower > self.upper
+
+    def overlaps_with(self, other):
+        if self.is_empty() or other.is_empty():
+            return False
+        return self.contains(other.lower) or self.contains(other.upper) or other.contains(self.lower)
+
+
 class Counter:
     def __init__(self):
         self.__count = 0
