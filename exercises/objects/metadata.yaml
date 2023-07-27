@@ -52,7 +52,7 @@ contents:
     id: interval
     documentation:
       en: assignment-interval.en.md
-    difficulty: 2
+    difficulty: 3
     judge:
       type: pytest
       file: test-interval.py
