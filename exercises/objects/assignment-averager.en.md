@@ -9,7 +9,7 @@ Create a class `Averager` that assists in the computation of averages:
 * A method `reset()` that lets the object forget about all previously `add`ed values.
 
 Note that you don't need to keep a list of all values.
-Find a more memory efficient solution.
+Instead, simply keep track of the sum and the number of added values.
 ::::
 
 ::::USAGE
