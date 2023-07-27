@@ -75,6 +75,15 @@ contents:
     id: hiding-data
     documentation:
       en: explanation-hiding-data.en.md
+  - name: Averager
+    type: exercise
+    id: averager
+    documentation:
+      en: assignment-averager.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-averager.py
   - name: Properties
     type: explanation
     id: properties
