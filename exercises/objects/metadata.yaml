@@ -39,6 +39,33 @@ contents:
     judge:
       type: pytest
       file: test-position.py
+  - name: Methods
+    type: explanation
+    id: methods
+    documentation:
+      en: explanation-methods.en.md
+    topics:
+      introduces:
+        - methods
+  - name: Interval
+    type: exercise
+    id: interval
+    documentation:
+      en: assignment-interval.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-interval.py
+  - name: Private Members
+    type: explanation
+    id: private
+    documentation:
+      en: explanation-private.en.md
+  - name: Properties
+    type: explanation
+    id: properties
+    documentation:
+      en: explanation-properties.en.md
   - name: Counter
     type: exercise
     id: counter

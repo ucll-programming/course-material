@@ -6,7 +6,6 @@ def if_method_exists(method_name):
     return pytest.mark.skipif(method_name not in dir(student.Interval), reason=f'{method_name} not found in Interval class')
 
 
-
 @pytest.mark.timeout(1)
 @pytest.mark.parametrize("lower", [-4, 0, 9])
 @pytest.mark.parametrize("upper", [-2, 0, 5])
@@ -15,6 +14,18 @@ def test_initialization(lower, upper):
 
     assert interval.lower == lower
     assert interval.upper == upper
+
+
+@if_method_exists('is_empty')
+@pytest.mark.timeout(1)
+@pytest.mark.parametrize("interval, expected", [
+    (student.Interval(a, b), a > b)
+    for a in [-5, 3, 20]
+    for b in [-5, 3, 20]
+])
+def test_contains(interval, expected):
+    actual = interval.is_empty()
+    assert expected == actual
 
 
 @if_method_exists('contains')
@@ -39,18 +50,6 @@ def test_contains(interval, value, expected):
     assert expected == actual
 
 
-@if_method_exists('is_empty')
-@pytest.mark.timeout(1)
-@pytest.mark.parametrize("interval, expected", [
-    (student.Interval(a, b), a > b)
-    for a in [-5, 3, 20]
-    for b in [-5, 3, 20]
-])
-def test_contains(interval, expected):
-    actual = interval.is_empty()
-    assert expected == actual
-
-
 @if_method_exists('overlaps_with')
 @pytest.mark.timeout(1)
 @pytest.mark.parametrize("i1, i2, expected", [
@@ -60,7 +59,9 @@ def test_contains(interval, expected):
         for b in [-5, -1, 3, 8, 12]
         for x in [-5, -1, 3, 8, 12]
         for y in [-5, -1, 3, 8, 12]
-    )
+    ),
+    (student.Interval(0, 1000000), student.Interval(1000000, 2000000), True),
+    (student.Interval(0, 1000000), student.Interval(1000001, 2000000), False),
 ])
 def test_overlaps_with(i1, i2, expected):
     actual = i1.overlaps_with(i2)
