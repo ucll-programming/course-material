@@ -97,3 +97,10 @@ box3.contents = True
 :::
 
 ::::
+
+::::INFO
+We called the `__init__` method the constructor.
+There seems to be some disagreement about whether this is actually the right term.
+
+In this course, we'll keep using the term constructor, but realize that you may find other sources disagreeing with this choice of terminology.
+::::

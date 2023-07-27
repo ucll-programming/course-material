@@ -70,6 +70,11 @@ contents:
     judge:
       type: pytest
       file: test-password.py
+  - name: Hiding Data
+    type: explanation
+    id: hiding-data
+    documentation:
+      en: explanation-hiding-data.en.md
   - name: Properties
     type: explanation
     id: properties
