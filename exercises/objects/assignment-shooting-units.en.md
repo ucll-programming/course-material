@@ -1,4 +1,4 @@
-# Unit Damage
+# Shooting Units
 
 We're making a game where units can shoot at each other.
 Units are characterized by
