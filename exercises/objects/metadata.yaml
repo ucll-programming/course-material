@@ -103,3 +103,12 @@ contents:
         - classes
         - properties
         - private
+  - name: Shooting Units
+    type: exercise
+    id: shooting-units
+    documentation:
+      en: assignment-shooting-units.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-shooting-units.py
