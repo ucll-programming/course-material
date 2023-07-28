@@ -121,3 +121,8 @@ contents:
     judge:
       type: pytest
       file: test-tweet.py
+  - name: Dunder Methods
+    type: explanation
+    id: dunder-methods
+    documentation:
+      en: explanation-dunder-methods.en.md
