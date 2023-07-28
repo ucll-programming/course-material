@@ -24,16 +24,24 @@ Examples are shown below.
 
 :::
 
-:::HINT
-Parsing a position involves multiple steps.
-To implement such algorithms, you'll want to find ways to strip away complexity.
+:::HINT{caption="Hint 1"}
+Many algorithms consists of multiple steps.
+Don't try to find a final solution in one go.
+Find little steps that allow you to chip away the complexity in tiny bits.
+:::
 
-* A possible first step would be to get rid of the enclosing parentheses.
-  These are always at fixed positions, so this should be easy.
-  This way, you have reduced the problem from parsing `(x, y)` to parsing `x, y`.
-* You need to know where both `x` and `y` start and end.
-  There's a special character separating the two.
-  Find its position in the string.
-* Given the index of the separator, you are able to partition the string in a left part (where `x` is stored) and a right part (where `y` is stored).
-* As a last step, you need to convert from string to `float`.
+:::HINT{caption="Hint 2"}
+A possible first step would be to get rid of the enclosing parentheses.
+These are always at fixed positions, so this should be easy.
+This way, you have reduced the problem from parsing `(x, y)` to parsing `x, y`.
+:::
+
+:::HINT{caption="Hint 3"}
+You need to know where both `x` and `y` start and end.
+There's a special character separating the two.
+Find its position in the string.
+:::
+
+:::HINT{caption="Hint 4"}
+Once you have the index of the separator, you can partition the string in a left part (where `x` is stored) and a right part (where `y` is stored).
 :::
