@@ -33,7 +33,7 @@ As a reminder: exceptions are thrown using
 :::code{caption="Python"}
 
 ```python
-raise ValueError
+raise ValueError()
 ```
 
 :::
