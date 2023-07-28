@@ -108,7 +108,16 @@ contents:
     id: shooting-units
     documentation:
       en: assignment-shooting-units.en.md
-    difficulty: 1
+    difficulty: 3
     judge:
       type: pytest
       file: test-shooting-units.py
+  - name: Tweet
+    type: exercise
+    id: tweet
+    documentation:
+      en: assignment-tweet.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-tweet.py

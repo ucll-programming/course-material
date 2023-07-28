@@ -90,3 +90,32 @@ class Unit:
     def shot_by(self, other):
         health_loss = max(0, other.firepower - self.armor)
         self.__health = max(0, self.__health - health_loss)
+
+
+class Tweet:
+    def __init__(self, message, max_length):
+        self.__message = message
+        self.max_length = max_length
+
+    def __truncate(self):
+        self.__message = self.__message[:self.__max_length]
+
+    @property
+    def message(self):
+        return self.__message
+
+    @message.setter
+    def message(self, message):
+        self.__message = message
+        self.__truncate()
+
+    @property
+    def max_length(self):
+        return self.__max_length
+
+    @max_length.setter
+    def max_length(self, max_length):
+        if max_length < 1:
+            raise ValueError()
+        self.__max_length = max_length
+        self.__truncate()
