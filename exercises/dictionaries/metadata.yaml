@@ -209,7 +209,7 @@ contents:
         - min
   - name: Selling Shoes 2
     type: exercise
-    id: sell
+    id: sell2
     documentation:
       en: assignment-sell2.en.md
     difficulty: 4
