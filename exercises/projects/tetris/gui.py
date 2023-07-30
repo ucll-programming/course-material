@@ -30,9 +30,9 @@ def main():
                 elif key == pygame.K_UP:
                     tetris.rotate_shape()
                 elif key == pygame.K_DOWN:
-                    tetris.drop_shape_one_row()
+                    tetris.drop()
                 elif key == pygame.K_SPACE:
-                    tetris.drop_shape()
+                    tetris.full_drop()
 
     def render():
         screen_width, screen_height = surface.get_size()
@@ -47,7 +47,7 @@ def main():
             for x in range(pit_width):
                 position = Position(x, y)
                 block = tetris.pit[position]
-                color = colors[block] if block is not None else pygame.Color('black')
+                color = pygame.Color(block) if block is not None else pygame.Color('black')
                 rectangle = pygame.Rect(
                     horizontal_margin + x * block_pixel_size,
                     vertical_margin + y * block_pixel_size,
@@ -61,7 +61,7 @@ def main():
                 position = Position(x, y)
                 block = tetris.current_shape[position]
                 if block is not None:
-                    color = colors[block]
+                    color = pygame.Color(block)
                     rectangle = pygame.Rect(
                         horizontal_margin + (tetris.current_shape_position.x + x) * block_pixel_size,
                         vertical_margin + (tetris.current_shape_position.y + y) * block_pixel_size,
@@ -73,7 +73,6 @@ def main():
 
     pygame.init()
 
-    colors = [pygame.Color('red'), pygame.Color('blue'), pygame.Color('green')]
     surface = _create_main_surface()
     # font = pygame.font.SysFont(None, 48)
     clock = _create_clock()
@@ -83,11 +82,11 @@ def main():
     while True:
         process_events()
 
-        clock.tick(25)
+        elapsed_seconds = clock.tick(25) / 1000
+        tetris.tick(elapsed_seconds)
         render()
 
         pygame.display.flip()
-
 
 
 if __name__ == '__main__':

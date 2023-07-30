@@ -44,49 +44,48 @@ def _parse_shape(string, color):
 
 
 
-def shape_O(color):
+def shape_O():
     return _parse_shape('''
         xx
         xx
-        ''', color)
+        ''', 'yellow')
 
-def shape_S(color):
+def shape_S():
     return _parse_shape('''
         .xx
         xx.
-        ''', color)
+        ''', 'green')
 
-def shape_Z(color):
+def shape_Z():
     return _parse_shape('''
         xx.
         .xx
-        ''', color)
+        ''', 'red')
 
-def shape_I(color):
+def shape_I():
     return _parse_shape('''
         xxxx
-        ''', color)
+        ''', 'cyan')
 
-def shape_L(color):
+def shape_L():
     return _parse_shape('''
         xxx
         x..
-        ''', color)
+        ''', 'orange')
 
-def shape_J(color):
+def shape_J():
     return _parse_shape('''
         x..
         xxx
-        ''', color)
+        ''', 'blue')
 
-def shape_T(color):
+def shape_T():
     return _parse_shape('''
         .x.
         xxx
-        ''', color)
+        ''', 'purple')
 
 def random_shape():
-    color = random.randint(0, 2)
     return random.choice([
         shape_I,
         shape_J,
@@ -95,4 +94,4 @@ def random_shape():
         shape_S,
         shape_T,
         shape_Z,
-    ])(color)
+    ])()

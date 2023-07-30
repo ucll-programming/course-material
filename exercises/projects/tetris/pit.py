@@ -71,5 +71,4 @@ class Pit:
         while i >= 0:
             self.__empty_row(i)
             i -= 1
-        print(f'removed {count} rows')
         return count
