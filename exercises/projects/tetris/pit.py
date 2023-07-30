@@ -57,11 +57,9 @@ class Pit:
 
     def remove_full_rows(self):
         i = j = self.height - 1
-        count = 0
         while j >= 0:
             while j >= 0 and self.__is_row_full(j):
                 j -= 1
-                count += 1
             if i != j:
                 self.__copy_row(j, i)
                 j -= 1
@@ -71,4 +69,3 @@ class Pit:
         while i >= 0:
             self.__empty_row(i)
             i -= 1
-        return count
