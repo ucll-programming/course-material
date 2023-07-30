@@ -1,4 +1,3 @@
-from tetris import Tetris
 from position import Position
 import pygame
 
@@ -31,7 +30,6 @@ class Renderer:
     def __render_shape(self):
         shape = self.__tetris.current_shape
         shape_position = self.__tetris.current_shape_position
-        block_pixel_size = self.__block_pixel_size
         for y in range(shape.height):
             for x in range(shape.width):
                 position = Position(x, y)
