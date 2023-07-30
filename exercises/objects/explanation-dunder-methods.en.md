@@ -60,6 +60,7 @@ We give an incomplete list:
 | `x.__floordiv__(y)` | `x // y` |
 | `x.__mod__(y)` | `x % y` |
 | `x.__pow__(y)` | `x ** y` |
+| `x.__eq__(y)` | `x == y` |
 | `x.__abs__()` | `abs(x)` |
 | `x.__round__()` | `round(x)` |
 | `x.__floor__()` | `floor(x)` |

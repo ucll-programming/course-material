@@ -126,3 +126,8 @@ contents:
     id: dunder-methods
     documentation:
       en: explanation-dunder-methods.en.md
+  - name: Equality
+    type: explanation
+    id: equality
+    documentation:
+      en: explanation-equality.en.md

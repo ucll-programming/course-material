@@ -1,4 +1,5 @@
-from tetris import *
+from tetris import Tetris
+from position import Position
 import pygame
 import sys
 
@@ -15,7 +16,6 @@ def _create_clock():
     return pygame.time.Clock()
 
 
-
 def main():
     def process_events():
         for event in pygame.event.get():
@@ -23,17 +23,61 @@ def main():
                 sys.exit()
             if event.type == pygame.KEYDOWN:
                 key = event.key
-
+                if key == pygame.K_LEFT:
+                    tetris.move_left()
+                elif key == pygame.K_RIGHT:
+                    tetris.move_right()
+                elif key == pygame.K_UP:
+                    tetris.rotate_shape()
+                elif key == pygame.K_DOWN:
+                    tetris.drop_shape_one_row()
+                elif key == pygame.K_SPACE:
+                    tetris.drop_shape()
 
     def render():
-        ...
+        screen_width, screen_height = surface.get_size()
+        pit_width, pit_height = tetris.pit.size
+        block_pixel_size = min(screen_width / pit_width, screen_height / pit_height)
+        pit_pixel_width = block_pixel_size * pit_width
+        pit_pixel_height = block_pixel_size * pit_height
+        horizontal_margin = (screen_width - pit_pixel_width) // 2
+        vertical_margin = (screen_height - pit_pixel_height) // 2
+
+        for y in range(pit_height):
+            for x in range(pit_width):
+                position = Position(x, y)
+                block = tetris.pit[position]
+                color = colors[block] if block is not None else pygame.Color('black')
+                rectangle = pygame.Rect(
+                    horizontal_margin + x * block_pixel_size,
+                    vertical_margin + y * block_pixel_size,
+                    block_pixel_size,
+                    block_pixel_size,
+                )
+                pygame.draw.rect(surface, color, rectangle)
+
+        for y in range(tetris.current_shape.height):
+            for x in range(tetris.current_shape.width):
+                position = Position(x, y)
+                block = tetris.current_shape[position]
+                if block is not None:
+                    color = colors[block]
+                    rectangle = pygame.Rect(
+                        horizontal_margin + (tetris.current_shape_position.x + x) * block_pixel_size,
+                        vertical_margin + (tetris.current_shape_position.y + y) * block_pixel_size,
+                        block_pixel_size,
+                        block_pixel_size,
+                    )
+                    pygame.draw.rect(surface, color, rectangle)
+
 
     pygame.init()
 
+    colors = [pygame.Color('red'), pygame.Color('blue'), pygame.Color('green')]
     surface = _create_main_surface()
     # font = pygame.font.SysFont(None, 48)
     clock = _create_clock()
-
+    tetris = Tetris(8, 20)
 
 
     while True:
