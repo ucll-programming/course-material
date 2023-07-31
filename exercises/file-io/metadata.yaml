@@ -19,4 +19,4 @@ contents:
     topics:
       must_come_after:
         - opening files
-        - file.readlines
+        - file.readline
