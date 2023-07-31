@@ -50,3 +50,17 @@ def test_equality(address1, address2):
 ])
 def test_inequality(address1, address2):
     assert address1 != address2
+
+
+@pytest.mark.timeout(1)
+@pytest.mark.parametrize('address', [
+    'test@gmail.com',
+    'foo@geocities.net',
+])
+def test_repr(address):
+    email_address = student.EmailAddress(address)
+    actual = repr(email_address)
+    assert actual in [
+        f"EmailAddress('{address}')",
+        f'EmailAddress("{address}")'
+    ]
