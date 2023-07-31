@@ -1,4 +1,18 @@
 type: section
 name: File IO
 id: file-io
-contents: []
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+  - name: Count Lines
+    type: exercise
+    id: count-lines
+    documentation:
+      en: assignment-count-lines.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-count-lines.py
