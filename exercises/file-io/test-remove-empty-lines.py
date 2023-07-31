@@ -66,7 +66,7 @@ import student
     'b.txt',
     'output.txt',
 ])
-def test_count_lines_in_file(tmp_path, source, destination, contents, expected):
+def test_remove_empty_lines(tmp_path, source, destination, contents, expected):
     source_path = tmp_path / source
     destination_path = tmp_path / destination
     source_path.write_text(contents)
