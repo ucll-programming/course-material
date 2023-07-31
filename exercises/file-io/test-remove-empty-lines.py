@@ -2,10 +2,14 @@ import pytest
 import student
 
 
+def join(lines):
+    return "".join(f'{line}\n' for line in lines)
+
+
 @pytest.mark.timeout(1)
 @pytest.mark.parametrize("contents, expected", [
     *(
-        ("".join(f'{line}\n' for line in lines), "".join(f'{line}\n' for line in lines if line))
+        (join(lines), join(line for line in lines if line))
         for lines in [
             [
                 ''
