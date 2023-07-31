@@ -34,3 +34,12 @@ contents:
         - opening files
         - file.readline
         - file.writeline
+  - name: Remove Duplicate Lines
+    type: exercise
+    id: remove-duplicate-lines
+    documentation:
+      en: assignment-remove-duplicate-lines.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-remove-duplicate-lines.py

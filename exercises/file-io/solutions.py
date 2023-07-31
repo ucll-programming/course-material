@@ -12,3 +12,13 @@ def remove_empty_lines(source, destination):
             for line in in_file:
                 if line != '\n':
                     out_file.write(line)
+
+
+def remove_duplicate_lines(source, destination):
+    with open(source) as in_file:
+        with open(destination, 'w') as out_file:
+            last_line = None
+            for line in in_file:
+                if line != last_line:
+                    out_file.write(line)
+                    last_line = line
