@@ -68,6 +68,8 @@ We give an incomplete list:
 | `x.__getitem__(key)` | `x[key]` |
 | `x.__setitem__(key, value)` | `x[key] = value` |
 | `x.__len__()` | `len(x)` |
+| `x.__str__()` | `str(x)` |
+| `x.__repr__()` | `repr(x)` |
 | `x.__iter__()` | Used by `for` loops |
 
 :::
