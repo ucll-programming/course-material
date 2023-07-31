@@ -20,3 +20,17 @@ contents:
       must_come_after:
         - opening files
         - file.readline
+  - name: Remove Empty Lines
+    type: exercise
+    id: remove-empty-lines
+    documentation:
+      en: assignment-remove-empty-lines.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-remove-empty-lines.py
+    topics:
+      must_come_after:
+        - opening files
+        - file.readline
+        - file.writeline
