@@ -32,6 +32,8 @@ contents:
   - type: link
     location: objects
   - type: link
+    location: dunder-methods
+  - type: link
     location: sets
   - type: link
     location: functions-advanced
