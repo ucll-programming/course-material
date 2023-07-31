@@ -16,3 +16,7 @@ contents:
     judge:
       type: pytest
       file: test-count-lines.py
+    topics:
+      must_come_after:
+        - opening files
+        - file.readlines
