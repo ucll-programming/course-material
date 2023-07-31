@@ -17,3 +17,17 @@ contents:
     id: string-conversion
     documentation:
       en: explanation-string-conversion.en.md
+  - name: Email Address
+    type: exercise
+    id: email-address
+    documentation:
+      en: assignment-email-address.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-email-address.py
+    topics:
+      must_come_after:
+        - classes
+        - __str__
+        - __eq__
