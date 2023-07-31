@@ -12,3 +12,8 @@ contents:
     id: equality
     documentation:
       en: explanation-equality.en.md
+  - name: String Conversion
+    type: explanation
+    id: string-conversion
+    documentation:
+      en: explanation-string-conversion.en.md
