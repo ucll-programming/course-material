@@ -54,6 +54,8 @@ contents:
   - type: link
     location: regex
   - type: link
+    location: file-io
+  - type: link
     location: projects
   - type: link
     location: challenges
