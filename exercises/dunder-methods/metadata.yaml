@@ -7,16 +7,16 @@ contents:
     id: dunder-methods
     documentation:
       en: explanation-dunder-methods.en.md
-  - name: Equality
-    type: explanation
-    id: equality
-    documentation:
-      en: explanation-equality.en.md
   - name: String Conversion
     type: explanation
     id: string-conversion
     documentation:
       en: explanation-string-conversion.en.md
+  - name: Equality
+    type: explanation
+    id: equality
+    documentation:
+      en: explanation-equality.en.md
   - name: Email Address
     type: exercise
     id: email-address
