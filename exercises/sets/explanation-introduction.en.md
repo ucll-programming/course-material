@@ -109,8 +109,10 @@ The good news about sets is that the basic operations are very fast.
 
 The bad news:
 
-* No more indexing: you have no control over the order of the items.
+* Sets are unordered: you have no control over the order of the items.
+  You can therefore also not index a set, i.e., `my_set[0]` is invalid.
 * No duplicates allowed: every item can appear only once in a set.
+  Adding an item a second time has no effect.
 
 Choosing to use a set is typically done for purposes of efficiency: a list can do everything a set can do, just more slowly.
 
@@ -125,12 +127,17 @@ Here is a quick overview:
 | Syntax | Description |
 | ------- | ------- |
 | `{1, 2, 3}` | Set literal |
-| `len(s)` | Number of items in set |
-| `s.add(x)` | Add `x` to set `s` |
-| `s.remove(x)` | Remove `x` from set `s` |
-| `x in s` | Check if `x` is an element of `s` |
+| `len(my_set)` | Number of items in set |
+| `my_set.add(x)` | Add `x` to set `my_set` |
+| `my_set.remove(x)` | Remove `x` from set `my_set` |
+| `x in my_set` | Check if `x` is an element of `my_set` |
 
 :::
+::::
+
+::::IMPORTANT
+Because sets are unordered, `{1, 2, 3}` and `{3, 2, 1}` are equal sets.
+Because sets "swallow" duplicates, `{1, 1, 1}` and `{1}` are also equal.
 ::::
 
 ::::IMPORTANT
