@@ -97,6 +97,24 @@
         "description": "Example block",
         "scope": "markdown"
     },
+    "Formatted Table": {
+        "prefix": "ftable",
+        "body": [
+            "::::div{.formatted-table}",
+            ":::center",
+            "",
+            "| $1Header1 | Header2 |",
+            "| ------- | ------- |",
+            "| row1a | row1b |",
+            "| row2a | row2b |",
+            "",
+            ":::",
+            "::::",
+        ],
+        "description": "Formatted table",
+        "scope": "markdown"
+    },
+
     "exercise": {
         "prefix": "exercise",
         "body": [
