@@ -7,16 +7,34 @@ contents:
     id: dunder-methods
     documentation:
       en: explanation-dunder-methods.en.md
+    topics:
+      introduces:
+        - dunder methods
   - name: String Conversion
     type: explanation
     id: string-conversion
     documentation:
       en: explanation-string-conversion.en.md
+    topics:
+      introduces:
+        - __str__
+        - __repr__
+      must_come_after:
+        - strings
+        - objects
+        - dunder methods
   - name: Equality
     type: explanation
     id: equality
     documentation:
       en: explanation-equality.en.md
+    topics:
+      introduces:
+        - __eq__
+        - __ne__
+      must_come_after:
+        - objects
+        - dunder methods
   - name: Email Address
     type: exercise
     id: email-address
@@ -30,4 +48,5 @@ contents:
       must_come_after:
         - classes
         - __str__
+        - __repr__
         - __eq__
