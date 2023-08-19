@@ -14,7 +14,7 @@ layout: page
   - [Blocks](#blocks)
   - [Hints](#hints)
   - [Usage Block](#usage-block)
-  - [Code Blocks](#code-blocks-1)
+  - [Code Blocks with Header](#code-blocks-with-header)
 - [Official Documentation](#official-documentation)
 
 # Headings
@@ -156,7 +156,7 @@ Contents
 
 Code snippet: `usage`.
 
-## Code Blocks
+## Code Blocks with Header
 
 ````markdown
 ::::code{caption="Python Shell"}
