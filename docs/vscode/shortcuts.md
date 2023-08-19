@@ -7,54 +7,80 @@ layout: page
 ## Clipboard
 
 | Shortcut | Description |
-| -------- | ----------- |
-| CTRL + X with text selected | Cut selection to clipboard |
-| CTRL + X with no text selected | Cut current line to clipboard |
-| CTRL + C with text selected | Copy selection to clipboard |
-| CTRL + C with no text selected | Copy current line to clipboard |
-| CTRL + V | Paste |
-| CTRL + A | Selected everything in current file |
+| --------: | ----------- |
+| Ctrl + `X` with text selected | Cut selection to clipboard |
+| Ctrl + `X` with no text selected | Cut current line to clipboard |
+| Ctrl + `C` with text selected | Copy selection to clipboard |
+| Ctrl + `C` with no text selected | Copy current line to clipboard |
+| Ctrl + `V` | Paste |
+| Ctrl + `A` | Selected everything in current file |
 
 ## Line Operations
 
 | Shortcut | Description |
-| -------- | ----------- |
-| CTRL + SHIFT + K | Remove current line |
-| ALT + &uarr; | Move line up |
-| ALT + &darr; | Move line down |
+| --------: | ----------- |
+| Ctrl + Shift + `K` | Remove current line |
+| Alt + &uarr; | Move line up |
+| Alt + &darr; | Move line down |
+| Alt + Shift + &uarr; | Copy current line upwards |
+| Alt + Shift + &darr; | Copy current line downwards |
 
 ## Searching and Replacing
 
 | Shortcut | Description |
-| -------- | ----------- |
-| CTRL + F | Find in current file |
-| CTRL + SHIFT + F | Find in all files in current workspace |
-| CTRL + H | Search/Replace in current file |
-| CTRL + SHIFT + H | Search/Replace in all files in current workspace |
+| --------: | ----------- |
+| Ctrl + `F` | Find in current file |
+| F3 | Find next |
+| Shift + F3 | Find previous |
+| Ctrl + Shift + `F` | Find in all files in current workspace |
+| Ctrl + `H` | Search/Replace in current file |
+| Ctrl + Shift + `H` | Search/Replace in all files in current workspace |
 
 ## Undo/Redo
 
 | Shortcut | Description |
-| -------- | ----------- |
-| CTRL + Z | Undo |
-| CTRL + Y | Redo |
+| --------: | ----------- |
+| Ctrl + `Z` | Undo |
+| Ctrl + `Y` | Redo |
 
 ## Cursor
 
 | Shortcut | Description |
-| -------- | ----------- |
-| CTRL + &larr; | Move word left |
-| CTRL + &rarr; | Move word right |
-| CTRL + HOME | Go to beginning of file |
-| CTRL + END | Go to end of file |
-| CTRL + D | Find next occurrence of currently selected text and add new cursor there |
-| CTRL + ALT + &uarr;/&darr; | Add extra cursor one line above/below current cursor |
-| SHIFT + cursor movement | Extend selection while moving cursor |
+| --------: | ----------- |
+| Ctrl + &larr; | Move word left |
+| Ctrl + &rarr; | Move word right |
+| Ctrl + &uarr; | Scroll one line up |
+| Ctrl + &darr; | Scroll one line down |
+| Home | Go to beginning of line |
+| End | Go to end of line |
+| Ctrl + Home | Go to beginning of file |
+| Ctrl + End | Go to end of file |
+| Ctrl + `D` | Find next occurrence of currently selected text and add new cursor there |
+| Ctrl + Alt + &uarr;/&darr; | Add extra cursor one line above/below current cursor |
+| Shift + cursor movement | Extend selection while moving cursor |
 
 ## Code Manipulation
 
 | Shortcut | Description |
-| -------- | ----------- |
-| CTRL + / | Toggle comments |
-| CTRL + ] | Indent |
-| CTRL + [ | Unindent |
+| --------: | ----------- |
+| Ctrl + `/` | Toggle comments |
+| Ctrl + `]` | Indent |
+| Ctrl + `[` | Unindent |
+
+## Integrated Terminal
+
+| Shortcut | Description |
+| --------: | ----------- |
+| Ctrl + \` | Show terminal |
+| Ctrl + Shift + \` | Create new terminal |
+
+## Debugging
+
+| Shortcut | Description |
+| --------: | ----------- |
+| F9 | Toggle breakpoint |
+| F5 | Start/Continue |
+| Shift + F5 | Stop |
+| F11 | Step into |
+| Shift + F11 | Step out |
+| F10 | Step over |
