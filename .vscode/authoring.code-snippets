@@ -39,6 +39,16 @@
         "description": "Hint block",
         "scope": "markdown"
     },
+    "Hint (Custom Header)": {
+        "prefix": "hinth",
+        "body": [
+            "::::HINT{caption=\"$1\"}",
+            "$2",
+            "::::",
+        ],
+        "description": "Hint block with custom header",
+        "scope": "markdown"
+    },
     "Question": {
         "prefix": "question",
         "body": [
@@ -114,7 +124,16 @@
         "description": "Formatted table",
         "scope": "markdown"
     },
-
+    "Centered": {
+        "prefix": "center",
+        "body": [
+            ":::center",
+            "$1",
+            ":::",
+        ],
+        "description": "Centereing",
+        "scope": "markdown"
+    },
     "exercise": {
         "prefix": "exercise",
         "body": [
@@ -147,9 +166,12 @@
         "prefix": "topics",
         "body": [
             "topics:",
-            "  introduces: []",
-            "  must_come_before: []",
-            "  must_come_after: []",
+            "  introduces:",
+            "    - TOPICS EXPLAINED BY THIS SECTION",
+            "  must_come_before:",
+            "    - THESE TOPICS SHOULD NOT HAVE YET BEEN DISCUSSED",
+            "  must_come_after:",
+            "    - THESE TOPICS MUST HAVE COME BEFORE THIS SECTION"
         ],
         "description": "Usage block",
         "scope": "yaml"
