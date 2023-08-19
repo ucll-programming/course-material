@@ -1,0 +1,15 @@
+{
+    "svg.preview.background": "editor",
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "dunder",
+        "elif",
+        "Falsey",
+        "isinstance",
+        "movesets",
+        "namedtuple",
+        "pytest",
+        "repr",
+        "Tetris"
+    ]
+}
