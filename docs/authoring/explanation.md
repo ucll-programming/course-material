@@ -2,10 +2,6 @@
 layout: page
 ---
 
----
-layout: page
----
-
 - [Write Explanation](#write-explanation)
 - [Update YAML File](#update-yaml-file)
 
