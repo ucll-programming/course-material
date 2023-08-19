@@ -7,3 +7,4 @@ title: Overview
 * [Workflow](workflow.md): this explains how to go about solving the exercises, etc.
 * [Weekly planning](planning.md)
 * [Visual Studio Code Tricks](vscode/)
+* [Authoring Guide](authoring/) (only meant for authors)
