@@ -15,6 +15,19 @@ layout: page
 | Ctrl + `V` | Paste |
 | Ctrl + `A` | Selected everything in current file |
 
+## File Management
+
+| Shortcut | Description |
+| --------: | ----------- |
+| Ctrl + `N` | New file |
+| Ctrl + `O` | Open file |
+| Ctrl + `S` | Save file |
+| Ctrl + `K` `S` | Save all |
+| Ctrl + F4 | Close |
+| Ctrl + Shift + `T` | Reopen previously closed |
+| Ctrl + Tab | Switch to next file |
+| Ctrl + Shift + Tab | Switch to previous file |
+
 ## Line Operations
 
 | Shortcut | Description |
