@@ -20,7 +20,7 @@ TODO Progtool!
 
 ## Checking the Installation
 
-Open the terminal in the `00-setting-things-up` directory and enter (only the first line! The other lines are expected output)
+Open the terminal in the `scripts` directory and enter (only the first line! The other lines are expected output)
 
 ```bash
 $ pytest

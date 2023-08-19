@@ -5,6 +5,7 @@ layout: page
 # Python Installation
 
 The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
+Download and install it.
 
 ## Checking Your Python Installation
 
@@ -27,7 +28,7 @@ If you encounter problems, inform a lecturer.
 
 ### Windows Instructions
 
-Open Git Bash in the `00-setting-things-up` directory and enter.
+Open Git Bash in the `scripts` directory and enter.
 
 ```bash
 $ py check-python-installation.py
@@ -35,11 +36,11 @@ $ py check-python-installation.py
 
 If the output ends on `SUCCESS`, you can proceed with the [next step](python-packages.md).
 
-Next: [Pytest](pytest.md)
+Next: [Install Python packages](packages.md)
 
 ### MacOS/Linux Instructions
 
-Open a terminal in the `00-setting-things-up` directory.
+Open a terminal in the `scripts` directory.
 
 ```bash
 $ python3 check-python-installation.py
@@ -53,4 +54,4 @@ Remember which one you used; it will come in handy later.
 
 If the output ends on `SUCCESS`, you can proceed with the [next step](python-packages.md).
 
-Next: [Pytest](pytest.md)
+Next: [Install Python packages](packages.md)
