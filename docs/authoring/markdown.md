@@ -49,11 +49,11 @@ The numbering is unimportant: the compiler will automatically renumber them from
 # Unordered Lists
 
 ```markdown
-* First
-  * Subitem 1
-  * Subitem 2
-* Second
-* Third
+- First
+  - Subitem 1
+  - Subitem 2
+- Second
+- Third
 ```
 
 # Code Blocks
