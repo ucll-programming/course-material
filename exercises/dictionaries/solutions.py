@@ -102,3 +102,18 @@ def election_winner(votes):
             winner = vote
             winner_vote_count = updated_count
     return winner
+
+
+def matches_pattern(pattern, string):
+    if len(pattern) != len(string):
+        return False
+    bindings = {}
+    for pc, sc in zip(pattern, string):
+        if pc in bindings:
+            if bindings[pc] != sc:
+                return False
+        elif sc in bindings.values():
+            return False
+        else:
+            bindings[pc] = sc
+    return True

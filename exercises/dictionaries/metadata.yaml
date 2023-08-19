@@ -220,3 +220,12 @@ contents:
       must_come_after:
         - dictionary insertion
         - dictionary deletion
+  - name: Pattern Matching
+    type: exercise
+    id: matches-pattern
+    documentation:
+      en: assignment-matches-pattern.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-matches-pattern.py
