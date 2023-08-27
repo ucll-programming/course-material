@@ -2,6 +2,6 @@
 layout: page
 ---
 
-# Downloading index.html manually
+# Downloading index.html Manually
 
 TODO
