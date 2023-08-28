@@ -15,7 +15,7 @@ contents:
     difficulty: 1
     judge:
       type: pytest
-      file: test-count-lines.py
+      file: test-count-lines-in-file.py
     topics:
       must_come_after:
         - opening files
