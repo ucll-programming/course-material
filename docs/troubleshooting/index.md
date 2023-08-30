@@ -10,4 +10,4 @@ show_in_header: true
 * [Missing identifier file](missing-identifier-file.md)
 * [Wrong identifier file contents](wrong-identifier-file-contents.md)
 * [Manual setup](manual-setup.md)
-*
+* [Could not find GitHub organization](missing-github-organization.md)
