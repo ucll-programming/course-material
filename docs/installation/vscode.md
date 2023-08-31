@@ -9,4 +9,8 @@ layout: page
 * In the sidebar, open the extensions tab (icon with four little squares).
 * Enter "Python" in the search box and install the Python extension (by Microsoft).
 
+| Screenshot |
+| :--------: |
+| ![VSCode extension tab](vscode-extension.png) |
+
 Next: [Git](git.md)
