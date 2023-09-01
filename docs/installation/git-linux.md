@@ -16,7 +16,7 @@ If you are shown a version number, Git is already installed and you can jump to 
 
 ## Git Installation
 
-The installation depends on which Linux distro you're running.
+The installation depends on which Linux distribution you're running.
 We refer you to this [page](https://git-scm.com/download/linux).
 
 {% include git-configuration.md %}
