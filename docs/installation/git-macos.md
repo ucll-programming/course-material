@@ -48,4 +48,4 @@ $ brew install git
 
 ## Next: Python
 
-Proceed with the [installation of Python](python-macos.md)
+Proceed with the [installation of Python](python-macos.md).

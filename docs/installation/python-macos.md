@@ -8,7 +8,7 @@ The most recent Python version can be found [on the Python website](https://www.
 Download and install it.
 If need be, you can always look on [Youtube](https://youtu.be/36Uu4Gn_A3o?t=112) for extra help.
 
-{% include python-installation-shared.md %}
+{% include checking-python-installation.md %}
 
 Open a terminal in the `scripts` directory.
 

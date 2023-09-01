@@ -23,4 +23,4 @@ We refer you to this [page](https://git-scm.com/download/linux).
 
 ## Next: Python
 
-Proceed with the [installation of Python](python-linux.md)
+Proceed with the [installation of Python](python-linux.md).

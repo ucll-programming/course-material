@@ -42,4 +42,4 @@ If Visual Studio Code is not listed, you should cancel the installation of Git a
 
 ## Next: Python
 
-Proceed with the [installation of Python](python-windows.md)
+Proceed with the [installation of Python](python-windows.md).

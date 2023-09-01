@@ -7,7 +7,7 @@ layout: page
 The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
 Download and install it.
 
-{% include python-installation-shared.md %}
+{% include checking-python-installation.md %}
 
 Open Git Bash in the `scripts` directory and enter.
 

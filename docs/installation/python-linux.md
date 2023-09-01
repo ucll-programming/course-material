@@ -4,10 +4,10 @@ layout: page
 
 # Python Installation on Linux
 
-How to install Python depends on your Linux distro.
+How to install Python depends on your Linux distribution.
 Look up how to install Python
 
-{% include python-installation-shared.md %}
+{% include checking-python-installation.md %}
 
 Open a terminal in the `scripts` directory.
 
