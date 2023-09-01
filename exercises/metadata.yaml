@@ -12,7 +12,7 @@ contents:
   - type: link
     location: arithmetic
   - type: link
-    location: 02-booleans
+    location: booleans
   - type: link
     location: 03-conditionals
   - type: link
