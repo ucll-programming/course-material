@@ -18,7 +18,7 @@ contents:
   - type: link
     location: none
   - type: link
-    location: 04-strings
+    location: strings
   - type: link
     location: 05-loops
   - type: link
