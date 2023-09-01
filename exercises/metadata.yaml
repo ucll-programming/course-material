@@ -8,7 +8,7 @@ contents:
   #   - authoring
   #   available_by_default: no
   - type: link
-    location: 00-introduction
+    location: introduction
   - type: link
     location: 01-arithmetic
   - type: link
