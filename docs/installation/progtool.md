@@ -17,5 +17,5 @@ Close the terminal and open a *new* one in the same directory in which you have 
 Enter
 
 ```bash
-$ progtool server
+$ progtool setup
 ```
