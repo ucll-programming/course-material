@@ -14,7 +14,7 @@ contents:
   - type: link
     location: booleans
   - type: link
-    location: 03-conditionals
+    location: conditionals
   - type: link
     location: none
   - type: link
