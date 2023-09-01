@@ -20,7 +20,7 @@ contents:
   - type: link
     location: strings
   - type: link
-    location: 05-loops
+    location: loops
   - type: link
     location: tuples
   - type: link
