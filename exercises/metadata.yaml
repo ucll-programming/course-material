@@ -10,7 +10,7 @@ contents:
   - type: link
     location: introduction
   - type: link
-    location: 01-arithmetic
+    location: arithmetic
   - type: link
     location: 02-booleans
   - type: link
