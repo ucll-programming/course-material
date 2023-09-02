@@ -22,6 +22,18 @@ contents:
     topics:
       must_come_after:
         - recursion
+  - name: Factorial
+    type: exercise
+    id: factorial
+    documentation:
+      en: assignment-factorial.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-factorial.py
+    topics:
+      must_come_after:
+        - recursion
   - name: Linked List Length
     type: exercise
     id: length

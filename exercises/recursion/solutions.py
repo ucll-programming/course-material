@@ -10,6 +10,13 @@ def sum_range(a, b):
         return sum_range(a, b - 1) + b
 
 
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n - 1)
+
+
 LinkedList = namedtuple('LinkedList', ['value', 'next'])
 
 
