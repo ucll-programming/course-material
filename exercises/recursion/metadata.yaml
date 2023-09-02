@@ -121,3 +121,15 @@ contents:
     topics:
       must_come_after:
         - multiple recursion
+  - name: Tiling
+    type: exercise
+    id: tilings
+    documentation:
+      en: assignment-tilings.en.md
+    difficulty: 5
+    judge:
+      type: pytest
+      file: test-tilings.py
+    topics:
+      must_come_after:
+        - multiple recursion

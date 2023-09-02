@@ -76,3 +76,10 @@ def quicksort(ns):
         sorted_left = quicksort(left)
         sorted_right = quicksort(right)
         return [*sorted_left, pivot, *sorted_right]
+
+
+def tilings(width):
+    if width <= 1:
+        return 1
+    else:
+        return tilings(width - 1) + tilings(width - 2)
