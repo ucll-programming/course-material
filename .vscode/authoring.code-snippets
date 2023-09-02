@@ -171,7 +171,7 @@
             "  must_come_before:",
             "    - THESE TOPICS SHOULD NOT HAVE YET BEEN DISCUSSED",
             "  must_come_after:",
-            "    - THESE TOPICS MUST HAVE COME BEFORE THIS SECTION"
+            "    - THESE TOPICS MUST HAVE DISCUSSED BEFORE"
         ],
         "description": "Usage block",
         "scope": "yaml"
