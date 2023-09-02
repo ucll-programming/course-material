@@ -133,3 +133,12 @@ contents:
     topics:
       must_come_after:
         - multiple recursion
+  - name: Coupon
+    type: exercise
+    id: coupon
+    documentation:
+      en: assignment-coupon.en.md
+    difficulty: 5
+    judge:
+      type: pytest
+      file: test-coupon.py

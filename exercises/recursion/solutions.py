@@ -83,3 +83,16 @@ def tilings(width):
         return 1
     else:
         return tilings(width - 1) + tilings(width - 2)
+
+
+def coupon(menu, value):
+    if value == 0:
+        return []
+    if value < 0:
+        return None
+    if len(menu) == 0:
+        return None
+    for price in menu:
+        if (r := coupon(menu, value - price)) is not None:
+            return [price, *r]
+    return None
