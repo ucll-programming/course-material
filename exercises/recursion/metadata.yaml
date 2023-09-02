@@ -114,7 +114,7 @@ contents:
     id: quicksort
     documentation:
       en: assignment-quicksort.en.md
-    difficulty: 3
+    difficulty: 4
     judge:
       type: pytest
       file: test-quicksort.py
