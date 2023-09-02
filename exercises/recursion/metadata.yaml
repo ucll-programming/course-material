@@ -34,6 +34,16 @@ contents:
     topics:
       must_come_after:
         - recursion
+  - name: Linked Lists
+    type: explanation
+    id: linked-lists
+    documentation:
+      en: explanation-linked-lists.en.md
+    topics:
+      introduces:
+        - linked lists
+      must_come_after:
+        - classes
   - name: Linked List Length
     type: exercise
     id: length
