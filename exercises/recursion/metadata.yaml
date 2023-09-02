@@ -22,11 +22,6 @@ contents:
     topics:
       must_come_after:
         - recursion
-  - name: Loops vs Recursion
-    type: explanation
-    id: loops-vs-recursion
-    documentation:
-      en: explanation-loops-vs-recursion.en.md
   - name: Linked List Length
     type: exercise
     id: length
@@ -89,6 +84,19 @@ contents:
     judge:
       type: pytest
       file: test-is-increasing.py
+  - name: Loops vs Recursion
+    type: explanation
+    id: loops-vs-recursion
+    documentation:
+      en: explanation-loops-vs-recursion.en.md
+  - name: Multiple Recursion
+    type: explanation
+    id: multiple-recursion
+    documentation:
+      en: explanation-multiple-recursion.en.md
+    topics:
+      introduces:
+        - multiple recursion
   - name: Quicksort
     type: exercise
     id: quicksort
