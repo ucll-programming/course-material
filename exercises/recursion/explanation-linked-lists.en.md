@@ -42,32 +42,40 @@ Consider the following code:
 :::code{caption="Python"}
 
 ```python
-class Node:
-    def __init__(self, value, next):
-        self.value = value
-        self.next = next
+class LinkedList:
+    def __init__(self, head, tail):
+        self.head = head
+        self.tail = tail
 ```
 
 :::
 
-A `Node` is an object with two fields:
+A `LinkedList` is an object with two fields:
 
-* `value` contains an element of the list.
-* `next` refers to the next node in the list.
+* `head` contains the first element of the list.
+* `tail` refers to another linked list containing the remaining elements.
 
-Using these `Nodes`, we can build the list `[1, 2, 3]` as a chain of `Node`s:
+Let's create a linked list that contains the elements `[1, 2, 3]`.
 
 :::code{caption="Python Shell"}
 
 ```python
->>> ns = Node(1, Node(2, Node(3, None)))
->>> ns.value
+# Represents [3]
+>>> lst_3 = LinkedList(3, None)
+
+# Represents [2, 3]
+>>> lst_23 = LinkedList(2, lst_3)
+
+# Represents [1, 2, 3]
+>>> lst_123 = LinkedList(1, lst_23)
+
+>>> lst.head
 1
 
->>> ns.next.value
+>>> lst.tail.head
 2
 
->>> ns.next.next.value
+>>> lst.tail.tail.had
 3
 ```
 
@@ -86,12 +94,12 @@ One of the advantages of linked lists is that insertion in front is very cheap:
 
 ```python
 # Adding 0 in front
->>> ns = Node(0, ns)
+>>> ns = LinkedList(0, ns)
 ```
 
 :::
 
-As you can see, adding a new item in front is merely a matter of creating a new `Node`.
+As you can see, adding a new item in front is merely a matter of creating a new `LinkedList` object.
 No values need to be moved around.
 
 ::::INFO

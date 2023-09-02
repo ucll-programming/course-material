@@ -17,7 +17,10 @@ def factorial(n):
         return n * factorial(n - 1)
 
 
-LinkedList = namedtuple('LinkedList', ['value', 'next'])
+class LinkedList:
+    def __init__(self, head, tail):
+        self.head = head
+        self.tail = tail
 
 
 def length(linked_list):
