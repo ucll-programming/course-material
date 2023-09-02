@@ -1,6 +1,15 @@
 from collections import namedtuple
 
 
+def sum_range(a, b):
+    if a == b:
+        return a
+    elif a > b:
+        return sum_range(b, a)
+    else:
+        return sum_range(a, b - 1) + b
+
+
 LinkedList = namedtuple('LinkedList', ['value', 'next'])
 
 

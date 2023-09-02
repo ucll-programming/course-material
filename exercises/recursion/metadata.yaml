@@ -2,6 +2,31 @@ type: section
 name: Recursion
 id: recursion
 contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - recursion
+  - name: Sum Range
+    type: exercise
+    id: sum-range
+    documentation:
+      en: assignment-sum-range.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-sum-range.py
+    topics:
+      must_come_after:
+        - recursion
+  - name: Loops vs Recursion
+    type: explanation
+    id: loops-vs-recursion
+    documentation:
+      en: explanation-loops-vs-recursion.en.md
   - name: Linked List Length
     type: exercise
     id: length
