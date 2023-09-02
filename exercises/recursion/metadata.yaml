@@ -89,3 +89,15 @@ contents:
     judge:
       type: pytest
       file: test-is-increasing.py
+  - name: Quicksort
+    type: exercise
+    id: quicksort
+    documentation:
+      en: assignment-quicksort.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-quicksort.py
+    topics:
+      must_come_after:
+        - multiple recursion

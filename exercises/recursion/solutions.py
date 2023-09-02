@@ -57,3 +57,15 @@ def is_increasing(linked_list):
         return linked_list.value <= linked_list.next.value and is_increasing(linked_list.next)
     else:
         return True
+
+
+def quicksort(ns):
+    if len(ns) <= 1:
+        return ns
+    else:
+        pivot, *rest = ns
+        left = [n for n in rest if n <= pivot]
+        right = [n for n in rest if n > pivot]
+        sorted_left = quicksort(left)
+        sorted_right = quicksort(right)
+        return [*sorted_left, pivot, *sorted_right]
