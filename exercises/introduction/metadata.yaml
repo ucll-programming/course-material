@@ -15,11 +15,17 @@ contents:
     id: calculator
     documentation:
       en: explanation-calculator.en.md
+    topics:
+      introduces:
+        - comments
   - name: Scripts
     type: explanation
     id: scripts
     documentation:
       en: explanation-scripts.en.md
+    topics:
+      introduces:
+        - print
   - name: Running Tests
     type: exercise
     id: running-tests
