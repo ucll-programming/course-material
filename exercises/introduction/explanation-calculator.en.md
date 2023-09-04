@@ -4,12 +4,17 @@ In essence, your machine is a calculator, albeit a very fancy one.
 Let's start with some simple things.
 Have a Python shell ready.
 
-:::WARNING
+:::IMPORTANT
 Whenever we ask you to type something in the shell, make sure to leave out the `>>>` part.
 This is the [*prompt*](https://en.wikipedia.org/wiki/Command-line_interface#Command_prompt) and indicates that what follows is what _you_ have to enter.
 For example, `>>> 5` means "please enter `5` followed by enter".
 
-Lines without a prompt are responses from the computer.
+Lines not starting with `>>>` are responses from the computer.
+:::
+
+:::IMPORTANT
+Lines starting with `#` are merely comments.
+If you type them in, they will be ignored by the computer.
 :::
 
 ::::TASK
@@ -68,5 +73,5 @@ Let's see what else we can do...
 
 Python can do a lot more than just calculations.
 In fact, there are very few limitations on what you can do: small scripts, games, server software, ... are all within reach.
-Admittedly, Python can be a bit slow compared to other languages, so don't get ready to create your AAA game yet.
+Admittedly, Python can be a [bit slow](https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/python3-gpp.html) compared to other languages, so don't get ready to create your AAA game yet.
 Python's power lies in the fact that it can do (almost) everything and that it allows you to do so with relative ease.
