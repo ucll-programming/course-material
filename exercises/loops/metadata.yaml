@@ -116,7 +116,7 @@ contents:
     topics:
       must_come_after:
         - modulo
-        - while
+        - while loop
   - name: GCD
     type: exercise
     id: gcd
