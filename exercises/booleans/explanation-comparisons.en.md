@@ -5,6 +5,7 @@ These all have one thing is common: they all operate on numbers and yield number
 
 Let's take a look at a series of other operators, which should be very familiar to you:
 
+::::div{.formatted-table}
 :::center
 
 | Python Syntax | Mathematical Notation | Description |
@@ -17,6 +18,7 @@ Let's take a look at a series of other operators, which should be very familiar 
 | `>=` | $\geq$ | greater than or equal to |
 
 :::
+::::
 
 What would the result be of such a comparison?
 If you were to open a terminal and enter a comparison, you would get
