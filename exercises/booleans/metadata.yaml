@@ -14,7 +14,7 @@ contents:
       must_come_after:
         - python shell
         - assignment
-        - variables
+        - local variables
   - name: Voting
     type: exercise
     id: can-vote
