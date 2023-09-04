@@ -280,6 +280,7 @@ contents:
       en: explanation-assignment.en.md
     topics:
       introduces:
+        - assignment
         - augmented assignment
       must_come_after:
         - print
