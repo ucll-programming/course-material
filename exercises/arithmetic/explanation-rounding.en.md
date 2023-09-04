@@ -29,7 +29,7 @@ from math import floor, ceil
 
 [`math`](https://docs.python.org/3/library/math.html) is a *module* that contains all kinds of math-related functions.
 There are many more modules: Python itself comes with over [200 modules](https://docs.python.org/3/py-modindex.html).
-Added to this, you can download many more from [PyPI](https://pypi.org/) (more than 350k).
+Added to this, you can download many more from [PyPI](https://pypi.org/) (more than 350k are available at the time of this writing).
 ::::
 
 ::::EXAMPLE
