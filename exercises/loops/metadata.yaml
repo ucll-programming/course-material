@@ -131,7 +131,7 @@ contents:
         - abs
         - max
         - modulo
-        - while
+        - while loop
   - name: String Iteration
     type: explanation
     id: string-iteration
