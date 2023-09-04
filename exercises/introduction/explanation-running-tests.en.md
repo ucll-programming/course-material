@@ -75,7 +75,7 @@ This is what you should see:
 :::code{caption="Bash"}
 
 ```bash
-$ pytest --tb=no test-sayhello.py
+$ pytest test-sayhello.py
 .                                                 [100%]
 1 passed in 0.06s
 ```
