@@ -126,8 +126,6 @@ contents:
       type: pytest
       file: test-buses-needed.py
     topics:
-      introduces:
-        - bus exercise
       must_come_after:
         - functions
         - return
@@ -171,7 +169,7 @@ contents:
       file: test-cake.py
     topics:
       must_come_after:
-        - integer division
+        - floor division
         - functions
         - return
         - parameters
@@ -186,7 +184,7 @@ contents:
       file: test-candy-per-child.py
     topics:
       must_come_after:
-        - integer division
+        - floor division
         - functions
         - return
         - parameters
@@ -213,7 +211,7 @@ contents:
         - functions
         - return
         - parameters
-        - integer division
+        - floor division
         - min
   - name: Local Variables
     id: locals
@@ -239,7 +237,7 @@ contents:
         - functions
         - return
         - parameters
-        - integer division
+        - floor division
         - min
   - name: Cake 4
     id: cake4
@@ -255,7 +253,7 @@ contents:
         - functions
         - return
         - parameters
-        - integer division
+        - floor division
         - min
   - name: Duration
     id: duration
@@ -274,7 +272,7 @@ contents:
         - functions
         - return
         - parameters
-        - integer division
+        - floor division
   - name: Assignment
     type: explanation
     id: assignment
@@ -299,7 +297,7 @@ contents:
         - functions
         - return
         - parameters
-        - integer division
+        - floor division
         - augmented assignment
   - name: Modulo
     id: modulo
@@ -309,9 +307,6 @@ contents:
     topics:
       introduces:
         - modulo
-      must_come_before:
-        - floor division
-        - bus exercise
   - name: Leftover Candy
     id: leftover-candy
     documentation:
@@ -374,7 +369,7 @@ contents:
         - functions
         - return
         - parameters
-        - integer division
+        - floor division
   - name: Next Player
     id: next-player
     documentation:
