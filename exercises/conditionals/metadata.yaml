@@ -41,7 +41,7 @@ contents:
       type: pytest
       file: test-abs.py
     topics:
-      must_come_before:
+      introduces:
         - abs
   - name: Elif
     type: explanation
