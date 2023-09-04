@@ -128,7 +128,7 @@ contents:
       file: test-versioning.py
     topics:
       must_come_after:
-        - destructuring
+        - destructuring tuples
   - name: Functions
     type: explanation
     id: functions
