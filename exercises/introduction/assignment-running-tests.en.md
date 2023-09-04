@@ -7,10 +7,25 @@ Now, writing code is not always easy, and it is important for you to know whethe
 You could simply run your code and check that whatever is printed out satisfies your expectations, but this approach is only reliable for the simplest of exercises.
 Instead, we will rely on *tests* to check your work: we provide you with scripts that will your code and verify its results.
 
-::::TASK
-Create a file named `sayhello.py` and add the following code to it:
+## Inside the Browser
 
-:::code{caption="sayhello.py"}
+A quick way to check whether your solution is correct is move your mouse cursor over the difficulty icon of this exercise in the sidebar.
+It should turn into a refresh button.
+Pressing it will cause the exercise entry to turn gray the tests to be run in the background.
+
+After the tests have done running (should last less than a second), the exercise entry should turn either red or green.
+Red means the tests have failed, while green means your solution was correct and you can move on to the next exercise.
+
+## Running Tests Manually
+
+Running the tests from the browser only gives you a pass/fail answer.
+In case of failure, you'll generally want to have more information about why the tests failed.
+For this, you need to run the tests manually.
+
+::::TASK
+Create a file named `student.py` in this chapter's directory and add the following code to it:
+
+:::code{caption="student.py"}
 
 ```python
 print('Hello')
@@ -18,13 +33,13 @@ print('Hello')
 
 :::
 
-We've written tests in a file named `test-sayhello.py`.
+We've written tests in a file named `test-say-hello.py`.
 You can run them as follows:
 
 :::code{caption="Bash"}
 
 ```python
-$ pytest test-sayhello.py
+$ pytest test-say-hello.py
 F                                                                                         [100%]
 =========================================== FAILURES ===========================================
 __________________________________________ test_script _________________________________________
@@ -32,7 +47,7 @@ __________________________________________ test_script _________________________
 capsys = <_pytest.capture.CaptureFixture object at 0x00000123EE11C210>
 
     def test_script(capsys):
-        import sayhello
+        import student
 
         captured = capsys.readouterr()
         output = captured.out
@@ -68,14 +83,14 @@ There are two sections: the `FAILURE` section followed by the `short test summar
 It should be clear how to fix it.
 
 ::::TASK
-Fix the code in `sayhello.py` and rerun the tests.
+Fix the code in `student.py` and rerun the tests.
 They should pass now.
 This is what you should see:
 
 :::code{caption="Bash"}
 
 ```bash
-$ pytest test-sayhello.py
+$ pytest test-say-hello.py
 .                                                 [100%]
 1 passed in 0.06s
 ```
@@ -89,7 +104,20 @@ If you don't want pytest to output the detailed information (i.e., the `FAILURE`
 :::code{caption="Bash"}
 
 ```bash
-$ pytest --tb=no test-sayhello.py
+$ pytest --tb=no test-say-hello.py
+```
+
+::::
+
+::::INFO
+In the future, there will be many tests per exercise.
+If you made a mistake, there tests could all fail and you will be faced with a barrage of error messages.
+You can have pytest stop running after the first failure.
+
+:::code{caption="Bash"}
+
+```bash
+$ pytest --x test-say-hello.py
 ```
 
 ::::

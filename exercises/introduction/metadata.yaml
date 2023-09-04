@@ -21,7 +21,11 @@ contents:
     documentation:
       en: explanation-scripts.en.md
   - name: Running Tests
-    type: explanation
+    type: exercise
     id: running-tests
     documentation:
-      en: explanation-running-tests.en.md
+      en: assignment-running-tests.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-say-hello.py
