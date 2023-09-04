@@ -7,6 +7,9 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - tuples
   - name: Split Name
     type: exercise
     id: split-name
@@ -21,6 +24,11 @@ contents:
     id: indexing
     documentation:
       en: explanation-indexing.en.md
+    topics:
+      introduces:
+        - tuple length
+        - indexing tuple
+        - tuple slicing
   - name: All Equal
     type: exercise
     id: all-equal
@@ -78,8 +86,7 @@ contents:
       file: test-passing-percentage.py
     topics:
       must_come_after:
-        - len
-        - tuples
+        - tuple length
   - name: Heatwave
     type: exercise
     id: heatwave
@@ -96,7 +103,7 @@ contents:
       en: explanation-destructuring.en.md
     topics:
       introduces:
-        - destructuring
+        - destructuring tuples
   - name: Adding Points
     type: exercise
     id: add-points
