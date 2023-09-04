@@ -18,7 +18,7 @@ Replace `ID` by the name of the function you had to write.
 
 # Limit Output
 
-When tests fail, Pytest tries its best to be helpful and dumps large quantities of information.
+When tests fail, pytest tries its best to be helpful and dumps large quantities of information.
 For example,
 
 ```bash
@@ -53,7 +53,7 @@ FAILED test-five.py::test_five - AssertionError: Expected 5, got 4 instead
 
 # Stopping at First Failure
 
-Another way to prevent Pytest from printing out overly large reports, is to ask it to stop after the first failure.
+Another way to prevent pytest from printing out overly large reports, is to ask it to stop after the first failure.
 
 ```bash
 $ pytest -x test-five.py

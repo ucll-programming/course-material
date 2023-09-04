@@ -16,7 +16,7 @@ layout: page
 # Write Tests
 
 Write tests inside a file `test-title.py`, e.g. `test-is-prime.py`.
-Rely on [Pytest](https://docs.pytest.org/en/7.4.x/).
+Rely on [pytest](https://docs.pytest.org/en/7.4.x/).
 
 Useful code snippets:
 
