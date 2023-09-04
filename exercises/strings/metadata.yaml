@@ -234,7 +234,7 @@ contents:
         - tuples
       must_come_after:
         - string slicing
-        - string conversion
+        - conversion to int
   - name: Fixing Dates
     type: exercise
     id: fix-date
