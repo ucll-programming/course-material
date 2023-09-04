@@ -270,6 +270,15 @@ contents:
         - strings
       introduces:
         - string.find
+        - string.lower
+        - string.upper
+        - string.startswith
+        - string.endswith
+        - string.strip
+        - string.lstrip
+        - string.rstrip
+        - string.ljust
+        - string.rjust
         - dir
   - name: Is Capitalized?
     type: exercise
