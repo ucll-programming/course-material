@@ -30,20 +30,6 @@ contents:
         - set length
         - lists
         - sets
-  - name: Find Duplicates
-    type: exercise
-    id: find-duplicates
-    documentation:
-      en: assignment-find-duplicates.en.md
-    difficulty: 4
-    judge:
-      type: pytest
-      file: test-find-duplicates.py
-    topics:
-      must_come_after:
-        - for loop
-        - lists
-        - sets
   - name: Remove Duplicates
     type: exercise
     id: remove-duplicates
@@ -59,6 +45,35 @@ contents:
         - lists
         - list.append
         - set.add
+  - name: Spellcheck
+    type: exercise
+    id: spellcheck
+    documentation:
+      en: assignment-spellcheck.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-spellcheck.py
+    topics:
+      must_come_after:
+        - sets
+        - string.lower
+        - string.split
+        - string.splitlines
+  - name: Find Duplicates
+    type: exercise
+    id: find-duplicates
+    documentation:
+      en: assignment-find-duplicates.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-find-duplicates.py
+    topics:
+      must_come_after:
+        - for loop
+        - lists
+        - sets
   - name: More Operations
     type: explanation
     id: operations

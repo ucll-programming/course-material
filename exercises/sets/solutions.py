@@ -30,3 +30,9 @@ def remove_duplicates(xs):
             result.append(x)
             found.add(x)
     return result
+
+
+def spellcheck(document, valid_words):
+    valid_words = set(valid_words)
+    words = {word.lower() for line in document.splitlines() for word in line.split(' ')}
+    return words - valid_words
