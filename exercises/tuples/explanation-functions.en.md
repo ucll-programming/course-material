@@ -7,7 +7,6 @@ When you pass either function a single argument, they expect it to be an iterabl
 They then proceed to find the lowest/highest value.
 
 ::::EXAMPLE
-
 :::code{caption="Python Shell"}
 
 ```python
@@ -16,6 +15,22 @@ They then proceed to find the lowest/highest value.
 
 >>> max((5, 2, 3, 9))
 9
+```
+
+:::
+::::
+
+## `sum`
+
+The built-in function `sum` allows you to compute the sum of all items in an iterable collection, such as a tuple.
+(Later we will also discuss lists, sets and generators; `sum` will also work on them.)
+
+::::EXAMPLE
+:::code{caption="Python Shell"}
+
+```python
+>>> sum((5, 2, 3, 9))
+19
 ```
 
 :::

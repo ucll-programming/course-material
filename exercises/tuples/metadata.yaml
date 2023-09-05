@@ -134,6 +134,10 @@ contents:
     id: functions
     documentation:
       en: explanation-functions.en.md
+    topics:
+      introduces:
+        - sum
+        - sorted
   - name: Average
     type: exercise
     id: average
