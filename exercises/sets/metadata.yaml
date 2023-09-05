@@ -64,4 +64,5 @@ contents:
     topics:
       must_come_after:
         - set.intersection
+        - strings
         - string.splitlines
