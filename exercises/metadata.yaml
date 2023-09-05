@@ -28,9 +28,9 @@ contents:
   - type: link
     location: lists
   - type: link
-    location: dictionaries
-  - type: link
     location: objects
+  - type: link
+    location: dictionaries
   - type: link
     location: dunder-methods
   - type: link
