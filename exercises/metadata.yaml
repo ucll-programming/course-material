@@ -24,9 +24,9 @@ contents:
   - type: link
     location: tuples
   - type: link
-    location: named-tuples
-  - type: link
     location: lists
+  - type: link
+    location: named-tuples
   - type: link
     location: objects
   - type: link
