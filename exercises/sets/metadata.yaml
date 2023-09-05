@@ -45,3 +45,23 @@ contents:
     id: operations
     documentation:
       en: explanation-operations.en.md
+    topics:
+      introduces:
+        - set.intersection
+        - set.union
+        - set.isdisjoint
+        - set.issuperset
+        - set.issubset
+  - name: Plagiarism
+    type: exercise
+    id: plagiarism
+    documentation:
+      en: assignment-plagiarism.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-plagiarism.py
+    topics:
+      must_come_after:
+        - set.intersection
+        - string.splitlines
