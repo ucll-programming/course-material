@@ -10,9 +10,9 @@ contents:
     topics:
       introduces:
         - lists
+        - list length
       must_come_after:
         - tuples
-        - list length
   - name: Updating
     type: explanation
     id: updating
