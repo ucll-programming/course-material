@@ -49,7 +49,7 @@ contents:
     id: remove-duplicates
     documentation:
       en: assignment-remove-duplicates.en.md
-    difficulty: 1
+    difficulty: 3
     judge:
       type: pytest
       file: test-remove-duplicates.py
