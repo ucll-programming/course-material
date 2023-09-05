@@ -1,6 +1,7 @@
 # Movie
 
 We want to create a small movie database.
+We'll start off by defining a data structure that holds a movie's information and then proceed with defining some functions that allow us to extract information from our little movie database.
 
 ## Movie Type
 
@@ -75,4 +76,30 @@ The order in which the names are returned does not matter.
 ::::TASK
 Write a function `longest_movie(movies)` that returns the longest movie in the list.
 Return the entire `Movie` object, not just the title.
+::::
+
+::::USAGE
+
+```python
+>>> movies = [
+        Movie(
+            title="Once Upon a Time in America",
+            runtime=229,
+            ...
+        ),
+        Movie(
+            title="Lawrence of Arabia",
+            runtime=218,
+            ...
+        )
+        Movie(
+            title="Amra Ekta Cinema Banabo",
+            runtime=1265,
+            ...
+        )
+... ]
+>>> longest_movie(movies)
+Movie(title="Amra Ekta Cinema Banabo", runtime=1265, ...)
+```
+
 ::::
