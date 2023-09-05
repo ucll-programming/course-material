@@ -7,6 +7,12 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - lists
+      must_come_after:
+        - tuples
+        - list length
   - name: Updating
     type: explanation
     id: updating
