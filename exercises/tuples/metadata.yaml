@@ -151,7 +151,7 @@ contents:
       must_come_after:
         - tuples
         - sum
-        - len
+        - tuple length
   - name: Empty Seats
     type: exercise
     id: empty-seats
