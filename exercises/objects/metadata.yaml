@@ -12,6 +12,10 @@ contents:
     id: classes
     documentation:
       en: explanation-classes.en.md
+    topics:
+      introduces:
+        - classes
+        - __init__
   - name: Pair
     type: exercise
     id: pair
