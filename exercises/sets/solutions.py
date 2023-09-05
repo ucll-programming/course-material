@@ -1,10 +1,5 @@
 def contains_duplicates(xs):
-    found = set()
-    for x in xs:
-        if x in found:
-            return True
-        found.add(x)
-    return False
+    return len(xs) != len(set(xs))
 
 
 def find_duplicates(xs):
