@@ -10,6 +10,9 @@ contents:
     topics:
       introduces:
         - sets
+        - set length
+        - set.add
+        - set.remove
       must_come_after:
         - lists
   - name: Contains Duplicates
@@ -23,7 +26,8 @@ contents:
       file: test-contains-duplicates.py
     topics:
       must_come_after:
-        - for
+        - list length
+        - set length
         - lists
         - sets
   - name: Find Duplicates
@@ -37,9 +41,24 @@ contents:
       file: test-find-duplicates.py
     topics:
       must_come_after:
-        - for
+        - for loop
         - lists
         - sets
+  - name: Remove Duplicates
+    type: exercise
+    id: remove-duplicates
+    documentation:
+      en: assignment-remove-duplicates.en.md
+    difficulty: 1
+    judge:
+      type: pytest
+      file: test-remove-duplicates.py
+    topics:
+      must_come_after:
+        - sets
+        - lists
+        - list.append
+        - set.add
   - name: More Operations
     type: explanation
     id: operations

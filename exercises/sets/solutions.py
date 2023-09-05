@@ -20,3 +20,13 @@ def plagiarism(s1, s2):
     lines1 = set(s1.splitlines())
     lines2 = set(s2.splitlines())
     return len(lines1 & lines2)
+
+
+def remove_duplicates(xs):
+    found = set()
+    result = []
+    for x in xs:
+        if x not in found:
+            result.append(x)
+            found.add(x)
+    return result
