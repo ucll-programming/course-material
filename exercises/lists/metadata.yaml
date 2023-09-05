@@ -32,6 +32,12 @@ contents:
     id: adding
     documentation:
       en: explanation-adding.en.md
+    topics:
+      introduces:
+        - list.append
+        - list.insert
+      must_come_after:
+        - lists
   - name: Pad Right
     type: exercise
     id: pad-right
@@ -125,7 +131,7 @@ contents:
     topics:
       must_come_after:
         - loops
-        - append
+        - list.append
         - modulo
   - name: Ranking Table
     type: exercise
@@ -136,6 +142,12 @@ contents:
     judge:
       type: pytest
       file: test-ranking-table.py
+    topics:
+      must_come_after:
+        - lists
+        - max
+        - string.ljust
+        - string.rjust
   - name: References
     type: explanation
     id: references
