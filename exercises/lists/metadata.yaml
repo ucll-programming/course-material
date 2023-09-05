@@ -46,6 +46,13 @@ contents:
     id: removing
     documentation:
       en: explanation-removing.en.md
+    topics:
+      introduces:
+        - del
+        - list.pop
+        - list.remove
+      must_come_after:
+        - lists
   - name: Remove All
     type: exercise
     id: remove-all
@@ -82,7 +89,6 @@ contents:
       must_come_after:
         - lists
         - None
-        - is
         - del
   - name: Remove Runs
     type: exercise
