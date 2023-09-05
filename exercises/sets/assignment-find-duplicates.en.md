@@ -20,8 +20,8 @@ Write a function `find_duplicates(xs)` that looks for all duplicates in the list
 >>> find_duplicates([1, 2, 1])
 [1]
 
->>> find_duplicates([1, 2, 1, 1, 1])
-[1]
+>>> find_duplicates([1, 2, 1, 3, 2, 1, 1])
+[1, 2]
 ```
 
 ::::
