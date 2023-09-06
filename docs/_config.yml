@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Programming Course
-email: frederic.vogels@ucll.be
+# email: frederic.vogels@ucll.be
 description: >- # this means to ignore newlines until "baseurl:"
   Companion site for programming courses
 baseurl: "/course-material" # the subpath of your site, e.g. /blog
