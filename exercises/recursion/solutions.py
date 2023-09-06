@@ -37,11 +37,11 @@ def to_linked_list(xs):
         return LinkedList(xs[0], to_linked_list(xs[1:]))
 
 
-def contains(linked_list, value):
+def contains(linked_list, item):
     if linked_list is None:
         return False
     else:
-        return linked_list.value == value or contains(linked_list.next, value)
+        return linked_list.value == item or contains(linked_list.next, item)
 
 
 def append(linked_list, value):
