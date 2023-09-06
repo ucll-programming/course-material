@@ -1,0 +1,16 @@
+type: section
+name: Random
+id: random
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+    topics:
+      introduces:
+        - random
+        - seed
+        - random.choice
+        - random.randint
+        - random.shuffle
