@@ -24,11 +24,11 @@ Simulate it `simulation_count` times.
 
 ```python
 # Easy lottery
->>> lottery(5, 5)
+>>> lottery(5, 5, 1000)
 100
 
->>> lottery(1, 10)
-10
+>>> lottery(1, 10, 100000)
+10     # or at least a value close to 10
 ```
 
 ::::
