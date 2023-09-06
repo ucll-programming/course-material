@@ -85,10 +85,10 @@ Let's fill it up by sending your locally stored data to GitHub:
 
 ```bash
 # Download from lecturer's repository
-$ git pull upstream main
+$ git pull upstream master
 
 # Upload to your remote repository
-$ git push -u origin main
+$ git push -u origin master
 ```
 
 After the push is finished, refresh your repository's webpage in the browser.
