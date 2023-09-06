@@ -93,7 +93,7 @@ contents:
     id: count
     documentation:
       en: assignment-count.en.md
-    difficulty: 1
+    difficulty: 3
     judge:
       type: pytest
       file: test-count.py
