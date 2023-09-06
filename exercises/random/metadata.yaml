@@ -14,6 +14,16 @@ contents:
         - random.choice
         - random.randint
         - random.shuffle
+  - name: Monte Carlo Simulation
+    type: explanation
+    id: monte-carlo
+    documentation:
+      en: explanation-monte-carlo.en.md
+    topics:
+      introduces:
+        - monte carlo
+      must_come_after:
+        - random
   - name: Lottery
     type: exercise
     id: lottery
@@ -24,8 +34,6 @@ contents:
       type: pytest
       file: test-lottery.py
     topics:
-      introduces:
-        - monte carlo
       must_come_after:
         - random
         - lists
@@ -44,3 +52,25 @@ contents:
         - random
         - sets
         - monte carlo
+  - name: Monty Hall Problem
+    type: exercise
+    id: monty-hall
+    documentation:
+      en: assignment-monty-hall.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-monty-hall.py
+    topics:
+      must_come_after:
+        - random
+        - monte carlo
+  - name: Penny's Game
+    type: exercise
+    id: penny-game
+    documentation:
+      en: assignment-penny-game.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-penny-game.py

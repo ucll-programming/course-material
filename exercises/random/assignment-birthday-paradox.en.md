@@ -1,7 +1,7 @@
 # Birthday Paradox
 
 In a classroom of 23 students, what are the odds that two students share a birthday?
-The answer is 50.7%, which to many people comes off as very unintuitive and for this reason known as the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem).
+The answer is 50.7%, which to many people comes off as very counterintuitive and for this reason known as the [birthday paradox](https://en.wikipedia.org/wiki/Birthday_problem).
 
 Let's write some code that verifies this.
 We proceed as follows:
