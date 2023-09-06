@@ -23,3 +23,24 @@ contents:
     judge:
       type: pytest
       file: test-lottery.py
+    topics:
+      introduces:
+        - monte carlo
+      must_come_after:
+        - random
+        - lists
+        - for loop
+  - name: Birthday Paradox
+    type: exercise
+    id: birthday-paradox
+    documentation:
+      en: assignment-birthday-paradox.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-birthday-paradox.py
+    topics:
+      must_come_after:
+        - random
+        - sets
+        - monte carlo

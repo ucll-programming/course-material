@@ -27,7 +27,7 @@ contents:
     id: factorial
     documentation:
       en: assignment-factorial.en.md
-    difficulty: 3
+    difficulty: 2
     judge:
       type: pytest
       file: test-factorial.py
