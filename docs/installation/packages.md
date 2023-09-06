@@ -28,3 +28,5 @@ $ pytest
 
 If you get the same output, you have successfully installed the Python packages.
 Otherwise, ask a lecturer for help.
+
+Next step: [downloading the exercises](./github-classroom.md).

@@ -9,10 +9,10 @@ $ git config --global user.name "YOUR-NAME"
 $ git config --global user.email "YOUR-EMAIL-ADDRESS"
 ```
 
-For example, if 
+For example, for a student named John Smith, the commands would be
 
 ```bash
-$ git config --global user.name "YOUR-NAME"
+$ git config --global user.name "John Smith"
 
-$ git config --global user.email "YOUR-EMAIL-ADDRESS"
+$ git config --global user.email "john.smith@student.ucll.be"
 ```

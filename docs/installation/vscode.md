@@ -13,4 +13,4 @@ layout: page
 | :--------: |
 | ![VSCode extension tab](vscode-extension.png) |
 
-Next: [Git](git.md)
+Next: [Install Git](git.md)
