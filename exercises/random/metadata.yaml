@@ -14,3 +14,12 @@ contents:
         - random.choice
         - random.randint
         - random.shuffle
+  - name: Lottery
+    type: exercise
+    id: lottery
+    documentation:
+      en: assignment-lottery.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-lottery.py
