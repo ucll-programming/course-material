@@ -13,7 +13,7 @@ $ pipx ensurepath
 $ pipx install git+https://github.com/ucll-programming/progtool
 ```
 
-Close the terminal and open a *new* one in the same directory in which you have downloaded the exercises.
+Close the terminal and open a *new* terminal in the same directory in which you have downloaded the exercises.
 Enter
 
 ```bash
