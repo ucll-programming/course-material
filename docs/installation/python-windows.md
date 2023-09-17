@@ -9,7 +9,7 @@ Download and install it.
 
 {% include checking-python-installation.md %}
 
-Open Git Bash in the `scripts` directory and enter.
+Open Git Bash in the `scripts` directory and enter:
 
 ```bash
 $ py check-python-installation.py
