@@ -54,7 +54,7 @@ Enter the following commands:
 $ cd exercises
 
 # Tell Git about the lecturer's repository and call it upstream
-$ git remote add upstream https://github.com/UCLL-PR2/exercises.git
+$ git remote add upstream https://github.com/ucll-programming/course-material.git
 ```
 
 Let's check if everything worked:
