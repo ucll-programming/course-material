@@ -90,4 +90,4 @@ After the push is finished, refresh your repository's webpage in the browser.
 It should now contain all the exercises.
 
 From now on, you should make sure to always push your solutions to GitHub.
-Instructions for how to do this can be found [here](../workflow).
+Instructions for how to do this can be found [here](../../workflow).
