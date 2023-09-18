@@ -4,7 +4,7 @@ Functions are everywhere:
 
 * Google is in essence a function that returns a list of web pages.
 * A satnav is a function that returns the shortest path to a certain destination.
-* An chess AI is a function that returns the best move.
+* A chess AI is a function that returns the best move.
 * And so on.
 
 As of yet, we've been focusing on the *output* of functions, i.e., on their return value.
