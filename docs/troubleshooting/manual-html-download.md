@@ -9,4 +9,10 @@ If you merely need to update your `index.html` file, please follow [these instru
 The latest version of `index.html` can be found [here](https://github.com/ucll-programming/frontend/releases/latest).
 Download the `index.html` file and store it somewhere.
 
-Next, tell `progtool` about its location.
+Next, tell `progtool` about its location using
+
+```bash
+$ progtool html setpath PATH
+```
+
+where `PATH` points to the `index.html` file.
