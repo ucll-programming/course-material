@@ -8,7 +8,7 @@ Python offers the typical mathematical operators.
 | Math Notation | Operator | Description |
 | :-----------: | :------: | :---------: |
 | $x + y$       | `x + y`      | Addition    |
-| $x * y$       | `x - y`      | Subtraction |
+| $x - y$       | `x - y`      | Subtraction |
 | $-x$          | `-x`         | Negation |
 | $x \times y$  | `x * y`      | Multiplication |
 | $\frac{x}{y}$ | `x / y`      | Division |
