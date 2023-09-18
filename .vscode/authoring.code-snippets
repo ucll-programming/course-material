@@ -1,4 +1,13 @@
 {
+    "Include": {
+        "prefix": "include",
+        "body": [
+            "{% capture my_include %}{% include $1.md %}{% endcapture %}",
+            "{{ my_include | markdownify }}"
+        ],
+        "description": "Include MD file",
+        "scope": "markdown"
+    },
     "Warning": {
         "prefix": "warning",
         "body": [
