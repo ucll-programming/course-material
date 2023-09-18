@@ -11,7 +11,7 @@ Next, launch the installation.
 
 The installation setup consists of relatively many steps.
 Below we highlight a few steps.
-Not all of the installation steps are shown below: *if not shown below, you should simply accept the defaults*.
+Not all of the installation steps are shown below: **if not shown below, you should simply accept the defaults**.
 
 ## Installation Path
 
