@@ -12,3 +12,4 @@ title: Overview
 * [Weekly planning](planning.md)
 * [Visual Studio Code Tricks](vscode/)
 * [Authoring Guide](authoring/) (only meant for authors)
+* [FAQ](faq.md)
