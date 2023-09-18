@@ -4,7 +4,7 @@
 Write a function `triple(x)` that, given a number `x`, returns the triple of this value.
 The code should be *added* to `student.py`: leave the code from previous exercises alone.
 
-Note that  is represented by the symbol `*` in Python (as it is in most other programming languages.)
+Note that multiplication is represented by the symbol `*` in Python (as it is in most other programming languages.)
 :::
 
 To help you understand better what's expected from you, exercises will often show some usage examples.
