@@ -10,3 +10,4 @@ layout: page
 * [Wrong identifier file contents](wrong-identifier-file-contents.md)
 * [Manual setup](manual-setup.md)
 * [Could not find GitHub organization](missing-github-organization.md)
+* [Relocating the course material](relocating.md)
