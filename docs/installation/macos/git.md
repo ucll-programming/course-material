@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Git Installation on MacOS
+# Git Installation (MacOS)
 
 ## Checking For Pre-Existing Installation
 
@@ -44,8 +44,9 @@ To install Git, enter
 $ brew install git
 ```
 
-{% include git-configuration.md %}
+{% capture my_include %}{% include git-configuration.md %}{% endcapture %}
+{{ my_include | markdownify }}
 
-## Next: Python
+## Next Step
 
-Proceed with the [installation of Python](python-macos.md).
+[Download the exercises](./github-classroom.md).

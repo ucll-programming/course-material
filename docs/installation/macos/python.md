@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Python Installation on MacOS
+# Python Installation (MacOS)
 
 The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
 Download and install it.
@@ -22,4 +22,6 @@ If the output ends on `SUCCESS`, you can proceed with the [next step](python-pac
 
 > In all further instructions, we will just use `py` to run Python scripts, but you will have to replace `py` by `python3`.
 
-Next: [Install Python packages](packages.md)
+## Next Step
+
+[Install Python packages](packages.md).

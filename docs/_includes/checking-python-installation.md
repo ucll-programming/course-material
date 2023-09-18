@@ -8,7 +8,7 @@ There are two kinds of problems that can arise:
 
 Below are instructions that verify both at the same time.
 The goal is that you get Python to tell you which version it is, and that this version is 3.11 or higher.
-If you encounter problems, inform a lecturer.
+If you encounter problems, contact a lecturer.
 
 **IMPORTANT**
 

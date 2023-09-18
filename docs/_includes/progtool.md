@@ -1,9 +1,3 @@
----
-layout: page
----
-
-## Progtool
-
 In a terminal, enter the two commands shown below.
 As always, omit the `$`.
 

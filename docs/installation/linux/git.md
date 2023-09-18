@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# Git Installation on Linux
+# Git Installation (Linux)
 
 ## Checking For Pre-Existing Installation
 
@@ -19,8 +19,9 @@ If you are shown a version number, Git is already installed and you can jump to 
 The installation depends on which Linux distribution you're running.
 We refer you to this [page](https://git-scm.com/download/linux).
 
-{% include git-configuration.md %}
+{% capture my_include %}{% include git-configuration.md %}{% endcapture %}
+{{ my_include | markdownify }}
 
-## Next: Python
+## Next Step
 
-Proceed with the [installation of Python](python-linux.md).
+[Download the exercises](./github-classroom.md).

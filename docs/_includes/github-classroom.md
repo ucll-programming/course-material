@@ -1,8 +1,3 @@
----
-layout: page
-title: GitHub Classroom
----
-
 # Table of Contents
 
 * Table of Contents
@@ -96,7 +91,3 @@ It should now contain all the exercises.
 
 From now on, you should make sure to always push your solutions to GitHub.
 Instructions for how to do this can be found [here](../workflow).
-
-# Next Step
-
-Install the [assistant tool](./progtool.md).

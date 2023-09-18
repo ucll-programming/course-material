@@ -1,9 +1,3 @@
----
-layout: page
----
-
-# Visual Studio Code Installation
-
 * Start by downloading Visual Studio code from [its official website](https://code.visualstudio.com/).
 * Launch it.
 * In the sidebar, open the extensions tab (icon with four little squares).
@@ -11,6 +5,4 @@ layout: page
 
 | Screenshot |
 | :--------: |
-| ![VSCode extension tab](vscode-extension.png) |
-
-Next: [Install Git](git.md)
+| ![VSCode extension tab](../vscode-extension.png) |

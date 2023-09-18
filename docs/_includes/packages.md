@@ -1,9 +1,3 @@
----
-layout: page
----
-
-# Python Packages
-
 **IMPORTANT**
 
 > A `$` in the beginning of a line means that you should input that line in a shell.
@@ -18,7 +12,7 @@ $ pip install pytest pytest-timeout mypy pipx
 
 ## Checking the Installation
 
-Open the terminal in the `scripts` directory and enter (only the first line! The other lines are expected output)
+Open the terminal in the `scripts` directory and enter (only the first line! The subsequent lines are expected output)
 
 ```bash
 $ pytest
@@ -28,5 +22,3 @@ $ pytest
 
 If you get the same output, you have successfully installed the Python packages.
 Otherwise, ask a lecturer for help.
-
-Next step: [downloading the exercises](./github-classroom.md).
