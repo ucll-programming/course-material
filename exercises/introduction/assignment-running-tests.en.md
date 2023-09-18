@@ -5,13 +5,13 @@ You will have to write this code in a file (typically named `student.py`).
 
 Now, writing code is not always easy, and it is important for you to know whether you got it right or not.
 You could simply run your code and check that whatever is printed out satisfies your expectations, but this approach is only reliable for the simplest of exercises.
-Instead, we will rely on *tests* to check your work: we provide you with scripts that will your code and verify its results.
+Instead, we will rely on *tests* to check your work: we provide you with scripts that will run your code and verify its results.
 
 ## Inside the Browser
 
 A quick way to check whether your solution is correct is move your mouse cursor over the difficulty icon of this exercise in the sidebar.
 It should turn into a refresh button.
-Pressing it will cause the exercise entry to turn gray the tests to be run in the background.
+Pressing it will cause the exercise entry to turn gray while the tests are run in the background.
 
 After the tests have done running (should last less than a second), the exercise entry should turn either red or green.
 Red means the tests have failed, while green means your solution was correct and you can move on to the next exercise.
