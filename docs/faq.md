@@ -22,3 +22,8 @@ You can freely move the course material around on your drive.
 **I work with multiple machines. How do I set up the course material so that it's always synchronized across all machines?**
 
 Follow [these steps](workflow/two-machines.md).
+
+**I've switched machines. How do I transfer all my solutions to the new machine?**
+
+Start by making sure that all your work has been [committed and pushed](workflow/commit-all-files.md) on your old machine.
+Next, if you follow all [installation instructions](installation/index.md) on your new machine, you should end up with an up-to-date version of the course material, including your solutions.
