@@ -1,9 +1,8 @@
-# Table of Contents
 
 * Table of Contents
 {:toc}
 
-# Accepting the Assignment
+## Accepting the Assignment
 
 TODO Check everything (URLs!)
 
@@ -24,7 +23,7 @@ You will need this URL, so don't lose it.
 > If you happen to lose the URL, simply visit the GitHub Classroom link on Toledo again.
 > You'll be brought straight to the page showing the URL.
 
-# Cloning the Repository
+## Cloning the Repository
 
 On your machine, create a directory where you would like to store the exercises.
 
@@ -45,7 +44,7 @@ $ git clone YOUR-FORK-URL
 
 This should create a directory named `course-material` and download the course material into that directory.
 
-# Setting Up Remote Repositories
+## Setting Up Remote Repositories
 
 Enter the following commands:
 
@@ -62,16 +61,16 @@ Let's check if everything worked:
 ```bash
 # Ask for a list of remote repositories
 $ git remote -v
-origin    https://github.com/UCLL-P2-2223/p2-exercises-youraccountname (fetch)
-origin    https://github.com/UCLL-P2-2223/p2-exercises-youraccountname (push)
-upstream  https://github.com/UCLL-PR2/exercises.git (fetch)
-upstream  https://github.com/UCLL-PR2/exercises.git (push)
+origin    https://github.com/TODO/course-material-youraccountname (fetch)
+origin    https://github.com/TODO/course-material-youraccountname (push)
+upstream  https://github.com/ucll-programming/course-material.git (fetch)
+upstream  https://github.com/ucll-programming/course-material.git (push)
 ```
 
 Here, `origin` refers to your very own repository, which you have write access to.
 `upstream` refers to our repository, to which you only have readonly access.
 
-# Getting the Course Material
+## Getting the Course Material
 
 Visit your remote repository's webpage.
 You can do this by using a browser and going to your repository URL.
