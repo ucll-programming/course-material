@@ -40,18 +40,18 @@ Open a terminal in this directory and enter the following command:
 ```bash
 # Download the repository
 # !!! Replace YOUR-FORK-URL by the URL you were given earlier by GitHub Classroom !!!
-$ git clone YOUR-FORK-URL exercises
+$ git clone YOUR-FORK-URL
 ```
 
-This should create a directory named `exercises` and download the course material into that directory.
+This should create a directory named `course-material` and download the course material into that directory.
 
 # Setting Up Remote Repositories
 
 Enter the following commands:
 
 ```bash
-# Go into exercises directory
-$ cd exercises
+# Go into course material directory
+$ cd course-material
 
 # Tell Git about the lecturer's repository and call it upstream
 $ git remote add upstream https://github.com/ucll-programming/course-material.git
@@ -69,7 +69,7 @@ upstream  https://github.com/UCLL-PR2/exercises.git (push)
 ```
 
 Here, `origin` refers to your very own repository, which you have write access to.
-`upstream` refers to our repository, for which you only have readonly access.
+`upstream` refers to our repository, to which you only have readonly access.
 
 # Getting the Course Material
 
