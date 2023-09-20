@@ -35,5 +35,3 @@ contents:
     location: objects
   - type: link
     location: file-io
-  - type: link
-    location: challenges
