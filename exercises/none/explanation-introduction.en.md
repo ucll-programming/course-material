@@ -44,4 +44,3 @@ What `is` does exactly will be discussed later.
 Using `==` will also work, but it is less efficient.
 ::::
 
-TODO: None is default return value

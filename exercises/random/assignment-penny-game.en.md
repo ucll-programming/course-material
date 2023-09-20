@@ -1,3 +1,0 @@
-# Penny's Game
-
-TODO
