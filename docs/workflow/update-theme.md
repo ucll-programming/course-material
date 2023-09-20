@@ -5,6 +5,11 @@ title: Updating the Theme
 
 # Updating the Theme
 
+You only need to read this page in case the lecturers actually refer you to it.
+It describes how to receive updates of the styling (colors, layout, ...)
+
+## Steps
+
 You can view a list of available themes using the command
 
 ```bash
