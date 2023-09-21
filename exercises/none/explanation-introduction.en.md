@@ -44,4 +44,44 @@ What `is` does exactly will be discussed later.
 Using `==` will also work, but it is less efficient.
 ::::
 
-TODO: None is default return value
+## Functions Returning Nothing
+
+Consider the function
+
+:::code{caption="Python"}
+
+```python
+def say_hello():
+    print("Hello")
+```
+
+:::
+
+It has no `return` statement.
+Does that mean it simply returns nothing?
+What would happen if we were to write
+
+:::code{caption="Python"}
+
+```python
+def say_hello():
+    print("Hello")
+
+result = say_hello()
+print(result)
+```
+
+:::
+
+All functions in Python must return *something*.
+If no `return` is present, the return value will simply be `None`.
+If you were to run the above code, you'll see that it prints
+
+:::code{caption="Output"}
+
+```text
+Hello      <-- because of print("Hello")
+None       <-- because of print(result)
+```
+
+:::

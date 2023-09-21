@@ -1,9 +1,0 @@
-type: section
-name: Demo
-id: demo
-contents:
-  - name: Admonitions
-    type: explanation
-    id: admonitions
-    documentation:
-      en: explanation-admonitions.en.md

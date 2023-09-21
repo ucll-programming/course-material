@@ -8,9 +8,9 @@ title: Workflow
 
 * [General Workflow](general.md)
 * Updating
-  * [Updating the course material](update-course-material.md)
-  * [Updating the HTML file](update-html.md)
-  * [Updating the theme](update-theme.md)
-  * [Updating the assistant tool](update-progtool.md)
+  * [Receiving course material updates](update-course-material.md)
+  * [Receiving HTML file updates](update-html.md)
+  * [Receiving theme updates](update-theme.md)
+  * [Receiving assistant tool updates](update-progtool.md)
 * [Working with the shell](shell.md)
 * [Working with Git](git.md)

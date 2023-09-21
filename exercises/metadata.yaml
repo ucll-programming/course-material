@@ -24,40 +24,14 @@ contents:
   - type: link
     location: tuples
   - type: link
-    location: lists
-  - type: link
     location: named-tuples
   - type: link
-    location: objects
-  - type: link
-    location: dictionaries
-  - type: link
-    location: dunder-methods
+    location: lists
   - type: link
     location: sets
   - type: link
-    location: functions-advanced
+    location: dictionaries
   - type: link
-    location: enums
-  - type: link
-    location: recursion
-  - type: link
-    location: exceptions
-  - type: link
-    location: modules
-  - type: link
-    location: comprehensions
-  - type: link
-    location: testing
-  - type: link
-    location: typing
-  - type: link
-    location: regex
+    location: objects
   - type: link
     location: file-io
-  - type: link
-    location: random
-  - type: link
-    location: projects
-  - type: link
-    location: challenges
