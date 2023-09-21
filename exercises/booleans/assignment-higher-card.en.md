@@ -38,16 +38,19 @@ Write a function `higher_card(card1, card2)` that returns `True` if `card1` is w
 :::USAGE
 
 ```python
-# Five is worth than two
+# Five is worth more than two
 >>> higher_card(5, 2)
 True
 
 # King is worth more than jack
 >>> higher_card(13, 11)
+True
 
 # Ace is worth more than king
 >>> higher_card(1, 13)
+True
 
+# equal value 
 >>> higher_card(8, 8)
 False
 ```
