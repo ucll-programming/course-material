@@ -49,7 +49,7 @@ Write a function `has_29_days(month, year)` that returns `True` if the given mon
 ## `is_valid_date`
 
 Now comes the tricky part.
-We went to know if a given date is valid or not.
+We want to know if a given date is valid or not.
 In order to implement this, you will have to rely on all the functions you defined above.
 
 :::TASK
