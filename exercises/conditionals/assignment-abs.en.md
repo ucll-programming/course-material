@@ -1,4 +1,4 @@
-# Assignment
+# Absolute Value
 
 Taking the *absolute value* of a number is basically stripping away its sign.
 For example, the absolute value of 5 is simply 5, and the absolute value of -3 is 3.
