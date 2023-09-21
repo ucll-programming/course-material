@@ -42,11 +42,17 @@ Write a function `higher_card(card1, card2)` that returns `True` if `card1` is w
 >>> higher_card(5, 2)
 True
 
+# Two is not worth more than five
+>>> higher_card(2, 5)
+False
+
 # King is worth more than jack
 >>> higher_card(13, 11)
+True
 
 # Ace is worth more than king
 >>> higher_card(1, 13)
+True
 
 >>> higher_card(8, 8)
 False
