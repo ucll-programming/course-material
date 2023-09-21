@@ -54,6 +54,7 @@ True
 >>> higher_card(1, 13)
 True
 
+# We want strictly higher
 >>> higher_card(8, 8)
 False
 ```
