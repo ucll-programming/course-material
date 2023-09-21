@@ -38,7 +38,7 @@ Write a function `higher_card(card1, card2)` that returns `True` if `card1` is w
 :::USAGE
 
 ```python
-# Five is worth than two
+# Five is worth more than two
 >>> higher_card(5, 2)
 True
 
