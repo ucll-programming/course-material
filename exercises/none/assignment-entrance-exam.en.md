@@ -43,7 +43,7 @@ Keep three local variables:
 * One variable to count the number of taken tests.
 * One variable to take the total grade.
 
-Go through all give grades one by one and update the variables.
+Go through all five grades one by one and update the variables.
 Next, check that the number of skipped tests is low enough.
 Finally, compute the average and check that it is high enough.
 :::
