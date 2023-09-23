@@ -161,7 +161,14 @@ This marks the file as executable and needs only to be done once.
 
 ::::
 
-After adding a shebang (and making the file executable on OSses that require it), you should be able to run your script by simply double clicking on it, e.g., using File Explorer in Windows or making a shortcut on your desktop.
+After adding a shebang (and making the file executable on OSses that require it), you should be able to run your script by simply writing `./app.py` instead of `py app.py`.
+
+::::INFO
+On MacOS and Linux, you should also be able to double click it from a graphical user manager.
+
+Windows works differently: if you want to be able to run your Python application from File Explorer or using a shortcut, you'll have to [associate `.py` files with `python.exe`](https://support.microsoft.com/en-us/windows/change-default-programs-in-windows-e5d82cad-17d1-c53b-3505-f10a32e1894d).
+Normally, this association should already have been established for you by the Python installer.
+::::
 
 ## Summary
 
