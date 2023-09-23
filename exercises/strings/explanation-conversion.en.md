@@ -12,10 +12,10 @@ Fortunately, it is possible to switch between representations.
 
 | Syntax | Description |
 | ------ | ----------- |
-| `int(x)` | Converts to `int` |
-| `float(x)` | Converts to `float` |
-| `bool(x)` | Converts to `bool` |
-| `str(x)` | Converts to `bool` |
+| `int(x)` | Converts to an integer |
+| `float(x)` | Converts to a floating point number |
+| `bool(x)` | Converts to `True`/`False` |
+| `str(x)` | Converts to string |
 
 :::
 ::::
