@@ -4,16 +4,14 @@
 
 ## Accepting the Assignment
 
-TODO Check everything (URLs!)
-
-On Toledo, under "First Steps", you'll find a link to the GitHub Classroom Assignment.
+On Toledo, under "Cursus Materiaal", you'll find a link to the GitHub Classroom Assignment.
 Click on it.
 You will be led to a page inviting you to "Accept this assignment".
 Press the button to accept it.
 
 You are then shown a page informing you that your repository is being prepared.
 Refresh the page every few seconds until a new page appears telling you you're ready to go.
-A URL should be shown: it should look something like `https://github.com/UCLL-P2-2223/p2-exercises-youraccountname`.
+A URL should be shown: it should look something like `https://github.com/UCLL-P1-2324/p1-exercises-2324-yourusername`.
 You will need this URL, so don't lose it.
 
 > **IMPORTANT** If you go to your repository's website, GitHub tries to be helpful by showing you instructions of how to set up things, such as creating a `README.md` file.
@@ -61,8 +59,8 @@ Let's check if everything worked:
 ```bash
 # Ask for a list of remote repositories
 $ git remote -v
-origin    https://github.com/TODO/course-material-youraccountname (fetch)
-origin    https://github.com/TODO/course-material-youraccountname (push)
+origin    https://github.com/UCLL-P1-2324/p1-exercises-2324-youraccountname (fetch)
+origin    https://github.com/UCLL-P1-2324/p1-exercises-2324-youraccountname (push)
 upstream  https://github.com/ucll-programming/course-material.git (fetch)
 upstream  https://github.com/ucll-programming/course-material.git (push)
 ```
