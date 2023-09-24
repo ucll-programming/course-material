@@ -37,7 +37,7 @@ Open a terminal in this directory and enter the following command:
 ```bash
 # Download the repository
 # !!! Replace YOUR-FORK-URL by the URL you were given earlier by GitHub Classroom !!!
-$ git clone YOUR-FORK-URL
+$ git clone YOUR-FORK-URL course-material
 ```
 
 This should create a directory named `course-material` and download the course material into that directory.
