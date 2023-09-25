@@ -40,6 +40,10 @@ Open a terminal in this directory and enter the following command:
 $ git clone YOUR-FORK-URL course-material
 ```
 
+You may be asked to enter your Github username and password in order to continue. 
+
+If you're running MacOS and receive an error about password authentication, you will need to [generate a personal access token](https://docs.github.com/en/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Then rerun the clone command above and use the resulting token in place of a password.
+
 This should create a directory named `course-material` and download the course material into that directory.
 
 ## Setting Up Remote Repositories
@@ -78,6 +82,9 @@ Let's fill it up by sending your locally stored data to GitHub:
 ```bash
 # Download from lecturer's repository
 $ git pull upstream master
+
+# Switch from main to master branch
+$ git checkout master
 
 # Upload to your remote repository
 $ git push -u origin master
