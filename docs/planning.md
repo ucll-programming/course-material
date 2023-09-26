@@ -5,8 +5,9 @@ show_in_header: true
 # Planning
 
 23/24 Academic Year, Semester 1:
- * Toegepaste Informatica (TI): Session 1 on Monday and Session 2 on Thursday
- * Applied Computer Science (BCS): Session 1 on Tuesday and Session 2 on Friday
+
+* Toegepaste Informatica (TI): Session 1 on Monday and Session 2 on Thursday
+* Applied Computer Science (BCS): Session 1 on Tuesday and Session 2 on Friday
 
 This planning will be updated as the semester progresses.
 
