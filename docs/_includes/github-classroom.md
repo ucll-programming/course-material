@@ -40,11 +40,13 @@ Open a terminal in this directory and enter the following command:
 $ git clone YOUR-FORK-URL course-material
 ```
 
-You may be asked to enter your Github username and password in order to continue. 
+You may be asked to enter your Github username and password in order to continue.
 
-If you receive an error about password authentication, you will need to [generate a personal access token](https://docs.github.com/en/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Then rerun the clone command above and use the resulting token in place of a password.
+If you receive an error about password authentication, you will need to [generate a personal access token](https://docs.github.com/en/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
+Then rerun the clone command above and use the resulting token in place of a password.
 
-You should receive a notification that you have cloned an empty repository. This is good, you'll fill up the repository with files in the next few steps.
+You should receive a notification that you have cloned an empty repository.
+This is good, you'll fill up the repository with files in the next few steps.
 
 You should notice a new directory named `course-material` has been created, but it is still empty.
 

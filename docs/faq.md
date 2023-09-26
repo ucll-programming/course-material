@@ -43,3 +43,23 @@ If you get a 404 error (page not found), you didn't create your repository: you 
 
 If, however, the webpage of your repository does exist, yet Git claims otherwise, this typically means you have multiple GitHub accounts and are using your account X to access the repository of your account Y.
 You will need to [reset your credentials](troubleshooting/reset-credentials.md).
+
+## I cannot download the course material as explained in the instructions
+
+If performing the `git pull upstream` step fails, you probably have entered the wrong `upstream` URL in a previous step.
+
+You can check if it's correct:
+
+```bash
+$ git remote -v
+```
+
+Copy the URL to the right of `upstream` and paste in the address bar of your browser.
+If it doesn't lead you to the course material webpage, the URL is wrong and you'll need to update it:
+
+```bash
+$ git remote set-url upstream CORRECTURL
+```
+
+If the URL is correct and `git pull upstream` still doesn't work, you have encountered a new kind of error.
+Contact a lecturer.
