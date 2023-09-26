@@ -1,9 +1,8 @@
 ---
 layout: page
-title: Updating the Course Material
 ---
 
-# Updating the Course Material
+# Receiving Course Material Updates
 
 First, you should make sure that all your changes have been committed.
 `git status` shows you a list of files you modified since your last commit.
