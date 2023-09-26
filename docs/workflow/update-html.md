@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Update HTML
 ---
 
 # Receiving index.html updates
