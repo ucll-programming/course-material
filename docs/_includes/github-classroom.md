@@ -4,16 +4,14 @@
 
 ## Accepting the Assignment
 
-TODO Check everything (URLs!)
-
-On Toledo, under "First Steps", you'll find a link to the GitHub Classroom Assignment.
+On Toledo, under "Cursus Materiaal", you'll find a link to the GitHub Classroom Assignment.
 Click on it.
 You will be led to a page inviting you to "Accept this assignment".
 Press the button to accept it.
 
 You are then shown a page informing you that your repository is being prepared.
 Refresh the page every few seconds until a new page appears telling you you're ready to go.
-A URL should be shown: it should look something like `https://github.com/UCLL-P2-2223/p2-exercises-youraccountname`.
+A URL should be shown: it should look something like `https://github.com/UCLL-P1-2324/p1-exercises-2324-yourusername`.
 You will need this URL, so don't lose it.
 
 > **IMPORTANT** If you go to your repository's website, GitHub tries to be helpful by showing you instructions of how to set up things, such as creating a `README.md` file.
@@ -39,10 +37,16 @@ Open a terminal in this directory and enter the following command:
 ```bash
 # Download the repository
 # !!! Replace YOUR-FORK-URL by the URL you were given earlier by GitHub Classroom !!!
-$ git clone YOUR-FORK-URL
+$ git clone YOUR-FORK-URL course-material
 ```
 
-This should create a directory named `course-material` and download the course material into that directory.
+You may be asked to enter your Github username and password in order to continue. 
+
+If you receive an error about password authentication, you will need to [generate a personal access token](https://docs.github.com/en/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens). Then rerun the clone command above and use the resulting token in place of a password.
+
+You should receive a notification that you have cloned an empty repository. This is good, you'll fill up the repository with files in the next few steps.
+
+You should notice a new directory named `course-material` has been created, but it is still empty.
 
 ## Setting Up Remote Repositories
 
@@ -61,8 +65,8 @@ Let's check if everything worked:
 ```bash
 # Ask for a list of remote repositories
 $ git remote -v
-origin    https://github.com/TODO/course-material-youraccountname (fetch)
-origin    https://github.com/TODO/course-material-youraccountname (push)
+origin    https://github.com/UCLL-P1-2324/p1-exercises-2324-youraccountname (fetch)
+origin    https://github.com/UCLL-P1-2324/p1-exercises-2324-youraccountname (push)
 upstream  https://github.com/ucll-programming/course-material.git (fetch)
 upstream  https://github.com/ucll-programming/course-material.git (push)
 ```
@@ -80,6 +84,9 @@ Let's fill it up by sending your locally stored data to GitHub:
 ```bash
 # Download from lecturer's repository
 $ git pull upstream master
+
+# Switch from main to master branch
+$ git checkout master
 
 # Upload to your remote repository
 $ git push -u origin master

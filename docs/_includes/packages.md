@@ -10,6 +10,12 @@ In the shell, write
 $ pip install pytest pytest-timeout mypy pipx
 ```
 
+If you're running MacOS and encounter problems with this command, you can also try:
+
+```bash
+$ python3 -m pip install pytest pytest-timeout mypy pipx
+```
+
 ## Checking the Installation
 
 Open the terminal in the `scripts` directory and enter (only the first line! The subsequent lines are expected output)
