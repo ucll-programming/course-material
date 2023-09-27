@@ -84,7 +84,7 @@ After a little while (typically around one second), the exercise will color gree
 #### Running Tests
 
 If the tests failed and you'd like to know the reason, you can run the tests manually.
-In a [terminal](./shell.md) located in the chapter's directory, run `pytest test-foo.py` where `foo` is the name of the function the exercise asks you to write.
+In a [shell](./shell.md) located in the chapter's directory, run `pytest test-foo.py` where `foo` is the name of the function the exercise asks you to write.
 
 ```bash
 $ pytest test-five.py

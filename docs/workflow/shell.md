@@ -6,7 +6,7 @@ title: Shell
 * Table of Contents
 {:toc}
 
-# Opening a Terminal
+# Opening a Shell
 
 ## Windows: From File Explorer
 
@@ -21,7 +21,7 @@ You can select the shell by pressing the little down arrow button.
 
 ## Inside Visual Studio Code
 
-You can open a terminal inside Visual Studio Code by opening the `Terminal` menu and selecting `New Terminal`.
+You can open a shell inside Visual Studio Code by opening the `Terminal` menu and selecting `New Terminal`.
 
 # Current Directory
 

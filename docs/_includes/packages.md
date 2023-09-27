@@ -18,7 +18,7 @@ $ python3 -m pip install pytest pytest-timeout mypy pipx
 
 ## Checking the Installation
 
-Open the terminal in the `scripts` directory and enter (only the first line! The subsequent lines are expected output)
+Open a shell in the `scripts` directory and enter (only the first line! The subsequent lines are expected output)
 
 ```bash
 $ pytest

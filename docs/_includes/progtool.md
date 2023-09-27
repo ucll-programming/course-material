@@ -1,4 +1,4 @@
-In a terminal, enter the two commands shown below.
+In a shell, enter the two commands shown below.
 As always, omit the `$`.
 
 ```bash

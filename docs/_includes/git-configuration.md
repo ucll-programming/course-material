@@ -1,7 +1,7 @@
 ## Configuration
 
 After you have finished installing Git, you still need to configure it.
-In a terminal, write the following commands where you substitute `YOUR-NAME` your name (not your GitHub login) and `YOUR-EMAIL-ADDRESS` by your UCLL email address.
+In a shell, write the following commands where you substitute `YOUR-NAME` your name (not your GitHub login) and `YOUR-EMAIL-ADDRESS` by your UCLL email address.
 
 **IMPORTANT**
 
