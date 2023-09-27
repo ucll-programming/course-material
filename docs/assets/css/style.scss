@@ -2,3 +2,10 @@
 ---
 
 @import "{{ site.theme }}";
+
+blockquote {
+    border-left-color: red;
+    font-weight: bold;
+    color: black;
+    font-style: normal;
+}

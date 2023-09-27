@@ -13,12 +13,11 @@ If need be, you can always look on [Youtube](https://youtu.be/36Uu4Gn_A3o?t=112)
 Open a shell in the `scripts` directory.
 
 ```bash
+# Runs the check-python-installation.py script
 $ python3 check-python-installation.py
 ```
 
 If the output ends on `SUCCESS`, you can proceed with the [next step](python-packages.md).
-
-**IMPORTANT**
 
 > In all further instructions, we will just use `py` to run Python scripts, but you will have to replace `py` by `python3`.
 

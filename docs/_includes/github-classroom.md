@@ -1,4 +1,3 @@
-
 * Table of Contents
 {:toc}
 
@@ -12,20 +11,20 @@ Press the button to accept it.
 You are then shown a page informing you that your repository is being prepared.
 Refresh the page every few seconds until a new page appears telling you you're ready to go.
 A URL should be shown: it should look something like `https://github.com/UCLL-P1-2324/p1-exercises-2324-yourusername`.
-You will need this URL, so don't lose it.
+You will need this URL soon.
 
-> **IMPORTANT** If you go to your repository's website, GitHub tries to be helpful by showing you instructions of how to set up things, such as creating a `README.md` file.
+> If you go to your repository's website, GitHub tries to be helpful by showing you instructions of how to set up things, such as creating a `README.md` file.
 > Do NOT follow these instructions.
-> Simply follow the instructions shown on this page.
+> Only follow the instructions shown on this page.
 
 > If you happen to lose the URL, simply visit the GitHub Classroom link on Toledo again.
-> You'll be brought straight to the page showing the URL.
+> You'll be brought straight back to the page showing the URL.
 
 ## Cloning the Repository
 
 On your machine, [**create a directory**]({{ site.baseurl }}{% link troubleshooting/create-directory.md %}) where you would like to store the exercises.
 
-> **IMPORTANT** Do **not** place this directory under OneDrive/Dropbox/Google Drive/...
+> Do **not** place this directory under OneDrive/Dropbox/Google Drive/...
 > We will be working with GitHub, which is a better alternative for storing code in the cloud.
 > Storing a Git repository on OneDrive/... could corrupt it.
 

@@ -1,10 +1,4 @@
-**IMPORTANT**
-
-> A `$` in the beginning of a line means that you should input that line in a shell.
-> Do not write the `$` itself though, only what follows.
-> For example, `$ ls` means you should type `ls` followed by enter.
-
-In the shell, write
+In a shell (the directory is unimportant here), write
 
 ```bash
 $ pip install pytest pytest-timeout mypy pipx
@@ -18,9 +12,10 @@ $ python3 -m pip install pytest pytest-timeout mypy pipx
 
 ## Checking the Installation
 
-Open a shell in the `scripts` directory and enter (only the first line! The subsequent lines are expected output)
+Open a shell in **the `scripts` directory** and enter (only the first line! The subsequent lines are expected output)
 
 ```bash
+# Inside the course-material/scripts directory
 $ pytest
 ..                               [100%]
 2 passed in 0.01s

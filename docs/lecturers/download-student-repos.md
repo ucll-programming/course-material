@@ -20,9 +20,9 @@ $ gh extension install github/gh-classroom
 
 ## Downloading Using gh classroom
 
-**IMPORTANT** At the time of this writing, this leads to a server error.
-At some point in the future we expect it will work.
-In the meantime, see below for [manual download instructions](#downloading-using-gh).
+> At the time of this writing, this leads to a server error.
+> At some point in the future we expect it will work.
+> In the meantime, see below for [manual download instructions](#downloading-using-gh).
 
 ```bash
 $ gh classroom clone student-repos

@@ -12,16 +12,11 @@ Look up how to install Python
 Open a shell in the `scripts` directory.
 
 ```bash
-$ python check-python-installation.py
-
-# In case this doesn't work, try
-
+# Runs the check-python-installation.py script
 $ python3 check-python-installation.py
 ```
 
 If the output ends on `SUCCESS`, you can proceed with the [next step](python-packages.md).
-
-**IMPORTANT**
 
 > Remember how you had to run a Python script (i.e., `python` vs `python3`).
 > In all further instructions, we will just use `py`, but you will have to replace `py` by either `python` or `python3`.

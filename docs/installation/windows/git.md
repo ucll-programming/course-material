@@ -4,7 +4,7 @@ layout: page
 
 # Git Installation (Windows)
 
-> **Important** Make sure you have Visual Studio Code installed before you install Git!
+> Make sure you have Visual Studio Code installed before you install Git!
 
 Downloading Git from the [official website](https://git-scm.com/download).
 Next, launch the installation.

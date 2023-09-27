@@ -11,9 +11,10 @@ Then select Install Now.
 
 {% include checking-python-installation.md %}
 
-Open Git Bash in the `scripts` directory inside the repository and enter:
+Open a shell in the `scripts` directory inside the repository and enter:
 
 ```bash
+# Runs the check-python-installation.py script
 $ py check-python-installation.py
 ```
 
