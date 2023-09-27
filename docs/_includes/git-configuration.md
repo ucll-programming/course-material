@@ -23,4 +23,5 @@ $ git config --global user.name "John Smith"
 $ git config --global user.email "john.smith@student.ucll.be"
 ```
 
-You won't receive any output from these commands. That's fine.
+**You won't receive any output from these commands.**
+That's fine.
