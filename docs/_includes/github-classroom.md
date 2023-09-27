@@ -23,24 +23,24 @@ You will need this URL, so don't lose it.
 
 ## Cloning the Repository
 
-On your machine, create a directory where you would like to store the exercises.
+On your machine, [**create a directory**]({{ site.baseurl }}{% link troubleshooting/create-directory.md %}) where you would like to store the exercises.
 
-> Do _not_ place this directory under OneDrive/DropBox/Google Drive/...
+> **IMPORTANT** Do **not** place this directory under OneDrive/Dropbox/Google Drive/...
 > We will be working with GitHub, which is a better alternative for storing code in the cloud.
 > Storing a Git repository on OneDrive/... could corrupt it.
 
-Open a terminal in this directory and enter the following command:
+[**Open a terminal in this directory**]({{ site.baseurl }}{% link troubleshooting/open-shell.md %}) and enter the following command:
 
 > As always, you only need to enter in commands following a `$`.
 > All other lines are either comments or expected responses.
 
 ```bash
-# Download the repository
-# !!! Replace YOUR-FORK-URL by the URL you were given earlier by GitHub Classroom !!!
+# Downloads the repository
+# !!! Replace YOUR-FORK-URL by the URL you were given earlier by GitHub Classroom
 $ git clone YOUR-FORK-URL course-material
 ```
 
-You may be asked to enter your Github username and password in order to continue.
+You may be asked to enter your GitHub username and password in order to continue.
 
 If you receive an error about password authentication, you will need to [generate a personal access token](https://docs.github.com/en/enterprise-server@3.6/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens).
 Then rerun the clone command above and use the resulting token in place of a password.
@@ -55,17 +55,17 @@ You should notice a new directory named `course-material` has been created, but 
 Enter the following commands:
 
 ```bash
-# Go into course material directory
+# Goes into course material directory
 $ cd course-material
 
-# Tell Git about the lecturer's repository and call it upstream
+# Tells Git about the lecturer's repository and call it upstream
 $ git remote add upstream https://github.com/ucll-programming/course-material.git
 ```
 
 Let's check if everything worked:
 
 ```bash
-# Ask for a list of remote repositories
+# Asks for a list of remote repositories
 $ git remote -v
 origin    https://github.com/UCLL-P1-2324/p1-exercises-2324-youraccountname (fetch)
 origin    https://github.com/UCLL-P1-2324/p1-exercises-2324-youraccountname (push)
@@ -84,13 +84,13 @@ GitHub should claim it's empty.
 Let's fill it up by sending your locally stored data to GitHub:
 
 ```bash
-# Download from lecturer's repository
+# Downloads from lecturer's repository
 $ git pull upstream master
 
-# Switch from main to master branch
+# Switches from main to master branch
 $ git checkout master
 
-# Upload to your remote repository
+# Uploads to your remote repository
 $ git push -u origin master
 ```
 
