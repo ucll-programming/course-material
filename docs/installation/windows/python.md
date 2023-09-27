@@ -6,10 +6,14 @@ layout: page
 
 The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
 Download and install it.
-While installing, **check the checkbox to Add Python to PATH**.
-Then select Install Now.
 
-{% include checking-python-installation.md %}
+> While installing, **check the checkbox to Add Python to PATH**.
+
+| Add python.exe to PATH |
+| :----------------------: |
+| ![Add python.exe to PATH](./add-python-to-path.png) |
+
+## Checking Your Python Installation
 
 Open a shell in the `scripts` directory inside the repository and enter:
 
