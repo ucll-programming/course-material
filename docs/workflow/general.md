@@ -38,7 +38,7 @@ This is what you should see:
 | :------------: |
 | ![Visual Studio Code](./vscode.png) |
 
-> **Important** On Windows, we would advise you to *pin* this folder.
+> On Windows, we would advise you to *pin* this folder.
 > After having opened the folder, right click on the Visual Studio Code button in the taskbar.
 > In the context menu that appeared, press the little pin next to the course material's directory.
 > From now on, if you need to re-open the same folder, you can simply right-click the Visual Studio Code icon and select the directory.

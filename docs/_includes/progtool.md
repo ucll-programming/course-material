@@ -1,5 +1,4 @@
-In a shell, enter the two commands shown below.
-As always, omit the `$`.
+In a shell (the directory is unimportant), enter the two commands shown below.
 
 ```bash
 $ pipx ensurepath
@@ -11,6 +10,6 @@ Close the current shell and open a **new shell** in the same directory in which 
 Enter
 
 ```bash
-# In a NEW shell
+# In a NEW shell, inside the course-material directory
 $ progtool setup
 ```
