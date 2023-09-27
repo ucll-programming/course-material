@@ -78,11 +78,6 @@ Here, `origin` refers to your very own repository, which you have write access t
 
 ## Getting the Course Material
 
-Visit your remote repository's webpage.
-You can do this by using a browser and going to your repository URL.
-GitHub should claim it's empty.
-Let's fill it up by sending your locally stored data to GitHub:
-
 ```bash
 # Downloads from lecturer's repository
 $ git pull upstream master
@@ -94,8 +89,16 @@ $ git checkout master
 $ git push -u origin master
 ```
 
-After the push is finished, refresh your repository's webpage in the browser.
-It should now contain all the exercises.
+Visit your remote repository's webpage.
+You can do this by using a browser and going to your repository URL.
+It should show a listing of directories and files:
+
+| Your repository's webpage |
+| :----------------------: |
+| ![Repository webpage]({{ site.baseurl }}{% link installation/repo-webpage.png %}) |
+
+It's probably not *exactly* the same, which is okay.
+The goal is to make sure your repository is not empty.
 
 From now on, you should make sure to always push your solutions to GitHub.
 Instructions for how to do this can be found [here](../../workflow).

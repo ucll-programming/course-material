@@ -43,7 +43,7 @@ Create a file `download-student-repos.sh` and copy paste the following code into
 ```bash
 #!/usr/bin/env bash
 
-gh repo list UCLL-P1-2324 --limit 1000 --json url --template '{{range .}}{{.url}}{{"\n"}}{{end}}' > student-repo-urls.txt
+gh repo list UCLL-P1-2324 --limit 1000 --json url --template '{{'{{'}}range .}}{{'{{'}}.url}}{{'{{'}}"\n"}}{{'{{'}}end}}' > student-repo-urls.txt
 
 for url in `cat student-repo-urls.txt`; do
     id=`basename $url`
