@@ -118,3 +118,11 @@ Just wait a little bit and the course's website should show up.
 
 You probably didn't install `pytest` correctly.
 Look for "Installing all necessary packages" in the [installation instructions]({{ site.baseurl }}{% link installation/index.md %}).
+
+## How do I manually run the tests?
+
+Open a shell in the chapter's directory (`course-material/exercises/CHAPTER`) and run
+
+```bash
+$ pytest test-EXERCISENAME.py
+```
