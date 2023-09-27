@@ -5,7 +5,9 @@ layout: page
 # Python Installation (Windows)
 
 The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
-Download and install it. While installing, check the checkbox to Add Python to PATH. Then select Install Now.
+Download and install it.
+While installing, **check the checkbox to Add Python to PATH**.
+Then select Install Now.
 
 {% include checking-python-installation.md %}
 

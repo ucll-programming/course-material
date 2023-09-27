@@ -100,7 +100,11 @@ GitHub detects a sudden surge in requests from that single address and doesn't l
 We don't know exactly for how long GitHub cuts off access, but it should definitely be less than two hours.
 In other words, if you encounter this error, you'll simply have to wait and try again later.
 
-Or, if the problem persists, follow the [manual setup instructions](troubleshooting/manual-setup.md).
+Or, if the problem persists, follow the [manual setup instructions]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %}).
+
+## How do I manually perform the setup of `progtool`?
+
+Follow [these instructions]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %})
 
 # Progtool Issues
 
