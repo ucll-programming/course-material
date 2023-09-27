@@ -24,7 +24,7 @@ How this is done is OS specific.
 TODO Better explanations
 
 ::::TASK
-Open a terminal in the same directory as `my-script.py` and enter the following commands
+Open a shell in the same directory as `my-script.py` and enter the following commands
 
 :::code{caption="Bash"}
 
