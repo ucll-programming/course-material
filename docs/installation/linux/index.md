@@ -4,6 +4,10 @@ layout: page
 
 # Installation Instructions (Linux)
 
+> **Disclaimer** If you're using Linux, we will assume you possess a certain technical know-how.
+> Our Linux instructions will be a bit vaguer than for other OSses, informing you only of *what* to do, not *how* to do it.
+> Given the large number of Linux distributions, desktop environments, shells, etc. it is simply impossible for us to provide detailed instructions for Linux users.
+
 For this course, you will need the following software:
 
 * [Visual Studio Code](vscode.md) with extensions
