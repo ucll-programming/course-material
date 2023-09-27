@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Creating a Directory
 ---
+
+# Creating a New Directory
 
 * Table of Contents
 {:toc}

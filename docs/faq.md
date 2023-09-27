@@ -34,7 +34,35 @@ Follow [these steps](workflow/two-machines.md).
 Start by making sure that all your work has been [committed and pushed](workflow/commit-all-files.md) on your old machine.
 Next, if you follow all [installation instructions](installation/index.md) on your new machine, you should end up with an up-to-date version of the course material, including your solutions.
 
+## Why are we using Git?
+
+Using a Version Control System (VCS), which Git is, is the most sensible way to deal with code, which includes distribution, storage and collaboration.
+Alternative approaches like downloading/sending zips or relying on OneDrive/Google Drive/Dropbox is just asking for trouble.
+We wish you to develop the attitude that using a VCS is the go-to solution whenever you work on code.
+We also want you to become familiar with the typical `add`/`commit`/`push` commands.
+
+Why Git specifically?
+Git is at the moment by far the most widely used VCS.
+
+Also, we rely on Git to be able to help you out more easily (since we have access to your code) and to track your progress.
+
+## Why are we using the shell instead of a GUI?
+
+While the shell can be trickier to use than a GUI, it also forces you to actually know what you're doing.
+We've had too many students use a GUI and randomly click buttons in the hopes of finding a solution, but instead making things a lot worse and sometimes causing their work to be lost.
+
+Being able to work using a shell is also a very important skill for anyone in IT, as it makes it *much* easier to automate tasks.
+Some tools also offer more functionality through their command line interface.
+
 # Installation Problems
+
+## How do I create a new directory?
+
+Follow these [instructions]({{ site.baseurl }}{% link troubleshooting/create-directory.md %})
+
+## How do I open a shell?
+
+Follow these [instructions]({{ site.baseurl }}{% link troubleshooting/open-shell.md %})
 
 ## I cannot download the course material as explained in the instructions
 
@@ -81,3 +109,8 @@ Or, if the problem persists, follow the [manual setup instructions](troubleshoot
 The first time, the assistant tool will run all tests of all exercises.
 This can take some time on slower machines.
 Just wait a little bit and the course's website should show up.
+
+## When I'm running `progtool server` I get bombarded by errors mentioning `pytest`.
+
+You probably didn't install `pytest` correctly.
+Look for "Installing all necessary packages" in the [installation instructions]({{ site.baseurl }}{% link installation/index.md %}).

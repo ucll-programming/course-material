@@ -1,12 +1,13 @@
 ---
 layout: page
-title: Opening a Shell
 ---
+
+# Opening a Shell
 
 * Table of Contents
 {:toc}
 
-# Windows
+## Windows
 
 * Open File Explorer, e.g., by pressing <kbd>Win</kbd> + <kbd>E</kbd>.
 * Using the left pane, navigate to the directory you wish to open a shell in.
@@ -18,7 +19,7 @@ title: Opening a Shell
 | :----------------------: |
 | ![Opening a Shell](./open-shell-windows.png) |
 
-# MacOS
+## MacOS
 
 * Open a Finder window and navigate to the folder.
 * If you can’t see the path bar at the bottom of the Finder window, choose View > Show Path Bar.
