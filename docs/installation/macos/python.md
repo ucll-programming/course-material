@@ -10,7 +10,7 @@ If need be, you can always look on [Youtube](https://youtu.be/36Uu4Gn_A3o?t=112)
 
 {% include checking-python-installation.md %}
 
-Open a terminal in the `scripts` directory.
+Open a shell in the `scripts` directory.
 
 ```bash
 $ python3 check-python-installation.py

@@ -6,7 +6,7 @@ layout: page
 
 ## Checking For Pre-Existing Installation
 
-In a terminal, write
+In a shell, write
 
 ```bash
 $ git --version

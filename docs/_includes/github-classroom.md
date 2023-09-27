@@ -29,7 +29,7 @@ On your machine, [**create a directory**]({{ site.baseurl }}{% link troubleshoot
 > We will be working with GitHub, which is a better alternative for storing code in the cloud.
 > Storing a Git repository on OneDrive/... could corrupt it.
 
-[**Open a terminal in this directory**]({{ site.baseurl }}{% link troubleshooting/open-shell.md %}) and enter the following command:
+[**Open a shell in this directory**]({{ site.baseurl }}{% link troubleshooting/open-shell.md %}) and enter the following command:
 
 > As always, you only need to enter in commands following a `$`.
 > All other lines are either comments or expected responses.

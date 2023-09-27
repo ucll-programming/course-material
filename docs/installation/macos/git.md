@@ -7,7 +7,7 @@ layout: page
 ## Checking For Pre-Existing Installation
 
 First, check that Git is not already installed.
-Open a terminal and enter
+Open a shell and enter
 
 ```bash
 $ git --version

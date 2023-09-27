@@ -9,7 +9,7 @@ Look up how to install Python
 
 {% include checking-python-installation.md %}
 
-Open a terminal in the `scripts` directory.
+Open a shell in the `scripts` directory.
 
 ```bash
 $ python check-python-installation.py
