@@ -14,3 +14,4 @@ title: Workflow
   * [Receiving assistant tool updates](update-progtool.md)
 * [Working with the shell](shell.md)
 * [Working with Git](git.md)
+* [Manual workflow](./manual-workflow.md)
