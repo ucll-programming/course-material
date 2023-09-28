@@ -41,9 +41,9 @@ Note that `range(start, stop)` does not include `stop` itself.
 ```python
 >>> for i in range(0, 3):
 ...    print(i)
+0
 1
 2
-3
 ```
 
 :::
