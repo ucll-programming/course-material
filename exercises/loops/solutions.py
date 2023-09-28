@@ -7,9 +7,11 @@ def print_numbers(a, b, step):
 
 def sum_input():
     result = 0
-    while (value := int(input())) != 0:
+    value = int(input("Enter integer: "))
+    while value != 0:
         result += value
-    print(f'The sum equals {result}')
+        value = int(input("Enter integer: "))
+    print(f'The sum equals {result}.')
 
 
 def factorial(n):

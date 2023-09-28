@@ -21,7 +21,7 @@ Using VSCode, create a file named `my-script.py` and add the following code to i
 Now that you've written a Python script, you'll want to tell Python to run it.
 
 ::::TASK
-Open a terminal with Git Bash (or another OS shell, as explained earlier) in the same directory as `my-script.py` and enter the following commands
+Open a shell in the same directory as `my-script.py` and enter the following commands
 
 :::code{caption="Bash"}
 

@@ -29,7 +29,7 @@ def test_sum_input(capsys, fake_input, inputs):
 
     captured = capsys.readouterr()
     output = captured.out
-    expected = f'The sum equals {sum(inputs)}\n'
+    expected = f'The sum equals {sum(inputs)}.\n'
 
     assert expected == output
     assert actual_return_value is None

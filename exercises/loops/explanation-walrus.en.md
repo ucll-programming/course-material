@@ -14,7 +14,7 @@ while value != 0:
 
 :::
 
-The code above reads integers from the terminal and prints them out.
+The code above reads integers from the keyboard and prints them out.
 It stops as soon as the user inputs `0`.
 
 The code above contains some duplication: `int(input("Enter an integer: "))` occurs twice.

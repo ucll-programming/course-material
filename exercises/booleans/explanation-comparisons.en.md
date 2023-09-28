@@ -21,7 +21,7 @@ Let's take a look at a series of other operators, which should be very familiar 
 ::::
 
 What would the result be of such a comparison?
-If you were to open a terminal and enter a comparison, you would get
+If you were to open a Python shell and enter a comparison, you would get
 
 ```python
 >>> 1 == 1
