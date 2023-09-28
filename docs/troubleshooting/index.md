@@ -11,3 +11,4 @@ layout: page
 * [Manual setup](manual-setup.md)
 * [Could not find GitHub organization](missing-github-organization.md)
 * [Relocating the course material](relocating.md)
+* [Path issues](path-issues.md)
