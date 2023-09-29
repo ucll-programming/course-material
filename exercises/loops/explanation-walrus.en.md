@@ -39,7 +39,7 @@ while value != 0:
 
 :::
 
-We expect you to be able do perform this kind of code cleanup.
+We expect you to be able to perform this kind of code cleanup.
 
 ## Using Walrus Operator
 
@@ -48,7 +48,7 @@ Another approach would be to rely on the walrus operator.
 `a = b` and `a := b` do exactly the same thing: they evaluate `b` and assign the result to `a`.
 The difference between both lies in *where* you are allowed to use them.
 
-`a = b` is a *statement*, which means you cannot but it inside something else.
+`a = b` is a *statement*, which means you cannot put it inside something else.
 For example `print(a = b)` is invalid.
 An assignment always belongs on a line of its own.
 
