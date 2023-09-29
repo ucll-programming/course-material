@@ -1,7 +1,7 @@
 # Assignment
 
 :::TASK
-Write a function `middle(a, b, c)` that returns the "middle" element, i.e., the element that is neither the highest nor the lowest.
+Write a function `middle(a, b, c)` that returns the "middle" element, i.e., if the list was to be sorted, the one that would be in the middle.
 :::
 
 :::USAGE
@@ -12,6 +12,9 @@ Write a function `middle(a, b, c)` that returns the "middle" element, i.e., the 
 
 >>> middle(6, 7, 5)
 6
+
+>>> middle(8, 0, 0)
+0
 ```
 
 :::

@@ -8,22 +8,22 @@ This exercise is the same, except that you'll be dealing with multiple kinds of 
 * `[` needs a matching `]`
 
 :::TASK
-Write a function `balanced_brackets(string)` that checks if `string` contains only balanced brackets.
+Write a function `matching_brackets(string)` that checks if `string` contains only matched brackets.
 :::
 
 :::USAGE
 
 ```python
->>> balanced_brackets('')
+>>> matching_brackets('')
 True
 
->>> balanced_brackets('()')
+>>> matching_brackets('()')
 True
 
->>> balanced_brackets('(}')
+>>> matching_brackets('(}')
 False
 
->>> balanced_brackets('({)}')
+>>> matching_brackets('({)}')
 False
 ```
 
