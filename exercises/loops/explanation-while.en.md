@@ -24,7 +24,7 @@ print("liftoff!")
 
 Python has multiple ways to perform iteration.
 In the code above, we are using a *while loop*.
-The *body* of the while loop, which consists of the `print(i)` and `i += 1` statements, is repeated for as long as the condition `i < 5` is true.
+The *body* of the while loop, which consists of the `print(i)` and `i -= 1` statements, is repeated for as long as the condition `i != 0` is true.
 
 We can visualize this code using a flowchart:
 

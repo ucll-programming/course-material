@@ -104,5 +104,5 @@ Prefixing a string literal with an `r` turns it into a *raw string*.
 Escape characters are ignored in such strings: `r"C:\nodejs\training"` works as intended.
 
 ::::INFO
-Raw strings will come in handy when we you later learn about regular expressions.
+Raw strings will come in handy later when you learn about regular expressions.
 ::::
