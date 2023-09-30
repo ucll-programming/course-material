@@ -126,3 +126,9 @@ Open a shell in the chapter's directory (`course-material/exercises/CHAPTER`) an
 ```bash
 $ pytest test-EXERCISENAME.py
 ```
+
+# Pytest Issues
+
+## When I run pytest, it dumps a lot of information on me. Can I get a summary?
+
+This [page]({{ site.baseurl }}{% link workflow/pytest.md %}) gives you some options.
