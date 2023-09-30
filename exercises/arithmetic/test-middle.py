@@ -10,4 +10,4 @@ def test_middle(a, b, c):
     expected = sorted([a, b, c])[1]
     actual = student.middle(a, b, c)
 
-    assert actual == expected, f'middle({a}, {b}, {c}) should return {expected} but got {actual} instead'
+    assert expected == actual, f'middle({a}, {b}, {c}) should return {expected} but got {actual} instead'
