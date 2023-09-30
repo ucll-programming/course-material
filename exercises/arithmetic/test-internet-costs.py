@@ -21,4 +21,4 @@ def test_internet_costs(duration_in_seconds, cost_per_block, expected):
         cost_per_block=cost_per_block
     )
 
-    assert pytest.approx(expected, abs=0.001) == actual
+    assert pytest.approx(expected, abs=0.001) == actual, f"internet_costs({duration_in_seconds}, {cost_per_block}) should return {expected} but got {actual} instead"

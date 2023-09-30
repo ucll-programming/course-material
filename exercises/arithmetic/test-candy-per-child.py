@@ -8,5 +8,5 @@ import student
 def test_candy_per_child(child_count, candy_count):
     actual = student.candy_per_child(candy_count=candy_count, child_count=child_count)
 
-    assert candy_count - actual * child_count >= 0
-    assert candy_count - (actual + 1) * child_count < 0
+    assert candy_count - actual * child_count >= 0, f"candy_per_child({child_count}, {candy_count}) is overly generous and claims that each child gets {actual} pieces of candy"
+    assert candy_count - (actual + 1) * child_count < 0, f"candy_per_child({child_count}, {candy_count}) returned {actual}, seemingly withhold candy from the poor children"

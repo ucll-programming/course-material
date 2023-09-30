@@ -23,4 +23,4 @@ import student
 def test_coins(amount, expected):
     actual = student.coins(amount=amount)
 
-    assert expected == actual
+    assert expected == actual, f"coins({amount}) should return {actual}, but returned {expected} instead"

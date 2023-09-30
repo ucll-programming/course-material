@@ -7,4 +7,4 @@ import student
 def test_drop_last_digit(n):
     actual = student.drop_last_digit(n)
 
-    assert actual * 10 + n % 10 == n
+    assert actual * 10 + n % 10 == n, f"drop_last_digit({n}) wrongly returned {actual}"
