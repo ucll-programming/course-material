@@ -1,7 +1,7 @@
 # Assignment
 
 :::TASK
-Write a function `middle(a, b, c)` that returns the "middle" element, i.e., the element that is neither the highest nor the lowest.
+Write a function `middle(a, b, c)` that returns the "middle" element, i.e., the element that is in between the lowest and highest number.
 :::
 
 ::::INFO
@@ -20,6 +20,10 @@ Using conditionals makes this exercise much easier, but that's cheating.
 
 >>> middle(6, 7, 5)
 6
+
+# Equal values are also possible
+>>> middle(4, 4, 2)
+4
 ```
 
 :::
