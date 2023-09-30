@@ -106,6 +106,23 @@ Or, if the problem persists, follow the [manual setup instructions]({{ site.base
 
 Follow [these instructions]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %})
 
+## I have a technical problem and need help
+
+Contact one of your lecturers.
+Make sure to describe the problem in detail:
+
+* Give context: what are you trying to achieve?
+  What step are you at in the documentation?
+* Tell us *exactly* what failed.
+  What command did you type in?
+  What directory are you in?
+  (Find out using `pwd`.)
+* Show us the actual error message you're getting.
+* Mention which OS (Windows, MacOS or Linux) you are using.
+* Provide us with a link to your GitHub Classroom repository, i.e., the URL you receive when accepting the assignment.
+
+Remark that the installation steps are interdependent: if you are at step 5, steps 1 through 4 must have succeeded.
+
 # Progtool Issues
 
 ## I'm running `progtool server` for the first time and I'm just getting a spinning wheel
