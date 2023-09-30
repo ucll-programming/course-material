@@ -1,16 +1,33 @@
 # Pad Right
 
 ::::TASK
-Write a function `pad_right(ns)` that given a list of integers `ns` updates the list so that every element is doubled.
+Write the function `pad_right(xs, length, padding)` that takes as parameters
+
+* a list `xs`;
+* a desired length `length`;
+* a padding value `padding`.
+
+`pad_right(xs, length, padding)` adds `padding` values to the end of the list such that `xs` ends up with `length` items.
+If `xs` already contains `length` items (or more), nothing needs to be done.
 ::::
 
 ::::USAGE
 
 ```python
->>> ns = [1, 2, 3, 4]
->>> double_items(ns)
->>> ns
-[2, 4, 6, 8]
+>>> xs = [1, 2, 3, 4]
+>>> pad_right(xs, 8, 'x')
+>>> xs
+[1, 2, 3, 4, 'x', 'x', 'x', 'x']
+
+>>> xs = [1, 2, 3, 4]
+>>> pad_right(xs, 6, 0)
+>>> xs
+[1, 2, 3, 4, 0, 0]
+
+>>> xs = [1, 2, 3, 4, 5, 6, 7, 8]
+>>> pad_right(xs, 6, 0)
+>>> xs
+[1, 2, 3, 4, 5, 6, 7, 8]
 ```
 
 ::::
