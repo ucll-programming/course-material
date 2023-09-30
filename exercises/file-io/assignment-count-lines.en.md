@@ -1,7 +1,7 @@
 # Count Lines
 
 ::::TASK
-Write a function `count_line_in_files(path)` that returns the number of lines in the file with the given path.
+Write a function `count_line_in_file(path)` that returns the number of lines in the file with the given path.
 ::::
 
 :::USAGE
