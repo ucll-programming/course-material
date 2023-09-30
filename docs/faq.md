@@ -132,3 +132,7 @@ $ pytest test-EXERCISENAME.py
 ## When I run pytest, it dumps a lot of information on me. Can I get a summary?
 
 This [page]({{ site.baseurl }}{% link workflow/pytest.md %}) gives you some options.
+
+## How do I interpret the pytest results?
+
+This [page]({{ site.baseurl }}{% link workflow/pytest.md %}) provides a bit of explanation.
