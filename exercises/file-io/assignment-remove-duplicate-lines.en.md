@@ -1,7 +1,7 @@
 # Remove Duplicate Lines
 
 :::TASK
-Write a function `remove_duplicate_lines(source, destination)` that removes adjacent duplicate lines from a file named `source` and writes the result to a new file named `destination`.
+Write a function `remove_duplicate_lines(source, destination)` that removes **adjacent** duplicate lines from a file named `source` and writes the result to a new file named `destination`.
 :::
 
 :::USAGE
