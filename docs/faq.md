@@ -132,3 +132,19 @@ $ pytest test-EXERCISENAME.py
 ## When I run pytest, it dumps a lot of information on me. Can I get a summary?
 
 This [page]({{ site.baseurl }}{% link workflow/pytest.md %}) gives you some options.
+
+## How do I interpret the pytest results?
+
+This [page]({{ site.baseurl }}{% link workflow/pytest.md %}) provides a bit of explanation.
+
+## I'm not satisfied with the provided tests. Can I perform test myself?
+
+* You can write your own tests.
+  We suggest you do not modify the given test files, as this may cause Git merge conflicts if we also choose to modify them.
+  It is better to put your own tests in a separate file.
+* You can use the Python shell.
+  Say you have a function `foo` stored in `student.py` which you wish to test manually.
+  * Go in the directory containing `student.py`.
+  * Launch the Python shell: `$ py`.
+  * Import your code: `from student import *`.
+  * Now you can call your function from the shell: `foo(1, 2, 3)`.
