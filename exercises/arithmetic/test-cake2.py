@@ -10,6 +10,6 @@ def test_cake2(eggs, flour):
     flour_per_cake = 250
     actual = student.cake2(eggs=eggs, flour=flour)
 
-    assert actual * eggs_per_cake <= eggs
-    assert actual * flour_per_cake <= flour
-    assert (actual + 1) * eggs_per_cake > eggs or (actual + 1) * flour_per_cake > flour
+    assert actual * eggs_per_cake <= eggs, f"cake2({eggs}, {flour}) returned {actual}, overestimating the number of cakes"
+    assert actual * flour_per_cake <= flour, f"cake2({eggs}, {flour}) returned {actual}, overestimating the number of cakes"
+    assert (actual + 1) * eggs_per_cake > eggs or (actual + 1) * flour_per_cake > flour, f"cake2({eggs}, {flour}) returned {actual}, underestimating the number of cakes"
