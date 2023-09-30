@@ -11,5 +11,5 @@ import student
 def test_pizza(n_people, slices_per_pizza):
     actual = student.pizza(n_people=n_people, slices_per_pizza=slices_per_pizza)
 
-    assert actual * slices_per_pizza >= n_people
-    assert (actual - 1) * slices_per_pizza < n_people
+    assert actual * slices_per_pizza >= n_people, f"pizza({n_people}, {slices_per_pizza}) returned {actual}, underestimating the number of pizzas needed"
+    assert (actual - 1) * slices_per_pizza < n_people, f"pizza({n_people}, {slices_per_pizza}) returned {actual}, overestimating the number of pizzas needed"
