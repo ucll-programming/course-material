@@ -1,6 +1,6 @@
 # Matching Brackets
 
-In a previous exercise, you had to check if a string contained matching parentheses.
+In a previous exercise, you had to check if a string contained balanced parentheses.
 This exercise is the same, except that you'll be dealing with multiple kinds of brackets:
 
 * `(` needs a matching `)`
@@ -8,7 +8,7 @@ This exercise is the same, except that you'll be dealing with multiple kinds of 
 * `[` needs a matching `]`
 
 :::TASK
-Write a function `matching_brackets(string)` that checks if `string` contains only balanced brackets.
+Write a function `matching_brackets(string)` that checks if `string` contains only matching brackets.
 :::
 
 :::USAGE
