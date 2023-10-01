@@ -107,6 +107,9 @@ Or, if the problem persists, follow the [manual setup instructions]({{ site.base
 At the moment of this writing, we're not entirely sure what causes this problem.
 We do have a solution that we expect to work though.
 
+First, [update `progtool`]({{ site.baseurl }}{% link workflow/update-progtool.md %}) and try `progtool setup` again.
+If the problem persists, try the following steps:
+
 * Go to your home directory.
   * Under Windows, you can use File Explorer and enter `%HOMEPATH%` in the address bar.
   * Under MacOS/Linux, go to `~`.
@@ -126,6 +129,7 @@ We do have a solution that we expect to work though.
   In other words, the settings file should point to this file.
 
 Rerunning `progtool setup` should now work fine.
+If not, run `progtool -vv setup &> log.txt` and send `log.txt` to a lecturer, explaining your problem.
 
 ## How do I manually perform the setup of `progtool`?
 
@@ -143,15 +147,14 @@ Make sure to describe the problem in detail:
   What directory are you in?
   (Find out using `pwd`.)
 * Show us the actual error message you're getting.
-* If the error involves progtool, run the same command again with diagnostics turned on.
-  This is done by adding `-vv` just after `progtool`.
-  For example, if `progtool setup` fails, try again with `progtool -vv setup`.
-  It will still fail, but will give more information about what it's doing.
-  Include this information in your message.
+* If the error involves progtool, run the same command again with diagnostics turned on and reroute all output to a file.
+  For example, if `progtool setup` fails, try again with `progtool -vv setup &> log.txt`.
+  It will still fail, but will give more information about what it's doing and write it to `log.txt`.
+  Include the contents of `log.txt` in your message to your lecturer.
 * Mention which OS (Windows, MacOS or Linux) you are using.
 * Provide us with a link to your GitHub Classroom repository, i.e., the URL you receive when accepting the assignment.
 
-Remark that the installation steps are interdependent: if you are at step 5, steps 1 through 4 must have succeeded.
+Remark that the installation steps are interdependent: if you are at step 5 of the installation guide, steps 1 through 4 must have succeeded.
 
 # Progtool Issues
 
