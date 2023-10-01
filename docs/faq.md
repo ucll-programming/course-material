@@ -102,6 +102,31 @@ In other words, if you encounter this error, you'll simply have to wait and try 
 
 Or, if the problem persists, follow the [manual setup instructions]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %}).
 
+## When running `progtool setup`, I get many errors, something to do with certificates
+
+At the moment of this writing, we're not entirely sure what causes this problem.
+We do have a solution that we expect to work though.
+
+* Go to your home directory.
+  * Under Windows, you can use File Explorer and enter `%HOMEPATH%` in the address bar.
+  * Under MacOS/Linux, go to `~`.
+* There should be a subdirectory named `progtool`.
+  If there isn't, you'll have to do a fully manual setup as described [here]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %}).
+* Go inside this `progtool` subdirectory.
+* There should be a file named `progtool-settings.yaml`.
+  If there isn't, we refer you to the [fully manual setup]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %}).
+* Open this file using an editor.
+  We suggest you use Visual Studio Code.
+* The settings file should contain a line starting with `html_path:`, followed by a path.
+  This path should have the form `HOME_DIRECTORY/progtool/progtool-index.html`.
+* If you look for a file at this location on your drive, we expect it's missing.
+  If it's not missing, contact a lecturer.
+* Using your browser, go to [this webpage](https://github.com/ucll-programming/frontend/releases/latest).
+* Download `index.html` to your drive, to `HOME_DIRECTORY/progtool/progtool-index.html`.
+  In other words, the settings file should point to this file.
+
+Rerunning `progtool setup` should now work fine.
+
 ## How do I manually perform the setup of `progtool`?
 
 Follow [these instructions]({{ site.baseurl }}{% link troubleshooting/manual-setup.md %})
@@ -118,6 +143,11 @@ Make sure to describe the problem in detail:
   What directory are you in?
   (Find out using `pwd`.)
 * Show us the actual error message you're getting.
+* If the error involves progtool, run the same command again with diagnostics turned on.
+  This is done by adding `-vv` just after `progtool`.
+  For example, if `progtool setup` fails, try again with `progtool -vv setup`.
+  It will still fail, but will give more information about what it's doing.
+  Include this information in your message.
 * Mention which OS (Windows, MacOS or Linux) you are using.
 * Provide us with a link to your GitHub Classroom repository, i.e., the URL you receive when accepting the assignment.
 
