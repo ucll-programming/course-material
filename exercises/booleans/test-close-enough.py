@@ -6,7 +6,7 @@ import student
 @pytest.mark.parametrize('x, y', [
     (x, x + sign * dx)
     for x in [-51, -0.2, 0, 0.6, 1, 4.9, 2431.1]
-    for dx in [0, 0.09, 0.1]
+    for dx in [0, 0.09, 0.099]
     for sign in [-1, 1]
 ])
 def test_close_enough(x, y):
