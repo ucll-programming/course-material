@@ -13,7 +13,7 @@ Write a function `free_ticket(age)` that returns `True` if a person of the given
 True
 
 >>> free_ticket(6)
-False
+True
 
 >>> free_ticket(18)
 False
