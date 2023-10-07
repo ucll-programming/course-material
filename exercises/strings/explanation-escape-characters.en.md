@@ -1,6 +1,6 @@
 # Escape Characters
 
-Imagine we need add in our code a string in which a `"` appears, for example `he said "hello"`.
+Imagine we need to add a string in our code which contains a `"` , for example `he said "hello"`.
 Using double quotes will give us trouble:
 
 :::code{caption="Python"}
@@ -91,7 +91,7 @@ Say you want to add a file path in your code: `"C:\nodejs\training"` would be in
 
 ```text
 C:
-nodejs    training
+odejs    raining
 ```
 
 :::
