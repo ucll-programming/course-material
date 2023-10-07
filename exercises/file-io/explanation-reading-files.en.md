@@ -64,4 +64,76 @@ This can become a big problem in the case of long running programs.
 
 ## Reading from Files
 
-TODO file.readline()
+Say you open a file using
+
+:::code{caption="Python"}
+
+```python
+with open("my-file.txt") as file:
+    # interact with file
+```
+
+:::
+
+Inside the `with` block, the variable `file` is set to a special object representing the opened file.
+You can invoke methods on it, just like you could with strings, using the syntax `file.method_name(arguments)`.
+We discuss some of these methods, specifically those that let you read from the file.
+
+* `file.read()` reads the entire contents of the file and returns it as a *single string*.
+  You probably shouldn't use this approach when the file is large.
+* `file.readlines()` reads the entire contents of the file and returns it as an *array of strings*, where each string correspond to a line.
+* `file.readline()` reads the next line in the file and returns it as string.
+   If no more lines are left in the file, an empty string is returned.
+
+::::IMPORTANT
+An opened file keeps track of a "current stream position", i.e., it remembers to what point you have read from the file.
+Initially this position is set to the beginning of the file.
+`file.readline()` advances this position to the beginning of the next line, so that the next time you invoke `file.readline()` it knows where to look for the next line.
+`file.read()` and `file.readlines()` both read the entire contents in one go, therefore the position is moved to the end of the file.
+::::
+
+::::IMPORTANT
+Whenever you read lines (i.e., using `readline` or `readlines()`), know that each string will contain the newline character `\n`.
+In other words, a line `abc` in the file will be represented by `"abc\n"`.
+::::
+
+::::EXAMPLE
+Say we have a file `input.txt` with the following contents:
+
+:::code{caption="Text"}
+
+```text
+First line
+Second line
+Third line
+Fourth line
+Fifth line
+```
+
+:::
+
+:::code{caption="Python"}
+
+```python
+# We open it the "wrong" way (= not using with) so that
+# we can work step by step for the sake of this example
+>>> file = open('input.txt')
+
+>>> file.readline()
+"First line\n"
+
+>>> file.readline()
+"Second line\n"
+
+# Also starts reading from the current stream position
+>>> file.readlines()
+["Third line\n", "Fourth line\n", "Fifth line"]
+
+# Current stream position is at end of file, no more lines left
+>>> file.readline()
+""
+```
+
+:::
+
+::::
