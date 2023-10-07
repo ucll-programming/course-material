@@ -62,6 +62,28 @@ As long as it runs, the file will remain open, making it inaccessible to others.
 This can become a big problem in the case of long running programs.
 ::::
 
+## Encoding
+
+There are [many ways](https://en.wikipedia.org/wiki/Character_encoding) texts can be encoded: [ASCII](https://en.wikipedia.org/wiki/ASCII), [UTF-8](https://en.wikipedia.org/wiki/UTF-8), [EBCDIC](https://en.wikipedia.org/wiki/EBCDIC) and so on.
+These days most files are encoded using UTF-8.
+It is strongly recommended that you make the encoding explicit when opening the file.
+This is done as follows:
+
+:::code{caption="Python"}
+
+```python
+with open("my-file.txt", encoding='utf-8') as file:
+    # interact with file
+```
+
+:::
+
+::::INFO
+The `encoding=` parameter is known as a keyword argument.
+Suffice it to say that Python allows you to explicitly mention the parameter name, for the sake of clarity.
+Keyword arguments have a few more advantages, but we won't discuss them in detail right now.
+::::
+
 ## Reading from Files
 
 Say you open a file using
@@ -69,13 +91,15 @@ Say you open a file using
 :::code{caption="Python"}
 
 ```python
-with open("my-file.txt") as file:
+with open("my-file.txt", encoding='utf-8') as file:
     # interact with file
 ```
 
 :::
 
 Inside the `with` block, the variable `file` is set to a special object representing the opened file.
+Note that you can `file` is just an identifier: you can pick any name you want.
+
 You can invoke methods on it, just like you could with strings, using the syntax `file.method_name(arguments)`.
 We discuss some of these methods, specifically those that let you read from the file.
 
@@ -93,7 +117,7 @@ Initially this position is set to the beginning of the file.
 ::::
 
 ::::IMPORTANT
-Whenever you read lines (i.e., using `readline` or `readlines()`), know that each string will contain the newline character `\n`.
+Whenever you read lines (i.e., using `readline` or `readlines`), know that each string will contain the newline character `\n`.
 In other words, a line `abc` in the file will be represented by `"abc\n"`.
 ::::
 
@@ -117,7 +141,7 @@ Fifth line
 ```python
 # We open it the "wrong" way (= not using with) so that
 # we can work step by step for the sake of this example
->>> file = open('input.txt')
+>>> file = open('input.txt', encoding='utf-8')
 
 >>> file.readline()
 "First line\n"
