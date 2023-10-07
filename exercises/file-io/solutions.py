@@ -1,6 +1,6 @@
 def count_lines_in_file(path):
     result = 0
-    with open(path) as file:
+    with open(path, encoding='utf-8') as file:
         while file.readline():
             result += 1
     return result
@@ -8,7 +8,7 @@ def count_lines_in_file(path):
 
 def remove_empty_lines(source, destination):
     with open(source) as in_file:
-        with open(destination, 'w') as out_file:
+        with open(destination, 'w', encoding='utf-8') as out_file:
             for line in in_file:
                 if line != '\n':
                     out_file.write(line)
@@ -16,7 +16,7 @@ def remove_empty_lines(source, destination):
 
 def remove_duplicate_lines(source, destination):
     with open(source) as in_file:
-        with open(destination, 'w') as out_file:
+        with open(destination, 'w', encoding='utf-8') as out_file:
             last_line = None
             for line in in_file:
                 if line != last_line:
