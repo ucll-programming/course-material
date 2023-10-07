@@ -28,3 +28,8 @@ You have to pay 240
 * Make an executable script `tip-calculator.py`.
 
 ::::
+
+:::HINT
+Empty input is represented by the empty string `''`.
+You can use comparison (`==`) to determine whether the input is empty.
+:::

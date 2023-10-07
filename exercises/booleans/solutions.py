@@ -7,7 +7,7 @@ def close_enough(x, y):
 
 
 def free_ticket(age):
-    return age < 12 or age >= 65
+    return age < 12 or age > 65
 
 
 def is_divisible(a, b):
