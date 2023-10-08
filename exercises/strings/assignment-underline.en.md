@@ -13,7 +13,7 @@ In other words, we want to add an extra line that contains as many dashes as the
 Write a function `underline(string)` that returns a new string consisting of two lines:
 
 * The first line must be equal to `string`.
-* The second line consists solely of dashes. I
+* The second line consists solely of dashes. 
   It must be exactly as long as the first line.
 :::
 
