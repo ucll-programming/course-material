@@ -19,9 +19,6 @@ Using VSCode, create a file named `my-script.py` and add the following code to i
 ## Running your Script
 
 Now that you've written a Python script, you'll want to tell Python to run it.
-How this is done is OS specific.
-
-TODO Better explanations
 
 ::::TASK
 Open a shell in the same directory as `my-script.py` and enter the following commands
