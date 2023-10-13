@@ -30,7 +30,7 @@ False
 True
 
 >>> valid_parentheses(")(")
-True
+False
 
 >>> valid_parentheses("()()(()())")
 True
