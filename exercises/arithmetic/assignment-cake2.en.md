@@ -13,6 +13,7 @@ Write a function `cake2(eggs, flour)` that returns the amount of cakes one can m
 ```python
 # Enough eggs, but not enough flour
 >>> cake2(5, 0)
+0
 
 # Exactly enough for one cake
 >>> cake2(5, 250)
