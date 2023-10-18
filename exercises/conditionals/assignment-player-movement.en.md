@@ -5,7 +5,7 @@ The player has a certain position on the screen, let's call it `position`.
 
 * Pressing the left arrow key will cause the player to move left, i.e., `position` decreases by `1`.
 * Conversely, pressing the right key will cause a right player movement, incrementing `position` by 1.
-* The player can also run by holding shift, in which case the amount `position` is increased/decreased is doubled.
+* The player can also run by holding shift, in which case the amount `position` increased/decreased is doubled.
 
 ::::TASK
 Write a function `player_movement(position, left_arrow, right_arrow, shift)` that returns the updated `position` value.
