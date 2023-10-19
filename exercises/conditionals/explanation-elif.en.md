@@ -69,7 +69,7 @@ elif condition 3:
 else:
     instruction B4
 
-C
+instruction C
 ```
 
 :::

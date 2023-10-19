@@ -23,7 +23,7 @@ True
 >>> entrance_exam(12, 12, 12, None, 12)
 True
 
-# Took four tests, average 10 not good enough
+# Took all tests, average 10 not good enough
 >>> entrance_exam(12, 12, 12, 2, 12)
 False
 
