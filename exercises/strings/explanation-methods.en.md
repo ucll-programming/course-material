@@ -21,7 +21,7 @@ The idea of functions being part of objects is central to the [object oriented p
 ## String Methods
 
 Strings come with a bunch of methods.
-We given an overview of a selection of them.
+We give an overview of a selection of them.
 A full list of string methods can be found [online](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
 ::::div{.formatted-table}
