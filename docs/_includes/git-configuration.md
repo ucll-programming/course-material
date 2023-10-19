@@ -1,7 +1,7 @@
 ## Configuration
 
 After you have finished installing Git, you still need to configure it.
-In a shell, write the following commands where you substitute `YOUR-NAME` your name (not your GitHub login) and `YOUR-EMAIL-ADDRESS` by your UCLL email address.
+In a shell, write the following commands where you substitute `YOUR-NAME` for your name (not your GitHub login) and `YOUR-EMAIL-ADDRESS` by your UCLL email address.
 
 > A `$` in the beginning of a line means that you should input that line in a shell.
 > Do not write the `$` itself though, only what follows.

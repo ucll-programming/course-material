@@ -9,7 +9,7 @@ As of yet, these operations have taken two forms:
 
 There's also a third form: *methods*.
 Their syntax is `a.method(b, c, d, ...)`.
-You can interpret this as "I ask object `a` to perform its operation `method` with arguments `b, c, d, ...`.
+You can interpret this as "I ask object `a` to perform its operation `method` with arguments `b, c, d, ...`".
 A method is in essence a function that is a part of an object, and the syntax `a.method` asks `a` for that part.
 Don't worry if this does not make sense yet, right now we only need to focus on the syntax.
 
@@ -21,7 +21,7 @@ The idea of functions being part of objects is central to the [object oriented p
 ## String Methods
 
 Strings come with a bunch of methods.
-We given an overview of a selection of them.
+We give an overview of a selection of them.
 A full list of string methods can be found [online](https://docs.python.org/3/library/stdtypes.html#string-methods).
 
 ::::div{.formatted-table}
