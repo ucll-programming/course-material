@@ -18,6 +18,11 @@ A year is a leap year if it is divisible by 4.
 However, if the year is divisible by 100, it is *not* a leap year, except if it is divisible by 400, then it *is* a leap year.
 (Hey, we didn't make up these rules ourselves.)
 
+::::IMPORTANT
+This exercise involves writing more than one function.
+All tests are grouped in a single file named `test-dates.py`.
+::::
+
 :::TASK
 Write a function `is_valid_month(month)` that checks if `month` is valid, i.e., is a number between `1` and `12`.
 :::
