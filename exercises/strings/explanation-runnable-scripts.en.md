@@ -124,7 +124,7 @@ $ py app.py
 
 You have to remember that the OS does not know anything about Python.
 As far as the OS knows, `app.py` is just a text file like any other, and `py` is just some executable.
-*We* know that `py` is actually the Python interpreter and `app.py` contains Python code, so we know to tell the OS to combine both: "launch `py` and have it run `app.py`.
+*We* know that `py` is actually the Python interpreter and `app.py` contains Python code, so we know to tell the OS to combine both: "launch `py` and have it run `app.py`".
 
 There is another way to tell the OS that `app.py` should be fed to `py`: if the first line of a file contains a [shebang (`#!`)](https://en.wikipedia.org/wiki/Shebang_(Unix)), the OS will take this as a hint about how to run that file:
 
