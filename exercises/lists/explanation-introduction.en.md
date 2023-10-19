@@ -1,7 +1,7 @@
 # Introduction
 
 Tuples are *immutable*: once created, they cannot be changed: we cannot remove, add or overwrite elements.
-This immutability can be a strength, but is other cases it can be quite an impediment.
+This immutability can be a strength, but in other cases it can be quite an impediment.
 
 *Lists* are very much like tuples, except they can be modified.
 
