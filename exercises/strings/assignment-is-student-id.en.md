@@ -3,10 +3,10 @@
 We want to be able to check whether a string forms a valid student id.
 The rules are as follows:
 
-* A student id must count exactly eight characters.
+* A student id must count exactly nine characters.
 * The first character must be an `r` or an `s`.
   Both upper and lowercase are acceptable.
-* The remaining characters must all be digits.
+* The remaining eight characters must all be digits.
 
 :::TASK
 Write a function `is_student_id(string)` that returns `True` if `string` is a valid student id, `False` otherwise.
