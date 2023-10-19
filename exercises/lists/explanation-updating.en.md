@@ -10,11 +10,11 @@ Using the syntax `lst[index] = x` you can overwrite the item at the given index.
 >>> lst = [1, 2, 3, 4]
 >>> lst[0] = 5
 >>> lst
-[5, 1, 2, 3]
+[5, 2, 3, 4]
 
 >>> lst[-1] *= 2
 >>> lst
-[5, 1, 2, 6]
+5, 2, 3, 8]
 ```
 
 :::
