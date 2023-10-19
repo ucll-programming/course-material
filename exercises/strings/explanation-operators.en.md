@@ -11,13 +11,13 @@ We start with an overview, after which we shortly discuss them in turn.
 | ------ | ----------- | ------- |
 | `"ab" + "cd"` | `"abcd"` | Concatenation |
 | `"ab" * 3` | `"ababab"` | Repetition |
-| `"a" in "abc"` | `True"` | Membership |
-| `"a" == "a"` | `True"` | Equality |
-| `"a" != "a"` | `False"` | Inequality |
-| `"a" < "b"` | `True"` | Lexicographic comparison |
-| `"a" <= "b"` | `True"` | Lexicographic comparison |
-| `"a" > "b"` | `False"` | Lexicographic comparison |
-| `"a" >= "b"` | `False"` | Lexicographic comparison |
+| `"a" in "abc"` | `True` | Membership |
+| `"a" == "a"` | `True` | Equality |
+| `"a" != "a"` | `False` | Inequality |
+| `"a" < "b"` | `True` | Lexicographic comparison |
+| `"a" <= "b"` | `True` | Lexicographic comparison |
+| `"a" > "b"` | `False` | Lexicographic comparison |
+| `"a" >= "b"` | `False` | Lexicographic comparison |
 | `len("abc")` | `3` | Length |
 
 :::
