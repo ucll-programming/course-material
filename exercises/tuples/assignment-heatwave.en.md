@@ -44,10 +44,10 @@ False
 
 * Process the `temperatures` from left to right.
 * Introduce two local variables.
-  * One keeps the count of temperatures greater than 25.
-  * The other keeps the count of temperatures greater than 30.
+  * One keeps the count of temperatures `>= 25`.
+  * The other keeps the count of temperatures `>= 30`.
 * Increment these variables as you go through the list.
 * When you encounter a temperature lower than 25, reset both variables to 0.
-* If at one point, the 25-count is greater than 5 and the 30-count is greater than 30, you've got a heatwave.
+* If at any point the 25-count is at least 5 and the 30-count is at least 3, you've got a heatwave.
 
 :::
