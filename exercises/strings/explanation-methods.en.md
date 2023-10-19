@@ -9,7 +9,7 @@ As of yet, these operations have taken two forms:
 
 There's also a third form: *methods*.
 Their syntax is `a.method(b, c, d, ...)`.
-You can interpret this as "I ask object `a` to perform its operation `method` with arguments `b, c, d, ...`.
+You can interpret this as "I ask object `a` to perform its operation `method` with arguments `b, c, d, ...`".
 A method is in essence a function that is a part of an object, and the syntax `a.method` asks `a` for that part.
 Don't worry if this does not make sense yet, right now we only need to focus on the syntax.
 
