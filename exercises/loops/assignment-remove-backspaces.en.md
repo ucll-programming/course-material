@@ -1,7 +1,7 @@
 # Removing Backspaces
 
 Internally, letters and symbols are represented by numbers, because numbers is really all a computers knows about.
-While any mapping between symbols and numbers will do, but it's always nice if people agreed on one specific mapping.
+While any mapping between symbols and numbers will do, it's always nice if people agreed on one specific mapping.
 So, in 1991, some brave people set out to define the Unicode standard which defines a number (called a *codepoint*) for every character of any writing system in existence.
 
 ::::EXAMPLE
