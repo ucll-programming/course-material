@@ -13,7 +13,7 @@ while i < i_max:
 
 :::
 
-In other words, the loop body is executed for every value from `0` to `i_max`.
+In other words, the loop body is executed for every value from `0` to `i_max` (where `i_max` must of course be a variable defined somewhere before the loop starts.)
 Such loops occur so often that many programming language provide a separate looping construct for it.
 Python is no exception:
 
