@@ -11,16 +11,16 @@ Write a function `empty_seats(used_seats)` that returns the number of unused sea
 :::USAGE
 
 ```python
->>> empty_sets((1, 2, 3))
+>>> empty_seats((1, 2, 3))
 0
 
->>> empty_sets((1, 3))
+>>> empty_seats((1, 3))
 1
 
->>> empty_sets((1, 3, 5))
+>>> empty_seats((1, 3, 5))
 2
 
->>> empty_sets((1, 10, 12))
+>>> empty_seats((1, 10, 12))
 9
 ```
 
