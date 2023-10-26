@@ -32,9 +32,9 @@ For example, the version `3.9.5` will be represented by the triple `(3, 9, 5)`.
 ## Increasing Version
 
 :::TASK
-Write a function `increase_version(version, breaking_change, new_features)` takes takes
+Write a function `increase_version(version, breaking_change, new_features)` that takes:
 
-* `version`: a triple reprenting a version.
+* `version`: a triple representing a version.
 * `breaking_change`: a boolean indicating whether or not a breaking change is involved.
 * `new_features`: a boolean indicating whether or not new features have been added.
 :::
