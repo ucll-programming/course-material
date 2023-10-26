@@ -22,6 +22,9 @@ Write a function `empty_seats(used_seats)` that returns the number of unused sea
 
 >>> empty_seats((1, 10, 12))
 9
+
+>>> empty_seats(())
+0
 ```
 
 :::
