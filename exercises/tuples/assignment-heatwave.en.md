@@ -9,7 +9,7 @@ In Belgium, a heatwave is defined as follows:
 * During at least three days the temperature must reach 30&deg;C or more.
 
 :::TASK
-Write a function `heat_wave(temperatures)` that checks whether a heatwave occurred and returns `True` if that's the case, `False` if not.
+Write a function `heatwave(temperatures)` that checks whether a heatwave occurred and returns `True` if that's the case, `False` if not.
 
 * `temperatures` is a tuple containing daily temperature measurements.
 * Note that a heatwave does not need to encompass the entire period represented by `temperatures`.
@@ -19,22 +19,22 @@ Write a function `heat_wave(temperatures)` that checks whether a heatwave occurr
 :::USAGE
 
 ```python
->>> heatwave([25, 30, 31, 30, 28])
+>>> heatwave((25, 30, 31, 30, 28))
 True
 
 # Heatwave starting on second day
->>> heatwave([24, 28, 31, 35, 36, 32, 20])
+>>> heatwave((24, 28, 31, 35, 36, 32, 20))
 True
 
->>> heatwave([24, 26, 28, 31, 29, 27, 32, 25, 27, 26, 30, 23])
+>>> heatwave((24, 26, 28, 31, 29, 27, 32, 25, 27, 26, 30, 23))
 True
 
 # Not long enough for a heatwave
->>> heatwave([40, 40, 40, 40])
+>>> heatwave((40, 40, 40, 40))
 False
 
 # Hot period is not contiguous
->>> heatwave([40, 20, 40, 40, 40, 40])
+>>> heatwave((40, 20, 40, 40, 40, 40))
 False
 ```
 
