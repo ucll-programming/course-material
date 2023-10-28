@@ -46,7 +46,7 @@ Write a function `increase_version(version, breaking_change, new_features)` take
 (2, 0, 0)
 
 >>> increase_version((1, 2, 3), breaking_change=False, new_features=True)
-(1, 3, 3)
+(1, 3, 0)
 
 >>> increase_version((1, 2, 3), breaking_change=False, new_features=False)
 (1, 2, 4)
