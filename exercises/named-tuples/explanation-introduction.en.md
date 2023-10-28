@@ -47,7 +47,7 @@ This approach, however, is extremely error prone.
 Nothing about `user_data[2][4]` expresses that it fetches the country.
 You can also imagine how messy things get if we need to add or removes fields and index updates are required across the entire code base.
 
-A much more readable solution would have us assign *names* to the different parts of the tuple, so that we could write `user_data.address.country` instead of `user_data[4][2]`.
+A much more readable solution would have us assign *names* to the different parts of the tuple, so that we could write `user_data.address.country` instead of `user_data[2][4]`.
 This is exactly what named tuples allow use to do:
 
 :::code{caption="Python"}
