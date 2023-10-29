@@ -44,7 +44,7 @@ We kind of hoped it would output `3`...
 
 When using the Python shell, Python will always print out the result of the last evaluation.
 This is not true for a script.
-This is also makes perfect sense: imagine playing a game while having Python print out the results of all millions of calculations performed.
+This also makes perfect sense: imagine playing a game while having Python print out the results of all millions of calculations performed.
 
 So, when using scripts, you have to explicitly ask Python to print out the result.
 
