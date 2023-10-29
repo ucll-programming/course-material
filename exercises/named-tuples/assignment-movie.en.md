@@ -41,7 +41,7 @@ Create a function `actor_count(movie)` that returns the number of actors in the 
 ## Movies by Director
 
 ::::TASK
-Create a function `movies_by(movies, director)` that, given a list of movies, returns a the titles of all movies made by `director`.
+Create a function `movies_by(movies, director)` that, given a list of movies, returns the titles of all movies made by `director`.
 
 The order in which the names are returned does not matter.
 ::::
