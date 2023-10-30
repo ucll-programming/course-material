@@ -23,7 +23,7 @@ class Box:
 :::
 
 Here, we defined a *class* named `Box`.
-Note that the class itself is not an box, it merely *describes* what boxes look like.
+Note that the class itself is not a box, it merely *describes* what boxes look like.
 Let's create a box:
 
 :::code{caption="Python"}
