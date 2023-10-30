@@ -59,7 +59,7 @@ What we need is to make the complexity private (red) and only wrap it inside a s
 
 ## Safety
 
-Abstraction can also provides safety.
+Abstraction can also provide safety.
 Take, for example, a television.
 It contains plenty of electronics, but you're not supposed to touch those.
 Instead, the television comes with "public interface", i.e., a remote control.
