@@ -94,7 +94,7 @@ class Unit:
 
 class Tweet:
     def __init__(self, message, max_length):
-        self.__message = message
+        self.message = message
         self.max_length = max_length
 
     def __truncate(self):
