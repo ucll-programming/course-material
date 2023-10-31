@@ -94,7 +94,7 @@ class Unit:
 
 class Tweet:
     def __init__(self, message, max_length):
-        self.message = message
+        self.__message = message  # Cannot call message setter, as it requires max_length to be initialized
         self.max_length = max_length
 
     def __truncate(self):
