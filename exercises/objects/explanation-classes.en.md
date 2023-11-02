@@ -42,7 +42,7 @@ A class contains functions, but because they're inside a class, they are called 
 The name has a special meaning: it tells Python it is the *constructor*.
 A constructor's responsibility is to initialize newly made `Box` objects.
 When you create a new `Box`, Python creates an empty object in memory and passes it to `__init__`, i.e., the `self` parameters refers to the fresh object.
-`__init__` then performs `self.content = 0` which means "let this new object have a field named `content` and set it to `0`".
+`__init__` then performs `self.contents = 0` which means "let this new object have a field named `contents` and set it to `0`".
 
 After execution `box = Box()`, the variable `box` references this initialized object.
 We can use our new `Box` as follows:
