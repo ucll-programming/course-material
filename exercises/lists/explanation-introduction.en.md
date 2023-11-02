@@ -20,8 +20,24 @@ A list literal has the following syntax:
 As you can see, the only difference lies in the brackets: square brackets for lists, round brackets for tuples.
 The list with one item also requires no trickery: `[1]` works just fine.
 
-## Tuple Functionality
+## List Functionality
 
 All functionality available on tuples also works on lists: `len`, indexing, slicing, `sum`, `min`, `max`, iteration, destructuring, etc. all work without change.
 Actually, all code you write that interacts with tuples will behave the same if given lists.
 Tuples have a *subset* of the functionality of lists.
+
+::::EXAMPLE
+
+:::code{caption="Python Shell"}
+
+```python
+>>> sum([1, 2, 3, 4])
+10
+
+>>> max([4, 1, 7, 5, 2, 3])
+7
+```
+
+:::
+
+::::
