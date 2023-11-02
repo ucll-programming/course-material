@@ -71,7 +71,7 @@ class Box:
     def put(self, contents):
         self.__contents = contents
 
-    def contents():
+    def contents(self):
         return self.__contents
 ```
 
