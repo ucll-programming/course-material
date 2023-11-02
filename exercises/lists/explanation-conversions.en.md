@@ -80,7 +80,7 @@ It works like you would expect: it takes all items in `x` and puts them in a lis
 
 ```python
 # Converts string to list
->>> tuple("abcd")
+>>> list("abcd")
 ["a", "b", "c", "d"]
 
 # Converts tuple to list
