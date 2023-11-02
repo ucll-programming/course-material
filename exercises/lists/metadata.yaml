@@ -169,3 +169,13 @@ contents:
     topics:
       must_come_after:
         - is
+  - name: Conversions
+    type: explanation
+    id: conversions
+    documentation:
+      en: explanation-conversions.en.md
+  - name: Strings
+    type: explanation
+    id: strings
+    documentation:
+      en: explanation-strings.en.md

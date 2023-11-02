@@ -33,6 +33,7 @@ To make a method private, simply have their name start with two underscores.
 >>> tweet.message
 "1234567"
 
+# Max length exceeded, message gets truncated
 >>> tweet = Tweet("1234567", 5)
 >>> tweet.message
 "12345"
@@ -41,9 +42,14 @@ To make a method private, simply have their name start with two underscores.
 >>> tweet.message
 "12345"
 
+# Setting max length will automatically truncate message if it is too long
 >>> tweet.max_length = 3
 >>> tweet.message
 "123"
+
+# Setting invalid length raises ValueError
+>>> tweet.max_length = 0
+ValueError
 ```
 
 :::
