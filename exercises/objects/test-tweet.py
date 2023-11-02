@@ -15,11 +15,13 @@ def test_valid_initialization(message, max_length):
     assert tweet.max_length == max_length
 
 
-def test_invalid_initialization():
+@pytest.mark.timeout(1)
+def test_initialization_with_invalid_max_length():
     with pytest.raises(ValueError):
         student.Tweet('abc', -1)
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("message", [
     "",
     "abc",
@@ -42,6 +44,7 @@ def test_set_message(message, max_length):
     assert tweet.message == message[:max_length]
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("message", [
     "",
     "abc",
@@ -65,6 +68,7 @@ def test_set_max_length(message, max_length):
     assert tweet.message == message[:max_length]
 
 
+@pytest.mark.timeout(1)
 @pytest.mark.parametrize("max_length", [-10, -1, 0])
 def test_set_invalid_max_length(max_length):
     tweet = student.Tweet("abc", 10)

@@ -25,3 +25,21 @@ def test_concatenate_with_same_object():
     student.concatenate(xs, xs)
 
     assert [1, 2, 3, 1, 2, 3] == xs
+
+
+class NaughtyStudentException(Exception):
+    pass
+
+
+class DummyList(list):
+    def __iadd__(self, x):
+        raise NaughtyStudentException()
+
+
+@pytest.mark.timeout(1)
+def test_concatenate_does_not_use_pluseqe():
+    lst = DummyList([1, 2, 3])
+    try:
+        student.concatenate(lst, [4, 5, 6])
+    except NaughtyStudentException:
+        assert False, "Don't use += to implement this function"
