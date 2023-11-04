@@ -46,7 +46,7 @@ Due to this ubiquity, many other programming languages made the `self` parameter
 
 ## `put`
 
-We add another methods to `Box`.
+We add another method to `Box`.
 
 :::code{caption="Python"}
 
