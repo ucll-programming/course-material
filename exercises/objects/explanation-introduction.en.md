@@ -19,7 +19,7 @@ Technically, this is more than sufficient to satisfy all of our software buildin
 Ultimately, we'll end up with [tuples 20 deep](https://youtube.com/shorts/qjwYrBo5vy4), but hey, it works.
 
 However, we have to consider the human factor.
-While a machine has no trouble following instructions describing how to work with complex data, humans are the still the ones who have to write down those instructions.
+While a machine has no trouble following instructions describing how to work with complex data, humans are still the ones who have to write down those instructions.
 And humans are notoriously bad at dealing with such complexity.
 
 Fortunately for us, programming languages provide ways to reduce this complexity through the use of *abstraction*.
@@ -59,7 +59,7 @@ What we need is to make the complexity private (red) and only wrap it inside a s
 
 ## Safety
 
-Abstraction can also provides safety.
+Abstraction can also provide safety.
 Take, for example, a television.
 It contains plenty of electronics, but you're not supposed to touch those.
 Instead, the television comes with "public interface", i.e., a remote control.

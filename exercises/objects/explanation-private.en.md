@@ -19,7 +19,7 @@ class Box:
 This class definition tells us that a `Box` object has three members:
 
 * a field `contents`;
-* three methods named `is_empty`, and `put`.
+* two methods named `is_empty`, and `put`.
 
 All these members are publicly available, i.e., anyone with access to a `Box` object can make use of these members.
 When we told you about abstraction, we explained how we should *hide* the internals and define a clean, easy-to-use public interface.
@@ -71,7 +71,7 @@ class Box:
     def put(self, contents):
         self.__contents = contents
 
-    def contents():
+    def contents(self):
         return self.__contents
 ```
 
