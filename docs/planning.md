@@ -9,7 +9,7 @@ show_in_header: true
 * Toegepaste Informatica (TI): Session 1 on Monday and Session 2 on Thursday
 * Applied Computer Science (BCS): Session 1 on Tuesday and Session 2 on Friday
 
-This planning will be updated as the semester progresses.
+Update 6 November 2023: 
 
 Update 6 nov 2023:
 
