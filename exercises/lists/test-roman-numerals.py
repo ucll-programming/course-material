@@ -2040,7 +2040,7 @@ def test_to_roman(value, expected):
     actual = student.to_roman(value)
     assert expected == actual, f"to_roman({value}) should equal {expected} but was {actual}"
 
-
+@pytest.mark.timeout(1)
 @if_function_exists("from_roman")
 @pytest.mark.parametrize("expected, numeral", enumerate(test_data, start=1))
 def test_from_roman(numeral, expected):

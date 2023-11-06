@@ -30,7 +30,7 @@ Write a function `combine(d1, d2)` that returns a new dictionary:
 >>> combine(d1, d2)
 {
     'cat': 'chat',
-    'dog': 'hond'
+    'dog': 'chien'
     # Note: no elephant because d2 does not contain the right translation
 }
 ```

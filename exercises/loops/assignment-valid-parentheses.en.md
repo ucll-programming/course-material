@@ -6,7 +6,7 @@ We say the string is *valid* if
 * Every opening parenthesis has a matching closing parenthesis.
   This closing parenthesis must come after the opening parentheses.
   For example, `)(` is not considered valid.
-* Similary, every closing parenthesis must have a matching opening parenthesis.
+* Similarly, every closing parenthesis must have a matching opening parenthesis.
   In other words, we cannot have too many closing parentheses.
 
 :::TASK
@@ -30,7 +30,7 @@ False
 True
 
 >>> valid_parentheses(")(")
-True
+False
 
 >>> valid_parentheses("()()(()())")
 True

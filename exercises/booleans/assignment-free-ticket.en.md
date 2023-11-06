@@ -1,7 +1,7 @@
 # Free Ticket
 
 :::TASK
-A bus ticket is free for anyone under 12 or over 65.
+A bus ticket is free for anyone under 12 or at least 65.
 
 Write a function `free_ticket(age)` that returns `True` if a person of the given `age` gets a free ticket, `False` otherwise.
 :::
@@ -9,10 +9,10 @@ Write a function `free_ticket(age)` that returns `True` if a person of the given
 :::USAGE
 
 ```python
->>> free_ticket(5)
+>>> free_ticket(11)
 True
 
->>> free_ticket(6)
+>>> free_ticket(12)
 False
 
 >>> free_ticket(18)

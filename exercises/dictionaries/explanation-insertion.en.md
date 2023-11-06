@@ -23,7 +23,6 @@ It is also possible to overwrite existing associations:
 :::code{caption="Python"}
 
 ```python
-# We start with empty dict
 my_dict['a'] = 5
 my_dict['b'] *= 2
 ```

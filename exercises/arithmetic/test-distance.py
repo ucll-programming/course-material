@@ -22,4 +22,4 @@ import student
 def test_distance(x1, y1, x2, y2, expected):
     actual = student.distance(x1, y1, x2, y2)
 
-    assert expected == pytest.approx(actual, abs=0.1)
+    assert expected == pytest.approx(actual, abs=0.1), f"distance({x1}, {y1}, {x2}, {y2}) should return {expected}, but instead returned {actual}"

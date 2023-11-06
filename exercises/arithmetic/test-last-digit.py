@@ -8,4 +8,4 @@ def test_last_digit(n):
     actual = student.last_digit(n)
     expected = int(str(n)[-1])
 
-    assert expected == actual
+    assert expected == actual, f"last_digit({n}) should return {expected}, but returned {actual} instead"

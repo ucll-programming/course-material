@@ -1,0 +1,11 @@
+#!/bin/sh
+
+if git diff --cached --name-only | grep -q student.py; then
+    echo student.py should not be commited, aborting!
+    exit 1;
+fi
+
+if git diff --cached .gitignore | grep -q student.py ; then
+    echo student.py part of .gitignore, aborting!
+    exit 1;
+fi

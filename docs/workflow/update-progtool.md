@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Updating Assistant Tool
 ---
 
 # Receiving Assistant Tool (progtool) Updates

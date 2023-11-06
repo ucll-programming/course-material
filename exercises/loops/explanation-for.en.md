@@ -13,7 +13,7 @@ while i < i_max:
 
 :::
 
-In other words, the loop body is executed for every value from `0` to `i_max`.
+In other words, the loop body is executed for every value from `0` to `i_max` (where `i_max` must of course be a variable defined somewhere before the loop starts.)
 Such loops occur so often that many programming language provide a separate looping construct for it.
 Python is no exception:
 
@@ -41,9 +41,9 @@ Note that `range(start, stop)` does not include `stop` itself.
 ```python
 >>> for i in range(0, 3):
 ...    print(i)
+0
 1
 2
-3
 ```
 
 :::

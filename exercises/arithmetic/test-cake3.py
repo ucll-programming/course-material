@@ -14,8 +14,8 @@ def test_cake3(eggs, flour, sugar, butter):
     sugar_per_cake = 250
     actual = student.cake3(eggs=eggs, flour=flour, sugar=sugar, butter=butter)
 
-    assert actual * eggs_per_cake <= eggs
-    assert actual * flour_per_cake <= flour
-    assert actual * butter_per_cake <= butter
-    assert actual * sugar_per_cake <= sugar
-    assert (actual + 1) * eggs_per_cake > eggs or (actual + 1) * flour_per_cake > flour or (actual + 1) * butter_per_cake > butter or (actual + 1) * sugar_per_cake > sugar
+    assert actual * eggs_per_cake <= eggs, f"cake3({eggs}, {flour}, {sugar}, {butter}) returned {actual}, overestimating the number of cakes"
+    assert actual * flour_per_cake <= flour, f"cake3({eggs}, {flour}, {sugar}, {butter}) returned {actual}, overestimating the number of cakes"
+    assert actual * butter_per_cake <= butter, f"cake3({eggs}, {flour}, {sugar}, {butter}) returned {actual}, overestimating the number of cakes"
+    assert actual * sugar_per_cake <= sugar, f"cake3({eggs}, {flour}, {sugar}, {butter}) returned {actual}, overestimating the number of cakes"
+    assert (actual + 1) * eggs_per_cake > eggs or (actual + 1) * flour_per_cake > flour or (actual + 1) * butter_per_cake > butter or (actual + 1) * sugar_per_cake > sugar, f"cake3({eggs}, {flour}, {sugar}, {butter}) returned {actual}, underestimating the number of cakes"

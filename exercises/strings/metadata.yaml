@@ -307,13 +307,3 @@ contents:
       must_come_after:
         - string.find
         - string slicing
-  - name: Docstrings
-    type: explanation
-    id: docstrings
-    documentation:
-      en: explanation-docstrings.en.md
-    topics:
-      must_come_after:
-        - strings
-      introduces:
-        - docstrings

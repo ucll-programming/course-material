@@ -8,4 +8,4 @@ import student
 def test_leftover_candy(child_count, candy_count):
     actual = student.leftover_candy(candy_count=candy_count, child_count=child_count)
 
-    assert (candy_count // child_count) * child_count + actual == candy_count
+    assert (candy_count // child_count) * child_count + actual == candy_count, f"leftover_candy({candy_count}, {child_count}) wrongly returned {actual}"

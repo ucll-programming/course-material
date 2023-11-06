@@ -5,13 +5,20 @@ layout: page
 # Python Installation (Windows)
 
 The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
-Download and install it. While installing, check the checkbox to Add Python to PATH. Then select Install Now.
+Download and install it.
 
-{% include checking-python-installation.md %}
+> While installing, **check the checkbox to Add Python to PATH**.
 
-Open Git Bash in the `scripts` directory inside the repository and enter:
+| Add python.exe to PATH |
+| :----------------------: |
+| ![Add python.exe to PATH](./add-python-to-path.png) |
+
+## Checking Your Python Installation
+
+Open a shell in the `scripts` directory inside the repository and enter:
 
 ```bash
+# Runs the check-python-installation.py script
 $ py check-python-installation.py
 ```
 

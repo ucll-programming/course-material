@@ -11,7 +11,7 @@ You'll have to write these in a file `student.py` placed in the chapter's direct
 * In this file, write a function `five()` that returns `5`.
 * Check your work by running the tests.
   * Either press this exercise's difficulty icon in the sidebar.
-  * Or, run `pytest test-five.py` in the terminal.
+  * Or, run `pytest test-five.py` in the shell (**not** a Python shell).
     Make sure you're in this chapter's directory.
     You can use `pwd` to check.
 

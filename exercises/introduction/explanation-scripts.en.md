@@ -21,7 +21,7 @@ Using VSCode, create a file named `my-script.py` and add the following code to i
 Now that you've written a Python script, you'll want to tell Python to run it.
 
 ::::TASK
-Open a terminal with Git Bash (or another OS shell, as explained earlier) in the same directory as `my-script.py` and enter the following commands
+Open a shell in the same directory as `my-script.py` and enter the following commands
 
 :::code{caption="Bash"}
 
@@ -44,7 +44,7 @@ We kind of hoped it would output `3`...
 
 When using the Python shell, Python will always print out the result of the last evaluation.
 This is not true for a script.
-This is also makes perfect sense: imagine playing a game while having Python print out the results of all millions of calculations performed.
+This also makes perfect sense: imagine playing a game while having Python print out the results of all millions of calculations performed.
 
 So, when using scripts, you have to explicitly ask Python to print out the result.
 

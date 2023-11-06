@@ -117,7 +117,8 @@ You can have pytest stop running after the first failure.
 :::code{caption="Bash"}
 
 ```bash
-$ pytest --x test-say-hello.py
+$ pytest -x test-say-hello.py
 ```
 
+:::
 ::::

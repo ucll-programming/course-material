@@ -8,5 +8,5 @@ import student
 def test_buses_needed(people_count, bus_capacity):
     actual = student.buses_needed(people_count=people_count, bus_capacity=bus_capacity)
 
-    assert bus_capacity * actual >= people_count
-    assert bus_capacity * (actual - 1) < people_count
+    assert bus_capacity * actual >= people_count, f'{actual} buses with capacity {bus_capacity} is insufficient to transport {people_count} people'
+    assert bus_capacity * (actual - 1) < people_count, f'{actual} buses with capacity {bus_capacity} is too many to transport {people_count} people'

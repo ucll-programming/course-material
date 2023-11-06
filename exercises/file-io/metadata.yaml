@@ -7,6 +7,15 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+  - name: Reading Files
+    type: explanation
+    id: reading-files
+    documentation:
+      en: explanation-reading-files.en.md
+    topics:
+      introduces:
+        - opening files for reading
+        - file.readline
   - name: Count Lines
     type: exercise
     id: count-lines
@@ -18,8 +27,19 @@ contents:
       file: test-count-lines-in-file.py
     topics:
       must_come_after:
-        - opening files
+        - opening files for reading
         - file.readline
+  - name: Writing files
+    type: explanation
+    id: writing-files
+    documentation:
+      en: explanation-writing-files.en.md
+    topics:
+      introduces:
+        - opening files for writing
+        - file.writeline
+      must_come_after:
+        - opening files for reading
   - name: Remove Empty Lines
     type: exercise
     id: remove-empty-lines
@@ -31,7 +51,8 @@ contents:
       file: test-remove-empty-lines.py
     topics:
       must_come_after:
-        - opening files
+        - opening files for reading
+        - opening files for writing
         - file.readline
         - file.writeline
   - name: Remove Duplicate Lines
@@ -43,3 +64,9 @@ contents:
     judge:
       type: pytest
       file: test-remove-duplicate-lines.py
+    topics:
+      must_come_after:
+        - opening files for reading
+        - opening files for writing
+        - file.readline
+        - file.writeline

@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Updating the Theme
 ---
 
 # Updating the Theme

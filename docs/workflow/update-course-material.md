@@ -1,6 +1,5 @@
 ---
 layout: page
-title: Updating the Course Material
 ---
 
 # Receiving Course Material Updates

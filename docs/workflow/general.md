@@ -38,7 +38,7 @@ This is what you should see:
 | :------------: |
 | ![Visual Studio Code](./vscode.png) |
 
-> **Important** On Windows, we would advise you to *pin* this folder.
+> On Windows, we would advise you to *pin* this folder.
 > After having opened the folder, right click on the Visual Studio Code button in the taskbar.
 > In the context menu that appeared, press the little pin next to the course material's directory.
 > From now on, if you need to re-open the same folder, you can simply right-click the Visual Studio Code icon and select the directory.
@@ -84,7 +84,7 @@ After a little while (typically around one second), the exercise will color gree
 #### Running Tests
 
 If the tests failed and you'd like to know the reason, you can run the tests manually.
-In a [terminal](./shell.md) located in the chapter's directory, run `pytest test-foo.py` where `foo` is the name of the function the exercise asks you to write.
+In a [shell](./shell.md) located in the chapter's directory, run `pytest test-foo.py` where `foo` is the name of the function the exercise asks you to write.
 
 ```bash
 $ pytest test-five.py

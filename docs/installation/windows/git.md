@@ -4,7 +4,7 @@ layout: page
 
 # Git Installation (Windows)
 
-> **Important** Make sure you have Visual Studio Code installed before you install Git!
+> Make sure you have Visual Studio Code installed before you install Git!
 
 Downloading Git from the [official website](https://git-scm.com/download).
 Next, launch the installation.
@@ -28,7 +28,8 @@ It is **not** a good idea (as some have done before) to install it in a OneDrive
 | :----------------------: |
 | ![Components](components.png) |
 
-Make sure Git Bash Here is checked.
+* Make sure Git Bash Here is checked.
+* Make sure Add a Git Bash Profile to Windows Terminal is also checked.
 
 ## Default Editor
 
