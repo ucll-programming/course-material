@@ -150,7 +150,7 @@ user_data = UserData(
 
 ## Accessing Fields
 
-Once you have create a new tuple object, you can access its field with the `.` operator:
+Once you have created a new tuple object, you can access its field with the `.` operator:
 
 :::code{caption="Python"}
 
