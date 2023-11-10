@@ -4,8 +4,8 @@ layout: page
 
 # Python Installation (Windows)
 
-The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
-Download and install it.
+Python can be found [on the Python website](https://www.python.org/downloads/).
+Download version 3.11 (don't pick a more recent version!) and install it.
 
 > While installing, **check the checkbox to Add Python to PATH**.
 

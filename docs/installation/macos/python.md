@@ -4,8 +4,8 @@ layout: page
 
 # Python Installation (MacOS)
 
-The most recent Python version can be found [on the Python website](https://www.python.org/downloads/).
-Download and install it.
+Python can be found [on the Python website](https://www.python.org/downloads/).
+Download version 3.11 (don't pick a more recent version!) and install it.
 If need be, you can always look on [Youtube](https://youtu.be/36Uu4Gn_A3o?t=112) for extra help.
 
 ## Checking Your Python Installation
