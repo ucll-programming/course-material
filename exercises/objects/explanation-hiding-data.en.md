@@ -15,7 +15,7 @@ class Box:
     def put(self, contents):
         self.__contents = contents
 
-    def contents():
+    def contents(self):
         return self.__contents
 ```
 
@@ -50,7 +50,7 @@ class Box:
         else:
             raise ValueError()
 
-    def contents():
+    def contents(self):
         return self.__contents
 ```
 
@@ -71,7 +71,7 @@ A bit of explanation is in order:
 >>> box.put("invalid value")
 ValueError
 
->>> box.contents()
+>>> box.contents(self)
 5
 ```
 
@@ -101,7 +101,7 @@ class Box:
         else:
             raise ValueError()
 
-    def contents():
+    def contents(self):
         return self.__contents
 ```
 
@@ -128,7 +128,7 @@ class Box:
         else:
             raise ValueError()
 
-    def contents():
+    def contents(self):
         return self.__contents
 ```
 
@@ -157,7 +157,7 @@ class Box:
         else:
             raise ValueError()
 
-    def contents():
+    def contents(self):
         return self.__contents
 
     def valid_contents(self, contents):
