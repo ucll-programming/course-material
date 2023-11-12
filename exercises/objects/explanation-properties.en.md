@@ -104,10 +104,10 @@ And this is how you would use it:
 As you can see from the usage, interacting with a property has the [exact same syntax](https://en.wikipedia.org/wiki/Uniform_access_principle) as interacting with a field.
 This aspect is very important: it means that you can upgrade a field to a property without the outside world noticing.
 
-`box.content` causes the *getter* to be called.
+`box.contents` causes the *getter* to be called.
 In other words, you can define yourself what actually happens when the property is read.
 
-Writing to `box.content`, e.g., `box.content = 10`, will call the *setter*.
+Writing to `box.contents`, e.g., `box.contents = 10`, will call the *setter*.
 Similarly, you can fully customize what happens when writing to a property: you can perform validation, logging, notify others of the change, etc.
 
 Defining a setter is optional: if you leave it out, the property will be considered readonly, i.e., attempts to write to it will result in an error.

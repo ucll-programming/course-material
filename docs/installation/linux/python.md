@@ -5,7 +5,8 @@ layout: page
 # Python Installation (Linux)
 
 How to install Python depends on your Linux distribution.
-Look up how to install Python
+Look up how to install Python.
+Make sure to install version 3.11 exactly (not even a more recent version!)
 
 ## Checking Your Python Installation
 
