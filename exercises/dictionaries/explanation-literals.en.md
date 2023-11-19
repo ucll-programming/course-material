@@ -36,7 +36,7 @@ Consider the following situations:
   :::
   ::::
 
-In each cases, we can represent this data as a table.
+In each case, we can represent this data as a table.
 Each row associated some data in the left column with some other data in the right column:
 
 * `cat` is associated with `kat`.
