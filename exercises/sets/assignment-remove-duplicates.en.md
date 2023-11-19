@@ -1,7 +1,7 @@
 # Remove Duplicates
 
 ::::TASK
-Write a function `remove_duplicates(xs)` that takes a list `xs` and removes a copy with all duplicates removed.
+Write a function `remove_duplicates(xs)` that takes a list `xs` and creates a copy with all duplicates removed.
 The first occurrence of each value must be left untouched.
 The order must be preserved.
 ::::
