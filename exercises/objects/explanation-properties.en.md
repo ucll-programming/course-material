@@ -113,7 +113,7 @@ Similarly, you can fully customize what happens when writing to a property: you 
 Defining a setter is optional: if you leave it out, the property will be considered readonly, i.e., attempts to write to it will result in an error.
 
 ::::IMPORTANT
-A property only consists a getter and optional setter.
+A property only consists of a getter and an optional setter.
 In general, you'll still need a separate (private) field to actually have some memory to store the value in.
 ::::
 
