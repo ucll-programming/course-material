@@ -135,13 +135,12 @@ user_data = UserData(
         first_name="Sherlock",
         last_name="Holmes"),
     email_address="sherlock.holmes@aol.com",
-    Address(
+    address=Address(
         street_name="Baker Street",
         house_number="221b",
         zip_code="NW1 6XE",
         city="London",
-        country="United Kingdom"
-    )
+        country="United Kingdom")
 )
 ```
 
