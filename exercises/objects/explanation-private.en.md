@@ -16,12 +16,12 @@ class Box:
 
 :::
 
-This class definition tells us that a `Box` object has three members:
+This class definition tells us that a `Box` object has four members:
 
 * a field `contents`;
-* three methods named `is_empty`, and `put`.
+* three methods named `__init__`, `is_empty`, and `put`.
 
-All these members are publicly available, i.e., anyone with access to a `Box` object can make use of these members.
+All these members are publicly available, i.e., anyone with access to a `Box` object can make use of four members.
 When we told you about abstraction, we explained how we should *hide* the internals and define a clean, easy-to-use public interface.
 So, let's hide something, namely the field `contents`.
 
