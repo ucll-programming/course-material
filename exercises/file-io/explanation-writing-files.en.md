@@ -86,13 +86,13 @@ An alternative approach to writing to a file is to rely on `print`:
 :::code{caption="Python"}
 
 ```python
-with open(filename, 'w') as output:
-    print(string, file=output)
+with open(output_file, 'w') as output:
+    print(string, file=output_file)
 ```
 
 :::
 
-Here, we named the file `output` to avoid confusion: `print` has a parameter named `file` which can be used to express where to send the `string` to.
+Here, we named the file `output_file` to avoid confusion: `print` has a parameter named `file` which can be used to express where to send the `string` to.
 By default, this is [STDOUT](https://en.wikipedia.org/wiki/Standard_streams), i.e., to the screen.
 In our case, we want the data to be sent to a file.
 
