@@ -98,7 +98,7 @@ with open("my-file.txt", encoding='utf-8') as file:
 :::
 
 Inside the `with` block, the variable `file` is set to a special object representing the opened file.
-Note that you can `file` is just an identifier: you can pick any name you want.
+Note that `file` is just an identifier: you can pick any name you want.
 
 You can invoke methods on it, just like you could with strings, using the syntax `file.method_name(arguments)`.
 We discuss some of these methods, specifically those that let you read from the file.
