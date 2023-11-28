@@ -61,3 +61,7 @@ contents:
     location: projects
   - type: link
     location: challenges
+  - type: link
+    location: debugging
+  - type: link
+    location: review-exercises

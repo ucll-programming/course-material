@@ -1,0 +1,9 @@
+type: section
+name: Debugging
+id: debugging
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
