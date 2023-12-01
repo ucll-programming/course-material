@@ -7,3 +7,18 @@ contents:
     id: introduction
     documentation:
       en: explanation-introduction.en.md
+  - name: Starting the Debugger
+    type: explanation
+    id: starting-the-debugger
+    documentation:
+      en: explanation-starting-the-debugger.en.md
+  - name: Breakpoints
+    type: explanation
+    id: breakpoints
+    documentation:
+      en: explanation-breakpoints.en.md
+  - name: Overview
+    type: explanation
+    id: overview
+    documentation:
+      en: explanation-overview.en.md
