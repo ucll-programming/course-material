@@ -36,3 +36,12 @@ contents:
     judge:
       type: pytest
       file: test-reverse.py
+  - name: Fix Primes
+    type: exercise
+    id: is-prime
+    documentation:
+      en: assignment-is-prime.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-is-prime.py

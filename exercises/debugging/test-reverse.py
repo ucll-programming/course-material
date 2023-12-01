@@ -1,5 +1,5 @@
 import pytest
-import reverse
+import student
 
 
 @pytest.mark.timeout(1)
@@ -11,6 +11,6 @@ import reverse
 ])
 def test_reverse(xs):
     actual = list(xs[:])
-    reverse.reverse(actual)
+    student.reverse(actual)
     expected = list(reversed(xs))
     assert expected == actual, f"Reversing {xs!r} gave {actual!r} instead of {expected!r}"
