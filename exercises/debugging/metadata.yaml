@@ -22,3 +22,12 @@ contents:
     id: overview
     documentation:
       en: explanation-overview.en.md
+  - name: Fix Reverse
+    type: exercise
+    id: reverse
+    documentation:
+      en: assignment-reverse.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-reverse.py
