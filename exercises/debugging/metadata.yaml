@@ -22,6 +22,11 @@ contents:
     id: overview
     documentation:
       en: explanation-overview.en.md
+  - name: Debugging Tests
+    type: explanation
+    id: debugging-tests
+    documentation:
+      en: explanation-debugging-tests.en.md
   - name: Fix Reverse
     type: exercise
     id: reverse

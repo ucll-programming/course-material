@@ -1,13 +1,13 @@
 import pytest
-import itertools
 import reverse
 
 
 @pytest.mark.timeout(1)
 @pytest.mark.parametrize("xs", [
-    list(xs)
-    for k in range(6)
-    for xs in itertools.permutations(range(k))
+    *(list(range(k)) for k in range(20)),
+    [5, 1, 3, 7, 5, 3, 7, 5],
+    [5, 1, 3, 7, 5, 3, 7, 5, 9],
+    list('The Assassination of Jesse James by the Coward Robert Ford')
 ])
 def test_reverse(xs):
     actual = list(xs[:])
