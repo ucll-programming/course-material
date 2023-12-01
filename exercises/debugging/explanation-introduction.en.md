@@ -80,25 +80,23 @@ This allows you to see how the variables' values change as the program is runnin
 Let's start the debugger.
 
 ::::TASK
-
 To start the debugger in Visual Studio Code, first open the file to debug, in our case `books.py`.
 Next, in the upper right corner, look for the play button and press the down arrow to the right of it and pick "Debug Python File" in the menu that opened:
 
-| Screenshot |
-| :--------: |
-| ![Starting the debugger](./vscode-debug.png) |
+:::center
+![Starting the debugger](./vscode-debug.png)
+:::
 
 This will cause the script to run in debug mode.
-
 ::::
 
 As we have discovered before, there is a bug that leads to an `IndexError`.
 In normal circumstances, this immediately stops the script.
 However, in debug mode, the debugger takes over and shows you the following information:
 
-| Screenshot |
-| :--------: |
-| ![Debugging the exception](./exception.png) |
+:::center
+![Debugging the exception](./exception.png)
+:::
 
 Notice the following details:
 
@@ -121,7 +119,6 @@ We can fix this in one of two ways:
 Let's go for the first solution as it ought to waste slightly less memory.
 
 ::::TASK
-
 First, end the debugging session by pressing the stop button at the top (5 in the screenshot shown above).
 Next, fix the code and run the script again.
 
@@ -133,7 +130,6 @@ $ py books.py
 ```
 
 :::
-
 ::::
 
 Each of the five lists contains all the books.
@@ -147,14 +143,12 @@ At no point will the debugger become active.
 However, we can add a *breakpoint*.
 
 ::::TASK
-
 Add a breakpoint by clicking in the margin of the line containing the initialization of `book1`.
 A little red dot should then appear at that spot.
 
-| Screenshot |
-| :--------: |
+:::center
 | ![Adding a breakpoint](./breakpoint.png) |
-
+:::
 ::::
 
 Adding a breakpoint tells the debugger you'd like it to interrupt the execution of your script once it gets there.
@@ -169,9 +163,9 @@ The debugger highlights the line that is next in line to be executed, which in o
 ::::TASK
 Press the "Step Over" button to execute the next line.
 
-| Screenshot |
-| :--------: |
-| ![Debugging](./stepping.png) |
+:::center
+![Debugging](./stepping.png)
+:::
 ::::
 
 In the left pane, an extra variable `book1` has appeared.
