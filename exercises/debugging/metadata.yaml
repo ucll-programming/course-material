@@ -27,7 +27,7 @@ contents:
     id: debugging-tests
     documentation:
       en: explanation-debugging-tests.en.md
-  - name: Fix Reverse
+  - name: Reverse
     type: exercise
     id: reverse
     documentation:
@@ -36,7 +36,7 @@ contents:
     judge:
       type: pytest
       file: test-reverse.py
-  - name: Fix Primes
+  - name: Primes
     type: exercise
     id: is-prime
     documentation:
@@ -45,3 +45,12 @@ contents:
     judge:
       type: pytest
       file: test-is-prime.py
+  - name: Equal Neighbors
+    type: exercise
+    id: equal-neighbors
+    documentation:
+      en: assignment-contains-equal-neighbors.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-contains-equal-neighbors.py
