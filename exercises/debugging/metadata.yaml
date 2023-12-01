@@ -54,3 +54,12 @@ contents:
     judge:
       type: pytest
       file: test-contains-equal-neighbors.py
+  - name: Merging
+    type: exercise
+    id: merge
+    documentation:
+      en: assignment-merge.en.md
+    difficulty: 4
+    judge:
+      type: pytest
+      file: test-merge.py
