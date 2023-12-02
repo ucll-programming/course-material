@@ -15,8 +15,9 @@ def is_prime(n):
 
 :::
 
-::::TASK
 The function `is_prime(n)` should check whether `n` is prime or not.
 However, the tests fail.
+
+::::TASK
 Fix it so that the tests work correctly.
 ::::

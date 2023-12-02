@@ -59,7 +59,7 @@ contents:
     id: merge
     documentation:
       en: assignment-merge.en.md
-    difficulty: 4
+    difficulty: 3
     judge:
       type: pytest
       file: test-merge.py

@@ -12,8 +12,10 @@ def contains_equal_neighbors(xs):
 
 :::
 
-::::TASK
 `contains_equal_neighbors(xs)` should check if the list `xs` contains two consecutive elements that are equal.
+
+::::TASK
+Fix the given implementation so that the tests pass.
 ::::
 
 ::::USAGE

@@ -21,9 +21,10 @@ def merge(xs, ys):
 
 :::
 
-::::TASK
 `merge(xs, ys)` takes two *sorted* lists and should return a new list that contains all elements from `xs` and `ys` in sorted order.
-Fix the given implementation.
+
+::::TASK
+Fix the given implementation so that the tests pass.
 ::::
 
 ::::USAGE
