@@ -81,3 +81,12 @@ contents:
     judge:
       type: pytest
       file: test-move-elements.py
+  - name: RLE
+    type: exercise
+    id: rle
+    documentation:
+      en: assignment-rle.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-rle.py

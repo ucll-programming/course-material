@@ -53,3 +53,21 @@ def move_elements(xs, new_positions):
         ys[j] = xs[i]
     xs.clear()
     xs += ys
+
+
+def rle(string):
+    groups = []
+    i = 0
+    while i < len(string):
+        j = i + 1
+        while j < len(string) and string[i] == string[j]:
+            j += 1
+        groups.append((string[i], j - i))
+        i = j
+    result = ''
+    for char, count in groups:
+        while count > 0:
+            k = min(9, count)
+            result += f"{k}{char}"
+            count -= k
+    return result
