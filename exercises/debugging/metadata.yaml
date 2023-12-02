@@ -54,6 +54,15 @@ contents:
     judge:
       type: pytest
       file: test-contains-equal-neighbors.py
+  - name: Capitalize Words
+    type: exercise
+    id: capitalize-words
+    documentation:
+      en: assignment-capitalize-words.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-capitalize-words.py
   - name: Merging
     type: exercise
     id: merge
@@ -63,3 +72,12 @@ contents:
     judge:
       type: pytest
       file: test-merge.py
+  - name: Move Elements
+    type: exercise
+    id: move-elements
+    documentation:
+      en: assignment-move-elements.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-move-elements.py
