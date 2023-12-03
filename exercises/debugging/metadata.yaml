@@ -1,0 +1,92 @@
+type: section
+name: Debugging
+id: debugging
+contents:
+  - name: Introduction
+    type: explanation
+    id: introduction
+    documentation:
+      en: explanation-introduction.en.md
+  - name: Starting the Debugger
+    type: explanation
+    id: starting-the-debugger
+    documentation:
+      en: explanation-starting-the-debugger.en.md
+  - name: Breakpoints
+    type: explanation
+    id: breakpoints
+    documentation:
+      en: explanation-breakpoints.en.md
+  - name: Overview
+    type: explanation
+    id: overview
+    documentation:
+      en: explanation-overview.en.md
+  - name: Debugging Tests
+    type: explanation
+    id: debugging-tests
+    documentation:
+      en: explanation-debugging-tests.en.md
+  - name: Reverse
+    type: exercise
+    id: reverse
+    documentation:
+      en: assignment-reverse.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-reverse.py
+  - name: Primes
+    type: exercise
+    id: is-prime
+    documentation:
+      en: assignment-is-prime.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-is-prime.py
+  - name: Equal Neighbors
+    type: exercise
+    id: equal-neighbors
+    documentation:
+      en: assignment-contains-equal-neighbors.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-contains-equal-neighbors.py
+  - name: Capitalize Words
+    type: exercise
+    id: capitalize-words
+    documentation:
+      en: assignment-capitalize-words.en.md
+    difficulty: 2
+    judge:
+      type: pytest
+      file: test-capitalize-words.py
+  - name: Merging
+    type: exercise
+    id: merge
+    documentation:
+      en: assignment-merge.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-merge.py
+  - name: Move Elements
+    type: exercise
+    id: move-elements
+    documentation:
+      en: assignment-move-elements.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-move-elements.py
+  - name: RLE
+    type: exercise
+    id: rle
+    documentation:
+      en: assignment-rle.en.md
+    difficulty: 3
+    judge:
+      type: pytest
+      file: test-rle.py
