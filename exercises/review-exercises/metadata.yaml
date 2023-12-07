@@ -2,8 +2,26 @@ type: section
 name: Review Exercises
 id: review-exercises
 contents:
-  - name: Introduction
-    type: explanation
-    id: introduction
+  #- name: Introduction
+  #  type: explanation
+  #  id: introduction
+  #  documentation:
+  #    en: explanation-introduction.en.md
+  - name: Bubble Sort
+    type: exercise
+    id: bubble-sort
     documentation:
-      en: explanation-introduction.en.md
+      nl: assignment-bubblesort.nl.md
+    difficulty: 2
+    - name: Verwarming
+    type: exercise
+    id: verwarming
+    documentation:
+      nl: assignment-verwarming.nl.md
+    difficulty: 2
+    - name: Mastermind
+    type: exercise
+    id: mastermind
+    documentation:
+      nl: assignment-mastermind.nl.md
+    difficulty: 2
