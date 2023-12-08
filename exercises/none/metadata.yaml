@@ -28,7 +28,7 @@ contents:
     judge:
       type: pytest
       file: test-product.py
-  - name: Entrace Exam
+  - name: Entrance Exam
     type: exercise
     id: entrance-exam
     documentation:
