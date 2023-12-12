@@ -12,16 +12,19 @@ contents:
     id: bubble-sort
     documentation:
       nl: assignment-bubblesort.nl.md
+      en: assignment-bubblesort.en.md
     difficulty: 2
-    - name: Verwarming
+  - name: Verwarming
     type: exercise
     id: verwarming
     documentation:
       nl: assignment-verwarming.nl.md
+      en: assignment-verwarming.en.md
     difficulty: 2
-    - name: Mastermind
+  - name: Mastermind
     type: exercise
     id: mastermind
     documentation:
       nl: assignment-mastermind.nl.md
+      en: assignment-mastermind.en.md
     difficulty: 2
