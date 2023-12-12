@@ -3,10 +3,10 @@
 We want to be able to check whether a string forms a valid student id.
 The rules are as follows:
 
-* A student id must count exactly nine characters.
+* A student id must count exactly eight characters.
 * The first character must be an `r` or an `s`.
   Both upper and lowercase are acceptable.
-* The remaining eight characters must all be digits.
+* The remaining seven characters must all be digits.
 
 :::TASK
 Write a function `is_student_id(string)` that returns `True` if `string` is a valid student id, `False` otherwise.
@@ -15,21 +15,21 @@ Write a function `is_student_id(string)` that returns `True` if `string` is a va
 :::USAGE
 
 ```python
->>> is_student_id('r01234567')
+>>> is_student_id('r0123456')
 True
 
->>> is_student_id('R01234567')
+>>> is_student_id('R0123456')
 True
 
->>> is_student_id('s01234567')
+>>> is_student_id('s0123456')
 True
 
 # Too short
->>> is_student_id('r0123456')
+>>> is_student_id('r012345')
 False
 
 # Missing first letter
->>> is_student_id('001234567')
+>>> is_student_id('01234567')
 False
 
 # Wrong first letter
