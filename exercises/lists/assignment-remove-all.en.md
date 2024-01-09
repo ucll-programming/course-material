@@ -12,7 +12,7 @@ We added a special test case that will time out if your code is too slow.
 
 ```python
 >>> xs = [1, 2, 3, 2, 1]
->>> remove(xs, 2)
+>>> remove_all(xs, 2)
 >>> xs
 [1, 3, 1]
 ```
