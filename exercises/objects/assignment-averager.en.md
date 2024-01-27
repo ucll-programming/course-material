@@ -20,7 +20,7 @@ Instead, simply keep track of the sum and the number of added values.
 >>> averager.add(20)
 
 # Returns average of [10, 20]
->>> average.average()
+>>> averager.average()
 15
 
 >>> averager.add(30)
