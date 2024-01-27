@@ -30,7 +30,7 @@ Create a function `actor_count(movie)` that returns the number of actors in the 
     title='Buried',
     runtime=95,
     director='Rodrigo Cortes',
-    actors=(Ryan Reynolds,)
+    actors=('Ryan Reynolds',)
 )
 >>> actor_count(movie)
 1
@@ -59,7 +59,7 @@ The order in which the names are returned does not matter.
 ...         title='Inception',
 ...         director='Christopher Nolan',
 ...         ...
-...     )
+...     ),
 ...     Movie(
 ...         title='Postal',
 ...         director='Uwe Boll',
@@ -91,7 +91,7 @@ Return the entire `Movie` object, not just the title.
             title="Lawrence of Arabia",
             runtime=218,
             ...
-        )
+        ),
         Movie(
             title="Amra Ekta Cinema Banabo",
             runtime=1265,
