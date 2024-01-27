@@ -11,7 +11,7 @@ Be warned: there's a tricky corner case you'll have to take into account.
 
 ::::IMPORTANT
 The easy solution would be to use `xs += ys`.
-However, for this exercise, we want you to to manually append the items one by one.
+However, for this exercise, we want you to manually append the items one by one.
 ::::
 
 :::USAGE
